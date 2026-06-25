@@ -48,8 +48,8 @@ body{
 }
 .brand{font-size:11px;letter-spacing:5px;color:var(--qp-primary-dark);text-transform:uppercase;margin-bottom:10px;font-weight:700}
 .maker{font-size:12px;letter-spacing:4px;color:var(--qp-muted);text-transform:uppercase;margin-bottom:7px}
-h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-wrap:balance}
-.subtitle{font-size:11px;line-height:1.8;letter-spacing:2px;color:var(--qp-muted);margin:12px auto 0;max-width:760px;text-transform:uppercase}
+h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-wrap:balance;overflow-wrap:anywhere}
+.subtitle{font-size:11px;line-height:1.8;letter-spacing:2px;color:var(--qp-muted);margin:12px auto 0;max-width:760px;text-transform:uppercase;overflow-wrap:anywhere}
 .badge-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:14px 0 4px}
 .badge{
   display:inline-flex;
@@ -123,13 +123,13 @@ h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-
 .spec-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .spec-card{min-height:82px}
 .spec-name{font-size:10px;letter-spacing:2px;color:var(--qp-primary-dark);text-transform:uppercase;font-weight:700;margin-bottom:6px}
-.spec-value{font-size:14px;line-height:1.45;color:var(--qp-dark);font-weight:700}
+.spec-value{font-size:14px;line-height:1.45;color:var(--qp-dark);font-weight:700;overflow-wrap:anywhere}
 .spec-note{font-size:10px;line-height:1.55;color:var(--qp-muted);margin-top:4px}
 .conn-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .conn-card{border-color:#1a638b;background:#0b2b43;color:#fff;text-align:center;min-height:116px;display:flex;flex-direction:column;justify-content:center;min-width:0}
 .conn-name{font-size:12px;font-weight:800;color:#fff;margin-bottom:6px;overflow-wrap:anywhere}
 .conn-count{display:inline-block;align-self:center;min-width:54px;max-width:100%;border-radius:999px;background:var(--qp-accent);color:#061b2b;font-size:12px;font-weight:800;padding:4px 12px;margin-bottom:7px;white-space:normal;overflow-wrap:anywhere}
-.conn-desc{font-size:10px;line-height:1.55;color:#b6d6e8}
+.conn-desc{font-size:10px;line-height:1.55;color:#b6d6e8;overflow-wrap:anywhere}
 .status-box{
   margin-top:14px;
   border:1px solid var(--qp-border);
