@@ -1,17 +1,1126 @@
 {
-  "version": "20260627ramsample",
-  "total": 1,
+  "version": "20260627ramfull",
+  "total": 112,
   "items": [
     {
       "index": 1,
       "title": "Memoria RAM Kingston 8GB 5600Mhz DDR5 Fury Beast Black",
       "file": "ram-01.html",
-      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-01.html?v=20260627ramsample",
-      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-01.html?v=20260627ramsample\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-01.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-01.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
       "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-5600mhz-ddr5-fury-beast-black-1fuy7/",
-      "official_source": "https://www.kingston.com/datasheets/KF556C40BB-8.pdf",
       "type": "Memoria RAM",
-      "state": "NUEVO"
+      "state": "NUEVA"
+    },
+    {
+      "index": 2,
+      "title": "MEMORIA NETAC SHADOW II DDR5 6000 16GB C38 BLACK",
+      "file": "ram-02.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-02.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-02.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-netac-shadow-ii-ddr5-6000-16gb-c38-black-1z0wu/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 3,
+      "title": "Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR4 3200 Mhz CL16 1.35V Single Negro",
+      "file": "ram-03.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-03.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-03.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-fury-beast-16gb-ddr4-3200-mhz-cl16-1-35v-single-negro-13bnj/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 4,
+      "title": "Memoria Ram Kingston 8GB DDR4 3200Mhz SODIMM",
+      "file": "ram-04.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-04.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-04.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-ddr4-3200mhz-sodimm-1oerb/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 5,
+      "title": "MEMORIA PATRIOT DDR5 VIPER ELITE 5 ULTRA RGB DDR5 16GB 6000Mhz CL36 BLACK HS PE001173",
+      "file": "ram-05.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-05.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-05.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-patriot-ddr5-viper-elite-5-ultra-rgb-ddr5-16gb-6000mhz-cl36-black-hs-pe001173-z5gie/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 6,
+      "title": "MEMORIA PATRIOT DDR5 VIPER ELITE 5 ULTRA DDR5 32GB CL36 6000MTS BLACK HS PE001179",
+      "file": "ram-06.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-06.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-06.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-patriot-ddr5-viper-elite-5-ultra-ddr5-32gb-cl36-6000mts-black-hs-pe001179-3ql2w/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 7,
+      "title": "Memoria Ram UDIMM TEAM GROUP ELITE 8GB DDR4 3200MHz CL22 1.2v",
+      "file": "ram-07.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-07.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-07.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-team-group-elite-8gb-ddr4-3200mhz-cl22-1-2v-v0hgi/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 8,
+      "title": "Memoria Ram UDIMM TEAM GROUP ELITE 16GB DDR4 3200Mz CL22 1.2v",
+      "file": "ram-08.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-08.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-08.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-team-group-elite-16gb-ddr4-3200mz-cl22-1-2v-1gjsg/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 9,
+      "title": "MEMORIA PATRIOT VIPER XTREME 5 DDR5 32GB 7000MT/S CL32 BLK HS DUAL KIT PE001039",
+      "file": "ram-09.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-09.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-09.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-patriot-viper-xtreme-5-ddr5-32gb-7000mt-s-cl32-blk-hs-dual-kit-pe001039-8zwmq/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 10,
+      "title": "MEMORIA PATRIOT DDR4 VIPER ELITE 2 8GB 3200 MHZ CL18 RED/BLK PE000830",
+      "file": "ram-10.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-10.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-10.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-patriot-ddr4-viper-elite-2-8gb-3200-mhz-cl18-red-blk-pe000830-9y6q7/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 11,
+      "title": "MEMORIA PATRIOT DDR4 VIPER ELITE 2 16GB 3200 MHZ CL18 RED/BLK PE000829",
+      "file": "ram-11.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-11.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-11.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-patriot-ddr4-viper-elite-2-16gb-3200-mhz-cl18-red-blk-pe000829-4dss3/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 12,
+      "title": "MEMORIA PATRIOT SIGNATURE LINE DDR4 16 GB 3200 MHZ PS001558",
+      "file": "ram-12.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-12.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-12.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-patriot-signature-line-ddr4-16-gb-3200-mhz-ps001558-bzpyd/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 13,
+      "title": "MEMORIA PATRIOT SIGNATURE LINE SODIMM DDR4 16 GB 3200 MHZ PS001570",
+      "file": "ram-13.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-13.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-13.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-patriot-signature-line-sodimm-ddr4-16-gb-3200-mhz-ps001570-1pwxy/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 14,
+      "title": "MEMORIA NETAC SHADOW II DDR5 4800 16GB C40 WHITE",
+      "file": "ram-14.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-14.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-14.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-netac-shadow-ii-ddr5-4800-16gb-c40-white-10846/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 15,
+      "title": "MEMORIA NETAC SHADOW DDR4 3200 8GB C16 WHITE",
+      "file": "ram-15.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-15.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-15.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-netac-shadow-ddr4-3200-8gb-c16-white-1gehj/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 16,
+      "title": "MEMORIA NETAC SHADOW DDR4 3200 8GB C16 RED",
+      "file": "ram-16.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-16.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-16.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-netac-shadow-ddr4-3200-8gb-c16-red-4xxeu/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 17,
+      "title": "MEMORIA NETAC SHADOW DDR4 3200 8GB C16 BLUE",
+      "file": "ram-17.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-17.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-17.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-netac-shadow-ddr4-3200-8gb-c16-blue-17zz3/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 18,
+      "title": "MEMORIA NETAC BASIC DDR4 DIMM 8GB 3200 C16",
+      "file": "ram-18.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-18.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-18.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-netac-basic-ddr4-dimm-8gb-3200-c16-6w4gm/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 19,
+      "title": "Memoria LEXAR UDIMM DDR5 16GB 5600MHz",
+      "file": "ram-19.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-19.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-19.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-udimm-ddr5-16gb-5600mhz-41srp/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 20,
+      "title": "Memoria LEXAR SODIMM DDR5 16GB 5600MHz",
+      "file": "ram-20.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-20.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-20.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-sodimm-ddr5-16gb-5600mhz-1a9e9/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 21,
+      "title": "Memoria LEXAR UDIMM DDR4 8GB 3200MHz",
+      "file": "ram-21.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-21.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-21.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-udimm-ddr4-8gb-3200mhz-6blt4/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 22,
+      "title": "Memoria LEXAR UDIMM DDR4 32GB 3200MHz",
+      "file": "ram-22.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-22.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-22.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-udimm-ddr4-32gb-3200mhz-1485o/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 23,
+      "title": "Memoria LEXAR UDIMM DDR4 16GB 3200MHz",
+      "file": "ram-23.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-23.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-23.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-udimm-ddr4-16gb-3200mhz-1d7fs/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 24,
+      "title": "Memoria LEXAR UDIMM DDR4 8GB 3200MHz",
+      "file": "ram-24.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-24.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-24.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-udimm-ddr4-8gb-3200mhz-824ii/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 25,
+      "title": "Memoria LEXAR SODIMM DDR4 32GB 3200MHz",
+      "file": "ram-25.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-25.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-25.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-sodimm-ddr4-32gb-3200mhz-q1va4/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 26,
+      "title": "Memoria LEXAR SODIMM DDR4 16GB 3200MHz",
+      "file": "ram-26.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-26.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-26.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-sodimm-ddr4-16gb-3200mhz-wuku2/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 27,
+      "title": "Memoria LEXAR SODIMM DDR4 8GB 3200MHz",
+      "file": "ram-27.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-27.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-27.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-lexar-sodimm-ddr4-8gb-3200mhz-1e3k5/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 28,
+      "title": "Memoria PC DDR5 16GB 5600Mhz CL46 1.1V 16Gbit",
+      "file": "ram-28.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-28.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-28.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-ddr5-16gb-5600mhz-cl46-1-1v-16gbit-keszn/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 29,
+      "title": "Memoria PC DDR5 8GB 5600Mhz CL46 1.1V 16Gbit",
+      "file": "ram-29.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-29.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-29.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-ddr5-8gb-5600mhz-cl46-1-1v-16gbit-5lof3/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 30,
+      "title": "Memoria RAM Kingston 32GB 5600Mhz DDR5 NO ECC MODULE",
+      "file": "ram-30.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-30.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-30.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-5600mhz-ddr5-no-ecc-module-viv19/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 31,
+      "title": "Memoria RAM Kingston 16GB 5600Mhz DDR5 SODIMM",
+      "file": "ram-31.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-31.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-31.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-5600mhz-ddr5-sodimm-h3jgt/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 32,
+      "title": "Memoria RAM Kingston 8GB 5600Mhz DDR5 SODIMM",
+      "file": "ram-32.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-32.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-32.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-5600mhz-ddr5-sodimm-gb3k5/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 33,
+      "title": "Memoria RAM Kingston 32GB 5600Mhz DDR5 SODIMM",
+      "file": "ram-33.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-33.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-33.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-5600mhz-ddr5-sodimm-w8ro0/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 34,
+      "title": "Memoria Ram Kinsgton 8GB 3200Mhz DDR4 NO-ECC SODIMM",
+      "file": "ram-34.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-34.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-34.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kinsgton-8gb-3200mhz-ddr4-no-ecc-sodimm-12hea/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 35,
+      "title": "Memoria Ram Kingston 16GB 3200Mhz DDR4 NO ECC SODIMM",
+      "file": "ram-35.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-35.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-35.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-3200mhz-ddr4-no-ecc-sodimm-o5317/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 36,
+      "title": "Memoria Ram Kingston 32GB 3200Mhz DDR4 NO-ECC SODIMM",
+      "file": "ram-36.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-36.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-36.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-3200mhz-ddr4-no-ecc-sodimm-gr0rf/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 37,
+      "title": "Memoria Ram SODIMM KINGSTON KVR 16GB DDR4 3200MHz CL22 1.20V Single Negro",
+      "file": "ram-37.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-37.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-37.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-sodimm-kingston-kvr-16gb-ddr4-3200mhz-cl22-1-20v-single-negro-1p693/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 38,
+      "title": "Memoria Ram Kingston 16GB 3200Mhz DDR4 NON-ECC CL22",
+      "file": "ram-38.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-38.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-38.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-3200mhz-ddr4-non-ecc-cl22-10nvn/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 39,
+      "title": "Memoria Ram Kingston 8GB 3200 DDR4 NON-ECC DIMM",
+      "file": "ram-39.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-39.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-39.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-3200-ddr4-non-ecc-dimm-rul7h/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 40,
+      "title": "Memoria Ram Kingston 16GB 3200Mhz DDR4 NON-ECC DIMM",
+      "file": "ram-40.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-40.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-40.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-3200mhz-ddr4-non-ecc-dimm-16p77/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 41,
+      "title": "Memoria Ram UDIMM KINGSTON KVR 16GB DDR4 3200MHz",
+      "file": "ram-41.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-41.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-41.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-kvr-16gb-ddr4-3200mhz-fjfvt/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 42,
+      "title": "Memoria RAM Kingston DDR5 7200Mhz Fury Renegade UDIMM",
+      "file": "ram-42.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-42.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-42.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-ddr5-7200mhz-fury-renegade-udimm-1ayii/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 43,
+      "title": "Memoria RAM Kingston 16GB DDR5 6800Mhz Fury Beast White para PC",
+      "file": "ram-43.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-43.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-43.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-ddr5-6800mhz-fury-beast-white-para-pc-vqvv3/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 44,
+      "title": "Memoria RAM Kingston 16GB DDR5 6800Mhz Fury Beast RGB para PC",
+      "file": "ram-44.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-44.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-44.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-ddr5-6800mhz-fury-beast-rgb-para-pc-1v4do/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 45,
+      "title": "Memoria RAM Kingston 16GB DDR5 6800Mhz Fury Beast para PC",
+      "file": "ram-45.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-45.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-45.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-ddr5-6800mhz-fury-beast-para-pc-f63bz/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 46,
+      "title": "Memoria RAM Kingston 16GB DDR5 6400Mhz Fury Beast RGB para PC",
+      "file": "ram-46.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-46.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-46.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-ddr5-6400mhz-fury-beast-rgb-para-pc-1mctd/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 47,
+      "title": "Memoria RAM Kingston 16GB 6400Mhz DDR5 Fury Beast Black para PC",
+      "file": "ram-47.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-47.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-47.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-6400mhz-ddr5-fury-beast-black-para-pc-13cpu/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 48,
+      "title": "Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR5 6000MHz Negro RGB CL36 1.35V",
+      "file": "ram-48.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-48.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-48.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-fury-beast-16gb-ddr5-6000mhz-negro-rgb-cl36-1-35v-1ccq0/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 49,
+      "title": "Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR5 6000MHz CL36 1.35V Single Negro",
+      "file": "ram-49.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-49.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-49.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-fury-beast-16gb-ddr5-6000mhz-cl36-1-35v-single-negro-ry9yq/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 50,
+      "title": "Memoria RAM Kingston 32GB DDR5 5600Mhz Fury Impact SODIMM",
+      "file": "ram-50.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-50.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-50.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-ddr5-5600mhz-fury-impact-sodimm-dea59/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 51,
+      "title": "Memoria SODIMM Fury DDR5 16GB 5600MHz Impact Negra",
+      "file": "ram-51.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-51.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-51.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-fury-ddr5-16gb-5600mhz-impact-negra-1biqt/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 52,
+      "title": "Memoria RAM Kingston 8GB 5600Mhz DDR5 Fury Beast RGB",
+      "file": "ram-52.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-52.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-52.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-5600mhz-ddr5-fury-beast-rgb-1g61k/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 53,
+      "title": "Memoria RAM Kingston 8GB 5600Mhz DDR5 Fury Beast Black",
+      "file": "ram-53.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-53.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-53.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-5600mhz-ddr5-fury-beast-black-1xpmw/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 54,
+      "title": "Memoria RAM Kingston 16GB DDR5 5600Mhz Fury Beast Black",
+      "file": "ram-54.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-54.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-54.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-ddr5-5600mhz-fury-beast-black-f2s0k/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 55,
+      "title": "Memoria PC Fury DDR5 32GB 5200 Beast Negra",
+      "file": "ram-55.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-55.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-55.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-fury-ddr5-32gb-5200-beast-negra-xliq6/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 56,
+      "title": "Memoria PC Fury DDR4 16GB 3600 Beast Negra 16Gbit",
+      "file": "ram-56.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-56.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-56.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-fury-ddr4-16gb-3600-beast-negra-16gbit-1p241/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 57,
+      "title": "Memoria Ram Kingston 8GB 3600Mhz DDR4 FURY BLACK",
+      "file": "ram-57.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-57.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-57.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-3600mhz-ddr4-fury-black-1yspn/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 58,
+      "title": "Memoria RAM Kingston 8GB DDR4 3600Mhz Fury Beast RGB",
+      "file": "ram-58.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-58.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-58.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-ddr4-3600mhz-fury-beast-rgb-1kzpm/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 59,
+      "title": "Memoria SODIMM Fury DDR4 8GB 3200MHz Impact Negra",
+      "file": "ram-59.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-59.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-59.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-fury-ddr4-8gb-3200mhz-impact-negra-a5ef8/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 60,
+      "title": "Memoria RAM Kingston 32GB 3200Mhz DDR4 SODIMM Fury Impact",
+      "file": "ram-60.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-60.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-60.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-3200mhz-ddr4-sodimm-fury-impact-1p6an/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 61,
+      "title": "Memoria SODIMM Fury DDR4 16GB 3200MHz Impact Negra",
+      "file": "ram-61.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-61.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-61.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-fury-ddr4-16gb-3200mhz-impact-negra-1ujsp/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 62,
+      "title": "Memoria RAM Kingston 8GB DDR4 3200Mhz Fury Renegade Black",
+      "file": "ram-62.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-62.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-62.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-ddr4-3200mhz-fury-renegade-black-16g5t/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 63,
+      "title": "Memoria RAM Kingston 32GB DDR4 3200Mhz Fury Renegade Black",
+      "file": "ram-63.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-63.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-63.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-ddr4-3200mhz-fury-renegade-black-0cudv/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 64,
+      "title": "Memoria Ram UDIMM KINGSTON Fury Beast 8GB DDR4 3200MHz CL16 1.35V Single Negro",
+      "file": "ram-64.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-64.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-64.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-fury-beast-8gb-ddr4-3200mhz-cl16-1-35v-single-negro-rtky2/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 65,
+      "title": "Memoria Ram UDIMM KINGSTON Fury Beast 8GB DDR4 3200 Mhz CL16 1.35V Single Negro",
+      "file": "ram-65.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-65.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-65.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-fury-beast-8gb-ddr4-3200-mhz-cl16-1-35v-single-negro-1cf36/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 66,
+      "title": "Memoria Ram UDIMM KINGSTON Fury Beast 32GB DDR4 3200MHz CL16 1.35V Single Negro",
+      "file": "ram-66.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-66.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-66.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-fury-beast-32gb-ddr4-3200mhz-cl16-1-35v-single-negro-ll0ne/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 67,
+      "title": "Memoria PC Fury DDR4 8GB 3200 Mhz Beast RGB CL16",
+      "file": "ram-67.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-67.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-67.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-fury-ddr4-8gb-3200-mhz-beast-rgb-cl16-11fw2/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 68,
+      "title": "Memoria PC Fury DDR4 32GB 3200MHz Beast RGB Negra",
+      "file": "ram-68.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-68.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-68.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-fury-ddr4-32gb-3200mhz-beast-rgb-negra-gjruk/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 69,
+      "title": "Memoria RAM Kingston 16GB DDR4 3200Mhz Fury Beast RGB",
+      "file": "ram-69.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-69.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-69.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-ddr4-3200mhz-fury-beast-rgb-ic4ew/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 70,
+      "title": "Memoria Ram Kingston 16GB 3200Mhz DDR4 Fury Beast Black",
+      "file": "ram-70.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-70.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-70.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-3200mhz-ddr4-fury-beast-black-e8csv/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 71,
+      "title": "16G KI 3200 DDR4 FURY BEAS RGB",
+      "file": "ram-71.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-71.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-71.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/16g-ki-3200-ddr4-fury-beas-rgb-1cvrq/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 72,
+      "title": "Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR4 3200 Mhz CL16 1.35V Single Negro RGB",
+      "file": "ram-72.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-72.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-72.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-kingston-fury-beast-16gb-ddr4-3200-mhz-cl16-1-35v-single-negro-rgb-kco1q/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 73,
+      "title": "Memoria Ram Kingston 16GB 3200Mhz DDR4 FURY BLACK8",
+      "file": "ram-73.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-73.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-73.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-3200mhz-ddr4-fury-black8-2wq0a/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 74,
+      "title": "Memoria PC Prop. DDR5 16GB 5600Mhz CL46 1.1V 16Gbi",
+      "file": "ram-74.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-74.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-74.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-prop-ddr5-16gb-5600mhz-cl46-1-1v-16gbi-1k927/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 75,
+      "title": "Memoria PC Prop. DDR5 8GB 5600Mhz CL46 1.1V 16Gbit",
+      "file": "ram-75.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-75.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-75.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-pc-prop-ddr5-8gb-5600mhz-cl46-1-1v-16gbit-16b16/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 76,
+      "title": "Memoria SODIMM Prop. DDR5 16GB 5600Mhz CL46 1.1V",
+      "file": "ram-76.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-76.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-76.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-prop-ddr5-16gb-5600mhz-cl46-1-1v-2d7ap/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 77,
+      "title": "Memoria Ram Kingston 32GB 3200Mhz DDR4 SODIMM",
+      "file": "ram-77.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-77.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-77.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-3200mhz-ddr4-sodimm-11cxf/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 78,
+      "title": "Memoria RAM Kingston 8GB 3200Mhz DDR4 NON-ECC",
+      "file": "ram-78.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-78.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-78.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-3200mhz-ddr4-non-ecc-15q08/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 79,
+      "title": "Memoria Ram Kingston 16gb 3200Mhz DDR4 Module",
+      "file": "ram-79.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-79.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-79.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-16gb-3200mhz-ddr4-module-1kxn6/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 80,
+      "title": "Memoria Ram Kingston 8GB 3200Mhz DDR4 MODULE",
+      "file": "ram-80.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-80.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-80.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-8gb-3200mhz-ddr4-module-17bbv/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 81,
+      "title": "Memoria Ram Kingston 32GB 3200Mhz DDR4 NO ECC Module",
+      "file": "ram-81.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-81.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-81.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-kingston-32gb-3200mhz-ddr4-no-ecc-module-8sowi/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 82,
+      "title": "Memoria RAM Hiksemi Armor 2x16GB 3200Mhz DDR4",
+      "file": "ram-82.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-82.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-82.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-hiksemi-armor-2x16gb-3200mhz-ddr4-1u4c5/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 83,
+      "title": "Memoria RAM Hiksemi Hiker 16GB DDR4 3200Mhz UDIMM",
+      "file": "ram-83.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-83.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-83.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-hiksemi-hiker-16gb-ddr4-3200mhz-udimm-1bmyv/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 84,
+      "title": "Memoria RAM Hiksemi Armor 2x8GB 3200Mhz DDR4",
+      "file": "ram-84.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-84.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-84.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-hiksemi-armor-2x8gb-3200mhz-ddr4-1m8mw/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 85,
+      "title": "Memoria RAM Hiksemi Hiker 16GB DDR4 3200Mhz SODIMM",
+      "file": "ram-85.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-85.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-85.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-hiksemi-hiker-16gb-ddr4-3200mhz-sodimm-1mtxy/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 86,
+      "title": "Memoria RAM Hiksemi Hiker 8GB DDR4 3200Mhz UDIMM",
+      "file": "ram-86.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-86.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-86.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-hiksemi-hiker-8gb-ddr4-3200mhz-udimm-1lxg1/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 87,
+      "title": "Memoria RAM Hiksemi Armor 8GB DDR4 3200 MHz",
+      "file": "ram-87.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-87.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-87.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-hiksemi-armor-8gb-ddr4-3200-mhz-yo6hm/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 88,
+      "title": "Memoria RAM Hiksemi Hiker 8GB DDR4 3200Mhz SODIMM",
+      "file": "ram-88.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-88.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-88.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-hiksemi-hiker-8gb-ddr4-3200mhz-sodimm-q8t80/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 89,
+      "title": "Memoria Ram UDIMM T-FORCE 16GB DDR5 5200Mhz CL40",
+      "file": "ram-89.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-89.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-89.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-t-force-16gb-ddr5-5200mhz-cl40-19mjj/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 90,
+      "title": "MEMORIA GSKILL TRIDENT Z ROYAL DDR4 16 GB 3600 RGB GOLD 2X8 1.35",
+      "file": "ram-90.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-90.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-90.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-gskill-trident-z-royal-ddr4-16-gb-3600-rgb-gold-2x8-1-35-a04w9/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 91,
+      "title": "Memoria Crucial SODIMM 48GB DDR5-5600 CL46 (16Gbit",
+      "file": "ram-91.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-91.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-91.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-crucial-sodimm-48gb-ddr5-5600-cl46-16gbit-1xuul/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 92,
+      "title": "Memoria Ram SODIMM CORSAIR VENGEANCE 8GB DDR5 4800MHz CL40 1.1V Single Negro",
+      "file": "ram-92.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-92.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-92.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-sodimm-corsair-vengeance-8gb-ddr5-4800mhz-cl40-1-1v-single-negro-1mwns/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 93,
+      "title": "Memoria Ram UDIMM CORSAIR VENGEANCE 16GB DDR5 5200Mhz CL40 1.25V (2 x 8GB) AMD EXPO - GREY",
+      "file": "ram-93.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-93.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-93.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-corsair-vengeance-16gb-ddr5-5200mhz-cl40-1-25v-2-x-8gb-amd-expo-grey-t08ia/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 94,
+      "title": "Memoria Ram UDIMM CORSAIR VENGEANCE 16GB DDR5 5200Mhz CL40 1.25V (2 x 8GB) Intel XMP - GREY",
+      "file": "ram-94.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-94.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-94.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-corsair-vengeance-16gb-ddr5-5200mhz-cl40-1-25v-2-x-8gb-intel-xmp-grey-1iew5/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 95,
+      "title": "Memoria Ram UDIMM CORSAIR VENGEANCE 8GB DDR5 5200Mhz CL40 1.25V (1 x 8GB) Intel XMP",
+      "file": "ram-95.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-95.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-95.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-corsair-vengeance-8gb-ddr5-5200mhz-cl40-1-25v-1-x-8gb-intel-xmp-sqfv2/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 96,
+      "title": "Memoria Ram UDIMM ADATA XPG 16GB DDR5 6000 WHITE RGB CL48 1.1V",
+      "file": "ram-96.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-96.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-96.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-adata-xpg-16gb-ddr5-6000-white-rgb-cl48-1-1v-5zypy/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 97,
+      "title": "Memoria RAM XPG 32GB 6000Mhz DDR5 Lancer RGB",
+      "file": "ram-97.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-97.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-97.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-xpg-32gb-6000mhz-ddr5-lancer-rgb-1d2x2/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 98,
+      "title": "Memoria RAM XPG 8GB 5600Mhz DDR5 Lancer Negro AX5U5600C468G-SLABBK",
+      "file": "ram-98.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-98.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-98.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-xpg-8gb-5600mhz-ddr5-lancer-negro-ax5u5600c468g-slabbk-1kp9i/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 99,
+      "title": "MEMORIA XPG 16GB 16A DDR4 3200 D35",
+      "file": "ram-99.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-99.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-99.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-xpg-16gb-16a-ddr4-3200-d35-16410/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 100,
+      "title": "MEMORIA XPG 16GB 18I DDR4 3200 RGB",
+      "file": "ram-100.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-100.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-100.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-xpg-16gb-18i-ddr4-3200-rgb-hba0n/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 101,
+      "title": "Memoria Ram UDIMM ADATA 8GB DDR5 5600MHz CL46 1.1V",
+      "file": "ram-101.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-101.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-101.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-ram-udimm-adata-8gb-ddr5-5600mhz-cl46-1-1v-1vp6n/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 102,
+      "title": "MEMORIA ADATA DDR4 16GB 3200 G22 SGN",
+      "file": "ram-102.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-102.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-102.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-adata-ddr4-16gb-3200-g22-sgn-1kwaa/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 103,
+      "title": "MEMORIA ADATA SODIMM DDR4 32GB 3200 G22 SGN",
+      "file": "ram-103.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-103.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-103.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-adata-sodimm-ddr4-32gb-3200-g22-sgn-dy18c/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 104,
+      "title": "MEMORIA ADATA SODIMM DDR4 16GB 3200 G22 SGN",
+      "file": "ram-104.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-104.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-104.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-adata-sodimm-ddr4-16gb-3200-g22-sgn-5ae8j/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 105,
+      "title": "MEMORIA SODIMM ADATA DDR5 8GB 5600MHZ BLISTER (AD5S56008G-S)",
+      "file": "ram-105.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-105.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-105.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-adata-ddr5-8gb-5600mhz-blister-ad5s56008g-s-loham/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 106,
+      "title": "MEMORIA SODIMM ADATA DDR5 16GB 5600MHZ BLISTER (AD5S560016G-S)",
+      "file": "ram-106.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-106.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-106.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-adata-ddr5-16gb-5600mhz-blister-ad5s560016g-s-1tnpw/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 107,
+      "title": "MEMORIA SODIMM ADATA 32GB DDR4 3200MHZ (AD4S320032G22- SGN)",
+      "file": "ram-107.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-107.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-107.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-adata-32gb-ddr4-3200mhz-ad4s320032g22-sgn-37hbb/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 108,
+      "title": "MEMORIA SODIMM ADATA DDR4 16GB 3200MHZ (AD4S320016G22-SGN)",
+      "file": "ram-108.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-108.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-108.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-adata-ddr4-16gb-3200mhz-ad4s320016g22-sgn-ekigo/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 109,
+      "title": "MEMORIA SODIMM MUSHKIN REDLINE DDR4 16GB 3200MHZ (MRA4S320NNNF16G)",
+      "file": "ram-109.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-109.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-109.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-sodimm-mushkin-redline-ddr4-16gb-3200mhz-mra4s320nnnf16g-ds5i0/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 110,
+      "title": "Memoria Udimm Mushkin Redline Ddr4 16Gb 3200Mhz Blister (Mre4U320Nnnf16G)",
+      "file": "ram-110.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-110.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-110.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-udimm-mushkin-redline-ddr4-16gb-3200mhz-blister-mre4u320nnnf16g-5tbst/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 111,
+      "title": "MEMORIA UDIMM ADATA DDR4 32GB 3200MHZ BLISTER (AD4U320032G22-SGN)",
+      "file": "ram-111.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-111.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-111.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-udimm-adata-ddr4-32gb-3200mhz-blister-ad4u320032g22-sgn-s7m6h/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
+    },
+    {
+      "index": 112,
+      "title": "MEMORIA UDIMM ADATA DDR4 16GB 3200MHZ BLISTER (AD4U320016G22-SGN)",
+      "file": "ram-112.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/ram-112.html?v=20260627ramfull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/ram-112.html?v=20260627ramfull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/memoria-udimm-adata-ddr4-16gb-3200mhz-blister-ad4u320016g22-sgn-1eaeo/",
+      "type": "Memoria RAM",
+      "state": "NUEVA"
     }
   ]
 }
