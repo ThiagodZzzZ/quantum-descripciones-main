@@ -8,11 +8,11 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--sky:#22b8f0;--sky2:#dff6ff;--sun:#f6c64a;--pink:#ff007f;--ink:#101319;--muted:#707783;--line:#e4e9ef;--soft:#f7fbfe;--good:#17a66a}
-html,body{background:#fff;color:var(--ink);font-family:'Barlow',Arial,sans-serif;overflow-x:hidden}
-.wrap{max-width:820px;margin:0 auto;padding:20px 14px 52px}
-.hero{position:relative;overflow:hidden;text-align:center;padding:30px 14px 24px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,#fff 0%,#f2fbff 100%);margin-bottom:14px}
-.hero:before{content:"";position:absolute;inset:-80px -40px auto auto;width:210px;height:210px;border-radius:50%;background:radial-gradient(circle,var(--sun) 0 30%,transparent 31%);opacity:.22;animation:floatSun 7s ease-in-out infinite}
-.hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:linear-gradient(90deg,var(--sky),#fff,var(--sky),var(--sun),var(--pink));background-size:220% 100%;animation:stripe 4s linear infinite}
+html,body{background:linear-gradient(180deg,#ffffff 0%,#eefaff 48%,#ffffff 100%);color:var(--ink);font-family:'Barlow',Arial,sans-serif;overflow-x:hidden}
+.wrap{max-width:820px;margin:0 auto;padding:20px 14px 52px;position:relative}
+.hero{position:relative;overflow:hidden;text-align:center;padding:32px 14px 25px;border:1px solid #bfeafa;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#eaf9ff 54%,#fff 100%);margin-bottom:14px;box-shadow:0 10px 34px rgba(34,184,240,.12)}
+.hero:before{content:"";position:absolute;inset:-78px -44px auto auto;width:230px;height:230px;border-radius:50%;background:repeating-conic-gradient(from 0deg,rgba(246,198,74,.55) 0deg 8deg,rgba(246,198,74,.1) 8deg 16deg);opacity:.7;animation:floatSun 7s ease-in-out infinite}
+.hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:7px;background:linear-gradient(90deg,var(--sky),#fff,var(--sky),#fff,var(--sun),var(--sky));background-size:240% 100%;animation:stripe 4s linear infinite}
 @keyframes floatSun{50%{transform:translate(-12px,16px) rotate(12deg)}}
 @keyframes stripe{to{background-position:220% 0}}
 .brand{position:relative;font-size:11px;letter-spacing:5px;color:var(--pink);text-transform:uppercase;font-weight:800;margin-bottom:10px}
@@ -21,7 +21,7 @@ html,body{background:#fff;color:var(--ink);font-family:'Barlow',Arial,sans-serif
 .tags{position:relative;display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:14px}
 .tag{border:1px solid #cfe7f4;background:#fff;color:#34404d;border-radius:999px;padding:6px 12px;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
 .tag.hot{background:var(--pink);border-color:var(--pink);color:#fff}.tag.cool{background:var(--sky);border-color:var(--sky);color:#fff}.tag.sun{background:#fff7d8;border-color:#f3d36d;color:#7a5600}
-.panel{background:var(--soft);border:1px solid var(--line);border-top:3px solid var(--sky);border-radius:12px;padding:16px;margin-bottom:14px}
+.panel{background:linear-gradient(180deg,#f6fcff 0%,#fff 100%);border:1px solid #d5eef9;border-top:3px solid var(--sky);border-radius:12px;padding:16px;margin-bottom:14px;box-shadow:0 8px 24px rgba(34,184,240,.07)}
 .section-title{font-size:11px;letter-spacing:3px;color:var(--pink);text-transform:uppercase;font-weight:900;margin-bottom:14px}
 .cfg-row{margin-bottom:14px}.cfg-row:last-child{margin-bottom:0}
 .cfg-label{font-size:10px;color:#8b94a0;letter-spacing:2px;text-transform:uppercase;font-weight:800;margin-bottom:8px}
@@ -35,7 +35,7 @@ html,body{background:#fff;color:var(--ink);font-family:'Barlow',Arial,sans-serif
 .benefit.show{max-height:140px;opacity:1;margin-top:10px;padding:10px 12px}
 .benefit b{color:var(--pink)}
 .specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:14px}
-.spec{min-height:92px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--sky);border-radius:12px;padding:13px 12px;transition:transform .25s,box-shadow .25s,border-color .25s}
+.spec{min-height:92px;background:linear-gradient(180deg,#fff 0%,#f7fcff 100%);border:1px solid #d7edf8;border-top:3px solid var(--sky);border-radius:12px;padding:13px 12px;transition:transform .25s,box-shadow .25s,border-color .25s}
 .spec:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(16,19,25,.08);border-color:#b5e6fa}
 .spec-l{font-size:9px;color:var(--pink);letter-spacing:2px;text-transform:uppercase;font-weight:900;margin-bottom:5px}
 .spec-v{font-family:'Barlow Condensed',Arial,sans-serif;font-size:24px;line-height:1;font-weight:900;color:var(--ink);word-break:break-word}
@@ -67,6 +67,18 @@ html,body{background:#fff;color:var(--ink);font-family:'Barlow',Arial,sans-serif
 .fps-unit{font-size:10px;color:#9aa3ad;letter-spacing:2px;margin-top:4px}
 .fps-side{flex:1}.fps-side .track{height:8px;margin-bottom:6px}.fps-side .fill.green{background:linear-gradient(90deg,var(--good),#66dd9d)}
 .fps-rate{font-size:11px;color:#5c6672;font-weight:700}.tip{font-size:11px;color:#5c6672;line-height:1.6;border-top:1px solid var(--line);margin-top:12px;padding-top:10px}.tip b{color:var(--pink)}
+.gta{position:relative;overflow:hidden;background:linear-gradient(135deg,#e7f8ff 0%,#fff 45%,#fff7cf 100%);border:1px solid #bbe9fb;border-top:4px solid var(--sun);border-radius:14px;padding:17px;margin-bottom:14px;box-shadow:0 12px 30px rgba(246,198,74,.14)}
+.gta:before{content:"";position:absolute;right:-42px;top:-52px;width:150px;height:150px;border-radius:50%;background:repeating-conic-gradient(rgba(246,198,74,.38) 0deg 10deg,rgba(255,255,255,.2) 10deg 20deg);animation:floatSun 8s ease-in-out infinite}
+.gta-title{position:relative;font-family:'Barlow Condensed',Arial,sans-serif;font-size:31px;line-height:1;font-weight:900;color:#101319;margin-bottom:5px}
+.gta-sub{position:relative;font-size:12px;color:#596574;line-height:1.6;margin-bottom:12px;max-width:620px}
+.gta-grid{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.gta-card{background:#fff;border:1px solid #d9edf6;border-radius:12px;padding:12px 8px;text-align:center;min-height:88px}
+.gta-l{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:#1687b2;font-weight:900;margin-bottom:5px}
+.gta-v{font-family:'Barlow Condensed',Arial,sans-serif;font-size:20px;font-weight:900;color:var(--pink);line-height:1}
+.gta-d{font-size:10px;color:#6e7884;line-height:1.35;margin-top:5px}
+.gta-verdict{position:relative;display:flex;gap:12px;align-items:center;background:#fff;border:1px solid #d8edf6;border-left:4px solid var(--good);border-radius:12px;padding:13px 14px}
+.gta-badge{flex:0 0 auto;background:var(--good);color:#fff;border-radius:999px;padding:7px 12px;font-family:'Barlow Condensed',Arial,sans-serif;font-size:15px;font-weight:900;letter-spacing:.8px}
+.gta-text{font-size:12px;color:#424b56;line-height:1.55}.gta-text b{color:var(--pink)}
 .info{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:14px}
 .info-card{background:#fff;border:1px solid var(--line);border-top:3px solid var(--sky);border-radius:12px;text-align:center;padding:14px 8px;opacity:0;transform:translateY(16px);transition:opacity .45s,transform .45s,box-shadow .25s}
 .info-card.visible{opacity:1;transform:translateY(0)}.info-card:hover{box-shadow:0 8px 24px rgba(34,184,240,.15)}
@@ -78,6 +90,7 @@ html,body{background:#fff;color:var(--ink);font-family:'Barlow',Arial,sans-serif
   .spec{min-height:106px;padding:12px 10px}.spec-v{font-size:20px}.spec-d{font-size:10px}.spec-l{letter-spacing:1.3px}
   .cfg{flex:1 1 calc(50% - 7px);min-width:0}.games{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.game{min-height:50px}.game b{font-size:9px}
   .fps-row{gap:10px}.fps-num{min-width:70px}.fps-val{font-size:44px}.info{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.info-card{padding:12px 5px}.info-val{font-size:18px}.info-l{font-size:9px}
+  .gta{padding:15px 10px}.gta-title{font-size:25px}.gta-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gta-card{min-height:84px}.gta-verdict{align-items:flex-start;flex-direction:column;gap:8px}
 }
 </style>
 </head>
@@ -157,6 +170,21 @@ html,body{background:#fff;color:var(--ink);font-family:'Barlow',Arial,sans-serif
     <div class="note">FPS orientativos para comparar variantes. El rendimiento real cambia segun drivers, mapa, preset, temperatura, version del juego y configuracion final.</div>
   </section>
 
+  <section class="gta" id="gtaCheck">
+    <div class="gta-title">¿FUNCIONARÍA CON GTA 6?</div>
+    <div class="gta-sub">Comprobación para PCs potentes. Rockstar todavía no publicó requisitos oficiales de PC, así que usamos una lectura conservadora: GPU alta, CPU moderna, RAM suficiente y SSD/NVMe para mundo abierto pesado.</div>
+    <div class="gta-grid">
+      <div class="gta-card"><div class="gta-l">CPU</div><div class="gta-v">APROBADA</div><div class="gta-d">Ryzen 7 7700X, 8C/16T y AM5.</div></div>
+      <div class="gta-card"><div class="gta-l">GPU</div><div class="gta-v" id="gtaGpu">SOBRADA</div><div class="gta-d" id="gtaGpuText">RTX 3090 24GB: muy por encima de una base alta esperable.</div></div>
+      <div class="gta-card"><div class="gta-l">RAM</div><div class="gta-v" id="gtaRam">BIEN</div><div class="gta-d" id="gtaRamText">16GB alcanza como base; 32GB es el punto ideal.</div></div>
+      <div class="gta-card"><div class="gta-l">Disco</div><div class="gta-v" id="gtaDisk">NVMe</div><div class="gta-d" id="gtaDiskText">Instalación recomendada en SSD/NVMe para cargas y streaming de mapa.</div></div>
+    </div>
+    <div class="gta-verdict">
+      <div class="gta-badge" id="gtaBadge">PASA</div>
+      <div class="gta-text" id="gtaText">Con RTX 3090, Ryzen 7 7700X y NVMe, esta PC apunta a jugar GTA 6 en PC cuando exista versión oficial, con margen especialmente fuerte en GPU. Para comprar pensando a futuro, <b>32GB DDR5</b> sería la mejora más lógica.</div>
+    </div>
+  </section>
+
   <section class="info">
     <div class="info-card"><div class="info-val">3 DIAS</div><div class="info-l">Armado y testeo aprox.</div></div>
     <div class="info-card"><div class="info-val">1 AÑO</div><div class="info-l">Garantía de PC armada</div></div>
@@ -223,6 +251,19 @@ function updateBars(){
   b1080.style.width=vals.b1080+"%";b1440.style.width=vals.b1440+"%";bProd.style.width=vals.bProd+"%";bUpgrade.style.width=vals.bUpgrade+"%";
   s1080.textContent=label(vals.b1080);s1440.textContent=label(vals.b1440);sProd.textContent=label(vals.bProd);sUpgrade.textContent=label(vals.bUpgrade);
 }
+function updateGta(){
+  var high=state.gpu==="3090"||state.gpu==="3080ti";
+  gtaGpu.textContent=state.gpu==="3090"?"SOBRADA":state.gpu==="3080ti"?"ALTA":"JUSTA";
+  gtaGpuText.textContent=state.gpu==="3090"?"RTX 3090 24GB: muy por encima de una base alta esperable.":state.gpu==="3080ti"?"RTX 3080 Ti: gama alta, muy fuerte para 1080p/1440p.":"RX 6700 XT: jugaría mejor apuntando a 1080p/FSR y ajustes cuidados.";
+  gtaRam.textContent=state.ram==="16"?"BIEN":state.ram==="32"?"IDEAL":"SOBRADA";
+  gtaRamText.textContent=state.ram==="16"?"16GB alcanza como base; 32GB es el punto ideal.":state.ram==="32"?"32GB DDR5 deja margen para mundo abierto, Discord y apps abiertas.":"64GB DDR5 sobra para gaming y suma para edición/multitarea.";
+  gtaDisk.textContent=state.storage==="1"?"NVMe":state.storage==="2"?"2TB NVMe":"4TB NVMe";
+  gtaDiskText.textContent=state.storage==="1"?"1TB NVMe cumple; los juegos grandes llenan rápido.":state.storage==="2"?"2TB NVMe es una opción más cómoda para GTA 6 y biblioteca grande.":"4TB NVMe deja margen muy amplio para juegos, clips y programas.";
+  gtaBadge.textContent=high?"PASA":"AJUSTAR";
+  gtaBadge.style.background=high?"var(--good)":"#d08a00";
+  gtaCheck.querySelector(".gta-verdict").style.borderLeftColor=high?"var(--good)":"#d08a00";
+  gtaText.innerHTML=high?"Con "+GPU[state.gpu].n+", Ryzen 7 7700X y NVMe, esta PC apunta a jugar GTA 6 en PC cuando exista versión oficial, con margen especialmente fuerte en GPU. Para comprar pensando a futuro, <b>32GB DDR5</b> sería la mejora más lógica.":"Con RX 6700 XT la PC sigue siendo muy capaz, pero para GTA 6 conviene pensarla más para 1080p con ajustes optimizados y FSR. Para margen alto, la variante RTX 3080 Ti o RTX 3090 es la recomendada.";
+}
 function renderGames(){
   var html="";
   GPU[state.gpu].games.forEach(function(g,i){html+='<button class="game '+(i===state.game?"on":"")+'" data-game="'+i+'"><b>'+g[0]+'</b><span>'+g[1]+'</span></button>'});
@@ -235,7 +276,7 @@ function renderFps(){
   var hz=fps>=240?"Excelente para 240Hz+":fps>=144?"Excelente para 144Hz":fps>=90?"Muy fluido":"Jugable con ajustes";
   fpsPanel.innerHTML='<div class="fps-title">'+g[0]+'</div><div class="fps-preset">'+g[1]+' - '+state.res+'p</div><div class="fps-row"><div class="fps-num"><div class="fps-val '+green+'">'+fps+'</div><div class="fps-unit">FPS</div></div><div class="fps-side"><div class="track"><div class="fill '+green+'" style="width:'+bar+'%"></div></div><div class="fps-rate">'+hz+'</div></div></div><div class="tip">'+g[5]+'</div>';
 }
-function render(){updateSpecs();updateBars();renderGames();renderFps();sendHeight();setTimeout(sendHeight,120)}
+function render(){updateSpecs();updateBars();updateGta();renderGames();renderFps();sendHeight();setTimeout(sendHeight,120)}
 document.querySelectorAll("#gpuBtns .cfg").forEach(function(b){b.onclick=function(){state.gpu=this.dataset.gpu;state.game=0;setButtons("gpuBtns","gpu",state.gpu);render()}});
 document.querySelectorAll("#ramBtns .cfg").forEach(function(b){b.onclick=function(){state.ram=this.dataset.ram;setButtons("ramBtns","ram",state.ram);render()}});
 document.querySelectorAll("#storageBtns .cfg").forEach(function(b){b.onclick=function(){state.storage=this.dataset.storage;setButtons("storageBtns","storage",state.storage);render()}});
