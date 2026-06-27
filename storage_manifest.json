@@ -1,16 +1,1425 @@
 {
-  "version": "20260627storagesample",
-  "total": 1,
+  "version": "20260627storagefull",
+  "total": 142,
   "items": [
     {
       "index": 1,
       "title": "DISCO SSD M.2 500GB WD BLACK SN7100 NVME",
       "file": "storage-01.html",
-      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-01.html?v=20260627storagesample",
-      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-01.html?v=20260627storagesample\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-01.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-01.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
       "source_url": "https://quantumhardstore.com/productos/disco-ssd-m-2-500gb-wd-black-sn7100-nvme-z4bhf/",
-      "official_source": "https://www.sandisk.com/products/ssd/internal-ssd/wd-black-sn7100-nvme-internal-ssd",
-      "type": "SSD NVMe",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 2,
+      "title": "Pen Drive Lexar M22 32GB UDB 2.0",
+      "file": "storage-02.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-02.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-02.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-lexar-m22-32gb-udb-2-0-1hlea/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 3,
+      "title": "Disco Interno SSD LEXAR NM790 1TB M.2 NVMe",
+      "file": "storage-03.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-03.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-03.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-lexar-nm790-1tb-m-2-nvme-feld4/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 4,
+      "title": "Pen Drive Lexar M22 16GB USB 2.0",
+      "file": "storage-04.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-04.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-04.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-lexar-m22-16gb-usb-2-0-sl66z/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 5,
+      "title": "DISCO SSD ADATA LEGEND 860 1TB M2 Gen4 x4 M.2 2280 6.000/5.000 MB/s",
+      "file": "storage-05.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-05.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-05.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-adata-legend-860-1tb-m2-gen4-x4-m-2-2280-6-000-5-000-mb-s-1d4mt/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 6,
+      "title": "Disco Interno SSD BIWIN NV7400 1T M.2 2280 PCIe 4.0 7450MB/s",
+      "file": "storage-06.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-06.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-06.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-biwin-nv7400-1t-m-2-2280-pcie-4-0-7450mb-s-1pqkh/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 7,
+      "title": "Disco Interno HDD WESTERN DIGITAL Purple PRO 10TB 3.5\" SATA 3.0 7200rpm",
+      "file": "storage-07.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-07.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-07.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-hdd-western-digital-purple-pro-10tb-3-5-sata-3-0-7200rpm-1bfbi/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 8,
+      "title": "Disco solido interno Hiksemi Future Lite 1024GB PCIE NVME HS-SSD-FUTURE LITE 1024G",
+      "file": "storage-08.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-08.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-08.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-hiksemi-future-lite-1024gb-pcie-nvme-hs-ssd-future-lite-1024g-xt51v/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 9,
+      "title": "Disco Interno SSD ADATA LEGEND 900 1TB M.2 2280",
+      "file": "storage-09.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-09.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-09.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-adata-legend-900-1tb-m-2-2280-nxgdw/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 10,
+      "title": "Disco Externo HDD WESTERN DIGITAL MyPassport 4TB USB 3.2 Rojo",
+      "file": "storage-10.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-10.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-10.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-externo-hdd-western-digital-mypassport-4tb-usb-3-2-rojo-qkt22/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 11,
+      "title": "Disco Externo HDD WESTERN DIGITAL MyPassport 4TB USB 3.2 Azul",
+      "file": "storage-11.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-11.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-11.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-externo-hdd-western-digital-mypassport-4tb-usb-3-2-azul-gsn71/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 12,
+      "title": "Asustor NAS Tower Nimbustor 2 Gen2 AS5402T 2X3.5/2.5",
+      "file": "storage-12.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-12.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-12.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/asustor-nas-tower-nimbustor-2-gen2-as5402t-2x3-5-2-5-1y9bn/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 13,
+      "title": "Asustor NAS Tower Drivestor 2 Pro Gen2 AS3302T v2 2X3.5/2.5",
+      "file": "storage-13.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-13.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-13.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/asustor-nas-tower-drivestor-2-pro-gen2-as3302t-v2-2x3-5-2-5-c697u/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 14,
+      "title": "Asustor NAS Mini Desk Flashstor 6 FS6706T 6X NVMe",
+      "file": "storage-14.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-14.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-14.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/asustor-nas-mini-desk-flashstor-6-fs6706t-6x-nvme-1jpsy/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 15,
+      "title": "Disco Interno SSD WD Green 500GB Sata 2.5\" 545Mb/s",
+      "file": "storage-15.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-15.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-15.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-green-500gb-sata-2-5-545mb-s-ypwwi/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 16,
+      "title": "DISCO SSD M.2 500GB WD GREEN SN3000 NVME",
+      "file": "storage-16.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-16.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-16.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-m-2-500gb-wd-green-sn3000-nvme-17vyk/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 17,
+      "title": "DISCO SSD M.2 500GB WD GREEN SN350 NVME",
+      "file": "storage-17.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-17.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-17.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-m-2-500gb-wd-green-sn350-nvme-4kff1/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 18,
+      "title": "Disco solido SSD Western Digital Green 250GB SATA III WDS250G5G0A",
+      "file": "storage-18.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-18.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-18.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-ssd-western-digital-green-250gb-sata-iii-wds250g5g0a-g43ni/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 19,
+      "title": "Disco Interno SSD WD Green 250GB Sata 2.5\" 545Mb/s",
+      "file": "storage-19.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-19.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-19.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-green-250gb-sata-2-5-545mb-s-mx24d/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 20,
+      "title": "DISCO SSD SATA 2TB WD GREEN",
+      "file": "storage-20.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-20.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-20.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-sata-2tb-wd-green-1js93/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 21,
+      "title": "Disco solido SSD SanDisk WD Green SN300 NVMe 2TB PCIe Gen4 M.2",
+      "file": "storage-21.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-21.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-21.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-ssd-sandisk-wd-green-sn300-nvme-2tb-pcie-gen4-m-2-q5lul/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 22,
+      "title": "Disco Interno SSD WD Black SN850X 2TB M.2 2280 NVMe PCIe 4.0 7300Mb/s C/Disipador",
+      "file": "storage-22.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-22.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-22.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-7300mb-s-c-disipador-vtjuq/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 23,
+      "title": "Disco Interno SSD WD Green 2TB 2.5\" SATA 3.0 545Mb/s",
+      "file": "storage-23.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-23.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-23.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-green-2tb-2-5-sata-3-0-545mb-s-1s2is/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 24,
+      "title": "Disco solido SanDisk WD Green 1TB 2.5\" SATA III WDS100T5G0A",
+      "file": "storage-24.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-24.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-24.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-sandisk-wd-green-1tb-2-5-sata-iii-wds100t5g0a-1nuwg/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 25,
+      "title": "DISCO SSD M.2 1TB WD GREEN SN3000 NVME",
+      "file": "storage-25.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-25.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-25.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-m-2-1tb-wd-green-sn3000-nvme-3tszt/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 26,
+      "title": "Disco Interno SSD WD Green SN3000 1TB M.2 2280 NVMe PCIe 4.0 5000MB/s",
+      "file": "storage-26.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-26.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-26.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-green-sn3000-1tb-m-2-2280-nvme-pcie-4-0-5000mb-s-66akp/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 27,
+      "title": "Disco Interno SSD WD Blue SN5000 1TB M.2 2280 NVME PCIe 4.0 5150MB/s",
+      "file": "storage-27.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-27.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-27.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-blue-sn5000-1tb-m-2-2280-nvme-pcie-4-0-5150mb-s-1gi24/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 28,
+      "title": "DISCO SSD SATA 1TB WD BLUE SA510",
+      "file": "storage-28.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-28.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-28.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-sata-1tb-wd-blue-sa510-u9aij/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 29,
+      "title": "Disco Interno SSD WD Black SN850X 1TB M.2 2280 NVMe PCIe 4.0 7300MB/S C/DISIP",
+      "file": "storage-29.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-29.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-29.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-black-sn850x-1tb-m-2-2280-nvme-pcie-4-0-7300mb-s-c-disip-96p95/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 30,
+      "title": "Disco Interno SSD WD Black SN850X 1TB M.2 2280 NVMe PCIe 4.0 7300MB/S S/DISIP",
+      "file": "storage-30.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-30.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-30.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-black-sn850x-1tb-m-2-2280-nvme-pcie-4-0-7300mb-s-s-disip-1hick/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 31,
+      "title": "DISCO SSD M.2 1TB WD GREEN SN350 NVME",
+      "file": "storage-31.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-31.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-31.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-m-2-1tb-wd-green-sn350-nvme-109ds/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 32,
+      "title": "Disco Interno SSD WD Green SN350 1TB M.2 2280 NVMe PCIe 3.0 2400MB/S",
+      "file": "storage-32.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-32.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-32.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-wd-green-sn350-1tb-m-2-2280-nvme-pcie-3-0-2400mb-s-gl6g9/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 33,
+      "title": "Disco Externo HDD WESTERN DIGITAL Elements 1TB USB 3.0 Tipo A Negro",
+      "file": "storage-33.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-33.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-33.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-externo-hdd-western-digital-elements-1tb-usb-3-0-tipo-a-negro-1qgcs/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 34,
+      "title": "Disco Externo HDD WESTERN DIGITAL Elements 2TB USB 3.0 Tipo A Negro",
+      "file": "storage-34.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-34.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-34.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-externo-hdd-western-digital-elements-2tb-usb-3-0-tipo-a-negro-15470/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 35,
+      "title": "Disco Interno HDD WESTERN DIGITAL Red 8TB 3.5\" SATA 3.0 5400rpm",
+      "file": "storage-35.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-35.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-35.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-hdd-western-digital-red-8tb-3-5-sata-3-0-5400rpm-hpvbh/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 36,
+      "title": "Disco Interno HDD WESTERN DIGITAL Purple PRO 8TB 3.5\" SATA 3.0 7200rpm",
+      "file": "storage-36.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-36.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-36.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-hdd-western-digital-purple-pro-8tb-3-5-sata-3-0-7200rpm-7e1xb/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 37,
+      "title": "Disco duro Western Digital Purple Pro 24TB SATA 3.5\" WD240PURP",
+      "file": "storage-37.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-37.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-37.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-western-digital-purple-pro-24tb-sata-3-5-wd240purp-1c26l/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 38,
+      "title": "Disco duro interno Western Digital 2TB 3.5 BLUE 3.5\" SATA",
+      "file": "storage-38.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-38.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-38.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-interno-western-digital-2tb-3-5-blue-3-5-sata-wsr2r/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 39,
+      "title": "Disco Duro Interno Western Digital SATA 3.5\" Red Pro NAS 20 TB",
+      "file": "storage-39.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-39.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-39.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-interno-western-digital-sata-3-5-red-pro-nas-20-tb-vppip/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 40,
+      "title": "Disco duro interno Western Digital 14T 3.5\" RED PRO NAS",
+      "file": "storage-40.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-40.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-40.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-interno-western-digital-14t-3-5-red-pro-nas-1lj3e/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 41,
+      "title": "Disco duro interno Western Digital HD 12TB Purple Pro WD122PURP",
+      "file": "storage-41.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-41.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-41.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-interno-western-digital-hd-12tb-purple-pro-wd122purp-1j2d8/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 42,
+      "title": "Disco duro Western Digital NAS Red Pro 12TB 3.5\" SATA 7200RPM CMR 512MB WD122KFBX",
+      "file": "storage-42.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-42.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-42.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-western-digital-nas-red-pro-12tb-3-5-sata-7200rpm-cmr-512mb-wd122kfbx-1axmp/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 43,
+      "title": "Disco Interno HDD WESTERN DIGITAL Red Plus 12TB 3.5\" SATA 3.0 7200rpm",
+      "file": "storage-43.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-43.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-43.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-hdd-western-digital-red-plus-12tb-3-5-sata-3-0-7200rpm-6dnwo/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 44,
+      "title": "Disco Interno HDD WESTERN DIGITAL Red Plus10TB 3.5\" SATA 3.0 7200rpm",
+      "file": "storage-44.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-44.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-44.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-hdd-western-digital-red-plus10tb-3-5-sata-3-0-7200rpm-vtrbd/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 45,
+      "title": "Disco Interno SSD TEAM GROUP MP44L 500GB M.2 NVMe PCIe 4.0 5000MB/s",
+      "file": "storage-45.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-45.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-45.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-team-group-mp44l-500gb-m-2-nvme-pcie-4-0-5000mb-s-1k1zb/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 46,
+      "title": "Disco Interno SSD TEAM GROUP CX1 480GB SATA 3.0 530MB/s",
+      "file": "storage-46.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-46.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-46.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-team-group-cx1-480gb-sata-3-0-530mb-s-avf54/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 47,
+      "title": "Disco Interno SSD TEAM GROUP CX1 240GB SATA 3.0",
+      "file": "storage-47.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-47.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-47.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-team-group-cx1-240gb-sata-3-0-ammli/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 48,
+      "title": "Disco solido externo Kingston - SSD 1TB XS1000",
+      "file": "storage-48.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-48.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-48.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-externo-kingston-ssd-1tb-xs1000-7mxlc/",
+      "type": "SSD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 49,
+      "title": "Disco Duro Externo Seagate 5TB Expansion USB",
+      "file": "storage-49.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-49.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-49.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-externo-seagate-5tb-expansion-usb-1hxce/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 50,
+      "title": "Disco duro portatil 4TB 3.0 USB Portable",
+      "file": "storage-50.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-50.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-50.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-portatil-4tb-3-0-usb-portable-18pcx/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 51,
+      "title": "Disco duro portatil 2TB 3.0 USB Portable",
+      "file": "storage-51.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-51.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-51.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-portatil-2tb-3-0-usb-portable-i6oj6/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 52,
+      "title": "Disco duro portatil 1TB 3.0 USB Portable",
+      "file": "storage-52.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-52.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-52.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-portatil-1tb-3-0-usb-portable-52lcp/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 53,
+      "title": "Disco duro int 8TB SATA 6 Gb/s 256MB SkyHawk",
+      "file": "storage-53.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-53.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-53.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-int-8tb-sata-6-gb-s-256mb-skyhawk-1v36p/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 54,
+      "title": "Disco duro HDD Seagate Barracuda 8TB SATA 3.5\" ST8000DM004",
+      "file": "storage-54.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-54.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-54.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-hdd-seagate-barracuda-8tb-sata-3-5-st8000dm004-16vkh/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 55,
+      "title": "Disco duro interno Seagate SKYHAWK AI 24TB 3.5\" SATA III",
+      "file": "storage-55.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-55.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-55.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-interno-seagate-skyhawk-ai-24tb-3-5-sata-iii-sgdwd/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 56,
+      "title": "Disco Interno Seagate 12TB 3.5 NAS IRONWOLF",
+      "file": "storage-56.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-56.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-56.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-seagate-12tb-3-5-nas-ironwolf-1cpba/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 57,
+      "title": "Disco duro Seagate SkyHawk AI 12TB ST12000VE003 SATA 6Gb/s",
+      "file": "storage-57.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-57.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-57.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-seagate-skyhawk-ai-12tb-st12000ve003-sata-6gb-s-n5shs/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 58,
+      "title": "Disco duro interno Seagate 12TB 3.5\" NAS IRONWOLF PRO",
+      "file": "storage-58.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-58.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-58.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-interno-seagate-12tb-3-5-nas-ironwolf-pro-1nlmb/",
+      "type": "NAS",
+      "state": "NUEVO"
+    },
+    {
+      "index": 59,
+      "title": "Disco duro int 1TB SATA 6 Gb/s 256MB Skyhawk",
+      "file": "storage-59.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-59.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-59.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-int-1tb-sata-6-gb-s-256mb-skyhawk-a0rrp/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 60,
+      "title": "Disco duro int 10TB SATA 6 Gb/s 256MB Skyhawk",
+      "file": "storage-60.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-60.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-60.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-int-10tb-sata-6-gb-s-256mb-skyhawk-2b616/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 61,
+      "title": "Disco Rigido HDD Seagate 10TB SATA 3.5\" 7200rpm ST10000NM017B",
+      "file": "storage-61.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-61.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-61.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-rigido-hdd-seagate-10tb-sata-3-5-7200rpm-st10000nm017b-bxlw9/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 62,
+      "title": "Disco Interno SSD ADATA SPECTRIX S65G RGB 1TB M.2 2280 NVMe PCIe 4.0 6000MB/s",
+      "file": "storage-62.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-62.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-62.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-adata-spectrix-s65g-rgb-1tb-m-2-2280-nvme-pcie-4-0-6000mb-s-1cabm/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 63,
+      "title": "DISCO SSD SATA 1TB SANDISK PLUS G28",
+      "file": "storage-63.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-63.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-63.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-sata-1tb-sandisk-plus-g28-161u2/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 64,
+      "title": "Disco SSD Externo Dual 512GB USB A-C 3.2 Gen 2",
+      "file": "storage-64.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-64.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-64.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-externo-dual-512gb-usb-a-c-3-2-gen-2-1t21a/",
+      "type": "SSD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 65,
+      "title": "Disco SSD Externo Dual 1TB USB A-C 3.2 Gen 2",
+      "file": "storage-65.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-65.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-65.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-externo-dual-1tb-usb-a-c-3-2-gen-2-1kbmm/",
+      "type": "SSD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 66,
+      "title": "Disco Solido Interno Kingston 500GB NV3 PCIE NVME M.2 2230",
+      "file": "storage-66.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-66.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-66.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-kingston-500gb-nv3-pcie-nvme-m-2-2230-1hghz/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 67,
+      "title": "Disco Solido Interno Kingston 2TB NV3 PCIE NVME M.2 2230",
+      "file": "storage-67.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-67.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-67.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-kingston-2tb-nv3-pcie-nvme-m-2-2230-1w6ta/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 68,
+      "title": "Disco Solido Interno Kingston 1TB NV3 PCIE NVME M.2 2230",
+      "file": "storage-68.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-68.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-68.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-kingston-1tb-nv3-pcie-nvme-m-2-2230-1tezq/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 69,
+      "title": "Disco SSD 500GB NV3 M.2 2280 PCIe NVMe 5000MB/s",
+      "file": "storage-69.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-69.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-69.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-500gb-nv3-m-2-2280-pcie-nvme-5000mb-s-hhh5l/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 70,
+      "title": "Disco solido Kingston 4TB NV3 PCIe NVME",
+      "file": "storage-70.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-70.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-70.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-kingston-4tb-nv3-pcie-nvme-1ttyd/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 71,
+      "title": "Disco SSD 2T NV3 M.2 2280 PCIe NVMe 5000MB/s",
+      "file": "storage-71.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-71.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-71.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-2t-nv3-m-2-2280-pcie-nvme-5000mb-s-8fykq/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 72,
+      "title": "Disco SSD 1T NV3 M.2 2280 PCIe NVMe 5000MB/s",
+      "file": "storage-72.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-72.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-72.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-1t-nv3-m-2-2280-pcie-nvme-5000mb-s-wufiy/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 73,
+      "title": "Disco sólido Adata - SSD Legend 900 512GB M.2 NVME",
+      "file": "storage-73.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-73.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-73.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-adata-ssd-legend-900-512gb-m-2-nvme-1mb4y/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 74,
+      "title": "Disco solido interno Adata Legend 860 500GB PCIe Gen4 x4 M.2 2280",
+      "file": "storage-74.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-74.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-74.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-adata-legend-860-500gb-pcie-gen4-x4-m-2-2280-bfvxl/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 75,
+      "title": "Disco solido interno Adata 2000GB LEG860 PCIE NVME",
+      "file": "storage-75.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-75.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-75.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-adata-2000gb-leg860-pcie-nvme-1wcc1/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 76,
+      "title": "Disco Interno SSD KINGSTON KC600 512GB 2.5\" SATA 3.0 550MB/s",
+      "file": "storage-76.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-76.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-76.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-kc600-512gb-2-5-sata-3-0-550mb-s-11rgp/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 77,
+      "title": "Disco Solido Interno Kingston 256GB KC600 2.5 SATA3",
+      "file": "storage-77.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-77.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-77.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-kingston-256gb-kc600-2-5-sata3-1mfu2/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 78,
+      "title": "Disco Interno SSD KINGSTON KC600 2TB 2.5\" SATA 3.0 550MB/s",
+      "file": "storage-78.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-78.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-78.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-kc600-2tb-2-5-sata-3-0-550mb-s-14s59/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 79,
+      "title": "Disco Solido Interno Kingston 512GB KC3000 M.2 2280",
+      "file": "storage-79.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-79.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-79.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-kingston-512gb-kc3000-m-2-2280-kwybo/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 80,
+      "title": "Disco Interno SSD KINGSTON KC3000 1TB M.2 NVMe PCIe 4.0 7000MB/s",
+      "file": "storage-80.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-80.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-80.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-kc3000-1tb-m-2-nvme-pcie-4-0-7000mb-s-7rl5f/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 81,
+      "title": "Disco Interno SSD KINGSTON KC3000 2TB M.2 NVMe PCIe 4.0 7000MB/s",
+      "file": "storage-81.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-81.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-81.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-kc3000-2tb-m-2-nvme-pcie-4-0-7000mb-s-1iqpw/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 82,
+      "title": "Disco SSD 1T Renegade M.2 2280 PCIe 4.0 NVMe",
+      "file": "storage-82.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-82.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-82.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-1t-renegade-m-2-2280-pcie-4-0-nvme-1uoot/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 83,
+      "title": "Disco SSD 2T Renegade M.2 2280 PCIe 4.0 NVMe",
+      "file": "storage-83.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-83.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-83.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-2t-renegade-m-2-2280-pcie-4-0-nvme-1gg32/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 84,
+      "title": "Disco Interno SSD KINGSTON Fury Renegade 1TB M.2 G5 Nvme",
+      "file": "storage-84.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-84.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-84.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-fury-renegade-1tb-m-2-g5-nvme-1kjiu/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 85,
+      "title": "Disco solido Kingston 7680GB DC600ME 2.5\" SATA",
+      "file": "storage-85.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-85.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-85.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-kingston-7680gb-dc600me-2-5-sata-1giu7/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 86,
+      "title": "Disco solido Kingston 1920GB DC600ME 2.5\" SATA",
+      "file": "storage-86.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-86.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-86.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-kingston-1920gb-dc600me-2-5-sata-o25zd/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 87,
+      "title": "Disco SSD DC600M 960 GB 2.5\" sata 3 NAND 3D TLC",
+      "file": "storage-87.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-87.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-87.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-dc600m-960-gb-2-5-sata-3-nand-3d-tlc-1i4ig/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 88,
+      "title": "Disco SSD DC600M 480 GB 2.5\" sata 3 NAND 3D TLC",
+      "file": "storage-88.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-88.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-88.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-dc600m-480-gb-2-5-sata-3-nand-3d-tlc-1utmy/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 89,
+      "title": "Disco SSD DC600M 1920 GB 2.5\" sata 3 NAND 3D TLC",
+      "file": "storage-89.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-89.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-89.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-dc600m-1920-gb-2-5-sata-3-nand-3d-tlc-5qzma/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 90,
+      "title": "Disco Interno SSD Sandisk Plus 2TB M.2 2280 NVMe PCIe 3.0 3200Mb/s",
+      "file": "storage-90.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-90.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-90.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-sandisk-plus-2tb-m-2-2280-nvme-pcie-3-0-3200mb-s-qfyk7/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 91,
+      "title": "Disco solido SanDisk SSD Plus 2TB 2.5\" SATA III",
+      "file": "storage-91.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-91.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-91.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-sandisk-ssd-plus-2tb-2-5-sata-iii-g6zsd/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 92,
+      "title": "Disco Interno SSD Sandisk Plus 1TB SATA III 2.5´ 545MB/s",
+      "file": "storage-92.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-92.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-92.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-sandisk-plus-1tb-sata-iii-2-5-545mb-s-klrbd/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 93,
+      "title": "MICRO SDXC 512GB SANDISK EXPRESS PCIe Gen3 NVMe",
+      "file": "storage-93.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-93.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-93.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/micro-sdxc-512gb-sandisk-express-pcie-gen3-nvme-1w82r/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 94,
+      "title": "Tarjeta de Memoria SANDISK Ultra MicroSDXC 256GB UHS-I U1 V10 c/adap",
+      "file": "storage-94.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-94.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-94.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-sandisk-ultra-microsdxc-256gb-uhs-i-u1-v10-c-adap-157g6/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 95,
+      "title": "Tarjeta de Memoria KINGSTON Canvas Go Plus SDXC 128GB Gen4 C10 UHS-I U3 V30 200MB/s",
+      "file": "storage-95.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-95.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-95.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-kingston-canvas-go-plus-sdxc-128gb-gen4-c10-uhs-i-u3-v30-200mb-s-suin0/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 96,
+      "title": "PEN DRIVE 256GB SANDISK ULTRA LUXE USB 3.2",
+      "file": "storage-96.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-96.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-96.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-256gb-sandisk-ultra-luxe-usb-3-2-12qho/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 97,
+      "title": "Pen Drive SANDISK Cruzer Blade 32GB USB 2.0 Tipo A Rosa",
+      "file": "storage-97.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-97.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-97.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-sandisk-cruzer-blade-32gb-usb-2-0-tipo-a-rosa-et0hy/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 98,
+      "title": "Pen Drive SANDISK Cruzer Blade 32GB USB 2.0 Tipo A Azul",
+      "file": "storage-98.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-98.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-98.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-sandisk-cruzer-blade-32gb-usb-2-0-tipo-a-azul-18t5d/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 99,
+      "title": "Pen Drive SANDISK Cruzer Blade 64GB USB 2.0 Tipo A Negro",
+      "file": "storage-99.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-99.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-99.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-sandisk-cruzer-blade-64gb-usb-2-0-tipo-a-negro-1uqll/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 100,
+      "title": "Pen Drive SANDISK Ultra Shift 256GB USB 3.2 Gen 1 Tipo A Black",
+      "file": "storage-100.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-100.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-100.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-sandisk-ultra-shift-256gb-usb-3-2-gen-1-tipo-a-black-dmedm/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 101,
+      "title": "Pen Drive SANDISK Ultra Shift 32GB USB-A 3.2 Gen 1 Bachelor Button",
+      "file": "storage-101.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-101.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-101.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-sandisk-ultra-shift-32gb-usb-a-3-2-gen-1-bachelor-button-5m3n7/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 102,
+      "title": "Tarjeta de Memoria KINGSTON Canvas Select Plus MicroSDXC 64GB Gen3 A1 100MB/s c/adaptador",
+      "file": "storage-102.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-102.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-102.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-kingston-canvas-select-plus-microsdxc-64gb-gen3-a1-100mb-s-c-adaptador-os0fa/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 103,
+      "title": "Tarjeta de Memoria KINGSTON Canvas Select Plus MicroSDXC 128GB Gen3 A1 150MB/s c/adaptador",
+      "file": "storage-103.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-103.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-103.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-kingston-canvas-select-plus-microsdxc-128gb-gen3-a1-150mb-s-c-adaptador-1fypp/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 104,
+      "title": "Tarjeta de Memoria KINGSTON Canvas Go Plus Gen4 MicroSDXC 64GB UHS-I U3 V30 200MB/s c/adaptador",
+      "file": "storage-104.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-104.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-104.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-kingston-canvas-go-plus-gen4-microsdxc-64gb-uhs-i-u3-v30-200mb-s-c-adaptador-1b5u4/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 105,
+      "title": "Tarjeta de memoria microSD Kingston Canvas Go Plus",
+      "file": "storage-105.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-105.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-105.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-microsd-kingston-canvas-go-plus-1vzp2/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 106,
+      "title": "Tarjeta de Memoria KINGSTON Canvas Go Plus Gen4 MicroSDXC 128GB UHS-I U3 V30 200MB/s c/adaptador",
+      "file": "storage-106.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-106.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-106.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-kingston-canvas-go-plus-gen4-microsdxc-128gb-uhs-i-u3-v30-200mb-s-c-adaptador-fshck/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 107,
+      "title": "Tarjeta de Memoria KINGSTON High Endurance MicroSDXC 64GB UHS-I U1 V10 A1 95MB/s",
+      "file": "storage-107.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-107.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-107.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-de-memoria-kingston-high-endurance-microsdxc-64gb-uhs-i-u1-v10-a1-95mb-s-r6hrx/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 108,
+      "title": "Disco Interno SSD KINGSTON A400 960GB 2.5\" SATA 3.0 500MB/s",
+      "file": "storage-108.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-108.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-108.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-a400-960gb-2-5-sata-3-0-500mb-s-gwrfy/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 109,
+      "title": "Disco Interno SSD KINGSTON A400 480GB 2.5\" SATA 3.0 500MB/s",
+      "file": "storage-109.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-109.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-109.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-a400-480gb-2-5-sata-3-0-500mb-s-hhvl0/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 110,
+      "title": "Disco Interno SSD KINGSTON A400 240GB 2.5\" SATA 3.0 500MB/s",
+      "file": "storage-110.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-110.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-110.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-kingston-a400-240gb-2-5-sata-3-0-500mb-s-1jut1/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 111,
+      "title": "PEN DRIVE PATRIOT RAGE LITE 64GB USB 3.2 PE000847",
+      "file": "storage-111.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-111.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-111.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-patriot-rage-lite-64gb-usb-3-2-pe000847-15z2g/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 112,
+      "title": "PEN DRIVE PATRIOT RAGE LITE 256GB USB 3.2 PE000849",
+      "file": "storage-112.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-112.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-112.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-patriot-rage-lite-256gb-usb-3-2-pe000849-qky2l/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 113,
+      "title": "PEN DRIVE PATRIOT RAGE LITE 128GB USB 3.2 PE000848",
+      "file": "storage-113.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-113.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-113.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-patriot-rage-lite-128gb-usb-3-2-pe000848-19n4k/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 114,
+      "title": "DISCO SSD PATRIOT BURST ELITE SOLID 960 GB SATA3 PE000778",
+      "file": "storage-114.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-114.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-114.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-patriot-burst-elite-solid-960-gb-sata3-pe000778-11c0c/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 115,
+      "title": "DISCO SSD PATRIOT BURST ELITE SOLID 480 GB SATA3 PE000777",
+      "file": "storage-115.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-115.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-115.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-patriot-burst-elite-solid-480-gb-sata3-pe000777-5pnvy/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 116,
+      "title": "DISCO SSD PATRIOT P320 SOLID 512GB M.2 PE000997",
+      "file": "storage-116.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-116.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-116.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-patriot-p320-solid-512gb-m-2-pe000997-10j3x/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 117,
+      "title": "DISCO SSD PATRIOT P300 256 GB M.2 2280 PCIE GEN3 X4 PE000689",
+      "file": "storage-117.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-117.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-117.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-patriot-p300-256-gb-m-2-2280-pcie-gen3-x4-pe000689-zbysp/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 118,
+      "title": "DISCO SSD PATRIOT P300 1TB M.2 2280 PCIE GEN3 X4 PE000693",
+      "file": "storage-118.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-118.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-118.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-patriot-p300-1tb-m-2-2280-pcie-gen3-x4-pe000693-1l28x/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 119,
+      "title": "DISCO SSD PATRIOT P220 256GB 2.5 SATA3 PS001662",
+      "file": "storage-119.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-119.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-119.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-patriot-p220-256gb-2-5-sata3-ps001662-120yd/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 120,
+      "title": "DISCO SSD PATRIOT P210 SOLID 512GB SATA3 PE000718",
+      "file": "storage-120.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-120.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-120.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-patriot-p210-solid-512gb-sata3-pe000718-1k56d/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 121,
+      "title": "PEN DRIVE NETAC U185 WHITE 256GB USB 3.0",
+      "file": "storage-121.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-121.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-121.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-netac-u185-white-256gb-usb-3-0-jj1ns/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 122,
+      "title": "DISCO SSD NETAC SA500 2.5 SATA3 960 GB",
+      "file": "storage-122.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-122.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-122.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-netac-sa500-2-5-sata3-960-gb-bas6r/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 123,
+      "title": "DISCO SSD NETAC SA500 2.5 SATA3 480 GB",
+      "file": "storage-123.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-123.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-123.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-netac-sa500-2-5-sata3-480-gb-1so6o/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 124,
+      "title": "DISCO SSD NETAC SA500 2.5 SATA3 240 GB",
+      "file": "storage-124.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-124.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-124.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-netac-sa500-2-5-sata3-240-gb-1rteu/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 125,
+      "title": "DISCO SSD NETAC N535N M.2 2280 SATAIII 3D NAND SSD 1TB",
+      "file": "storage-125.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-125.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-125.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-ssd-netac-n535n-m-2-2280-sataiii-3d-nand-ssd-1tb-1hwwn/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 126,
+      "title": "Disco Rigido HDD Toshiba S300 Pro Surveillance 10TB 3.5\" SATA 7,200 rpm MD10ADA10TV",
+      "file": "storage-126.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-126.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-126.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-rigido-hdd-toshiba-s300-pro-surveillance-10tb-3-5-sata-7200-rpm-md10ada10tv-10msl/",
+      "type": "HDD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 127,
+      "title": "Disco Interno SSD LEXAR NQ780 1T M.2 NVMe 6500MB/s",
+      "file": "storage-127.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-127.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-127.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-lexar-nq780-1t-m-2-nvme-6500mb-s-sm5n6/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 128,
+      "title": "Disco Interno SSD LEXAR NQ100 512GB 2.5” SATA III",
+      "file": "storage-128.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-128.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-128.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-lexar-nq100-512gb-2-5-sata-iii-1lmp0/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 129,
+      "title": "Disco Interno SSD LEXAR NQ100 256GB 2.5” SATA III",
+      "file": "storage-129.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-129.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-129.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-lexar-nq100-256gb-2-5-sata-iii-1bak7/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 130,
+      "title": "Disco Interno SSD LEXAR NM610 PRO 500GB M.2 NVMe",
+      "file": "storage-130.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-130.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-130.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-lexar-nm610-pro-500gb-m-2-nvme-1xyc8/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 131,
+      "title": "Disco Interno SSD LEXAR NM610 PRO 1T M.2 NVMe",
+      "file": "storage-131.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-131.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-131.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-interno-ssd-lexar-nm610-pro-1t-m-2-nvme-od136/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 132,
+      "title": "Tarjeta microSDXC Lexar 633x 64GB UHS-I C10 sin adaptador",
+      "file": "storage-132.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-132.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-132.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-microsdxc-lexar-633x-64gb-uhs-i-c10-sin-adaptador-1ivc8/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 133,
+      "title": "Tarjeta microSDXC Lexar 633x 32GB UHS-I C10",
+      "file": "storage-133.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-133.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-133.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/tarjeta-microsdxc-lexar-633x-32gb-uhs-i-c10-f0719/",
+      "type": "Tarjeta de memoria",
+      "state": "NUEVO"
+    },
+    {
+      "index": 134,
+      "title": "Pen Drive Lexar JumpDrive V40 64GB USB 2.0 Negro",
+      "file": "storage-134.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-134.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-134.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-lexar-jumpdrive-v40-64gb-usb-2-0-negro-16mvg/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 135,
+      "title": "Pen Drive Lexar JumpDrive V40 32GB USB 2.0 Negro",
+      "file": "storage-135.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-135.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-135.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-lexar-jumpdrive-v40-32gb-usb-2-0-negro-13m3y/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 136,
+      "title": "Pen Drive Lexar JumpDrive V40 16GB USB 2.0 Negro",
+      "file": "storage-136.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-136.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-136.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-lexar-jumpdrive-v40-16gb-usb-2-0-negro-1l8l4/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 137,
+      "title": "Disco duro externo LaCie 4TB USB 3.0 portatil 5400 RPM LAC9000633",
+      "file": "storage-137.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-137.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-137.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-duro-externo-lacie-4tb-usb-3-0-portatil-5400-rpm-lac9000633-eour5/",
+      "type": "HDD externo",
+      "state": "NUEVO"
+    },
+    {
+      "index": 138,
+      "title": "Pen Drive KINGSTON Exodia M 128GB USB 3.2 Neón Verde",
+      "file": "storage-138.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-138.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-138.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-kingston-exodia-m-128gb-usb-3-2-neon-verde-18k44/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 139,
+      "title": "Pen Drive 3.2 DTX 64GB Exodia Rojo",
+      "file": "storage-139.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-139.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-139.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-3-2-dtx-64gb-exodia-rojo-scl7v/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 140,
+      "title": "Pen Drive 3.2 DTX 64GB Exodia Blanco",
+      "file": "storage-140.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-140.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-140.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/pen-drive-3-2-dtx-64gb-exodia-blanco-1p0ve/",
+      "type": "Pendrive",
+      "state": "NUEVO"
+    },
+    {
+      "index": 141,
+      "title": "Disco solido interno Hiksemi Wave 960GB 3D NAND SATA III",
+      "file": "storage-141.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-141.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-141.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-hiksemi-wave-960gb-3d-nand-sata-iii-1s2ht/",
+      "type": "SSD interno",
+      "state": "NUEVO"
+    },
+    {
+      "index": 142,
+      "title": "Disco solido interno Hiksemi Wave 512GB PCIE NVME",
+      "file": "storage-142.html",
+      "public_url": "https://thiagodzzzz.github.io/quantum-descripciones-main/storage-142.html?v=20260627storagefull",
+      "iframe": "<iframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/storage-142.html?v=20260627storagefull\" style=\"width:100%;height:3600px;border:0;\" loading=\"lazy\"></iframe>",
+      "source_url": "https://quantumhardstore.com/productos/disco-solido-interno-hiksemi-wave-512gb-pcie-nvme-11hz5/",
+      "type": "SSD interno",
       "state": "NUEVO"
     }
   ]

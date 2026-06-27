@@ -1,3 +1,425 @@
 001 | DISCO SSD M.2 500GB WD BLACK SN7100 NVME
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-01.html?v=20260627storagesample" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-01.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
+002 | Pen Drive Lexar M22 32GB UDB 2.0
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-02.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+003 | Disco Interno SSD LEXAR NM790 1TB M.2 NVMe
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-03.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+004 | Pen Drive Lexar M22 16GB USB 2.0
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-04.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+005 | DISCO SSD ADATA LEGEND 860 1TB M2 Gen4 x4 M.2 2280 6.000/5.000 MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-05.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+006 | Disco Interno SSD BIWIN NV7400 1T M.2 2280 PCIe 4.0 7450MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-06.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+007 | Disco Interno HDD WESTERN DIGITAL Purple PRO 10TB 3.5" SATA 3.0 7200rpm
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-07.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+008 | Disco solido interno Hiksemi Future Lite 1024GB PCIE NVME HS-SSD-FUTURE LITE 1024G
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-08.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+009 | Disco Interno SSD ADATA LEGEND 900 1TB M.2 2280
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-09.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+010 | Disco Externo HDD WESTERN DIGITAL MyPassport 4TB USB 3.2 Rojo
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-10.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+011 | Disco Externo HDD WESTERN DIGITAL MyPassport 4TB USB 3.2 Azul
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-11.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+012 | Asustor NAS Tower Nimbustor 2 Gen2 AS5402T 2X3.5/2.5
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-12.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+013 | Asustor NAS Tower Drivestor 2 Pro Gen2 AS3302T v2 2X3.5/2.5
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-13.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+014 | Asustor NAS Mini Desk Flashstor 6 FS6706T 6X NVMe
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-14.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+015 | Disco Interno SSD WD Green 500GB Sata 2.5" 545Mb/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-15.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+016 | DISCO SSD M.2 500GB WD GREEN SN3000 NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-16.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+017 | DISCO SSD M.2 500GB WD GREEN SN350 NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-17.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+018 | Disco solido SSD Western Digital Green 250GB SATA III WDS250G5G0A
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-18.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+019 | Disco Interno SSD WD Green 250GB Sata 2.5" 545Mb/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-19.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+020 | DISCO SSD SATA 2TB WD GREEN
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-20.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+021 | Disco solido SSD SanDisk WD Green SN300 NVMe 2TB PCIe Gen4 M.2
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-21.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+022 | Disco Interno SSD WD Black SN850X 2TB M.2 2280 NVMe PCIe 4.0 7300Mb/s C/Disipador
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-22.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+023 | Disco Interno SSD WD Green 2TB 2.5" SATA 3.0 545Mb/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-23.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+024 | Disco solido SanDisk WD Green 1TB 2.5" SATA III WDS100T5G0A
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-24.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+025 | DISCO SSD M.2 1TB WD GREEN SN3000 NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-25.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+026 | Disco Interno SSD WD Green SN3000 1TB M.2 2280 NVMe PCIe 4.0 5000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-26.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+027 | Disco Interno SSD WD Blue SN5000 1TB M.2 2280 NVME PCIe 4.0 5150MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-27.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+028 | DISCO SSD SATA 1TB WD BLUE SA510
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-28.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+029 | Disco Interno SSD WD Black SN850X 1TB M.2 2280 NVMe PCIe 4.0 7300MB/S C/DISIP
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-29.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+030 | Disco Interno SSD WD Black SN850X 1TB M.2 2280 NVMe PCIe 4.0 7300MB/S S/DISIP
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-30.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+031 | DISCO SSD M.2 1TB WD GREEN SN350 NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-31.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+032 | Disco Interno SSD WD Green SN350 1TB M.2 2280 NVMe PCIe 3.0 2400MB/S
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-32.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+033 | Disco Externo HDD WESTERN DIGITAL Elements 1TB USB 3.0 Tipo A Negro
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-33.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+034 | Disco Externo HDD WESTERN DIGITAL Elements 2TB USB 3.0 Tipo A Negro
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-34.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+035 | Disco Interno HDD WESTERN DIGITAL Red 8TB 3.5" SATA 3.0 5400rpm
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-35.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+036 | Disco Interno HDD WESTERN DIGITAL Purple PRO 8TB 3.5" SATA 3.0 7200rpm
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-36.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+037 | Disco duro Western Digital Purple Pro 24TB SATA 3.5" WD240PURP
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-37.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+038 | Disco duro interno Western Digital 2TB 3.5 BLUE 3.5" SATA
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-38.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+039 | Disco Duro Interno Western Digital SATA 3.5" Red Pro NAS 20 TB
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-39.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+040 | Disco duro interno Western Digital 14T 3.5" RED PRO NAS
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-40.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+041 | Disco duro interno Western Digital HD 12TB Purple Pro WD122PURP
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-41.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+042 | Disco duro Western Digital NAS Red Pro 12TB 3.5" SATA 7200RPM CMR 512MB WD122KFBX
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-42.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+043 | Disco Interno HDD WESTERN DIGITAL Red Plus 12TB 3.5" SATA 3.0 7200rpm
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-43.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+044 | Disco Interno HDD WESTERN DIGITAL Red Plus10TB 3.5" SATA 3.0 7200rpm
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-44.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+045 | Disco Interno SSD TEAM GROUP MP44L 500GB M.2 NVMe PCIe 4.0 5000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-45.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+046 | Disco Interno SSD TEAM GROUP CX1 480GB SATA 3.0 530MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-46.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+047 | Disco Interno SSD TEAM GROUP CX1 240GB SATA 3.0
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-47.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+048 | Disco solido externo Kingston - SSD 1TB XS1000
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-48.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+049 | Disco Duro Externo Seagate 5TB Expansion USB
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-49.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+050 | Disco duro portatil 4TB 3.0 USB Portable
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-50.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+051 | Disco duro portatil 2TB 3.0 USB Portable
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-51.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+052 | Disco duro portatil 1TB 3.0 USB Portable
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-52.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+053 | Disco duro int 8TB SATA 6 Gb/s 256MB SkyHawk
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-53.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+054 | Disco duro HDD Seagate Barracuda 8TB SATA 3.5" ST8000DM004
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-54.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+055 | Disco duro interno Seagate SKYHAWK AI 24TB 3.5" SATA III
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-55.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+056 | Disco Interno Seagate 12TB 3.5 NAS IRONWOLF
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-56.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+057 | Disco duro Seagate SkyHawk AI 12TB ST12000VE003 SATA 6Gb/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-57.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+058 | Disco duro interno Seagate 12TB 3.5" NAS IRONWOLF PRO
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-58.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+059 | Disco duro int 1TB SATA 6 Gb/s 256MB Skyhawk
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-59.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+060 | Disco duro int 10TB SATA 6 Gb/s 256MB Skyhawk
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-60.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+061 | Disco Rigido HDD Seagate 10TB SATA 3.5" 7200rpm ST10000NM017B
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-61.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+062 | Disco Interno SSD ADATA SPECTRIX S65G RGB 1TB M.2 2280 NVMe PCIe 4.0 6000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-62.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+063 | DISCO SSD SATA 1TB SANDISK PLUS G28
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-63.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+064 | Disco SSD Externo Dual 512GB USB A-C 3.2 Gen 2
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-64.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+065 | Disco SSD Externo Dual 1TB USB A-C 3.2 Gen 2
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-65.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+066 | Disco Solido Interno Kingston 500GB NV3 PCIE NVME M.2 2230
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-66.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+067 | Disco Solido Interno Kingston 2TB NV3 PCIE NVME M.2 2230
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-67.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+068 | Disco Solido Interno Kingston 1TB NV3 PCIE NVME M.2 2230
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-68.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+069 | Disco SSD 500GB NV3 M.2 2280 PCIe NVMe 5000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-69.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+070 | Disco solido Kingston 4TB NV3 PCIe NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-70.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+071 | Disco SSD 2T NV3 M.2 2280 PCIe NVMe 5000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-71.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+072 | Disco SSD 1T NV3 M.2 2280 PCIe NVMe 5000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-72.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+073 | Disco sólido Adata - SSD Legend 900 512GB M.2 NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-73.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+074 | Disco solido interno Adata Legend 860 500GB PCIe Gen4 x4 M.2 2280
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-74.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+075 | Disco solido interno Adata 2000GB LEG860 PCIE NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-75.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+076 | Disco Interno SSD KINGSTON KC600 512GB 2.5" SATA 3.0 550MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-76.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+077 | Disco Solido Interno Kingston 256GB KC600 2.5 SATA3
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-77.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+078 | Disco Interno SSD KINGSTON KC600 2TB 2.5" SATA 3.0 550MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-78.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+079 | Disco Solido Interno Kingston 512GB KC3000 M.2 2280
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-79.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+080 | Disco Interno SSD KINGSTON KC3000 1TB M.2 NVMe PCIe 4.0 7000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-80.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+081 | Disco Interno SSD KINGSTON KC3000 2TB M.2 NVMe PCIe 4.0 7000MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-81.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+082 | Disco SSD 1T Renegade M.2 2280 PCIe 4.0 NVMe
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-82.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+083 | Disco SSD 2T Renegade M.2 2280 PCIe 4.0 NVMe
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-83.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+084 | Disco Interno SSD KINGSTON Fury Renegade 1TB M.2 G5 Nvme
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-84.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+085 | Disco solido Kingston 7680GB DC600ME 2.5" SATA
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-85.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+086 | Disco solido Kingston 1920GB DC600ME 2.5" SATA
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-86.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+087 | Disco SSD DC600M 960 GB 2.5" sata 3 NAND 3D TLC
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-87.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+088 | Disco SSD DC600M 480 GB 2.5" sata 3 NAND 3D TLC
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-88.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+089 | Disco SSD DC600M 1920 GB 2.5" sata 3 NAND 3D TLC
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-89.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+090 | Disco Interno SSD Sandisk Plus 2TB M.2 2280 NVMe PCIe 3.0 3200Mb/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-90.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+091 | Disco solido SanDisk SSD Plus 2TB 2.5" SATA III
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-91.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+092 | Disco Interno SSD Sandisk Plus 1TB SATA III 2.5´ 545MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-92.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+093 | MICRO SDXC 512GB SANDISK EXPRESS PCIe Gen3 NVMe
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-93.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+094 | Tarjeta de Memoria SANDISK Ultra MicroSDXC 256GB UHS-I U1 V10 c/adap
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-94.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+095 | Tarjeta de Memoria KINGSTON Canvas Go Plus SDXC 128GB Gen4 C10 UHS-I U3 V30 200MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-95.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+096 | PEN DRIVE 256GB SANDISK ULTRA LUXE USB 3.2
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-96.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+097 | Pen Drive SANDISK Cruzer Blade 32GB USB 2.0 Tipo A Rosa
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-97.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+098 | Pen Drive SANDISK Cruzer Blade 32GB USB 2.0 Tipo A Azul
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-98.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+099 | Pen Drive SANDISK Cruzer Blade 64GB USB 2.0 Tipo A Negro
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-99.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+100 | Pen Drive SANDISK Ultra Shift 256GB USB 3.2 Gen 1 Tipo A Black
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-100.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+101 | Pen Drive SANDISK Ultra Shift 32GB USB-A 3.2 Gen 1 Bachelor Button
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-101.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+102 | Tarjeta de Memoria KINGSTON Canvas Select Plus MicroSDXC 64GB Gen3 A1 100MB/s c/adaptador
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-102.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+103 | Tarjeta de Memoria KINGSTON Canvas Select Plus MicroSDXC 128GB Gen3 A1 150MB/s c/adaptador
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-103.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+104 | Tarjeta de Memoria KINGSTON Canvas Go Plus Gen4 MicroSDXC 64GB UHS-I U3 V30 200MB/s c/adaptador
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-104.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+105 | Tarjeta de memoria microSD Kingston Canvas Go Plus
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-105.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+106 | Tarjeta de Memoria KINGSTON Canvas Go Plus Gen4 MicroSDXC 128GB UHS-I U3 V30 200MB/s c/adaptador
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-106.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+107 | Tarjeta de Memoria KINGSTON High Endurance MicroSDXC 64GB UHS-I U1 V10 A1 95MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-107.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+108 | Disco Interno SSD KINGSTON A400 960GB 2.5" SATA 3.0 500MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-108.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+109 | Disco Interno SSD KINGSTON A400 480GB 2.5" SATA 3.0 500MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-109.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+110 | Disco Interno SSD KINGSTON A400 240GB 2.5" SATA 3.0 500MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-110.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+111 | PEN DRIVE PATRIOT RAGE LITE 64GB USB 3.2 PE000847
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-111.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+112 | PEN DRIVE PATRIOT RAGE LITE 256GB USB 3.2 PE000849
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-112.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+113 | PEN DRIVE PATRIOT RAGE LITE 128GB USB 3.2 PE000848
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-113.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+114 | DISCO SSD PATRIOT BURST ELITE SOLID 960 GB SATA3 PE000778
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-114.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+115 | DISCO SSD PATRIOT BURST ELITE SOLID 480 GB SATA3 PE000777
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-115.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+116 | DISCO SSD PATRIOT P320 SOLID 512GB M.2 PE000997
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-116.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+117 | DISCO SSD PATRIOT P300 256 GB M.2 2280 PCIE GEN3 X4 PE000689
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-117.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+118 | DISCO SSD PATRIOT P300 1TB M.2 2280 PCIE GEN3 X4 PE000693
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-118.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+119 | DISCO SSD PATRIOT P220 256GB 2.5 SATA3 PS001662
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-119.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+120 | DISCO SSD PATRIOT P210 SOLID 512GB SATA3 PE000718
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-120.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+121 | PEN DRIVE NETAC U185 WHITE 256GB USB 3.0
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-121.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+122 | DISCO SSD NETAC SA500 2.5 SATA3 960 GB
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-122.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+123 | DISCO SSD NETAC SA500 2.5 SATA3 480 GB
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-123.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+124 | DISCO SSD NETAC SA500 2.5 SATA3 240 GB
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-124.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+125 | DISCO SSD NETAC N535N M.2 2280 SATAIII 3D NAND SSD 1TB
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-125.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+126 | Disco Rigido HDD Toshiba S300 Pro Surveillance 10TB 3.5" SATA 7,200 rpm MD10ADA10TV
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-126.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+127 | Disco Interno SSD LEXAR NQ780 1T M.2 NVMe 6500MB/s
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-127.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+128 | Disco Interno SSD LEXAR NQ100 512GB 2.5” SATA III
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-128.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+129 | Disco Interno SSD LEXAR NQ100 256GB 2.5” SATA III
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-129.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+130 | Disco Interno SSD LEXAR NM610 PRO 500GB M.2 NVMe
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-130.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+131 | Disco Interno SSD LEXAR NM610 PRO 1T M.2 NVMe
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-131.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+132 | Tarjeta microSDXC Lexar 633x 64GB UHS-I C10 sin adaptador
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-132.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+133 | Tarjeta microSDXC Lexar 633x 32GB UHS-I C10
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-133.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+134 | Pen Drive Lexar JumpDrive V40 64GB USB 2.0 Negro
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-134.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+135 | Pen Drive Lexar JumpDrive V40 32GB USB 2.0 Negro
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-135.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+136 | Pen Drive Lexar JumpDrive V40 16GB USB 2.0 Negro
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-136.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+137 | Disco duro externo LaCie 4TB USB 3.0 portatil 5400 RPM LAC9000633
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-137.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+138 | Pen Drive KINGSTON Exodia M 128GB USB 3.2 Neón Verde
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-138.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+139 | Pen Drive 3.2 DTX 64GB Exodia Rojo
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-139.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+140 | Pen Drive 3.2 DTX 64GB Exodia Blanco
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-140.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+141 | Disco solido interno Hiksemi Wave 960GB 3D NAND SATA III
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-141.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+
+142 | Disco solido interno Hiksemi Wave 512GB PCIE NVME
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/storage-142.html?v=20260627storagefull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
