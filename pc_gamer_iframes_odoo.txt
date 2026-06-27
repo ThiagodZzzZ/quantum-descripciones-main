@@ -1,2 +1,2 @@
 001 | Ryzen 7 7700X | DDR5 16GB | RTX 3090 | M.2 1TB | 850W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-ryzen-7-7700x-rtx3090-water.html?v=20260627pcsample" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-01.html?v=20260627pc01" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
