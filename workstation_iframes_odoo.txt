@@ -1,0 +1,32 @@
+01 | Ryzen 9 7900 | DDR5 32GB | RTX 3090 | SSD 1TB NVMe | 850W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-01.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+02 | Ryzen 9 7900 | B840 | DDR5 32GB | M.2 1TB | RTX 3080 | 850W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-02.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+03 | Ryzen 7 5800XT | B550M | DDR4 32GB | M.2 1TB | RTX 3080 | 750W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-03.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+04 | Intel Core i9-13900F | B760 | DDR5 32GB | M.2 1TB | RTX 5070 | 1000W | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-04.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+05 | Ryzen 9 7900X | DDR5 32GB | RTX 5060 | SSD 1TB NVMe | 850W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-05.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+06 | Ryzen 9 7950X | B840 | DDR5 2x16 GB | M.2 1TB | RTX 3080 | 850W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-06.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+07 | Ryzen 7 9700X | B840 | DDR5 32GB | M.2 1TB | RTX 3080 | 850W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-07.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+08 | Ryzen 9 5900XT | B550M | DDR4 32GB | M.2 1TB | RTX 3080 | 750W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-08.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+09 | Ryzen 7 9800X3D | B840 | DDR5 32GB | M.2 1TB | RTX 5070 | 1000W | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-09.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+10 | Ryzen 9 7900X | DDR5 32GB | RX 9070 | SSD 1TB NVMe | 1000W 80+ Gold | ATX
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-10.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
+
+11 | Ryzen 9 9950X | DDR5 32GB | RTX 5070 | SSD 1TB NVMe | 1000W 80+ Gold | ATX | Water Cooling
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/workstation-11.html?v=20260629wsfull" style="width:100%;height:5200px;border:0;" loading="lazy"></iframe>
