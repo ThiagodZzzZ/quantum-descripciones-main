@@ -1,125 +1,125 @@
 01 | Ryzen 7 7700X | DDR5 16GB | RTX 3090 | M.2 1TB | 850W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-01.html?v=20260629pcmundial" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-01.html?v=20260630pcmundialv2" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
 
 02 | Ryzen 7 5800XT | B550M | DDR4 16GB | RTX 3080 | SSD M.2 1TB | 850W 80+ Gold | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-02.html?v=20260629pcmundial" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-02.html?v=20260630pcmundialv2" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
 
 03 | Intel Core i5-12400 | H610M | DDR4 16GB | M.2 1TB | GTX 1660 SUPER | 650W Bronze | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-03.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-03.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 04 | Ryzen 7 7800X3D | B840 | DDR5 16GB | M.2 1TB | RTX 3080 | 750W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-04.html?v=20260629pcmundial" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-04.html?v=20260630pcmundialv2" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
 
 05 | Ryzen 9 7900X | DDR5 16GB | RTX 3080 | 750W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-05.html?v=20260629pcmundial" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-05.html?v=20260630pcmundialv2" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
 
 06 | Ryzen 7 5700G | DDR4 16GB | M.2 1TB | Radeon Vega 8 | 600W 80+ White | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-06.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-06.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 07 | Ryzen 5 5600GT | 8GB DDR4 | Radeon Graphics | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-07.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-07.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 08 | PC RYZEN 7 5700G | 16GB RAM | A520M | 480GB SSD | GABINETE KIT KELYX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-08.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-08.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 09 | Ryzen 7 7800X3D | DDR5 16GB | RTX 3090 | 850W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-09.html?v=20260629pcmundial" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-09.html?v=20260630pcmundialv2" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
 
 10 | Ryzen 7 8700G | B840 | DDR5 16GB | Integradas | SSD M.2 2TB | 850W 80+ Gold | ATX Compacto | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-10.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-10.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 11 | Ryzen 5 5600G | DDR4 16GB | Radeon Vega 7 | M.2 1TB | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-11.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-11.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 12 | Core i3 12100 | 16GB DDR4 |GTX 1660 Super | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-12.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-12.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 13 | Ryzen 7 8700G | 8GB DDR5 | Radeon 780M | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-13.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-13.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 14 | Ryzen 5 5500 | 16GB DDR4 | RTX 5050 | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-14.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-14.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 15 | Ryzen 5 5500 | 16GB DDR4 | GTX 1660 Super | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-15.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-15.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 16 | Ryzen 5 5500 | A520 | 16GB | M.2 1TB | GTX 1660 Ti | 500W 80+ | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-16.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-16.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 17 | Intel Core i5-13400 | H610M | DDR4 16GB | M.2 1TB | Integrados | 500W 80+ | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-17.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-17.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 18 | Ryzen 9 5900XT | B550 | DDR4 16GB | M.2 1TB | RTX 3080 | 850W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-18.html?v=20260629pcmundial" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-18.html?v=20260630pcmundialv2" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
 
 19 | Ryzen 7 7800X3D | DDR5 16GB | RTX 5070 | M.2 1TB | 850W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-19.html?v=20260629pcmundial" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-19.html?v=20260630pcmundialv2" style="width:100%;height:5600px;border:0;" loading="lazy"></iframe>
 
 20 | Ryzen 5 5600GT | DDR4 16GB | Radeon Vega 7 (iGPU) | M.2 1TB | ATX | Aire
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-20.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-20.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 21 | Ryzen 7 5700G | DDR4 16GB | Radeon Vega 8 | M.2 1TB | 650W 80+ Bronze | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-21.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-21.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 22 | Ryzen 5 5600GT | DDR4 16GB | Radeon Vega 7 | 1TB NVMe | ATX2
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-22.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-22.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 23 | Ryzen 7 8700G | B840 | DDR5 16GB| SSD M.2 2TB | 750W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-23.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-23.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 24 | Athlon 3000G | 8GB DDR4 | Radeon Vega 7 | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-24.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-24.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 25 | Core i3 12100F | 16GB DDR4 | RX 6400 | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-25.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-25.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 26 | Ryzen 5 8600G | 8GB DDR5 | Radeon 760M | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-26.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-26.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 27 | Ryzen 7 5700G | 8GB DDR4 | Radeon Vega | 240GB SSD | 500W | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-27.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-27.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 28 | Ryzen 5 8500G | 8GB DDR5 | Radeon 740M | 240GB SSD | MINI ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-28.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-28.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 29 | PC RYZEN 5 5600G | 16GB RAM | 480GB SSD | GABINETE KIT KELYX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-29.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-29.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 30 | Intel Core i3-13100F | H610M | DDR4 16GB| M.2 1TB | GTX 1660 TI| 650W 80+ | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-30.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-30.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 31 | Intel Core i3-13100 | H610M | DDR4 16GB | M.2 1TB | Integrados | 500W 80+ | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-31.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-31.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 32 | Ryzen 5 8500G | DDR4 16GB | Radeon 740M | SSD M.2 1TB | 750W 80+ Gold | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-32.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-32.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 33 | Ryzen 5 5600GT | DDR4 16GB| Radeon Vega 7 (iGPU) | 1TB M.2 | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-33.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-33.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 34 | Ryzen 7 8700G | DDR5 16GB | Radeon 780M | M.2 1TB | 850W 80+ Gold | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-34.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-34.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 35 | Ryzen 5 7600X | DDR5 16GB | RTX 5060 | SSD M.2 1TB | 750W 80+ Gold | ATX | Water Cooling
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-35.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-35.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 36 | Ryzen 7 7700 | DDR5 16GB | RTX 5060 | M.2 1TB | 700W 80+ White | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-36.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-36.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 37 | Ryzen 7 8700G | DDR4 16GB | Radeon 780M | M.2 1TB | 750W 80+ Gold | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-37.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-37.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 38 | Ryzen 5 5600GT | A520M | DDR4 16GB | Radeon Vega 7 (iGPU) | SSD 512GB M.2 | 500W/600W
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-38.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-38.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 39 | Ryzen 5 8600G | DDR4 16GB | Radeon 760M | SSD 1TB NVMe | 600W 80+ Bronze | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-39.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-39.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 40 | Ryzen 5 5600GT | DDR4 16GB | Radeon Vega 7 | M.2 1TB | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-40.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-40.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 41 | Ryzen 5 7600 | B840 | DDR5 16GB | RTX 5060 | SSD M.2 2TB | 750W 80+ GOLD | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-41.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-41.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
 
 42 | ATHLON 3000G | DDR4 16GB | Radeon Vega 7 | M.2 1TB | ATX
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-42.html?v=20260629pcmundial" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/pc-gamer-mundial-42.html?v=20260630pcmundialv2" style="width:100%;height:5000px;border:0;" loading="lazy"></iframe>
