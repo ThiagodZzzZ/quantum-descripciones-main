@@ -93,6 +93,7 @@ html,body{background:linear-gradient(180deg,#ffffff 0%,#eefaff 48%,#ffffff 100%)
   .gta{padding:15px 10px}.gta-title{font-size:25px}.gta-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gta-card{min-height:84px}.gta-verdict{align-items:flex-start;flex-direction:column;gap:8px}
 }
 </style>
+  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260713" defer></script>
 </head>
 <body>
 <div class="wrap">
@@ -171,23 +172,23 @@ html,body{background:linear-gradient(180deg,#ffffff 0%,#eefaff 48%,#ffffff 100%)
   </section>
 
   <section class="gta" id="gtaCheck">
-    <div class="gta-title">¿FUNCIONARÍA CON GTA 6?</div>
-    <div class="gta-sub">Comprobación para PCs potentes. Rockstar todavía no publicó requisitos oficiales de PC, así que usamos una lectura conservadora: GPU alta, CPU moderna, RAM suficiente y SSD/NVMe para mundo abierto pesado.</div>
+    <div class="gta-title">Â¿FUNCIONARÃA CON GTA 6?</div>
+    <div class="gta-sub">ComprobaciÃ³n para PCs potentes. Rockstar todavÃ­a no publicÃ³ requisitos oficiales de PC, asÃ­ que usamos una lectura conservadora: GPU alta, CPU moderna, RAM suficiente y SSD/NVMe para mundo abierto pesado.</div>
     <div class="gta-grid">
       <div class="gta-card"><div class="gta-l">CPU</div><div class="gta-v">APROBADA</div><div class="gta-d">Ryzen 7 7700X, 8C/16T y AM5.</div></div>
       <div class="gta-card"><div class="gta-l">GPU</div><div class="gta-v" id="gtaGpu">SOBRADA</div><div class="gta-d" id="gtaGpuText">RTX 3090 24GB: muy por encima de una base alta esperable.</div></div>
       <div class="gta-card"><div class="gta-l">RAM</div><div class="gta-v" id="gtaRam">BIEN</div><div class="gta-d" id="gtaRamText">16GB alcanza como base; 32GB es el punto ideal.</div></div>
-      <div class="gta-card"><div class="gta-l">Disco</div><div class="gta-v" id="gtaDisk">NVMe</div><div class="gta-d" id="gtaDiskText">Instalación recomendada en SSD/NVMe para cargas y streaming de mapa.</div></div>
+      <div class="gta-card"><div class="gta-l">Disco</div><div class="gta-v" id="gtaDisk">NVMe</div><div class="gta-d" id="gtaDiskText">InstalaciÃ³n recomendada en SSD/NVMe para cargas y streaming de mapa.</div></div>
     </div>
     <div class="gta-verdict">
       <div class="gta-badge" id="gtaBadge">PASA</div>
-      <div class="gta-text" id="gtaText">Con RTX 3090, Ryzen 7 7700X y NVMe, esta PC apunta a jugar GTA 6 en PC cuando exista versión oficial, con margen especialmente fuerte en GPU. Para comprar pensando a futuro, <b>32GB DDR5</b> sería la mejora más lógica.</div>
+      <div class="gta-text" id="gtaText">Con RTX 3090, Ryzen 7 7700X y NVMe, esta PC apunta a jugar GTA 6 en PC cuando exista versiÃ³n oficial, con margen especialmente fuerte en GPU. Para comprar pensando a futuro, <b>32GB DDR5</b> serÃ­a la mejora mÃ¡s lÃ³gica.</div>
     </div>
   </section>
 
   <section class="info">
     <div class="info-card"><div class="info-val">3 DIAS</div><div class="info-l">Armado y testeo aprox.</div></div>
-    <div class="info-card"><div class="info-val">1 AÑO</div><div class="info-l">Garantía de PC armada</div></div>
+    <div class="info-card"><div class="info-val">1 AÃ‘O</div><div class="info-l">GarantÃ­a de PC armada</div></div>
     <div class="info-card"><div class="info-val">30 DIAS</div><div class="info-l">Periodo de prueba</div></div>
   </section>
   <div class="note">PC nueva armada por Quantum Hardstore. El equipo se ensambla y testea luego de abonado el pedido. Las variantes de RAM, almacenamiento y grafica deben coincidir con el stock publicado al momento de cerrar la compra.</div>
@@ -254,15 +255,15 @@ function updateBars(){
 function updateGta(){
   var high=state.gpu==="3090"||state.gpu==="3080ti";
   gtaGpu.textContent=state.gpu==="3090"?"SOBRADA":state.gpu==="3080ti"?"ALTA":"JUSTA";
-  gtaGpuText.textContent=state.gpu==="3090"?"RTX 3090 24GB: muy por encima de una base alta esperable.":state.gpu==="3080ti"?"RTX 3080 Ti: gama alta, muy fuerte para 1080p/1440p.":"RX 6700 XT: jugaría mejor apuntando a 1080p/FSR y ajustes cuidados.";
+  gtaGpuText.textContent=state.gpu==="3090"?"RTX 3090 24GB: muy por encima de una base alta esperable.":state.gpu==="3080ti"?"RTX 3080 Ti: gama alta, muy fuerte para 1080p/1440p.":"RX 6700 XT: jugarÃ­a mejor apuntando a 1080p/FSR y ajustes cuidados.";
   gtaRam.textContent=state.ram==="16"?"BIEN":state.ram==="32"?"IDEAL":"SOBRADA";
-  gtaRamText.textContent=state.ram==="16"?"16GB alcanza como base; 32GB es el punto ideal.":state.ram==="32"?"32GB DDR5 deja margen para mundo abierto, Discord y apps abiertas.":"64GB DDR5 sobra para gaming y suma para edición/multitarea.";
+  gtaRamText.textContent=state.ram==="16"?"16GB alcanza como base; 32GB es el punto ideal.":state.ram==="32"?"32GB DDR5 deja margen para mundo abierto, Discord y apps abiertas.":"64GB DDR5 sobra para gaming y suma para ediciÃ³n/multitarea.";
   gtaDisk.textContent=state.storage==="1"?"NVMe":state.storage==="2"?"2TB NVMe":"4TB NVMe";
-  gtaDiskText.textContent=state.storage==="1"?"1TB NVMe cumple; los juegos grandes llenan rápido.":state.storage==="2"?"2TB NVMe es una opción más cómoda para GTA 6 y biblioteca grande.":"4TB NVMe deja margen muy amplio para juegos, clips y programas.";
+  gtaDiskText.textContent=state.storage==="1"?"1TB NVMe cumple; los juegos grandes llenan rÃ¡pido.":state.storage==="2"?"2TB NVMe es una opciÃ³n mÃ¡s cÃ³moda para GTA 6 y biblioteca grande.":"4TB NVMe deja margen muy amplio para juegos, clips y programas.";
   gtaBadge.textContent=high?"PASA":"AJUSTAR";
   gtaBadge.style.background=high?"var(--good)":"#d08a00";
   gtaCheck.querySelector(".gta-verdict").style.borderLeftColor=high?"var(--good)":"#d08a00";
-  gtaText.innerHTML=high?"Con "+GPU[state.gpu].n+", Ryzen 7 7700X y NVMe, esta PC apunta a jugar GTA 6 en PC cuando exista versión oficial, con margen especialmente fuerte en GPU. Para comprar pensando a futuro, <b>32GB DDR5</b> sería la mejora más lógica.":"Con RX 6700 XT la PC sigue siendo muy capaz, pero para GTA 6 conviene pensarla más para 1080p con ajustes optimizados y FSR. Para margen alto, la variante RTX 3080 Ti o RTX 3090 es la recomendada.";
+  gtaText.innerHTML=high?"Con "+GPU[state.gpu].n+", Ryzen 7 7700X y NVMe, esta PC apunta a jugar GTA 6 en PC cuando exista versiÃ³n oficial, con margen especialmente fuerte en GPU. Para comprar pensando a futuro, <b>32GB DDR5</b> serÃ­a la mejora mÃ¡s lÃ³gica.":"Con RX 6700 XT la PC sigue siendo muy capaz, pero para GTA 6 conviene pensarla mÃ¡s para 1080p con ajustes optimizados y FSR. Para margen alto, la variante RTX 3080 Ti o RTX 3090 es la recomendada.";
 }
 function renderGames(){
   var html="";
