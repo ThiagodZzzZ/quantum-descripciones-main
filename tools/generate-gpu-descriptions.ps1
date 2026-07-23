@@ -23,16 +23,13 @@ function Get-Brand([string]$Title) {
 
 function Test-Outlet([string]$Title) { $Title -match '(?i)OUTLET|OPENBOX|USADO' }
 
-# Detecta el chip a partir del titulo. Devuelve la clave del DB o $null.
 function Resolve-Chip([string]$Title, $Chips) {
   $names = $Chips.PSObject.Properties.Name
   $t = ' ' + (($Title.ToUpper() -replace '[^A-Z0-9]', ' ') -replace '\s+', ' ') + ' '
 
-  # NVIDIA RTX / GTX / GT con prefijo
   $m = [regex]::Match($t, '\b(RTX|GTX|GT)\s*(\d{3,4})\s*(TI\s*SUPER|TI|SUPER)?\b')
   if ($m.Success) {
-    $fam = $m.Groups[1].Value
-    $num = $m.Groups[2].Value
+    $fam = $m.Groups[1].Value; $num = $m.Groups[2].Value
     $suf = ($m.Groups[3].Value -replace '\s+', ' ').Trim()
     $key = "$fam $num"
     if ($suf -match 'TI SUPER') { $key = "$fam $num Ti Super" }
@@ -42,11 +39,9 @@ function Resolve-Chip([string]$Title, $Chips) {
     if ($names -contains "$fam $num") { return "$fam $num" }
   }
 
-  # AMD RX con prefijo
   $m = [regex]::Match($t, '\bRX\s*(\d{3,4})\s*(XTX|XT)?\b')
   if ($m.Success) {
-    $num = $m.Groups[1].Value
-    $suf = $m.Groups[2].Value.Trim()
+    $num = $m.Groups[1].Value; $suf = $m.Groups[2].Value.Trim()
     $key = "RX $num"
     if ($suf -eq 'XTX') { $key = "RX $num XTX" }
     elseif ($suf -eq 'XT') { $key = "RX $num XT" }
@@ -54,7 +49,6 @@ function Resolve-Chip([string]$Title, $Chips) {
     if ($names -contains "RX $num") { return "RX $num" }
   }
 
-  # Fallback sin prefijo de familia. El sufijo desambigua: Ti/Super = NVIDIA, XT/XTX = AMD.
   $m = [regex]::Match($t, '\b(\d{3,4})\s*(TI\s*SUPER|TI|SUPER|XTX|XT)?\b')
   while ($m.Success) {
     $num = $m.Groups[1].Value
@@ -70,7 +64,6 @@ function Resolve-Chip([string]$Title, $Chips) {
         elseif ($suf -eq 'SUPER') { $cands += "$fam $num Super" }
       }
     } else {
-      # Sin sufijo: probar NVIDIA y luego AMD (las claves del DB son exactas y validan)
       foreach ($fam in 'RTX','GTX','GT') { $cands += "$fam $num" }
       $cands += "RX $num"
     }
@@ -86,6 +79,25 @@ function Get-VramFromTitle([string]$Title) {
   $m = [regex]::Match($Title.ToUpper(), '\b(\d{1,2})G\b')
   if ($m.Success) { return "$($m.Groups[1].Value) GB" }
   return $null
+}
+
+# Features cualitativas (no numericas) para los badges, segun chip/arquitectura.
+function Get-Features([string]$ChipKey, $S) {
+  $f = @()
+  if ($ChipKey -like 'RTX *') {
+    $f += 'Ray Tracing'
+    if ($ChipKey -match 'RTX 50') { $f += 'DLSS 4' }
+    elseif ($ChipKey -match 'RTX 40') { $f += 'DLSS 3' }
+    else { $f += 'DLSS' }
+    $f += 'NVENC'
+  } elseif ($ChipKey -like 'GTX *' -or $ChipKey -like 'GT *') {
+    $f += 'DirectX 12'
+    if ($ChipKey -notlike 'GT 710' -and $ChipKey -notlike 'GT 1030') { $f += 'NVENC' }
+  } elseif ($ChipKey -like 'RX *') {
+    if ($S.arch -match 'RDNA 2|RDNA 3|RDNA 4') { $f += 'Ray Tracing' }
+    $f += 'FSR'
+  }
+  return $f
 }
 
 $template = @'
@@ -107,19 +119,13 @@ $template = @'
     <div class="subtitle">{{SUBTITLE}}</div>
   </header>
 
-  <div class="badge-row" aria-label="Caracteristicas principales">
+  <div class="badge-row" aria-label="Caracteristicas">
     {{BADGES}}
   </div>
 
-  <section class="hero-metric"><div class="metric-box"><div class="metric-label">Placa de video</div><div class="metric-value">{{HERO_VALUE}}</div><div class="metric-desc">{{HERO_DESC}}</div></div></section>
+  <section class="hero-metric"><div class="metric-box"><div class="metric-label">Memoria de video</div><div class="metric-value">{{VRAM}}</div><div class="metric-desc">{{HERO_DESC}}</div></div></section>
 
-  <section class="card-grid" aria-label="Resumen">
-    <article class="info-card"><div class="label">Memoria</div><div class="value">{{VRAM}}</div><div class="desc">{{MEMTYPE}} / {{BUS}}</div></article>
-    <article class="info-card"><div class="label">{{CORE_LABEL}}</div><div class="value">{{CORES}}</div><div class="desc">Unidades de procesamiento grafico.</div></article>
-    <article class="info-card"><div class="label">Boost</div><div class="value">{{BOOST}}</div><div class="desc">Frecuencia de referencia; el AIB puede variar.</div></article>
-  </section>
-
-  <section class="section"><h2 class="section-title">Especificaciones clave</h2><p class="section-sub">Datos tecnicos segun ficha oficial del fabricante del chip. El modelo AIB puede variar clocks de fabrica, disipacion y conectores.</p><div class="spec-grid">
+  <section class="section"><h2 class="section-title">Especificaciones tecnicas</h2><p class="section-sub">Datos segun ficha oficial del fabricante del chip. El modelo AIB puede variar clocks de fabrica y disipacion.</p><div class="spec-grid">
       <article class="spec-card"><div class="spec-name">Arquitectura</div><div class="spec-value">{{ARCH}}</div><div class="spec-note">Generacion y familia del GPU.</div></article>
       <article class="spec-card"><div class="spec-name">Proceso</div><div class="spec-value">{{PROCESS}}</div><div class="spec-note">Nodo de fabricacion.</div></article>
       <article class="spec-card"><div class="spec-name">{{CORE_LABEL}}</div><div class="spec-value">{{CORES}}</div><div class="spec-note">Nucleos de sombreado.</div></article>
@@ -130,13 +136,10 @@ $template = @'
       <article class="spec-card"><div class="spec-name">Interfaz</div><div class="spec-value">{{PCIE}}</div><div class="spec-note">Version de PCI Express.</div></article>
     </div></section>
 
-  <section class="section dark"><h2 class="section-title">Conectividad y armado</h2><p class="section-sub">Puntos a validar para compatibilidad con gabinete, fuente y monitor.</p><div class="conn-grid">
-      <article class="conn-card"><div class="conn-count">{{VRAM}}</div><div class="conn-name">VRAM</div><div class="conn-desc">{{MEMTYPE}}</div></article>
-      <article class="conn-card"><div class="conn-count">{{PCIE}}</div><div class="conn-name">PCI Express</div><div class="conn-desc">Ranura x16</div></article>
-      <article class="conn-card"><div class="conn-count">{{TDP}}</div><div class="conn-name">Consumo</div><div class="conn-desc">Fuente recomendada acorde</div></article>
-      <article class="conn-card"><div class="conn-count">Video</div><div class="conn-name">Salidas</div><div class="conn-desc">{{OUTPUTS}}</div></article>
+  <section class="section dark"><h2 class="section-title">Requisitos y armado</h2><p class="section-sub">Lo que necesitas para instalarla correctamente en tu equipo.</p><div class="conn-grid">
+      <article class="conn-card"><div class="conn-count">{{PSU}}</div><div class="conn-name">Fuente recomendada</div><div class="conn-desc">Potencia de PSU sugerida por el fabricante para el sistema.</div></article>
       <article class="conn-card"><div class="conn-count">Power</div><div class="conn-name">Alimentacion</div><div class="conn-desc">{{POWER}}</div></article>
-      <article class="conn-card"><div class="conn-count">{{ARCH_SHORT}}</div><div class="conn-name">Arquitectura</div><div class="conn-desc">{{BRAND_CHIP}}</div></article>
+      <article class="conn-card"><div class="conn-count">Video</div><div class="conn-name">Salidas</div><div class="conn-desc">{{OUTPUTS}}</div></article>
     </div></section>
 
   {{STATUS_BOX}}
@@ -154,9 +157,7 @@ $odoo = Get-Content $OdooJson -Raw | ConvertFrom-Json
 New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 
 $manifest = @()
-$generated = 0
-$matched = 0
-$unmatched = @()
+$generated = 0; $matched = 0; $unmatched = @()
 
 foreach ($p in @($odoo.products)) {
   $title = [string]$p.title
@@ -166,24 +167,17 @@ foreach ($p in @($odoo.products)) {
   $brand = Get-Brand $title
   $chipKey = Resolve-Chip $title $chips
   $titleClean = ($title -replace '(?i)\s*\((OUTLET|OPENBOX)\)\s*', ' ').Trim()
+  $cond = if ($outlet) { 'Outlet' } else { 'Nuevo' }
 
   if ($chipKey) {
     $matched++
     $s = $chips.$chipKey
     $vram = (Get-VramFromTitle $title); if (-not $vram) { $vram = $s.vram }
-    $archShort = ($s.arch -split '[ (]')[0]
 
-    $badges = @()
-    $badges += $chipKey
-    $badges += "$vram $($s.memType)"
-    $badges += "$($s.cores) $($s.coreLabel)"
-    $badges += $s.bus
-    $badges += $s.pcie
-    if ($outlet) { $badges += 'Outlet' } else { $badges += 'Nuevo' }
+    $badges = @($chipKey) + (Get-Features $chipKey $s) + @($cond)
     $badgeHtml = ($badges | ForEach-Object { "<span class=`"badge`">$(HE $_)</span>" }) -join "`n    "
 
-    $heroValue = $vram
-    $heroDesc = "$chipKey ($($s.brandChip) $($s.arch)). Specs segun ficha oficial del fabricante del chip; el modelo $brand puede variar clocks de fabrica y disipacion."
+    $heroDesc = "$chipKey de $($s.brandChip). Placa de video dedicada; specs segun ficha oficial del fabricante del chip."
 
     $statusBox = if ($outlet) {
 @'
@@ -191,62 +185,44 @@ foreach ($p in @($odoo.products)) {
 '@
     } else {
 @'
-<div class="status-box"><div class="status-title">Disponibilidad</div><div class="status-text">Producto nuevo. Puede encontrarse en deposito; en ese caso el plazo de envio del deposito al local es de 48 a 72 horas habiles aproximadas una vez abonado.</div></div>
+<div class="status-box"><div class="status-title">Disponibilidad</div><div class="status-text">Producto nuevo. Puede encontrarse en deposito; en ese caso, una vez abonado, el plazo de envio del deposito al local es de 48 a 72 horas habiles aproximadas.</div></div>
 '@
     }
 
-    $note = "* Especificaciones resumidas desde ficha oficial de $($s.brandChip) $chipKey. Los valores de fabrica pueden variar segun el modelo $brand (clocks, disipacion, conectores, salidas de video). La compatibilidad final depende de fuente, gabinete y monitor."
-
+    $note = "* Especificaciones resumidas desde ficha oficial de $($s.brandChip) $chipKey. Los valores de fabrica pueden variar segun el modelo $brand. La compatibilidad final depende de fuente, gabinete y monitor."
     $maker = if ($s.brandChip -eq 'NVIDIA') { "$brand / NVIDIA GeForce" } elseif ($s.brandChip -eq 'AMD') { "$brand / AMD Radeon" } else { $brand }
+    $subtitle = "Placa de video dedicada / $($s.brandChip) $($s.arch)$(if($outlet){' / OUTLET'})"
 
     $html = $template
     $repl = @{
-      '{{TITLE}}' = (HE $title)
-      '{{MAKER}}' = (HE $maker)
-      '{{H1}}' = (HE $titleClean)
-      '{{SUBTITLE}}' = (HE "$chipKey / $($s.arch) / $vram $($s.memType) / $($s.bus) / $($s.pcie)$(if($outlet){' / OUTLET'})")
-      '{{BADGES}}' = $badgeHtml
-      '{{HERO_VALUE}}' = (HE $heroValue)
-      '{{HERO_DESC}}' = (HE $heroDesc)
-      '{{VRAM}}' = (HE $vram)
-      '{{MEMTYPE}}' = (HE $s.memType)
-      '{{BUS}}' = (HE $s.bus)
-      '{{CORE_LABEL}}' = (HE $s.coreLabel)
-      '{{CORES}}' = (HE ([string]$s.cores))
-      '{{BOOST}}' = (HE $s.boost)
-      '{{ARCH}}' = (HE $s.arch)
-      '{{ARCH_SHORT}}' = (HE $archShort)
-      '{{PROCESS}}' = (HE $s.process)
-      '{{TDP}}' = (HE $s.tdp)
-      '{{PCIE}}' = (HE $s.pcie)
-      '{{OUTPUTS}}' = (HE $s.outputs)
-      '{{POWER}}' = (HE $s.power)
-      '{{BRAND_CHIP}}' = (HE $s.brandChip)
-      '{{STATUS_BOX}}' = $statusBox
-      '{{NOTE}}' = (HE $note)
-      '{{THEME_BASE}}' = $ThemeBase
-      '{{THEME_VERSION}}' = $ThemeVersion
+      '{{TITLE}}' = (HE $title); '{{MAKER}}' = (HE $maker); '{{H1}}' = (HE $titleClean)
+      '{{SUBTITLE}}' = (HE $subtitle); '{{BADGES}}' = $badgeHtml
+      '{{VRAM}}' = (HE $vram); '{{HERO_DESC}}' = (HE $heroDesc)
+      '{{ARCH}}' = (HE $s.arch); '{{PROCESS}}' = (HE $s.process)
+      '{{CORE_LABEL}}' = (HE $s.coreLabel); '{{CORES}}' = (HE ([string]$s.cores))
+      '{{MEMTYPE}}' = (HE $s.memType); '{{BUS}}' = (HE $s.bus)
+      '{{BOOST}}' = (HE $s.boost); '{{TDP}}' = (HE $s.tdp); '{{PCIE}}' = (HE $s.pcie)
+      '{{PSU}}' = (HE $s.psu); '{{POWER}}' = (HE $s.power); '{{OUTPUTS}}' = (HE $s.outputs)
+      '{{STATUS_BOX}}' = $statusBox; '{{NOTE}}' = (HE $note)
+      '{{THEME_BASE}}' = $ThemeBase; '{{THEME_VERSION}}' = $ThemeVersion
     }
     foreach ($k in $repl.Keys) { $html = $html.Replace($k, $repl[$k]) }
   } else {
     $unmatched += "$id | $title"
-    # Ficha generica sin specs de chip (marca para revision manual)
-    $badgeHtml = @("<span class=`"badge`">Placa de video</span>", "<span class=`"badge`">$(HE $brand)</span>", "<span class=`"badge`">$(if($outlet){'Outlet'}else{'Nuevo'})</span>") -join "`n    "
+    $vramGuess = Get-VramFromTitle $title; if (-not $vramGuess) { $vramGuess = 'A confirmar' }
+    $badgeHtml = (@('Placa de video', $brand, $cond) | ForEach-Object { "<span class=`"badge`">$(HE $_)</span>" }) -join "`n    "
     $statusBox = '<div class="status-box"><div class="status-title">Ficha en revision</div><div class="status-text">Specs tecnicas pendientes de completar desde fuente oficial. No publicar hasta verificar.</div></div>'
-    $vramGuess = Get-VramFromTitle $title
-    if (-not $vramGuess) { $vramGuess = 'A confirmar' }
-    $heroGuess = Get-VramFromTitle $title
-    if (-not $heroGuess) { $heroGuess = 'GPU' }
     $html = $template
     $repl = @{
       '{{TITLE}}' = (HE $title); '{{MAKER}}' = (HE $brand); '{{H1}}' = (HE $titleClean)
-      '{{SUBTITLE}}' = (HE "$(if($outlet){'OUTLET / '})Placa de video"); '{{BADGES}}' = $badgeHtml
-      '{{HERO_VALUE}}' = (HE $heroGuess); '{{HERO_DESC}}' = (HE "Ficha en preparacion. Specs a completar desde fuente oficial.")
-      '{{VRAM}}' = (HE $vramGuess); '{{MEMTYPE}}' = 'GDDR'; '{{BUS}}' = 'A confirmar'
-      '{{CORE_LABEL}}' = 'Nucleos'; '{{CORES}}' = 'A confirmar'; '{{BOOST}}' = 'A confirmar'
-      '{{ARCH}}' = 'A confirmar'; '{{ARCH_SHORT}}' = 'GPU'; '{{PROCESS}}' = 'A confirmar'; '{{TDP}}' = 'A confirmar'
-      '{{PCIE}}' = 'PCIe'; '{{OUTPUTS}}' = 'A confirmar'; '{{POWER}}' = 'A confirmar'; '{{BRAND_CHIP}}' = (HE $brand)
-      '{{STATUS_BOX}}' = $statusBox; '{{NOTE}}' = (HE '* Ficha pendiente de completar con specs oficiales.')
+      '{{SUBTITLE}}' = (HE "Placa de video dedicada$(if($outlet){' / OUTLET'})"); '{{BADGES}}' = $badgeHtml
+      '{{VRAM}}' = (HE $vramGuess); '{{HERO_DESC}}' = 'Ficha en preparacion. Specs a completar desde fuente oficial.'
+      '{{ARCH}}' = 'A confirmar'; '{{PROCESS}}' = 'A confirmar'
+      '{{CORE_LABEL}}' = 'Nucleos'; '{{CORES}}' = 'A confirmar'
+      '{{MEMTYPE}}' = ''; '{{BUS}}' = 'A confirmar'
+      '{{BOOST}}' = 'A confirmar'; '{{TDP}}' = 'A confirmar'; '{{PCIE}}' = 'PCIe'
+      '{{PSU}}' = 'A confirmar'; '{{POWER}}' = 'A confirmar'; '{{OUTPUTS}}' = 'A confirmar'
+      '{{STATUS_BOX}}' = $statusBox; '{{NOTE}}' = '* Ficha pendiente de completar con specs oficiales.'
       '{{THEME_BASE}}' = $ThemeBase; '{{THEME_VERSION}}' = $ThemeVersion
     }
     foreach ($k in $repl.Keys) { $html = $html.Replace($k, [string]$repl[$k]) }
@@ -254,7 +230,7 @@ foreach ($p in @($odoo.products)) {
 
   Set-Content -LiteralPath (Join-Path $OutDir $file) -Value $html -Encoding UTF8
 
-  $iframe = "<iframe src=`"$ThemeBase/GPUS/$file?v=$ThemeVersion`" style=`"width:100%;height:2600px;border:0;`" loading=`"lazy`"></iframe>"
+  $iframe = "<iframe src=`"$ThemeBase/GPUS/$file?v=$ThemeVersion`" style=`"width:100%;height:2200px;border:0;`" loading=`"lazy`"></iframe>"
   $manifest += [pscustomobject]@{
     OdooId = $id; Title = $title; Sku = [string]$p.internalReference
     File = $file; Chip = $chipKey; Outlet = $outlet
