@@ -2,17 +2,17 @@
    Control comun para fuentes y productos cortos. Cambiar colores, radios,
    espaciados o fondos aca impacta en todas las paginas que lo cargan. */
 :root{
-  --qp-primary:#16a8e8;
-  --qp-primary-dark:#0875aa;
-  --qp-accent:#f6c343;
-  --qp-bg:#e9f8ff;
+  --qp-primary:#E6007E;
+  --qp-primary-dark:#B80063;
+  --qp-accent:#FF4FB3;
+  --qp-bg:#FFF6FB;
   --qp-panel:rgba(255,255,255,.96);
-  --qp-panel-soft:#f7fcff;
-  --qp-dark:#061b2b;
-  --qp-text:#062033;
-  --qp-muted:#5c7485;
-  --qp-border:#bfe8fb;
-  --qp-shadow:rgba(22,168,232,.22);
+  --qp-panel-soft:#FFF8FC;
+  --qp-dark:#250015;
+  --qp-text:#2A0A1B;
+  --qp-muted:#775466;
+  --qp-border:#FFD4EA;
+  --qp-shadow:rgba(230,0,126,.18);
   --qp-radius:10px;
   --qp-container-max:860px;
 }
@@ -22,7 +22,7 @@ html{font-size:16px}
 body{
   font-family:Verdana,Geneva,sans-serif;
   color:var(--qp-text);
-  background:linear-gradient(180deg,#9fe4ff 0,#fff 34%,#dff6ff 68%,#fff 100%);
+  background:linear-gradient(180deg,#fff 0,#fff6fb 40%,#fff 100%);
 }
 .container{max-width:var(--qp-container-max);margin:0 auto;padding:24px 16px}
 .qh-header{
@@ -33,7 +33,7 @@ body{
   border:1px solid var(--qp-border);
   border-bottom:3px solid var(--qp-primary);
   border-radius:var(--qp-radius);
-  background:linear-gradient(135deg,#fff 0,#f2fbff 54%,#fff7d7 100%);
+  background:linear-gradient(135deg,#fff 0,#fff6fb 54%,#fff 100%);
   box-shadow:0 12px 30px var(--qp-shadow);
 }
 .qh-header:before{
@@ -44,7 +44,7 @@ body{
   right:-34px;
   top:-42px;
   border-radius:50%;
-  background:radial-gradient(circle,var(--qp-accent) 0 34%,rgba(246,195,67,.18) 35% 58%,transparent 59%);
+  background:radial-gradient(circle,rgba(255,79,179,.26) 0 34%,rgba(255,143,203,.14) 35% 58%,transparent 59%);
 }
 .brand{font-size:11px;letter-spacing:5px;color:var(--qp-primary-dark);text-transform:uppercase;margin-bottom:10px;font-weight:700}
 .maker{font-size:12px;letter-spacing:4px;color:var(--qp-muted);text-transform:uppercase;margin-bottom:7px}
@@ -79,7 +79,7 @@ h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-
   border-radius:var(--qp-radius);
   background:var(--qp-panel);
   text-align:center;
-  box-shadow:0 10px 26px rgba(8,117,170,.12);
+  box-shadow:0 10px 26px rgba(230,0,126,.12);
 }
 .metric-label{font-size:10px;letter-spacing:4px;color:var(--qp-primary-dark);text-transform:uppercase;font-weight:700}
 .metric-value{font-size:42px;line-height:1;font-weight:800;color:var(--qp-dark);margin:8px 0 5px;overflow-wrap:anywhere}
@@ -104,8 +104,8 @@ h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-
   background:rgba(255,255,255,.72);
 }
 .section.dark{
-  background:linear-gradient(180deg,#071f31,#08263d);
-  border-color:#0d557c;
+  background:linear-gradient(180deg,#3A0624,#1E0312);
+  border-color:#B80063;
   color:#fff;
 }
 .section-title{
@@ -117,19 +117,19 @@ h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-
   font-weight:800;
   margin-bottom:5px;
 }
-.dark .section-title{color:#8bdbff}
+.dark .section-title{color:#FFD4EA}
 .section-sub{max-width:720px;margin:0 auto 14px;text-align:center;color:var(--qp-muted);font-size:11px;line-height:1.65}
-.dark .section-sub{color:#b6d6e8}
+.dark .section-sub{color:#FFD4EA}
 .spec-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .spec-card{min-height:82px}
 .spec-name{font-size:10px;letter-spacing:2px;color:var(--qp-primary-dark);text-transform:uppercase;font-weight:700;margin-bottom:6px}
 .spec-value{font-size:14px;line-height:1.45;color:var(--qp-dark);font-weight:700;overflow-wrap:anywhere}
 .spec-note{font-size:10px;line-height:1.55;color:var(--qp-muted);margin-top:4px}
 .conn-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.conn-card{border-color:#1a638b;background:#0b2b43;color:#fff;text-align:center;min-height:116px;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.conn-card{border-color:#B80063;background:#3A0624;color:#fff;text-align:center;min-height:116px;display:flex;flex-direction:column;justify-content:center;min-width:0}
 .conn-name{font-size:12px;font-weight:800;color:#fff;margin-bottom:6px;overflow-wrap:anywhere}
-.conn-count{display:inline-block;align-self:center;min-width:54px;max-width:100%;border-radius:999px;background:var(--qp-accent);color:#061b2b;font-size:12px;font-weight:800;padding:4px 12px;margin-bottom:7px;white-space:normal;overflow-wrap:anywhere}
-.conn-desc{font-size:10px;line-height:1.55;color:#b6d6e8;overflow-wrap:anywhere}
+.conn-count{display:inline-block;align-self:center;min-width:54px;max-width:100%;border-radius:999px;background:var(--qp-primary);color:#fff;font-size:12px;font-weight:800;padding:4px 12px;margin-bottom:7px;white-space:normal;overflow-wrap:anywhere}
+.conn-desc{font-size:10px;line-height:1.55;color:#FFD4EA;overflow-wrap:anywhere}
 .status-box{
   margin-top:14px;
   border:1px solid var(--qp-border);
@@ -140,7 +140,7 @@ h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-
 }
 .status-title{font-size:13px;font-weight:800;color:var(--qp-primary-dark);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px}
 .status-text{font-size:12px;line-height:1.7;color:var(--qp-muted)}
-.note{margin-top:14px;padding:12px 14px;border-left:3px solid #c8dce8;font-size:10px;line-height:1.75;color:var(--qp-muted);background:rgba(255,255,255,.62)}
+.note{margin-top:14px;padding:12px 14px;border-left:3px solid #FFD4EA;font-size:10px;line-height:1.75;color:var(--qp-muted);background:rgba(255,255,255,.72)}
 
 @media(max-width:700px){
   .container{padding:16px 10px}

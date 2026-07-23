@@ -1,0 +1,23 @@
+{
+  "autoRun": {
+    "allow_instructions": [
+      "Crear y editar HTML de descripciones puede correr sin preguntar.",
+      "Actualizar manifests JSON e iframes puede correr sin preguntar.",
+      "Auditorias de descripciones publicas pueden correr sin preguntar.",
+      "Editar quantum-theme-switch.js para cambios globales de diseno puede correr sin preguntar."
+    ],
+    "block_instructions": [
+      "Nunca publicar en Odoo automaticamente. apply-odoo-iframes.ps1 sin -DryRun requiere confirmacion explicita del usuario.",
+      "Nunca ejecutar git push sin confirmacion.",
+      "Nunca inventar specs: solo fuentes oficiales del fabricante.",
+      "Nunca escribir credenciales en archivos del repo."
+    ]
+  },
+  "terminalAllowlist": [
+    "powershell",
+    "git status",
+    "git diff",
+    "git add",
+    "git log"
+  ]
+}

@@ -20,15 +20,15 @@ Salidas:
 
 Usar pausas conservadoras: la tienda devuelve `429 Too Many Requests` si se audita demasiado rapido.
 
-## Cambio de paleta post Mundial
+## Paleta Quantum clasica
 
 Todos los HTML cargan:
 
 ```html
-<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260713" defer></script>
+<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260722quantum" defer></script>
 ```
 
-Hasta el `2026-07-20T00:00:00-03:00` mantiene la paleta mundialista celeste/blanco. Desde esa fecha cambia automaticamente variables compartidas a la paleta Quantum clasica rosa/blanco.
+El Mundial ya termino. El switch global fuerza la paleta Quantum clasica rosa/blanco e inyecta overrides para templates antiguos que todavia tienen estilos inline celestes o amarillos.
 
 ## Publicacion en Odoo
 
@@ -50,3 +50,14 @@ Luego ejecutar sin `-DryRun`. Por defecto escribe en `website_description`; si l
 ## Regla de contenido
 
 Las fichas nuevas deben generarse solo con datos de sitios oficiales del fabricante o marca. Si no hay fuente oficial verificable, no publicar specs inventadas.
+
+## Aprobacion por muestra
+
+1. Generar **una** ficha de referencia del template/categoria.
+2. El usuario la revisa y confirma.
+3. Con OK, generar el resto del lote sin pedir confirmacion individual.
+4. Publicar en Odoo solo cuando el usuario lo pida (siempre `-DryRun` primero).
+
+## Cobertura
+
+Meta: ningun producto en quantumhardstore.com sin descripcion iframe. No rehacer fichas que ya cargan `quantum-theme-switch.js`.

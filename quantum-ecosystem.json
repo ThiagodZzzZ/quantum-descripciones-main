@@ -1,0 +1,69 @@
+{
+  "version": "20260723b",
+  "company": "Quantum Hardstore",
+  "updatedAt": "2026-07-23",
+  "urls": {
+    "website": "https://quantumhardstore.com/",
+    "odoo": "https://odoo.quantumhardstore.com/odoo",
+    "githubDescriptions": "https://github.com/ThiagodZzzZ/descripciones-quantum",
+    "githubPages": "https://thiagodzzzz.github.io/quantum-descripciones-main/"
+  },
+  "repos": {
+    "descripciones": {
+      "localPath": "C:\\Users\\PC\\Quantum-Descripciones-Nuevas-MAIN",
+      "github": "ThiagodZzzZ/descripciones-quantum",
+      "agentFile": "AGENTS.md",
+      "role": "Descripciones HTML, specs oficiales, aprobacion por muestra"
+    },
+    "imagenes": {
+      "localPath": "C:\\Users\\PC\\Quantum-Imagenes-Productos",
+      "agentFile": "AGENTS.md",
+      "role": "Imagenes PNG 1000x1000, QA clasificador, preview con botones Odoo"
+    }
+  },
+  "workflow": {
+    "odooUpload": {
+      "rule": "NUNCA automatico. Solo confirmacion manual del usuario.",
+      "images": "Preview con botones: Ubicar en Odoo, Subir a Odoo, Reportar",
+      "descriptions": "DryRun primero. Publicacion real solo con OK explicito."
+    },
+    "descriptions": {
+      "contentSource": "solo sitios oficiales del fabricante",
+      "approval": "mostrar 1 muestra; si aprueba, lote completo sin confirmacion individual",
+      "previewPerItem": false
+    },
+    "images": {
+      "productMatch": "foto debe corresponder al titulo; variantes identicas con titulo distinto son validas",
+      "officialSourceRequired": false,
+      "qaClassifier": "scripts/classify-image-qa.ps1",
+      "previewPerItem": true,
+      "previewScript": "scripts/start-preview.ps1",
+      "reportFile": "reportes-pendientes.json"
+    },
+    "coverage": {
+      "goal": "100% productos con descripcion E imagen",
+      "skipExisting": "no rehacer si ya conectados globalmente via quantum-theme-switch.js",
+      "auditScript": "scripts/audit-catalog-coverage.ps1"
+    }
+  },
+  "design": {
+    "activePalette": "quantum-classic",
+    "themeSwitchUrl": "https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js",
+    "themeSwitchFile": "quantum-theme-switch.js",
+    "themeVersion": "20260722quantum",
+    "scriptTag": "<script src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260722quantum\" defer></script>"
+  },
+  "odoo": {
+    "model": "product.template",
+    "fields": {
+      "description": "website_description",
+      "mainImage": "image_1920"
+    },
+    "formAction": "https://odoo.quantumhardstore.com/web#id={id}&model=product.template&view_type=form&action=619"
+  },
+  "images": {
+    "format": "PNG",
+    "size": "1000x1000",
+    "background": "transparent"
+  }
+}

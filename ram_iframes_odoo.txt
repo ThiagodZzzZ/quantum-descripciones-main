@@ -1,335 +1,335 @@
 001 | Memoria RAM Kingston 8GB 5600Mhz DDR5 Fury Beast Black
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-01.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-01.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 002 | MEMORIA NETAC SHADOW II DDR5 6000 16GB C38 BLACK
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-02.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-02.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 003 | Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR4 3200 Mhz CL16 1.35V Single Negro
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-03.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-03.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 004 | Memoria Ram Kingston 8GB DDR4 3200Mhz SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-04.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-04.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 005 | MEMORIA PATRIOT DDR5 VIPER ELITE 5 ULTRA RGB DDR5 16GB 6000Mhz CL36 BLACK HS PE001173
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-05.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-05.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 006 | MEMORIA PATRIOT DDR5 VIPER ELITE 5 ULTRA DDR5 32GB CL36 6000MTS BLACK HS PE001179
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-06.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-06.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 007 | Memoria Ram UDIMM TEAM GROUP ELITE 8GB DDR4 3200MHz CL22 1.2v
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-07.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-07.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 008 | Memoria Ram UDIMM TEAM GROUP ELITE 16GB DDR4 3200Mz CL22 1.2v
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-08.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-08.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 009 | MEMORIA PATRIOT VIPER XTREME 5 DDR5 32GB 7000MT/S CL32 BLK HS DUAL KIT PE001039
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-09.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-09.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 010 | MEMORIA PATRIOT DDR4 VIPER ELITE 2 8GB 3200 MHZ CL18 RED/BLK PE000830
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-10.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-10.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 011 | MEMORIA PATRIOT DDR4 VIPER ELITE 2 16GB 3200 MHZ CL18 RED/BLK PE000829
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-11.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-11.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 012 | MEMORIA PATRIOT SIGNATURE LINE DDR4 16 GB 3200 MHZ PS001558
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-12.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-12.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 013 | MEMORIA PATRIOT SIGNATURE LINE SODIMM DDR4 16 GB 3200 MHZ PS001570
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-13.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-13.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 014 | MEMORIA NETAC SHADOW II DDR5 4800 16GB C40 WHITE
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-14.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-14.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 015 | MEMORIA NETAC SHADOW DDR4 3200 8GB C16 WHITE
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-15.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-15.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 016 | MEMORIA NETAC SHADOW DDR4 3200 8GB C16 RED
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-16.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-16.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 017 | MEMORIA NETAC SHADOW DDR4 3200 8GB C16 BLUE
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-17.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-17.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 018 | MEMORIA NETAC BASIC DDR4 DIMM 8GB 3200 C16
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-18.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-18.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 019 | Memoria LEXAR UDIMM DDR5 16GB 5600MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-19.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-19.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 020 | Memoria LEXAR SODIMM DDR5 16GB 5600MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-20.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-20.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 021 | Memoria LEXAR UDIMM DDR4 8GB 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-21.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-21.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 022 | Memoria LEXAR UDIMM DDR4 32GB 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-22.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-22.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 023 | Memoria LEXAR UDIMM DDR4 16GB 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-23.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-23.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 024 | Memoria LEXAR UDIMM DDR4 8GB 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-24.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-24.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 025 | Memoria LEXAR SODIMM DDR4 32GB 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-25.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-25.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 026 | Memoria LEXAR SODIMM DDR4 16GB 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-26.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-26.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 027 | Memoria LEXAR SODIMM DDR4 8GB 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-27.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-27.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 028 | Memoria PC DDR5 16GB 5600Mhz CL46 1.1V 16Gbit
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-28.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-28.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 029 | Memoria PC DDR5 8GB 5600Mhz CL46 1.1V 16Gbit
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-29.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-29.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 030 | Memoria RAM Kingston 32GB 5600Mhz DDR5 NO ECC MODULE
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-30.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-30.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 031 | Memoria RAM Kingston 16GB 5600Mhz DDR5 SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-31.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-31.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 032 | Memoria RAM Kingston 8GB 5600Mhz DDR5 SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-32.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-32.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 033 | Memoria RAM Kingston 32GB 5600Mhz DDR5 SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-33.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-33.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 034 | Memoria Ram Kinsgton 8GB 3200Mhz DDR4 NO-ECC SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-34.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-34.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 035 | Memoria Ram Kingston 16GB 3200Mhz DDR4 NO ECC SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-35.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-35.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 036 | Memoria Ram Kingston 32GB 3200Mhz DDR4 NO-ECC SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-36.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-36.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 037 | Memoria Ram SODIMM KINGSTON KVR 16GB DDR4 3200MHz CL22 1.20V Single Negro
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-37.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-37.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 038 | Memoria Ram Kingston 16GB 3200Mhz DDR4 NON-ECC CL22
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-38.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-38.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 039 | Memoria Ram Kingston 8GB 3200 DDR4 NON-ECC DIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-39.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-39.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 040 | Memoria Ram Kingston 16GB 3200Mhz DDR4 NON-ECC DIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-40.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-40.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 041 | Memoria Ram UDIMM KINGSTON KVR 16GB DDR4 3200MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-41.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-41.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 042 | Memoria RAM Kingston DDR5 7200Mhz Fury Renegade UDIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-42.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-42.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 043 | Memoria RAM Kingston 16GB DDR5 6800Mhz Fury Beast White para PC
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-43.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-43.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 044 | Memoria RAM Kingston 16GB DDR5 6800Mhz Fury Beast RGB para PC
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-44.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-44.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 045 | Memoria RAM Kingston 16GB DDR5 6800Mhz Fury Beast para PC
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-45.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-45.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 046 | Memoria RAM Kingston 16GB DDR5 6400Mhz Fury Beast RGB para PC
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-46.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-46.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 047 | Memoria RAM Kingston 16GB 6400Mhz DDR5 Fury Beast Black para PC
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-47.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-47.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 048 | Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR5 6000MHz Negro RGB CL36 1.35V
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-48.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-48.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 049 | Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR5 6000MHz CL36 1.35V Single Negro
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-49.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-49.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 050 | Memoria RAM Kingston 32GB DDR5 5600Mhz Fury Impact SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-50.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-50.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 051 | Memoria SODIMM Fury DDR5 16GB 5600MHz Impact Negra
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-51.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-51.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 052 | Memoria RAM Kingston 8GB 5600Mhz DDR5 Fury Beast RGB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-52.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-52.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 053 | Memoria RAM Kingston 8GB 5600Mhz DDR5 Fury Beast Black
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-53.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-53.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 054 | Memoria RAM Kingston 16GB DDR5 5600Mhz Fury Beast Black
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-54.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-54.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 055 | Memoria PC Fury DDR5 32GB 5200 Beast Negra
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-55.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-55.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 056 | Memoria PC Fury DDR4 16GB 3600 Beast Negra 16Gbit
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-56.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-56.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 057 | Memoria Ram Kingston 8GB 3600Mhz DDR4 FURY BLACK
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-57.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-57.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 058 | Memoria RAM Kingston 8GB DDR4 3600Mhz Fury Beast RGB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-58.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-58.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 059 | Memoria SODIMM Fury DDR4 8GB 3200MHz Impact Negra
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-59.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-59.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 060 | Memoria RAM Kingston 32GB 3200Mhz DDR4 SODIMM Fury Impact
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-60.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-60.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 061 | Memoria SODIMM Fury DDR4 16GB 3200MHz Impact Negra
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-61.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-61.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 062 | Memoria RAM Kingston 8GB DDR4 3200Mhz Fury Renegade Black
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-62.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-62.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 063 | Memoria RAM Kingston 32GB DDR4 3200Mhz Fury Renegade Black
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-63.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-63.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 064 | Memoria Ram UDIMM KINGSTON Fury Beast 8GB DDR4 3200MHz CL16 1.35V Single Negro
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-64.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-64.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 065 | Memoria Ram UDIMM KINGSTON Fury Beast 8GB DDR4 3200 Mhz CL16 1.35V Single Negro
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-65.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-65.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 066 | Memoria Ram UDIMM KINGSTON Fury Beast 32GB DDR4 3200MHz CL16 1.35V Single Negro
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-66.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-66.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 067 | Memoria PC Fury DDR4 8GB 3200 Mhz Beast RGB CL16
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-67.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-67.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 068 | Memoria PC Fury DDR4 32GB 3200MHz Beast RGB Negra
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-68.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-68.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 069 | Memoria RAM Kingston 16GB DDR4 3200Mhz Fury Beast RGB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-69.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-69.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 070 | Memoria Ram Kingston 16GB 3200Mhz DDR4 Fury Beast Black
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-70.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-70.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 071 | 16G KI 3200 DDR4 FURY BEAS RGB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-71.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-71.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 072 | Memoria Ram UDIMM KINGSTON Fury Beast 16GB DDR4 3200 Mhz CL16 1.35V Single Negro RGB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-72.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-72.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 073 | Memoria Ram Kingston 16GB 3200Mhz DDR4 FURY BLACK8
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-73.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-73.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 074 | Memoria PC Prop. DDR5 16GB 5600Mhz CL46 1.1V 16Gbi
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-74.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-74.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 075 | Memoria PC Prop. DDR5 8GB 5600Mhz CL46 1.1V 16Gbit
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-75.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-75.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 076 | Memoria SODIMM Prop. DDR5 16GB 5600Mhz CL46 1.1V
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-76.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-76.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 077 | Memoria Ram Kingston 32GB 3200Mhz DDR4 SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-77.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-77.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 078 | Memoria RAM Kingston 8GB 3200Mhz DDR4 NON-ECC
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-78.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-78.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 079 | Memoria Ram Kingston 16gb 3200Mhz DDR4 Module
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-79.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-79.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 080 | Memoria Ram Kingston 8GB 3200Mhz DDR4 MODULE
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-80.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-80.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 081 | Memoria Ram Kingston 32GB 3200Mhz DDR4 NO ECC Module
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-81.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-81.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 082 | Memoria RAM Hiksemi Armor 2x16GB 3200Mhz DDR4
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-82.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-82.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 083 | Memoria RAM Hiksemi Hiker 16GB DDR4 3200Mhz UDIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-83.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-83.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 084 | Memoria RAM Hiksemi Armor 2x8GB 3200Mhz DDR4
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-84.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-84.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 085 | Memoria RAM Hiksemi Hiker 16GB DDR4 3200Mhz SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-85.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-85.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 086 | Memoria RAM Hiksemi Hiker 8GB DDR4 3200Mhz UDIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-86.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-86.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 087 | Memoria RAM Hiksemi Armor 8GB DDR4 3200 MHz
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-87.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-87.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 088 | Memoria RAM Hiksemi Hiker 8GB DDR4 3200Mhz SODIMM
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-88.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-88.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 089 | Memoria Ram UDIMM T-FORCE 16GB DDR5 5200Mhz CL40
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-89.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-89.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 090 | MEMORIA GSKILL TRIDENT Z ROYAL DDR4 16 GB 3600 RGB GOLD 2X8 1.35
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-90.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-90.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 091 | Memoria Crucial SODIMM 48GB DDR5-5600 CL46 (16Gbit
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-91.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-91.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 092 | Memoria Ram SODIMM CORSAIR VENGEANCE 8GB DDR5 4800MHz CL40 1.1V Single Negro
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-92.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-92.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 093 | Memoria Ram UDIMM CORSAIR VENGEANCE 16GB DDR5 5200Mhz CL40 1.25V (2 x 8GB) AMD EXPO - GREY
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-93.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-93.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 094 | Memoria Ram UDIMM CORSAIR VENGEANCE 16GB DDR5 5200Mhz CL40 1.25V (2 x 8GB) Intel XMP - GREY
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-94.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-94.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 095 | Memoria Ram UDIMM CORSAIR VENGEANCE 8GB DDR5 5200Mhz CL40 1.25V (1 x 8GB) Intel XMP
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-95.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-95.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 096 | Memoria Ram UDIMM ADATA XPG 16GB DDR5 6000 WHITE RGB CL48 1.1V
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-96.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-96.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 097 | Memoria RAM XPG 32GB 6000Mhz DDR5 Lancer RGB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-97.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-97.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 098 | Memoria RAM XPG 8GB 5600Mhz DDR5 Lancer Negro AX5U5600C468G-SLABBK
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-98.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-98.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 099 | MEMORIA XPG 16GB 16A DDR4 3200 D35
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-99.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-99.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 100 | MEMORIA XPG 16GB 18I DDR4 3200 RGB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-100.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-100.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 101 | Memoria Ram UDIMM ADATA 8GB DDR5 5600MHz CL46 1.1V
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-101.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-101.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 102 | MEMORIA ADATA DDR4 16GB 3200 G22 SGN
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-102.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-102.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 103 | MEMORIA ADATA SODIMM DDR4 32GB 3200 G22 SGN
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-103.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-103.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 104 | MEMORIA ADATA SODIMM DDR4 16GB 3200 G22 SGN
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-104.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-104.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 105 | MEMORIA SODIMM ADATA DDR5 8GB 5600MHZ BLISTER (AD5S56008G-S)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-105.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-105.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 106 | MEMORIA SODIMM ADATA DDR5 16GB 5600MHZ BLISTER (AD5S560016G-S)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-106.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-106.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 107 | MEMORIA SODIMM ADATA 32GB DDR4 3200MHZ (AD4S320032G22- SGN)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-107.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-107.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 108 | MEMORIA SODIMM ADATA DDR4 16GB 3200MHZ (AD4S320016G22-SGN)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-108.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-108.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 109 | MEMORIA SODIMM MUSHKIN REDLINE DDR4 16GB 3200MHZ (MRA4S320NNNF16G)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-109.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-109.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 110 | Memoria Udimm Mushkin Redline Ddr4 16Gb 3200Mhz Blister (Mre4U320Nnnf16G)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-110.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-110.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 111 | MEMORIA UDIMM ADATA DDR4 32GB 3200MHZ BLISTER (AD4U320032G22-SGN)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-111.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-111.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
 
 112 | MEMORIA UDIMM ADATA DDR4 16GB 3200MHZ BLISTER (AD4U320016G22-SGN)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-112.html?v=20260627ramfull" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/ram-112.html?v=20260722quantum" style="width:100%;height:3600px;border:0;" loading="lazy"></iframe>

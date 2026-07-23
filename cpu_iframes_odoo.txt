@@ -1,143 +1,143 @@
 PROCESADOR AMD (AM4) RYZEN 9 5900X (OUTLET)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-01.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-01.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 AMD RYZEN 9 7900X3D (OUTLET)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-02.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-02.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador AMD Ryzen 5 5600GT 3.60GHz AM4 DDR4
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-03.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-03.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador AMD Ryzen 5 8600G 4.30GHz AM5 DDR5
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-04.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-04.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador AMD Ryzen 7 9800X3D AM5, sin cooler
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-05.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-05.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 PROCESADOR AMD (AM5) RYZEN 7 7700 C/COOLER
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-06.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-06.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador AMD Ryzen 5 5500 3.60GHz AM4 DDR4
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-07.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-07.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 RYZEN ATLON 3000G (OUTLET)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-08.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-08.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 INTEL | Intel Celeron G5905 (OUTLET)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-09.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-09.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 INTEL | Intel Celeron G4930 (OUTLET)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-10.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-10.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 INTEL | Intel Celeron G3930 (OUTLET)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-11.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-11.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 AMD | AMD A6-9500E (OUTLET)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-12.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-12.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 ACCESORIOS THERMALTAKE CORE P5 AIO BRACKET BLACK
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-13.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-13.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 PROCESADOR INTEL (1151) PENTIUM DUAL CORE G4400 (SIN COOLER)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-14.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-14.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Pc Tecnobrand Gaming AMD Ryzen 5 5600GT 16GB RAM 1TB SSD Gabinete XPG Lander 300 Negro PCTBR5GAMING
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-15.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-15.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 PROCESADOR AMD (AM5) RYZEN 9 9950X3D2
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-16.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-16.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador AMD Ryzen 9 5900XT 3.3GHz AM4 s/Cooler
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-17.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-17.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Mini PC MSI CUBI 5 12M- Intel Core i5-1235U BAREBONE (S/RAM - S/SSD) FICHA USA
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-18.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-18.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Notebook Lenovo E14 Gen7 Ryzen 5 16GB RAM 512 GB 14&quot; Sin Windows
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-19.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-19.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Adaptador Xtech, Micro Usb macho a Usb-a hembra, 1
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-20.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-20.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Mini PC ASUS PN53-BB7000X1TDR Ryzen 7 7753HS BAREBONE (S/RAM - S/SSD)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-21.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-21.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Mini PC ASUS PN52-BB7000XTC Ryzen 7 5800H BAREBONE (S/RAM - S/SSD)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-22.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-22.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Mini PC ASUS PN41-S1-BBN4000XFV Intel Celeron N4505 BAREBONE (S/RAM - S/SSD)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-23.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-23.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Kit HPE de disipador térmico del procesador P49145-B21 para Proliant DL380 Gen11
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-24.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-24.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Kit HPE de disipador térmico del procesador P48904-B21 para Proliant DL3X0 Gen11
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-25.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-25.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MINI PC GIGABYTE BRIX CORE I5 10210E
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-26.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-26.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 SOFTWARE MICROSOFT WINDOWS 11 PRO 64B OEM SPANISH LAT 1PK
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-27.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-27.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador Intel Core Ultra 7 265F 3.9 GHz 36 LGA1
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-28.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-28.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador Intel Core Ultra 5 245K 4.2 GHz 24 LGA1851
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-29.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-29.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador Intel Core Ultra 5 245KF 4.2 GHz 24 LGA1851
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-30.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-30.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 PROCESADOR INTEL (LGA1851) CORE ULTRA 5 235 3.4G 24MB
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-31.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-31.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador Intel Core Ultra 5 225 4.2 GHz 22 LGA1851
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-32.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-32.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador Intel Core Ultra 5 225F 4.2 GHz 22 LGA1851
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-33.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-33.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 PROCESADOR INTEL (LGA1700) PENTIUM GOLD G7400
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-34.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-34.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador Core i7-14700 2.1GHz 33MB LGA 1700
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-35.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-35.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 PROCESADOR INTEL (LGA1700) CORE I3 13100F
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-36.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-36.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador INTEL Core i9-12900 1.80GHz LGA1700 DDR4/DDR5
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-37.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-37.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Procesador INTEL Core i5-12400F 2.50GHz LGA1700 DDR4/DDR5
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-38.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-38.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MINI PC ASUS CELERON N4500 BAREBONE (S/RAM - S/SSD)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-39.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-39.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Aio Hp ProOne 440 G9 Intel core I7 16gb RAM 512gb SSD 23.6¨Windows 11 pro A5BJ7LT#AC8
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-40.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-40.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 Aio Hp ProOne 440 Gen 9 Intel core I5 16gb RAM 512gb SSD 23.8&quot; Windows 11 Pro A5BH8LT#AC8
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-41.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-41.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 NB ASUS 14 CELERON N4020 4GB 128GB W11H
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-42.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-42.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MICRO AMD (AM5) RYZEN 7 8700G (100-100001236SBX)HEAT SINK FAN INCLUDED
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-43.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-43.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MICRO AMD (AM5) RYZEN 9 7900 (100-100000590WOF)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-44.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-44.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MICRO AMD (AM5) RYZEN 5 9600 (100-100000718BOX)
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-45.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-45.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MICRO AMD (AM5) RYZEN 9 9950X 16-CORE 43 GHZ (100-100001277WOF) SIN COOLER
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-46.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-46.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MICRO AMD (AM5) RYZEN 9 9950X3D (100-100000719WOF) SIN COOLER
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-47.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-47.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
 
 MICRO AMD (AM5) RYZEN 9 9900X3D (100-100001368WOF) SIN COOLER
-<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-48.html?v=20260625fixintel" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>
+<iframe src="https://thiagodzzzz.github.io/quantum-descripciones-main/cpu-48.html?v=20260722quantum" style="width:100%;height:2400px;border:0;" loading="lazy"></iframe>

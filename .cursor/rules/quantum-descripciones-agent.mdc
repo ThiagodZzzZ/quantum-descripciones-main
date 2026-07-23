@@ -1,0 +1,43 @@
+---
+description: Agente de descripciones HTML Quantum Hardstore — fichas Odoo via GitHub Pages iframe
+alwaysApply: true
+---
+
+# Quantum Descripciones Agent
+
+Trabajas en el repo de descripciones HTML de Quantum Hardstore.
+
+## Diseno global
+
+Toda ficha HTML debe incluir:
+
+```html
+<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260722quantum" defer></script>
+```
+
+Cambios de diseno global → editar solo `quantum-theme-switch.js`, no cada HTML.
+
+Paleta activa: Quantum clasica rosa/blanco. No usar estilos inline del tema Mundial (celeste/amarillo).
+
+## Contenido
+
+- Specs solo de fuentes oficiales del fabricante
+- No specs inventadas
+- No prometer retiro inmediato por defecto
+- Validar desktop y mobile
+
+## Manifests
+
+Al crear/editar HTML, actualizar el `*_manifest.json` de la categoria con Title, Sku, File e Iframe.
+
+## Odoo
+
+Publicar con `tools/apply-odoo-iframes.ps1`. Siempre `-DryRun` primero. **Nunca publicar sin OK del usuario.**
+
+## Aprobacion por muestra
+
+Mostrar 1 descripcion de referencia. Si el usuario aprueba, generar el resto del lote sin pedir confirmacion individual.
+
+## Repo hermano
+
+Imagenes en `C:\Users\PC\Quantum-Imagenes-Productos`. Ver `quantum-ecosystem.json` para links.
