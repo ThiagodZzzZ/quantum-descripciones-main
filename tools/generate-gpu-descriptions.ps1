@@ -230,7 +230,7 @@ foreach ($p in @($odoo.products)) {
 
   Set-Content -LiteralPath (Join-Path $OutDir $file) -Value $html -Encoding UTF8
 
-  $iframe = "<iframe src=`"$ThemeBase/GPUS/$file?v=$ThemeVersion`" style=`"width:100%;height:2200px;border:0;`" loading=`"lazy`"></iframe>"
+  $iframe = "<iframe src=`"$ThemeBase/GPUS/${file}?v=$ThemeVersion`" style=`"width:100%;height:2200px;border:0;`" loading=`"lazy`"></iframe>"
   $manifest += [pscustomobject]@{
     OdooId = $id; Title = $title; Sku = [string]$p.internalReference
     File = $file; Chip = $chipKey; Outlet = $outlet

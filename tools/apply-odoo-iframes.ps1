@@ -1,10 +1,13 @@
 param(
-  [Parameter(Mandatory = $true)][string]$OdooUrl,
-  [Parameter(Mandatory = $true)][string]$Database,
-  [Parameter(Mandatory = $true)][string]$User,
-  [Parameter(Mandatory = $true)][string]$ApiKey,
+  [string]$OdooUrl = $env:ODOO_URL,
+  [string]$Database = $env:ODOO_DB,
+  [string]$User = $env:ODOO_USER,
+  [string]$ApiKey = $env:ODOO_PASS,
   [string]$ManifestGlob = '*_manifest.json',
-  [string]$DescriptionField = 'website_description',
+  [string[]]$DescriptionField = @('qh_tn_description_raw'),
+  [switch]$OnlyMatched,
+  [int]$Limit = 0,
+  [string]$OnlyIds = '',
   [switch]$DryRun
 )
 
@@ -106,24 +109,74 @@ if (-not $uid) { throw 'No se pudo autenticar contra Odoo.' }
 $items = @()
 Get-ChildItem -LiteralPath . -Filter $ManifestGlob | ForEach-Object {
   $manifest = Get-Content -Raw -LiteralPath $_.FullName | ConvertFrom-Json
-  $items += $manifest.items
+  if ($manifest -is [System.Array]) { $items += $manifest }      # array plano [ ... ]
+  elseif ($manifest.items) { $items += $manifest.items }         # objeto { items: [...] }
+  else { $items += @($manifest) }
 }
 
+$idFilter = $null
+if ($OnlyIds) { $idFilter = @($OnlyIds -split '[,\s]+' | Where-Object { $_ } | ForEach-Object { [int]$_ }) }
+
+$updated = 0; $skipped = 0; $missing = 0
 foreach ($item in $items) {
-  if (-not $item.iframe -or -not $item.title) { continue }
-  $domain = @(@('name', '=', [string]$item.title))
-  $ids = Invoke-XmlRpc $object 'execute_kw' @($Database, $uid, $ApiKey, 'product.template', 'search', @($domain), @{ limit = 1 })
-  if (-not $ids -or $ids.Count -eq 0) {
-    Write-Warning "No encontrado en Odoo: $($item.title)"
-    continue
+  if ($OnlyMatched -and -not $item.Matched) { $skipped++; continue }
+  if (-not $item.iframe) { $skipped++; continue }
+
+  # Preferir OdooId (unico y sin ambiguedad). Fallback a busqueda por titulo.
+  $id = $null
+  if ($item.OdooId) {
+    $id = [int]$item.OdooId
+  } elseif ($item.title) {
+    $domain = @(@('name', '=', [string]$item.title))
+    $ids = Invoke-XmlRpc $object 'execute_kw' @($Database, $uid, $ApiKey, 'product.template', 'search', @($domain), @{ limit = 1 })
+    if ($ids -and $ids.Count -gt 0) { $id = [int]$ids[0] }
   }
+  if (-not $id) {
+    Write-Warning "Sin OdooId ni match por titulo: $($item.title)"
+    $missing++; continue
+  }
+
+  if ($idFilter -and ($id -notin $idFilter)) { $skipped++; continue }
+  if ($Limit -gt 0 -and $updated -ge $Limit) { $skipped++; continue }
 
   if ($DryRun) {
-    Write-Output "DRYRUN product.template:$($ids[0]) <= $($item.file)"
+    # Verificar que el ID exista realmente en Odoo
+    $domainId = @(@('id', '=', $id))
+    $found = Invoke-XmlRpc $object 'execute_kw' @($Database, $uid, $ApiKey, 'product.template', 'search', @($domainId), @{ limit = 1 })
+    if ($found -and $found.Count -gt 0) {
+      Write-Output "DRYRUN OK product.template:$id <= $($item.file)  ($($item.title))"
+      $updated++
+    } else {
+      Write-Warning "DRYRUN NO EXISTE product.template:$id ($($item.title))"
+      $missing++
+    }
     continue
   }
 
-  $values = @{ $DescriptionField = [string]$item.iframe }
-  Invoke-XmlRpc $object 'execute_kw' @($Database, $uid, $ApiKey, 'product.template', 'write', @(,@($ids[0]), $values), @{}) | Out-Null
-  Write-Output "UPDATED product.template:$($ids[0]) <= $($item.file)"
+  $values = @{}
+  foreach ($fld in $DescriptionField) { $values[$fld] = [string]$item.iframe }
+
+  # Construir args = [[id], values] con listas para evitar el aplanamiento de @()
+  $idList = New-Object System.Collections.Generic.List[object]
+  $idList.Add([int]$id)
+  $writeArgs = New-Object System.Collections.Generic.List[object]
+  $writeArgs.Add($idList)   # elemento 0 = [id]
+  $writeArgs.Add($values)   # elemento 1 = { campo: iframe }
+  $params = New-Object System.Collections.Generic.List[object]
+  foreach ($x in @($Database, $uid, $ApiKey, 'product.template', 'write')) { $params.Add($x) }
+  $params.Add($writeArgs)
+  $params.Add(@{})
+
+  try {
+    Invoke-XmlRpc $object 'execute_kw' $params | Out-Null
+    Write-Output "UPDATED product.template:$id <= $($item.file)  ($($item.title))"
+    $updated++
+  } catch {
+    Write-Warning "FALLO product.template:$id ($($item.title)) -> $($_.Exception.Message.Split([Environment]::NewLine)[0])"
+    $missing++
+  }
 }
+
+Write-Output ""
+Write-Output ("== Resumen ==  actualizados/ok: {0} | omitidos: {1} | faltantes: {2}" -f $updated, $skipped, $missing)
+if ($DryRun) { Write-Output "(DryRun: no se escribio nada en Odoo)" }
