@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu5" defer></script>
+  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu6" defer></script>
   <style>
     :root{
       --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -273,7 +273,7 @@
       <div class="arena">
         <div class="arena-title">
           <h2>Cara a cara</h2>
-          <p>Elegí otra GPU del catálogo. El veredicto usa potencia relativa real, no núcleos CUDA vs AMD.</p>
+          <p>Elegí otra GPU del catálogo. Veredicto: <b>Upgrade</b>, <b>Parejo</b> o <b>Retrocedes</b> — según potencia relativa (sin mezclar núcleos CUDA con AMD).</p>
         </div>
 
         <div class="cmp-head">
@@ -467,13 +467,13 @@
       bar.className = 'score-bar ' + outcome;
 
       if (outcome === 'win') {
-        msg.textContent = CURRENT + ' le gana a ' + selected + ' en potencia relativa (+' + Math.abs(relDiff) + ' pts).';
+        msg.textContent = 'Frente a ' + selected + ', esta ' + CURRENT + ' gana en potencia relativa (+' + Math.abs(relDiff) + ' pts).';
         pill.textContent = 'Upgrade'; pill.className = 'score-pill win';
       } else if (outcome === 'lose') {
-        msg.textContent = selected + ' es más potente que esta ' + CURRENT + ' (+' + Math.abs(relDiff) + ' pts). No es un downgrade “parejo”: subís de categoría si cambiás al rival.';
-        pill.textContent = 'Rival más fuerte'; pill.className = 'score-pill lose';
+        msg.textContent = 'Frente a ' + selected + ', con esta ' + CURRENT + ' retrocedés en potencia relativa (−' + Math.abs(relDiff) + ' pts).';
+        pill.textContent = 'Retrocedes'; pill.className = 'score-pill lose';
       } else {
-        msg.textContent = 'Quedan muy cerca en potencia relativa. La diferencia puede estar en precio, VRAM, stock o refrigeración.';
+        msg.textContent = 'Frente a ' + selected + ', esta ' + CURRENT + ' queda parejo en potencia relativa.';
         pill.textContent = 'Parejo'; pill.className = 'score-pill draw';
       }
     }
