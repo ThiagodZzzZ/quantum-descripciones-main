@@ -1,51 +1,410 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GIGABYTE RTX 3070TI GAMING OC (OUTLET) - Quantum Hardstore</title>
-  <link rel="stylesheet" href="../quantum-products-theme.css">
-  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260723quantum" defer></script>
+  <title>RTX 3070 Ti GAMING OC 8G</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu4" defer></script>
+  <style>
+    :root{
+      --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
+      --ink:#1A0612;--muted:#6B4458;--line:#FFD4EA;
+      --bg0:#fff;--bg1:#FFF6FB;--ok:#0F8A5F;--bad:#C62828;--warn:#B45309;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{
+      background:linear-gradient(180deg,var(--bg0),var(--bg1) 42%,var(--bg0));
+      color:var(--ink);font-family:'Outfit','Manrope',system-ui,sans-serif;overflow-x:hidden;
+    }
+    .wrap{max-width:820px;margin:0 auto;padding:18px 14px 52px}
+
+    .hero{
+      position:relative;overflow:hidden;text-align:center;
+      padding:28px 16px 22px;border:1px solid var(--line);border-radius:18px;
+      background:radial-gradient(ellipse 80% 55% at 50% -8%,rgba(230,0,126,.2),transparent 62%),linear-gradient(180deg,#fff,#fff6fb 56%,#fff);
+      box-shadow:0 14px 36px rgba(230,0,126,.11);
+    }
+    .hero::before{
+      content:"";position:absolute;width:200px;height:200px;right:-55px;top:-65px;border-radius:50%;
+      background:conic-gradient(from 80deg,rgba(230,0,126,.4),rgba(255,79,179,.06),rgba(230,0,126,.4));
+      animation:spin 16s linear infinite;filter:blur(1px);
+    }
+    .hero::after{
+      content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
+      background:linear-gradient(90deg,transparent,var(--pink),var(--pink-soft),var(--pink),transparent);
+      background-size:200% 100%;animation:shimmer 3s ease-in-out infinite;
+    }
+    @keyframes spin{to{transform:rotate(1turn)}}
+    @keyframes shimmer{50%{background-position:100% 50%}}
+
+    .kicker{position:relative;z-index:1;display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
+    .kicker i{width:8px;height:8px;border-radius:50%;background:var(--pink);animation:pulse 1.8s ease-out infinite}
+    @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(230,0,126,.55)}70%{box-shadow:0 0 0 11px transparent}}
+
+    .title{position:relative;z-index:1;font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(24px,5vw,34px);letter-spacing:-.015em;line-height:1.12}
+    .sub{position:relative;z-index:1;margin:10px auto 0;max-width:520px;font-size:14px;line-height:1.5;color:var(--muted)}
+    .tags{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:14px}
+    .tag{padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--pink-deep)}
+
+    .tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0 12px}
+    .tab{
+      appearance:none;cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:12px;
+      padding:12px 8px;font:inherit;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+      transition:transform .15s ease,border-color .15s,color .15s,box-shadow .15s;
+    }
+    .tab:hover{transform:translateY(-1px);border-color:var(--pink-soft)}
+    .tab.active{color:var(--pink-deep);border-color:var(--pink);box-shadow:0 8px 20px rgba(230,0,126,.12);background:linear-gradient(180deg,#fff,#fff4fa)}
+    .panel{display:none}
+    .panel.active{display:block;animation:fade .35s ease}
+    @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+    .strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    @media(max-width:640px){.strip{grid-template-columns:1fr}}
+    .stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center;transition:transform .2s,box-shadow .2s}
+    .stat:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(230,0,126,.12)}
+    .stat .l{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+    .stat .v{margin-top:5px;font-family:'Manrope',sans-serif;font-size:20px;font-weight:800}
+
+    .section{margin-top:8px}
+    .section h2{font-family:'Manrope',sans-serif;font-size:17px;font-weight:800;margin-bottom:6px}
+    .lead{font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.45}
+
+    .spec-list{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+    .spec-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:12px 15px;border-bottom:1px solid #ffe6f2}
+    .spec-row:last-child{border-bottom:0}
+    .spec-row .n{font-size:13px;color:var(--muted);font-weight:600}
+    .spec-row .x{font-size:14px;font-weight:700;text-align:right}
+    .src{margin-top:10px;font-size:11px;color:var(--muted);line-height:1.45}
+
+    .cmp-head{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin-bottom:14px}
+    @media(max-width:640px){
+      .cmp-head{gap:6px}
+      .card-slot{padding:10px 8px;min-height:76px}
+      .card-slot .slot-t{font-size:13px}
+      .vs{width:34px;height:34px;font-size:10px}
+    }
+    .card-slot{border:1px solid var(--line);border-radius:14px;background:#fff;padding:14px 12px;text-align:center;min-height:88px}
+    .card-slot.you{border-color:var(--pink);box-shadow:0 0 0 2px rgba(230,0,126,.12)}
+    .card-slot .slot-l{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+    .card-slot .slot-t{margin-top:6px;font-family:'Manrope',sans-serif;font-size:18px;font-weight:800}
+    .vs{
+      width:42px;height:42px;border-radius:50%;margin:0 auto;display:grid;place-items:center;
+      font-family:'Manrope',sans-serif;font-weight:800;font-size:12px;background:var(--pink);color:#fff;
+      box-shadow:0 8px 18px rgba(230,0,126,.35);
+    }
+
+    .catalog{
+      border:1px solid var(--line);border-radius:14px;background:#fff;padding:14px;margin-bottom:14px;
+    }
+    .catalog label{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
+    .catalog select{
+      width:100%;appearance:none;border:1px solid var(--line);border-radius:12px;
+      padding:14px 44px 14px 14px;font:inherit;font-size:15px;font-weight:700;color:var(--ink);background:#fff4fa;
+      background-image:linear-gradient(45deg,transparent 50%,var(--pink) 50%),linear-gradient(135deg,var(--pink) 50%,transparent 50%);
+      background-position:calc(100% - 20px) calc(50% - 3px),calc(100% - 14px) calc(50% - 3px);
+      background-size:6px 6px,6px 6px;background-repeat:no-repeat;
+      box-shadow:inset 0 0 0 1px rgba(230,0,126,.06);
+    }
+    .catalog select:focus{outline:2px solid rgba(230,0,126,.35);outline-offset:2px}
+
+    .deltas{display:grid;gap:8px}
+    .delta{
+      display:grid;grid-template-columns:1.1fr 1fr auto;gap:8px;align-items:center;
+      padding:11px 13px;border-radius:12px;border:1px solid var(--line);background:#fff;
+    }
+    .delta .stat-name{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+    .delta .vals{font-size:13px;font-weight:700;text-align:right}
+    .delta .vals .sep{color:var(--muted);font-weight:600;margin:0 4px}
+    .badge-delta{min-width:76px;text-align:center;padding:6px 8px;border-radius:999px;font-size:12px;font-weight:800}
+    .badge-delta.up{background:#E8FFF4;color:var(--ok)}
+    .badge-delta.down{background:#FFECEC;color:var(--bad)}
+    .badge-delta.same{background:#F4F1F3;color:var(--muted)}
+
+    .score-bar{
+      margin-top:14px;padding:14px;border-radius:14px;border:1px solid var(--line);
+      background:linear-gradient(135deg,rgba(230,0,126,.06),#fff);
+      display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;
+    }
+    .score-bar .msg{font-size:14px;font-weight:700;line-height:1.35;flex:1}
+    .score-pill{padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+    .score-pill.win{background:#E8FFF4;color:var(--ok)}
+    .score-pill.lose{background:#FFECEC;color:var(--bad)}
+    .score-pill.draw{background:#F4F1F3;color:var(--muted)}
+
+    .psu-card{
+      position:relative;overflow:hidden;border-radius:18px;border:1px solid var(--line);
+      background:linear-gradient(145deg,rgba(230,0,126,.08),transparent 48%),#fff;
+      padding:20px 16px;box-shadow:0 12px 32px rgba(230,0,126,.1);
+    }
+    .psu-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+    .psu-watts{font-family:'Manrope',sans-serif;font-size:clamp(40px,9vw,60px);font-weight:800;color:var(--pink);line-height:1;letter-spacing:-.03em}
+    .psu-watts span{font-size:.42em;color:var(--pink-deep);margin-left:3px}
+    .psu-hint{margin-top:8px;font-size:13px;color:var(--muted);line-height:1.45;max-width:440px}
+    .meter{margin-top:14px;height:10px;border-radius:999px;background:#ffe6f2;overflow:hidden}
+    .meter>i{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,var(--pink-deep),var(--pink-soft));animation:fill 1.35s cubic-bezier(.22,1,.36,1) .2s forwards}
+    @keyframes fill{to{width:var(--fill,70%)}}
+    .cert-grid{margin-top:14px;display:grid;grid-template-columns:1.15fr 1fr;gap:10px}
+    @media(max-width:640px){.cert-grid{grid-template-columns:1fr}}
+    .cert{border-radius:12px;padding:13px;border:1px solid var(--line);background:#fff}
+    .cert.good{border-color:#9FE0C5;background:linear-gradient(180deg,#f3fff9,#fff)}
+    .cert.warn{border-color:#F5C99A;background:linear-gradient(180deg,#fff8f0,#fff)}
+    .cert .h{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;margin-bottom:6px}
+    .cert.good .h{color:var(--ok)}.cert.warn .h{color:var(--warn)}
+    .cert p{font-size:13px;line-height:1.45}
+
+    .note{margin-top:16px;font-size:12px;line-height:1.5;color:var(--muted);border-left:3px solid var(--line);padding-left:11px}
+
+    @media(prefers-reduced-motion:reduce){
+      *,*::before,*::after{animation:none!important;transition:none!important}
+      .meter>i{width:var(--fill,70%)}
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-  <header class="qh-header">
-    <div class="brand">Quantum Hardstore</div>
-    <div class="maker">GIGABYTE / NVIDIA GeForce</div>
-    <h1>GIGABYTE RTX 3070TI GAMING OC</h1>
-    <div class="subtitle">Placa de video dedicada / NVIDIA Ampere / OUTLET</div>
-  </header>
+  <div class="wrap">
+    <header class="hero">
+      <div class="kicker"><i></i> GeForce RTX · Ampere</div>
+      <h1 class="title">RTX 3070 Ti GAMING OC 8G</h1>
+      <p class="sub">Gigabyte — 8 GB GDDR6X, ray tracing y DLSS. Specs desde ficha oficial Gigabyte + chip NVIDIA.</p>
+      <div class="tags">
+        <span class="tag">DLSS</span>
+        <span class="tag">PCIe 4.0</span>
+        <span class="tag">WINDFORCE 3X</span>
+      </div>
+    </header>
 
-  <div class="badge-row" aria-label="Caracteristicas">
-    <span class="badge">RTX 3070 Ti</span>
-    <span class="badge">Ray Tracing</span>
-    <span class="badge">DLSS</span>
-    <span class="badge">NVENC</span>
-    <span class="badge">Outlet</span>
+    <div class="tabs" role="tablist">
+      <button class="tab active" type="button" data-tab="specs" role="tab" aria-selected="true">Specs</button>
+      <button class="tab" type="button" data-tab="compare" role="tab" aria-selected="false">Comparar</button>
+      <button class="tab" type="button" data-tab="psu" role="tab" aria-selected="false">Fuente</button>
+    </div>
+
+    <section class="panel active" id="panel-specs" role="tabpanel">
+      <div class="section">
+        <h2>Lo esencial</h2>
+        <p class="lead">Datos del fabricante. Sin inventar valores.</p>
+        <div class="spec-list">
+          <div class="spec-row"><span class="n">GPU</span><span class="x">GeForce RTX 3070 Ti</span></div>
+          <div class="spec-row"><span class="n">Arquitectura</span><span class="x">NVIDIA Ampere</span></div>
+          <div class="spec-row"><span class="n">Memoria</span><span class="x">8 GB GDDR6X</span></div>
+          <div class="spec-row"><span class="n">Bus de memoria</span><span class="x">256-bit</span></div>
+          <div class="spec-row"><span class="n">Core clock (OC)</span><span class="x">1830 MHz</span></div>
+          <div class="spec-row"><span class="n">Boost referencia NVIDIA</span><span class="x">1770 MHz</span></div>
+          <div class="spec-row"><span class="n">Alimentación</span><span class="x">2× 8-pin</span></div>
+          <div class="spec-row"><span class="n">Salidas</span><span class="x">DP 1.4a ×3 · HDMI 2.1 ×2</span></div>
+          <div class="spec-row"><span class="n">Medidas (L×W×H)</span><span class="x">320 × 129 × 55 mm</span></div>
+          <div class="spec-row"><span class="n">Fuente sugerida</span><span class="x">750 W (sistema)</span></div>
+        </div>
+        <p class="src">Fuentes: <a href="https://www.gigabyte.com/Graphics-Card/GV-N307TGAMING-OC-8GD-rev-20/sp" target="_blank" rel="noopener">Gigabyte GV-N307TGAMING OC-8GD</a> · chip <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-ti/" target="_blank" rel="noopener">NVIDIA RTX 3070 Ti</a>.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-compare" role="tabpanel">
+      <h2 style="font-family:'Manrope',sans-serif;font-size:17px;font-weight:800;margin:0 0 6px">Comparar en catálogo</h2>
+      <p class="lead">Una GPU por modelo, en escalera (sin serie 4000). Verde = esta gana · Rojo = la otra va mejor.</p>
+
+      <div class="cmp-head">
+        <div class="card-slot you">
+          <div class="slot-l">Esta placa</div>
+          <div class="slot-t" id="cmpYou">RTX 3070 Ti</div>
+        </div>
+        <div class="vs">VS</div>
+        <div class="card-slot">
+          <div class="slot-l">Comparar con</div>
+          <div class="slot-t" id="cmpOther">—</div>
+        </div>
+      </div>
+
+      <div class="catalog">
+        <label for="gpuSelect">Catálogo de comparación</label>
+        <select id="gpuSelect" aria-label="Elegir GPU del catálogo"></select>
+      </div>
+
+      <div class="deltas" id="deltaList"></div>
+      <div class="score-bar" id="scoreBar" hidden>
+        <div class="msg" id="scoreMsg"></div>
+        <div class="score-pill" id="scorePill"></div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-psu" role="tabpanel">
+      <h2 style="font-family:'Manrope',sans-serif;font-size:17px;font-weight:800;margin-bottom:6px">Fuente recomendada</h2>
+      <p class="lead">Potencia sugerida para el sistema con esta GPU. No te quedes solo con el sticker de la caja.</p>
+      <div class="psu-card" style="--fill:78%">
+        <div class="psu-label">Mínimo sugerido</div>
+        <div class="psu-watts"><span id="psuCount" data-target="750">0</span><span>W</span></div>
+        <p class="psu-hint">Según recomendación de sistema Gigabyte para esta RTX 3070 Ti. Sumá margen con CPU potente u overclock.</p>
+        <div class="meter" aria-hidden="true"><i></i></div>
+        <div class="cert-grid">
+          <article class="cert good">
+            <div class="h">Priorizar Cybenetics</div>
+            <p>Buscá certificación <b>Cybenetics</b> (Gold / Platinum / Titanium): mide eficiencia real, ripple y ruido.</p>
+          </article>
+          <article class="cert warn">
+            <div class="h">80 PLUS Gold ya no alcanza</div>
+            <p><b>80 PLUS Gold</b> está diluido: muchas lo imprimen y fallan en rieles o regulación. No lo tomes como garantía.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <p class="note">* Specs del modelo según sitio oficial del fabricante. El stock (nuevo/outlet) puede variar.</p>
   </div>
 
-  <section class="hero-metric"><div class="metric-box"><div class="metric-label">Memoria de video</div><div class="metric-value">8 GB</div><div class="metric-desc">RTX 3070 Ti de NVIDIA. Placa de video dedicada; specs segun ficha oficial del fabricante del chip.</div></div></section>
+  <script>
+  (function () {
+    /* Una por modelo, escalera real del stock (sin RTX 40xx). Specs chip NVIDIA/AMD oficiales. */
+    var CATALOG = {
+      "GTX 1660 Ti":  { brand:"NVIDIA", arch:"Turing",   vramGb:6,  mem:"GDDR6",  bus:192, cores:1536,  boost:1770, tdp:120, psu:450 },
+      "RTX 2060":     { brand:"NVIDIA", arch:"Turing",   vramGb:6,  mem:"GDDR6",  bus:192, cores:1920,  boost:1680, tdp:160, psu:500 },
+      "RTX 2060 Super":{brand:"NVIDIA", arch:"Turing",   vramGb:8,  mem:"GDDR6",  bus:256, cores:2176,  boost:1650, tdp:175, psu:550 },
+      "RTX 3050":     { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6",  bus:128, cores:2560,  boost:1777, tdp:130, psu:550 },
+      "RTX 3060":     { brand:"NVIDIA", arch:"Ampere",   vramGb:12, mem:"GDDR6",  bus:192, cores:3584,  boost:1777, tdp:170, psu:550 },
+      "RTX 3060 Ti":  { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6",  bus:256, cores:4864,  boost:1665, tdp:200, psu:600 },
+      "RTX 3070":     { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6",  bus:256, cores:5888,  boost:1725, tdp:220, psu:650 },
+      "RTX 3070 Ti":  { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6X", bus:256, cores:6144,  boost:1770, tdp:290, psu:750 },
+      "RTX 3080":     { brand:"NVIDIA", arch:"Ampere",   vramGb:10, mem:"GDDR6X", bus:320, cores:8704,  boost:1710, tdp:320, psu:750 },
+      "RTX 3080 Ti":  { brand:"NVIDIA", arch:"Ampere",   vramGb:12, mem:"GDDR6X", bus:384, cores:10240, boost:1665, tdp:350, psu:850 },
+      "RTX 3090":     { brand:"NVIDIA", arch:"Ampere",   vramGb:24, mem:"GDDR6X", bus:384, cores:10496, boost:1695, tdp:350, psu:850 },
+      "RTX 5050":     { brand:"NVIDIA", arch:"Blackwell",vramGb:8,  mem:"GDDR6",  bus:128, cores:2560,  boost:2572, tdp:130, psu:550 },
+      "RTX 5060":     { brand:"NVIDIA", arch:"Blackwell",vramGb:8,  mem:"GDDR7",  bus:128, cores:3840,  boost:2497, tdp:145, psu:550 },
+      "RTX 5060 Ti":  { brand:"NVIDIA", arch:"Blackwell",vramGb:8,  mem:"GDDR7",  bus:128, cores:4608,  boost:2572, tdp:180, psu:600 },
+      "RTX 5070":     { brand:"NVIDIA", arch:"Blackwell",vramGb:12, mem:"GDDR7",  bus:192, cores:6144,  boost:2512, tdp:250, psu:650 },
+      "RTX 5070 Ti":  { brand:"NVIDIA", arch:"Blackwell",vramGb:16, mem:"GDDR7",  bus:256, cores:8960,  boost:2452, tdp:300, psu:750 },
+      "RTX 5080":     { brand:"NVIDIA", arch:"Blackwell",vramGb:16, mem:"GDDR7",  bus:256, cores:10752, boost:2617, tdp:360, psu:850 },
+      "RTX 5090":     { brand:"NVIDIA", arch:"Blackwell",vramGb:32, mem:"GDDR7",  bus:512, cores:21760, boost:2407, tdp:575, psu:1000 },
+      "RX 5700 XT":   { brand:"AMD", arch:"RDNA",   vramGb:8,  mem:"GDDR6", bus:256, cores:2560, boost:1905, tdp:225, psu:600 },
+      "RX 6600":      { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, cores:1792, boost:2491, tdp:132, psu:500 },
+      "RX 6600 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, cores:2048, boost:2589, tdp:160, psu:500 },
+      "RX 6700 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:12, mem:"GDDR6", bus:192, cores:2560, boost:2581, tdp:230, psu:650 },
+      "RX 6800":      { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, cores:3840, boost:2105, tdp:250, psu:650 },
+      "RX 6800 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, cores:4608, boost:2250, tdp:300, psu:750 },
+      "RX 6900 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, cores:5120, boost:2250, tdp:300, psu:850 },
+      "RX 7600":      { brand:"AMD", arch:"RDNA 3", vramGb:8,  mem:"GDDR6", bus:128, cores:2048, boost:2655, tdp:165, psu:550 },
+      "RX 9060 XT":   { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:128, cores:2048, boost:3130, tdp:160, psu:550 },
+      "RX 9070":      { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, cores:3584, boost:2520, tdp:220, psu:650 },
+      "RX 9070 XT":   { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, cores:4096, boost:2970, tdp:304, psu:750 }
+    };
 
-  <section class="section"><h2 class="section-title">Especificaciones tecnicas</h2><p class="section-sub">Datos segun ficha oficial del fabricante del chip. El modelo AIB puede variar clocks de fabrica y disipacion.</p><div class="spec-grid">
-      <article class="spec-card"><div class="spec-name">Arquitectura</div><div class="spec-value">Ampere</div><div class="spec-note">Generacion y familia del GPU.</div></article>
-      <article class="spec-card"><div class="spec-name">Proceso</div><div class="spec-value">8 nm</div><div class="spec-note">Nodo de fabricacion.</div></article>
-      <article class="spec-card"><div class="spec-name">CUDA Cores</div><div class="spec-value">6144</div><div class="spec-note">Nucleos de sombreado.</div></article>
-      <article class="spec-card"><div class="spec-name">Memoria</div><div class="spec-value">8 GB GDDR6X</div><div class="spec-note">Capacidad y tipo de VRAM.</div></article>
-      <article class="spec-card"><div class="spec-name">Bus de memoria</div><div class="spec-value">256-bit</div><div class="spec-note">Ancho del bus de memoria.</div></article>
-      <article class="spec-card"><div class="spec-name">Boost clock</div><div class="spec-value">1770 MHz</div><div class="spec-note">Frecuencia maxima de referencia.</div></article>
-      <article class="spec-card"><div class="spec-name">Consumo (TDP)</div><div class="spec-value">290 W</div><div class="spec-note">Potencia declarada del chip.</div></article>
-      <article class="spec-card"><div class="spec-name">Interfaz</div><div class="spec-value">PCIe 4.0</div><div class="spec-note">Version de PCI Express.</div></article>
-    </div></section>
+    var ORDER_NV = ["GTX 1660 Ti","RTX 2060","RTX 2060 Super","RTX 3050","RTX 3060","RTX 3060 Ti","RTX 3070","RTX 3070 Ti","RTX 3080","RTX 3080 Ti","RTX 3090","RTX 5050","RTX 5060","RTX 5060 Ti","RTX 5070","RTX 5070 Ti","RTX 5080","RTX 5090"];
+    var ORDER_AMD = ["RX 5700 XT","RX 6600","RX 6600 XT","RX 6700 XT","RX 6800","RX 6800 XT","RX 6900 XT","RX 7600","RX 9060 XT","RX 9070","RX 9070 XT"];
 
-  <section class="section dark"><h2 class="section-title">Requisitos y armado</h2><p class="section-sub">Lo que necesitas para instalarla correctamente en tu equipo.</p><div class="conn-grid">
-      <article class="conn-card"><div class="conn-count">750 W</div><div class="conn-name">Fuente recomendada</div><div class="conn-desc">Potencia de PSU sugerida por el fabricante para el sistema.</div></article>
-      <article class="conn-card"><div class="conn-count">Power</div><div class="conn-name">Alimentacion</div><div class="conn-desc">1 x 12-pin / 2 x 8-pin</div></article>
-      <article class="conn-card"><div class="conn-count">Video</div><div class="conn-name">Salidas</div><div class="conn-desc">DP 1.4a / HDMI 2.1</div></article>
-    </div></section>
+    var CURRENT = "RTX 3070 Ti";
+    var you = CATALOG[CURRENT];
+    var selected = "RTX 3060 Ti";
 
-  <div class="status-box"><div class="status-title">Producto outlet</div><div class="status-text">Unidad outlet revisada por Quantum Hardstore. Estado y stock sujetos a confirmacion. Consultar disponibilidad antes de abonar.</div></div>
+    function fmt(n){ return (n||0).toLocaleString('es-AR'); }
 
-  <div class="note">* Especificaciones resumidas desde ficha oficial de NVIDIA RTX 3070 Ti. Los valores de fabrica pueden variar segun el modelo GIGABYTE. La compatibilidad final depende de fuente, gabinete y monitor.</div>
-</div>
+    function buildSelect(){
+      var sel = document.getElementById('gpuSelect');
+      var html = '';
+      html += '<optgroup label="NVIDIA (escalera)">';
+      ORDER_NV.forEach(function(k){
+        if (!CATALOG[k] || k === CURRENT) return;
+        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB</option>';
+      });
+      html += '</optgroup><optgroup label="AMD (desde RX 5700 XT)">';
+      ORDER_AMD.forEach(function(k){
+        if (!CATALOG[k]) return;
+        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB</option>';
+      });
+      html += '</optgroup>';
+      sel.innerHTML = html;
+      sel.addEventListener('change', function(){
+        selected = sel.value;
+        renderCompare();
+      });
+    }
+
+    function deltaBadge(diff, unit, higherIsBetter){
+      if (diff === 0) return { cls:'same', text:'=' };
+      var better = higherIsBetter ? diff > 0 : diff < 0;
+      var sign = diff > 0 ? '+' : '';
+      return { cls: better ? 'up' : 'down', text: (better ? '▲ ' : '▼ ') + sign + Math.abs(diff) + (unit||'') };
+    }
+
+    function renderCompare(){
+      var other = CATALOG[selected];
+      document.getElementById('cmpYou').textContent = CURRENT;
+      document.getElementById('cmpOther').textContent = selected;
+
+      var metrics = [
+        { name:'Memoria', a:you.vramGb, b:other.vramGb, unit:' GB', hib:true, weight:2, fa:you.vramGb+' GB', fb:other.vramGb+' GB' },
+        { name:'Núcleos', a:you.cores, b:other.cores, unit:'', hib:true, weight:2, fa:fmt(you.cores), fb:fmt(other.cores) },
+        { name:'Boost', a:you.boost, b:other.boost, unit:' MHz', hib:true, weight:1, fa:fmt(you.boost)+' MHz', fb:fmt(other.boost)+' MHz' },
+        { name:'Bus', a:you.bus, b:other.bus, unit:'-bit', hib:true, weight:1, fa:you.bus+'-bit', fb:other.bus+'-bit' },
+        { name:'TGP', a:you.tdp, b:other.tdp, unit:' W', hib:false, weight:0, fa:you.tdp+' W', fb:other.tdp+' W' },
+        { name:'Fuente sugerida', a:you.psu, b:other.psu, unit:' W', hib:false, weight:0, fa:you.psu+' W', fb:other.psu+' W' }
+      ];
+
+      var scoreYou = 0, scoreOther = 0;
+      document.getElementById('deltaList').innerHTML = metrics.map(function(m){
+        var d = m.a - m.b;
+        var badge = deltaBadge(d, m.unit, m.hib);
+        if (m.weight > 0) {
+          if (badge.cls === 'up') scoreYou += m.weight;
+          if (badge.cls === 'down') scoreOther += m.weight;
+        }
+        return '<div class="delta"><div class="stat-name">'+m.name+'</div><div class="vals">'+m.fa+'<span class="sep">vs</span>'+m.fb+'</div><div class="badge-delta '+badge.cls+'">'+badge.text+'</div></div>';
+      }).join('');
+
+      var bar = document.getElementById('scoreBar');
+      var msg = document.getElementById('scoreMsg');
+      var pill = document.getElementById('scorePill');
+      bar.hidden = false;
+      if (scoreYou > scoreOther) {
+        msg.textContent = 'En potencia, ' + CURRENT + ' le gana a ' + selected + '. Subís de categoría.';
+        pill.textContent = 'Upgrade'; pill.className = 'score-pill win';
+      } else if (scoreOther > scoreYou) {
+        msg.textContent = 'Ojo: frente a ' + selected + ' estás bajando de categoría en potencia bruta.';
+        pill.textContent = 'Retrocediendo'; pill.className = 'score-pill lose';
+      } else {
+        msg.textContent = 'Potencia similar en lo medible. La diferencia puede estar en precio, stock o refrigeración.';
+        pill.textContent = 'Parejo'; pill.className = 'score-pill draw';
+      }
+    }
+
+    var tabs = document.querySelectorAll('.tab');
+    tabs.forEach(function(tab){
+      tab.addEventListener('click', function(){
+        var id = tab.getAttribute('data-tab');
+        tabs.forEach(function(t){
+          var on = t === tab;
+          t.classList.toggle('active', on);
+          t.setAttribute('aria-selected', on ? 'true' : 'false');
+        });
+        document.querySelectorAll('.panel').forEach(function(p){
+          p.classList.toggle('active', p.id === 'panel-' + id);
+        });
+        if (id === 'psu') startPsuCounter();
+      });
+    });
+
+    var psuStarted = false;
+    function startPsuCounter(){
+      var el = document.getElementById('psuCount');
+      if (!el || psuStarted) return;
+      var target = parseInt(el.getAttribute('data-target'), 10) || 750;
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        el.textContent = String(target); psuStarted = true; return;
+      }
+      psuStarted = true;
+      var start = null, dur = 1100;
+      function tick(ts){
+        if (!start) start = ts;
+        var p = Math.min(1, (ts - start) / dur);
+        el.textContent = String(Math.round(target * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    buildSelect();
+    renderCompare();
+  })();
+  </script>
 </body>
 </html>
