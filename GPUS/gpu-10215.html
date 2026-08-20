@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu4" defer></script>
+  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu5" defer></script>
   <style>
     :root{
       --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -40,10 +40,6 @@
     @keyframes spin{to{transform:rotate(1turn)}}
     @keyframes shimmer{50%{background-position:100% 50%}}
 
-    .kicker{position:relative;z-index:1;display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
-    .kicker i{width:8px;height:8px;border-radius:50%;background:var(--pink);animation:pulse 1.8s ease-out infinite}
-    @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(230,0,126,.55)}70%{box-shadow:0 0 0 11px transparent}}
-
     .title{position:relative;z-index:1;font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(24px,5vw,34px);letter-spacing:-.015em;line-height:1.12}
     .sub{position:relative;z-index:1;margin:10px auto 0;max-width:520px;font-size:14px;line-height:1.5;color:var(--muted)}
     .tags{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:14px}
@@ -61,13 +57,6 @@
     .panel.active{display:block;animation:fade .35s ease}
     @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
-    .strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-    @media(max-width:640px){.strip{grid-template-columns:1fr}}
-    .stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center;transition:transform .2s,box-shadow .2s}
-    .stat:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(230,0,126,.12)}
-    .stat .l{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
-    .stat .v{margin-top:5px;font-family:'Manrope',sans-serif;font-size:20px;font-weight:800}
-
     .section{margin-top:8px}
     .section h2{font-family:'Manrope',sans-serif;font-size:17px;font-weight:800;margin-bottom:6px}
     .lead{font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.45}
@@ -78,61 +67,139 @@
     .spec-row .n{font-size:13px;color:var(--muted);font-weight:600}
     .spec-row .x{font-size:14px;font-weight:700;text-align:right}
     .src{margin-top:10px;font-size:11px;color:var(--muted);line-height:1.45}
+    .src a{color:var(--pink-deep)}
 
-    .cmp-head{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin-bottom:14px}
+    /* —— Comparar (destacado) —— */
+    .arena{
+      position:relative;overflow:hidden;border-radius:22px;padding:18px 14px 16px;margin-bottom:14px;
+      border:1px solid rgba(230,0,126,.35);
+      background:
+        radial-gradient(ellipse 70% 80% at 0% 50%,rgba(230,0,126,.14),transparent 55%),
+        radial-gradient(ellipse 70% 80% at 100% 50%,rgba(15,138,95,.1),transparent 55%),
+        linear-gradient(180deg,#fff,#fff5fa);
+      box-shadow:0 18px 40px rgba(230,0,126,.16);
+    }
+    .arena::before{
+      content:"";position:absolute;inset:0;pointer-events:none;
+      background:linear-gradient(110deg,transparent 40%,rgba(255,255,255,.55) 50%,transparent 60%);
+      background-size:220% 100%;animation:sheen 4.5s ease-in-out infinite;
+    }
+    @keyframes sheen{0%,100%{background-position:120% 0}50%{background-position:-20% 0}}
+    .arena-title{position:relative;z-index:1;text-align:center;margin-bottom:14px}
+    .arena-title h2{font-family:'Manrope',sans-serif;font-size:clamp(20px,4.5vw,26px);font-weight:800;letter-spacing:-.02em;margin:0}
+    .arena-title p{margin-top:6px;font-size:13px;color:var(--muted);line-height:1.4}
+
+    .cmp-head{position:relative;z-index:1;display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:stretch;margin-bottom:14px}
     @media(max-width:640px){
       .cmp-head{gap:6px}
-      .card-slot{padding:10px 8px;min-height:76px}
+      .card-slot{padding:12px 8px;min-height:96px}
       .card-slot .slot-t{font-size:13px}
-      .vs{width:34px;height:34px;font-size:10px}
+      .vs{width:44px;height:44px;font-size:11px}
     }
-    .card-slot{border:1px solid var(--line);border-radius:14px;background:#fff;padding:14px 12px;text-align:center;min-height:88px}
-    .card-slot.you{border-color:var(--pink);box-shadow:0 0 0 2px rgba(230,0,126,.12)}
+    .card-slot{
+      position:relative;border:1px solid var(--line);border-radius:16px;background:#fff;
+      padding:16px 12px;text-align:center;min-height:108px;
+      display:flex;flex-direction:column;justify-content:center;
+      transition:transform .2s,box-shadow .2s,border-color .2s;
+    }
+    .card-slot.you{border-color:var(--pink);box-shadow:0 0 0 2px rgba(230,0,126,.18),0 12px 28px rgba(230,0,126,.12)}
+    .card-slot.win{
+      border-color:var(--ok);box-shadow:0 0 0 2px rgba(15,138,95,.2),0 14px 30px rgba(15,138,95,.14);
+      transform:translateY(-2px);
+    }
+    .card-slot.lose{opacity:.78;filter:saturate(.85)}
     .card-slot .slot-l{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
-    .card-slot .slot-t{margin-top:6px;font-family:'Manrope',sans-serif;font-size:18px;font-weight:800}
-    .vs{
-      width:42px;height:42px;border-radius:50%;margin:0 auto;display:grid;place-items:center;
-      font-family:'Manrope',sans-serif;font-weight:800;font-size:12px;background:var(--pink);color:#fff;
-      box-shadow:0 8px 18px rgba(230,0,126,.35);
+    .card-slot .slot-t{margin-top:6px;font-family:'Manrope',sans-serif;font-size:clamp(15px,3.6vw,20px);font-weight:800;line-height:1.15}
+    .card-slot .slot-meta{margin-top:6px;font-size:11px;font-weight:700;color:var(--muted)}
+    .card-slot .crown{
+      display:none;position:absolute;top:-10px;left:50%;transform:translateX(-50%);
+      padding:3px 10px;border-radius:999px;background:var(--ok);color:#fff;
+      font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+      box-shadow:0 6px 14px rgba(15,138,95,.35);
     }
+    .card-slot.win .crown{display:inline-block}
+    .vs{
+      align-self:center;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;
+      font-family:'Manrope',sans-serif;font-weight:800;font-size:14px;background:var(--pink);color:#fff;
+      box-shadow:0 10px 24px rgba(230,0,126,.45);position:relative;z-index:2;
+      animation:vsPulse 2.2s ease-in-out infinite;
+    }
+    @keyframes vsPulse{50%{transform:scale(1.06);box-shadow:0 12px 28px rgba(230,0,126,.55)}}
 
     .catalog{
-      border:1px solid var(--line);border-radius:14px;background:#fff;padding:14px;margin-bottom:14px;
+      position:relative;z-index:1;border:1px solid rgba(230,0,126,.25);border-radius:16px;
+      background:#fff;padding:14px;margin-bottom:14px;
+      box-shadow:0 8px 22px rgba(230,0,126,.08);
     }
     .catalog label{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
     .catalog select{
-      width:100%;appearance:none;border:1px solid var(--line);border-radius:12px;
-      padding:14px 44px 14px 14px;font:inherit;font-size:15px;font-weight:700;color:var(--ink);background:#fff4fa;
+      width:100%;appearance:none;border:2px solid var(--pink);border-radius:12px;
+      padding:15px 44px 15px 14px;font:inherit;font-size:16px;font-weight:800;color:var(--ink);background:#fff4fa;
       background-image:linear-gradient(45deg,transparent 50%,var(--pink) 50%),linear-gradient(135deg,var(--pink) 50%,transparent 50%);
       background-position:calc(100% - 20px) calc(50% - 3px),calc(100% - 14px) calc(50% - 3px);
       background-size:6px 6px,6px 6px;background-repeat:no-repeat;
-      box-shadow:inset 0 0 0 1px rgba(230,0,126,.06);
     }
-    .catalog select:focus{outline:2px solid rgba(230,0,126,.35);outline-offset:2px}
+    .catalog select:focus{outline:3px solid rgba(230,0,126,.28);outline-offset:2px}
+
+    .power{
+      position:relative;z-index:1;margin-bottom:14px;padding:14px;border-radius:16px;
+      border:1px solid var(--line);background:#fff;
+    }
+    .power .ph{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:10px}
+    .power .ph strong{font-family:'Manrope',sans-serif;font-size:14px;font-weight:800}
+    .power .ph span{font-size:12px;font-weight:700;color:var(--muted)}
+    .bars{display:grid;gap:10px}
+    .bar-row{display:grid;grid-template-columns:72px 1fr 44px;gap:8px;align-items:center}
+    .bar-row .who{font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+    .track{height:14px;border-radius:999px;background:#ffe6f2;overflow:hidden}
+    .track>i{display:block;height:100%;width:0;border-radius:inherit;transition:width .7s cubic-bezier(.22,1,.36,1)}
+    .track.you>i{background:linear-gradient(90deg,var(--pink-deep),var(--pink-soft))}
+    .track.other>i{background:linear-gradient(90deg,#0b6b4a,#1dbf7a)}
+    .bar-row .pct{font-family:'Manrope',sans-serif;font-size:13px;font-weight:800;text-align:right}
 
     .deltas{display:grid;gap:8px}
     .delta{
-      display:grid;grid-template-columns:1.1fr 1fr auto;gap:8px;align-items:center;
-      padding:11px 13px;border-radius:12px;border:1px solid var(--line);background:#fff;
+      display:grid;grid-template-columns:1.05fr 1.2fr auto;gap:8px;align-items:center;
+      padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:#fff;
     }
-    .delta .stat-name{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+    .delta.hero-metric{
+      border-color:rgba(230,0,126,.35);
+      background:linear-gradient(135deg,rgba(230,0,126,.08),#fff 55%);
+      box-shadow:0 10px 24px rgba(230,0,126,.1);
+    }
+    .delta .stat-name{font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
     .delta .vals{font-size:13px;font-weight:700;text-align:right}
     .delta .vals .sep{color:var(--muted);font-weight:600;margin:0 4px}
-    .badge-delta{min-width:76px;text-align:center;padding:6px 8px;border-radius:999px;font-size:12px;font-weight:800}
+    .badge-delta{min-width:84px;text-align:center;padding:7px 9px;border-radius:999px;font-size:12px;font-weight:800}
     .badge-delta.up{background:#E8FFF4;color:var(--ok)}
     .badge-delta.down{background:#FFECEC;color:var(--bad)}
     .badge-delta.same{background:#F4F1F3;color:var(--muted)}
 
     .score-bar{
-      margin-top:14px;padding:14px;border-radius:14px;border:1px solid var(--line);
-      background:linear-gradient(135deg,rgba(230,0,126,.06),#fff);
-      display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;
+      margin-top:14px;padding:18px 16px;border-radius:18px;border:2px solid transparent;
+      display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;
+      animation:fade .35s ease;
     }
-    .score-bar .msg{font-size:14px;font-weight:700;line-height:1.35;flex:1}
-    .score-pill{padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
-    .score-pill.win{background:#E8FFF4;color:var(--ok)}
-    .score-pill.lose{background:#FFECEC;color:var(--bad)}
-    .score-pill.draw{background:#F4F1F3;color:var(--muted)}
+    .score-bar.win{
+      border-color:#9FE0C5;
+      background:linear-gradient(135deg,#e8fff4,#fff);
+      box-shadow:0 14px 32px rgba(15,138,95,.16);
+    }
+    .score-bar.lose{
+      border-color:#f3b4b4;
+      background:linear-gradient(135deg,#fff1f1,#fff);
+      box-shadow:0 14px 32px rgba(198,40,40,.12);
+    }
+    .score-bar.draw{
+      border-color:var(--line);
+      background:linear-gradient(135deg,#fff6fb,#fff);
+    }
+    .score-bar .msg{font-size:15px;font-weight:700;line-height:1.4;flex:1;min-width:200px}
+    .score-pill{padding:10px 14px;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+    .score-pill.win{background:#0F8A5F;color:#fff}
+    .score-pill.lose{background:#C62828;color:#fff}
+    .score-pill.draw{background:#6B4458;color:#fff}
+    .cmp-note{margin-top:10px;font-size:11px;color:var(--muted);line-height:1.45}
 
     .psu-card{
       position:relative;overflow:hidden;border-radius:18px;border:1px solid var(--line);
@@ -160,13 +227,13 @@
     @media(prefers-reduced-motion:reduce){
       *,*::before,*::after{animation:none!important;transition:none!important}
       .meter>i{width:var(--fill,70%)}
+      .track>i{transition:none}
     }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header class="hero">
-      <div class="kicker"><i></i> GeForce RTX · Ampere</div>
       <h1 class="title">RTX 3070 Ti GAMING OC 8G</h1>
       <p class="sub">Gigabyte — 8 GB GDDR6X, ray tracing y DLSS. Specs desde ficha oficial Gigabyte + chip NVIDIA.</p>
       <div class="tags">
@@ -203,30 +270,58 @@
     </section>
 
     <section class="panel" id="panel-compare" role="tabpanel">
-      <h2 style="font-family:'Manrope',sans-serif;font-size:17px;font-weight:800;margin:0 0 6px">Comparar en catálogo</h2>
-      <p class="lead">Una GPU por modelo, en escalera (sin serie 4000). Verde = esta gana · Rojo = la otra va mejor.</p>
-
-      <div class="cmp-head">
-        <div class="card-slot you">
-          <div class="slot-l">Esta placa</div>
-          <div class="slot-t" id="cmpYou">RTX 3070 Ti</div>
+      <div class="arena">
+        <div class="arena-title">
+          <h2>Cara a cara</h2>
+          <p>Elegí otra GPU del catálogo. El veredicto usa potencia relativa real, no núcleos CUDA vs AMD.</p>
         </div>
-        <div class="vs">VS</div>
-        <div class="card-slot">
-          <div class="slot-l">Comparar con</div>
-          <div class="slot-t" id="cmpOther">—</div>
+
+        <div class="cmp-head">
+          <div class="card-slot you" id="cardYou">
+            <span class="crown">Gana</span>
+            <div class="slot-l">Esta placa</div>
+            <div class="slot-t" id="cmpYou">RTX 3070 Ti</div>
+            <div class="slot-meta" id="metaYou"></div>
+          </div>
+          <div class="vs">VS</div>
+          <div class="card-slot" id="cardOther">
+            <span class="crown">Gana</span>
+            <div class="slot-l">Rival</div>
+            <div class="slot-t" id="cmpOther">—</div>
+            <div class="slot-meta" id="metaOther"></div>
+          </div>
         </div>
-      </div>
 
-      <div class="catalog">
-        <label for="gpuSelect">Catálogo de comparación</label>
-        <select id="gpuSelect" aria-label="Elegir GPU del catálogo"></select>
-      </div>
+        <div class="catalog">
+          <label for="gpuSelect">Elegí con qué comparar</label>
+          <select id="gpuSelect" aria-label="Elegir GPU del catálogo"></select>
+        </div>
 
-      <div class="deltas" id="deltaList"></div>
-      <div class="score-bar" id="scoreBar" hidden>
-        <div class="msg" id="scoreMsg"></div>
-        <div class="score-pill" id="scorePill"></div>
+        <div class="power">
+          <div class="ph">
+            <strong>Potencia relativa</strong>
+            <span>índice 0–100 en esta escalera</span>
+          </div>
+          <div class="bars">
+            <div class="bar-row">
+              <div class="who">Esta</div>
+              <div class="track you"><i id="barYou"></i></div>
+              <div class="pct" id="pctYou">0</div>
+            </div>
+            <div class="bar-row">
+              <div class="who">Rival</div>
+              <div class="track other"><i id="barOther"></i></div>
+              <div class="pct" id="pctOther">0</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="deltas" id="deltaList"></div>
+        <div class="score-bar" id="scoreBar" hidden>
+          <div class="msg" id="scoreMsg"></div>
+          <div class="score-pill" id="scorePill"></div>
+        </div>
+        <p class="cmp-note">* El índice relativo ordena la escalera del catálogo (sin serie 4000). No es un FPS medido en un juego puntual.</p>
       </div>
     </section>
 
@@ -256,37 +351,37 @@
 
   <script>
   (function () {
-    /* Una por modelo, escalera real del stock (sin RTX 40xx). Specs chip NVIDIA/AMD oficiales. */
+    /* rel = índice relativo de potencia en esta escalera (cross-vendor). No comparar CUDA vs CU. */
     var CATALOG = {
-      "GTX 1660 Ti":  { brand:"NVIDIA", arch:"Turing",   vramGb:6,  mem:"GDDR6",  bus:192, cores:1536,  boost:1770, tdp:120, psu:450 },
-      "RTX 2060":     { brand:"NVIDIA", arch:"Turing",   vramGb:6,  mem:"GDDR6",  bus:192, cores:1920,  boost:1680, tdp:160, psu:500 },
-      "RTX 2060 Super":{brand:"NVIDIA", arch:"Turing",   vramGb:8,  mem:"GDDR6",  bus:256, cores:2176,  boost:1650, tdp:175, psu:550 },
-      "RTX 3050":     { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6",  bus:128, cores:2560,  boost:1777, tdp:130, psu:550 },
-      "RTX 3060":     { brand:"NVIDIA", arch:"Ampere",   vramGb:12, mem:"GDDR6",  bus:192, cores:3584,  boost:1777, tdp:170, psu:550 },
-      "RTX 3060 Ti":  { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6",  bus:256, cores:4864,  boost:1665, tdp:200, psu:600 },
-      "RTX 3070":     { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6",  bus:256, cores:5888,  boost:1725, tdp:220, psu:650 },
-      "RTX 3070 Ti":  { brand:"NVIDIA", arch:"Ampere",   vramGb:8,  mem:"GDDR6X", bus:256, cores:6144,  boost:1770, tdp:290, psu:750 },
-      "RTX 3080":     { brand:"NVIDIA", arch:"Ampere",   vramGb:10, mem:"GDDR6X", bus:320, cores:8704,  boost:1710, tdp:320, psu:750 },
-      "RTX 3080 Ti":  { brand:"NVIDIA", arch:"Ampere",   vramGb:12, mem:"GDDR6X", bus:384, cores:10240, boost:1665, tdp:350, psu:850 },
-      "RTX 3090":     { brand:"NVIDIA", arch:"Ampere",   vramGb:24, mem:"GDDR6X", bus:384, cores:10496, boost:1695, tdp:350, psu:850 },
-      "RTX 5050":     { brand:"NVIDIA", arch:"Blackwell",vramGb:8,  mem:"GDDR6",  bus:128, cores:2560,  boost:2572, tdp:130, psu:550 },
-      "RTX 5060":     { brand:"NVIDIA", arch:"Blackwell",vramGb:8,  mem:"GDDR7",  bus:128, cores:3840,  boost:2497, tdp:145, psu:550 },
-      "RTX 5060 Ti":  { brand:"NVIDIA", arch:"Blackwell",vramGb:8,  mem:"GDDR7",  bus:128, cores:4608,  boost:2572, tdp:180, psu:600 },
-      "RTX 5070":     { brand:"NVIDIA", arch:"Blackwell",vramGb:12, mem:"GDDR7",  bus:192, cores:6144,  boost:2512, tdp:250, psu:650 },
-      "RTX 5070 Ti":  { brand:"NVIDIA", arch:"Blackwell",vramGb:16, mem:"GDDR7",  bus:256, cores:8960,  boost:2452, tdp:300, psu:750 },
-      "RTX 5080":     { brand:"NVIDIA", arch:"Blackwell",vramGb:16, mem:"GDDR7",  bus:256, cores:10752, boost:2617, tdp:360, psu:850 },
-      "RTX 5090":     { brand:"NVIDIA", arch:"Blackwell",vramGb:32, mem:"GDDR7",  bus:512, cores:21760, boost:2407, tdp:575, psu:1000 },
-      "RX 5700 XT":   { brand:"AMD", arch:"RDNA",   vramGb:8,  mem:"GDDR6", bus:256, cores:2560, boost:1905, tdp:225, psu:600 },
-      "RX 6600":      { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, cores:1792, boost:2491, tdp:132, psu:500 },
-      "RX 6600 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, cores:2048, boost:2589, tdp:160, psu:500 },
-      "RX 6700 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:12, mem:"GDDR6", bus:192, cores:2560, boost:2581, tdp:230, psu:650 },
-      "RX 6800":      { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, cores:3840, boost:2105, tdp:250, psu:650 },
-      "RX 6800 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, cores:4608, boost:2250, tdp:300, psu:750 },
-      "RX 6900 XT":   { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, cores:5120, boost:2250, tdp:300, psu:850 },
-      "RX 7600":      { brand:"AMD", arch:"RDNA 3", vramGb:8,  mem:"GDDR6", bus:128, cores:2048, boost:2655, tdp:165, psu:550 },
-      "RX 9060 XT":   { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:128, cores:2048, boost:3130, tdp:160, psu:550 },
-      "RX 9070":      { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, cores:3584, boost:2520, tdp:220, psu:650 },
-      "RX 9070 XT":   { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, cores:4096, boost:2970, tdp:304, psu:750 }
+      "GTX 1660 Ti":   { brand:"NVIDIA", arch:"Turing",    vramGb:6,  mem:"GDDR6",  bus:192, boost:1770, tdp:120, psu:450, rel:28 },
+      "RTX 2060":      { brand:"NVIDIA", arch:"Turing",    vramGb:6,  mem:"GDDR6",  bus:192, boost:1680, tdp:160, psu:500, rel:34 },
+      "RTX 2060 Super":{ brand:"NVIDIA", arch:"Turing",   vramGb:8,  mem:"GDDR6",  bus:256, boost:1650, tdp:175, psu:550, rel:40 },
+      "RTX 3050":      { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6",  bus:128, boost:1777, tdp:130, psu:550, rel:32 },
+      "RTX 3060":      { brand:"NVIDIA", arch:"Ampere",    vramGb:12, mem:"GDDR6",  bus:192, boost:1777, tdp:170, psu:550, rel:42 },
+      "RTX 3060 Ti":   { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6",  bus:256, boost:1665, tdp:200, psu:600, rel:52 },
+      "RTX 3070":      { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6",  bus:256, boost:1725, tdp:220, psu:650, rel:58 },
+      "RTX 3070 Ti":   { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6X", bus:256, boost:1770, tdp:290, psu:750, rel:62 },
+      "RTX 3080":      { brand:"NVIDIA", arch:"Ampere",    vramGb:10, mem:"GDDR6X", bus:320, boost:1710, tdp:320, psu:750, rel:72 },
+      "RTX 3080 Ti":   { brand:"NVIDIA", arch:"Ampere",    vramGb:12, mem:"GDDR6X", bus:384, boost:1665, tdp:350, psu:850, rel:80 },
+      "RTX 3090":      { brand:"NVIDIA", arch:"Ampere",    vramGb:24, mem:"GDDR6X", bus:384, boost:1695, tdp:350, psu:850, rel:84 },
+      "RTX 5050":      { brand:"NVIDIA", arch:"Blackwell", vramGb:8,  mem:"GDDR6",  bus:128, boost:2572, tdp:130, psu:550, rel:48 },
+      "RTX 5060":      { brand:"NVIDIA", arch:"Blackwell", vramGb:8,  mem:"GDDR7",  bus:128, boost:2497, tdp:145, psu:550, rel:56 },
+      "RTX 5060 Ti":   { brand:"NVIDIA", arch:"Blackwell", vramGb:8,  mem:"GDDR7",  bus:128, boost:2572, tdp:180, psu:600, rel:66 },
+      "RTX 5070":      { brand:"NVIDIA", arch:"Blackwell", vramGb:12, mem:"GDDR7",  bus:192, boost:2512, tdp:250, psu:650, rel:78 },
+      "RTX 5070 Ti":   { brand:"NVIDIA", arch:"Blackwell", vramGb:16, mem:"GDDR7",  bus:256, boost:2452, tdp:300, psu:750, rel:90 },
+      "RTX 5080":      { brand:"NVIDIA", arch:"Blackwell", vramGb:16, mem:"GDDR7",  bus:256, boost:2617, tdp:360, psu:850, rel:96 },
+      "RTX 5090":      { brand:"NVIDIA", arch:"Blackwell", vramGb:32, mem:"GDDR7",  bus:512, boost:2407, tdp:575, psu:1000,rel:100 },
+      "RX 5700 XT":    { brand:"AMD", arch:"RDNA",   vramGb:8,  mem:"GDDR6", bus:256, boost:1905, tdp:225, psu:600, rel:38 },
+      "RX 6600":       { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, boost:2491, tdp:132, psu:500, rel:36 },
+      "RX 6600 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, boost:2589, tdp:160, psu:500, rel:44 },
+      "RX 6700 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:12, mem:"GDDR6", bus:192, boost:2581, tdp:230, psu:650, rel:54 },
+      "RX 6800":       { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, boost:2105, tdp:250, psu:650, rel:64 },
+      "RX 6800 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, boost:2250, tdp:300, psu:750, rel:70 },
+      "RX 6900 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, boost:2250, tdp:300, psu:850, rel:76 },
+      "RX 7600":       { brand:"AMD", arch:"RDNA 3", vramGb:8,  mem:"GDDR6", bus:128, boost:2655, tdp:165, psu:550, rel:50 },
+      "RX 9060 XT":    { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:128, boost:3130, tdp:160, psu:550, rel:68 },
+      "RX 9070":       { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, boost:2520, tdp:220, psu:650, rel:82 },
+      "RX 9070 XT":    { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, boost:2970, tdp:304, psu:750, rel:92 }
     };
 
     var ORDER_NV = ["GTX 1660 Ti","RTX 2060","RTX 2060 Super","RTX 3050","RTX 3060","RTX 3060 Ti","RTX 3070","RTX 3070 Ti","RTX 3080","RTX 3080 Ti","RTX 3090","RTX 5050","RTX 5060","RTX 5060 Ti","RTX 5070","RTX 5070 Ti","RTX 5080","RTX 5090"];
@@ -294,7 +389,7 @@
 
     var CURRENT = "RTX 3070 Ti";
     var you = CATALOG[CURRENT];
-    var selected = "RTX 3060 Ti";
+    var selected = "RX 9070 XT";
 
     function fmt(n){ return (n||0).toLocaleString('es-AR'); }
 
@@ -304,12 +399,12 @@
       html += '<optgroup label="NVIDIA (escalera)">';
       ORDER_NV.forEach(function(k){
         if (!CATALOG[k] || k === CURRENT) return;
-        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB</option>';
+        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB · idx '+CATALOG[k].rel+'</option>';
       });
       html += '</optgroup><optgroup label="AMD (desde RX 5700 XT)">';
       ORDER_AMD.forEach(function(k){
-        if (!CATALOG[k]) return;
-        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB</option>';
+        if (!CATALOG[k] || k === CURRENT) return;
+        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB · idx '+CATALOG[k].rel+'</option>';
       });
       html += '</optgroup>';
       sel.innerHTML = html;
@@ -322,47 +417,63 @@
     function deltaBadge(diff, unit, higherIsBetter){
       if (diff === 0) return { cls:'same', text:'=' };
       var better = higherIsBetter ? diff > 0 : diff < 0;
-      var sign = diff > 0 ? '+' : '';
+      var sign = diff > 0 ? '+' : '−';
       return { cls: better ? 'up' : 'down', text: (better ? '▲ ' : '▼ ') + sign + Math.abs(diff) + (unit||'') };
     }
 
     function renderCompare(){
       var other = CATALOG[selected];
+      var cardYou = document.getElementById('cardYou');
+      var cardOther = document.getElementById('cardOther');
       document.getElementById('cmpYou').textContent = CURRENT;
       document.getElementById('cmpOther').textContent = selected;
+      document.getElementById('metaYou').textContent = you.vramGb + ' GB · ' + you.arch;
+      document.getElementById('metaOther').textContent = other.vramGb + ' GB · ' + other.arch;
+
+      var maxRel = 100;
+      var youPct = Math.round((you.rel / maxRel) * 100);
+      var otherPct = Math.round((other.rel / maxRel) * 100);
+      document.getElementById('barYou').style.width = youPct + '%';
+      document.getElementById('barOther').style.width = otherPct + '%';
+      document.getElementById('pctYou').textContent = you.rel;
+      document.getElementById('pctOther').textContent = other.rel;
+
+      var relDiff = you.rel - other.rel;
+      var margin = 3; /* empaté cercano */
+      var outcome = Math.abs(relDiff) <= margin ? 'draw' : (relDiff > 0 ? 'win' : 'lose');
+
+      cardYou.className = 'card-slot you' + (outcome === 'win' ? ' win' : outcome === 'lose' ? ' lose' : '');
+      cardOther.className = 'card-slot' + (outcome === 'lose' ? ' win' : outcome === 'win' ? ' lose' : '');
 
       var metrics = [
-        { name:'Memoria', a:you.vramGb, b:other.vramGb, unit:' GB', hib:true, weight:2, fa:you.vramGb+' GB', fb:other.vramGb+' GB' },
-        { name:'Núcleos', a:you.cores, b:other.cores, unit:'', hib:true, weight:2, fa:fmt(you.cores), fb:fmt(other.cores) },
-        { name:'Boost', a:you.boost, b:other.boost, unit:' MHz', hib:true, weight:1, fa:fmt(you.boost)+' MHz', fb:fmt(other.boost)+' MHz' },
-        { name:'Bus', a:you.bus, b:other.bus, unit:'-bit', hib:true, weight:1, fa:you.bus+'-bit', fb:other.bus+'-bit' },
-        { name:'TGP', a:you.tdp, b:other.tdp, unit:' W', hib:false, weight:0, fa:you.tdp+' W', fb:other.tdp+' W' },
-        { name:'Fuente sugerida', a:you.psu, b:other.psu, unit:' W', hib:false, weight:0, fa:you.psu+' W', fb:other.psu+' W' }
+        { name:'Potencia relativa', a:you.rel, b:other.rel, unit:'', hib:true, fa:String(you.rel), fb:String(other.rel), hero:true },
+        { name:'Memoria', a:you.vramGb, b:other.vramGb, unit:' GB', hib:true, fa:you.vramGb+' GB '+you.mem, fb:other.vramGb+' GB '+other.mem },
+        { name:'Bus', a:you.bus, b:other.bus, unit:'-bit', hib:true, fa:you.bus+'-bit', fb:other.bus+'-bit' },
+        { name:'Boost', a:you.boost, b:other.boost, unit:' MHz', hib:true, fa:fmt(you.boost)+' MHz', fb:fmt(other.boost)+' MHz' },
+        { name:'TGP', a:you.tdp, b:other.tdp, unit:' W', hib:false, fa:you.tdp+' W', fb:other.tdp+' W' },
+        { name:'Fuente sugerida', a:you.psu, b:other.psu, unit:' W', hib:false, fa:you.psu+' W', fb:other.psu+' W' }
       ];
 
-      var scoreYou = 0, scoreOther = 0;
       document.getElementById('deltaList').innerHTML = metrics.map(function(m){
         var d = m.a - m.b;
         var badge = deltaBadge(d, m.unit, m.hib);
-        if (m.weight > 0) {
-          if (badge.cls === 'up') scoreYou += m.weight;
-          if (badge.cls === 'down') scoreOther += m.weight;
-        }
-        return '<div class="delta"><div class="stat-name">'+m.name+'</div><div class="vals">'+m.fa+'<span class="sep">vs</span>'+m.fb+'</div><div class="badge-delta '+badge.cls+'">'+badge.text+'</div></div>';
+        return '<div class="delta'+(m.hero?' hero-metric':'')+'"><div class="stat-name">'+m.name+'</div><div class="vals">'+m.fa+'<span class="sep">vs</span>'+m.fb+'</div><div class="badge-delta '+badge.cls+'">'+badge.text+'</div></div>';
       }).join('');
 
       var bar = document.getElementById('scoreBar');
       var msg = document.getElementById('scoreMsg');
       var pill = document.getElementById('scorePill');
       bar.hidden = false;
-      if (scoreYou > scoreOther) {
-        msg.textContent = 'En potencia, ' + CURRENT + ' le gana a ' + selected + '. Subís de categoría.';
+      bar.className = 'score-bar ' + outcome;
+
+      if (outcome === 'win') {
+        msg.textContent = CURRENT + ' le gana a ' + selected + ' en potencia relativa (+' + Math.abs(relDiff) + ' pts).';
         pill.textContent = 'Upgrade'; pill.className = 'score-pill win';
-      } else if (scoreOther > scoreYou) {
-        msg.textContent = 'Ojo: frente a ' + selected + ' estás bajando de categoría en potencia bruta.';
-        pill.textContent = 'Retrocediendo'; pill.className = 'score-pill lose';
+      } else if (outcome === 'lose') {
+        msg.textContent = selected + ' es más potente que esta ' + CURRENT + ' (+' + Math.abs(relDiff) + ' pts). No es un downgrade “parejo”: subís de categoría si cambiás al rival.';
+        pill.textContent = 'Rival más fuerte'; pill.className = 'score-pill lose';
       } else {
-        msg.textContent = 'Potencia similar en lo medible. La diferencia puede estar en precio, stock o refrigeración.';
+        msg.textContent = 'Quedan muy cerca en potencia relativa. La diferencia puede estar en precio, VRAM, stock o refrigeración.';
         pill.textContent = 'Parejo'; pill.className = 'score-pill draw';
       }
     }
