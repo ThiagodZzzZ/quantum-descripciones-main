@@ -70,9 +70,22 @@
     document.head.appendChild(style);
   }
 
+  function isOutletProduct() {
+    if (document.documentElement.getAttribute('data-outlet') === '1') return true;
+    if (/OUTLET/i.test(document.title || '')) return true;
+    try {
+      if (/OUTLET/i.test(parent.document.title || '')) return true;
+    } catch (e) {}
+    if (/outlet/i.test(location.search || '')) return true;
+    if (/outlet/i.test(document.referrer || '')) return true;
+    var h1 = document.querySelector('h1, .title, .hero .title');
+    if (h1 && /OUTLET|\(OUTLET\)/i.test(h1.textContent || '')) return true;
+    return false;
+  }
+
   function injectDepositNotice() {
-    var title = document.title || '';
-    if (/OUTLET/i.test(title)) return;
+    /* Solo productos nuevos. OUTLET (titulo con (OUTLET) / URL / data-outlet) no lleva aviso de deposito. */
+    if (isOutletProduct()) return;
     if (document.getElementById('quantum-deposit-notice')) return;
 
     var box = document.createElement('div');
