@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu8" defer></script>
+  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu9" defer></script>
   <style>
     :root{
       --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -175,27 +175,46 @@
       background:linear-gradient(160deg,#fff,#fff0f7 60%,#ffe6f2);
       font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(14px,3.2vw,18px);color:var(--pink-deep);
     }
-    .reel-window{
-      height:100%;overflow:hidden;position:relative;
-      mask-image:linear-gradient(180deg,transparent,#000 12%,#000 88%,transparent);
-      -webkit-mask-image:linear-gradient(180deg,transparent,#000 12%,#000 88%,transparent);
+    .gpu-frame.rival{background:#fff}
+    .rival-final{
+      position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;
+      z-index:1;opacity:1;transition:opacity .2s ease;
     }
+    .rival-final.is-hidden{opacity:0;pointer-events:none}
+    .reel-window{
+      position:absolute;inset:0;z-index:2;overflow:hidden;
+      opacity:0;pointer-events:none;
+    }
+    .reel-window.is-spinning{opacity:1;pointer-events:auto}
     .reel-window::before,.reel-window::after{
-      content:"";position:absolute;left:0;right:0;height:18px;z-index:2;pointer-events:none;
+      content:"";position:absolute;left:0;right:0;height:16px;z-index:2;pointer-events:none;
     }
     .reel-window::before{top:0;background:linear-gradient(180deg,#fff,transparent)}
     .reel-window::after{bottom:0;background:linear-gradient(0deg,#fff,transparent)}
     .reel{
       display:flex;flex-direction:column;will-change:transform;
-      transition:transform 1.7s cubic-bezier(.12,.8,.08,1);
+      transition:none;
     }
-    .reel.spinning{filter:blur(1.2px);transition:transform 1.7s cubic-bezier(.12,.8,.08,1)}
-    .reel-item{flex:0 0 auto;width:100%;height:var(--reel-h,168px);display:grid;place-items:center;padding:8px}
-    .reel-item img,.reel-item .ph-card{width:100%;height:100%;object-fit:contain;border-radius:12px}
-    .reel-item .ph-card{border:1px dashed var(--line)}
+    .reel.is-animating{
+      filter:blur(1px);
+      transition:transform 1.65s cubic-bezier(.12,.82,.08,1);
+    }
+    .reel-item{
+      flex:0 0 auto;width:100%;box-sizing:border-box;
+      height:var(--reel-h,100%);
+      display:grid;place-items:center;padding:10px;
+    }
+    .reel-item img,.reel-item .ph-card{
+      width:100%;height:100%;object-fit:contain;border-radius:12px;background:#fff;
+    }
+    .reel-item .ph-card{
+      display:grid;place-items:center;padding:12px;text-align:center;
+      border:1px dashed var(--line);
+      background:linear-gradient(160deg,#fff,#fff0f7 60%,#ffe6f2);
+      font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(14px,3.2vw,18px);color:var(--pink-deep);
+    }
     @media(max-width:640px){
       .vs-stage{gap:6px}
-      .reel-item{height:130px}
       .gpu-frame{border-radius:14px}
     }
 
@@ -357,7 +376,8 @@
           <div class="vs">VS</div>
           <div class="gpu-frame rival">
             <div class="frame-l">Rival</div>
-            <div class="reel-window" id="reelWindow">
+            <img id="rivalFinal" class="rival-final" alt="GPU rival" width="640" height="480" decoding="async">
+            <div class="reel-window" id="reelWindow" aria-hidden="true">
               <div class="reel" id="rivalReel"></div>
             </div>
           </div>
@@ -497,58 +517,109 @@
     };
     var IMG_POOL = Object.keys(CHIP_IMG).map(function(k){ return CHIP_IMG[k]; });
     var reelBusy = false;
-    var reelFirst = true;
+    var reelTimer = null;
 
     function fmt(n){ return (n||0).toLocaleString('es-AR'); }
 
     function reelItemHtml(src, label){
       if (src) {
-        return '<div class="reel-item"><img src="'+src+'" alt="'+label+'" loading="eager"></div>';
+        return '<div class="reel-item"><img src="'+src+'" alt="'+label+'" decoding="async"></div>';
       }
       return '<div class="reel-item"><div class="ph-card">'+label+'</div></div>';
     }
 
-    function reelHeight(){
+    function showRivalFinal(chip){
+      var finalImg = document.getElementById('rivalFinal');
       var win = document.getElementById('reelWindow');
-      return (win && win.clientHeight) ? win.clientHeight : 168;
+      var reel = document.getElementById('rivalReel');
+      var src = CHIP_IMG[chip] || null;
+      if (finalImg) {
+        if (src) {
+          finalImg.src = src;
+          finalImg.alt = chip;
+          finalImg.classList.remove('is-hidden');
+        } else {
+          finalImg.removeAttribute('src');
+          finalImg.classList.add('is-hidden');
+          /* fallback textual inside frame via reel static */
+          if (reel) {
+            reel.innerHTML = reelItemHtml(null, chip);
+            reel.style.transition = 'none';
+            reel.style.transform = 'translateY(0)';
+          }
+          if (win) {
+            win.classList.add('is-spinning');
+            win.style.opacity = '1';
+          }
+          return;
+        }
+      }
+      if (win) {
+        win.classList.remove('is-spinning');
+        win.setAttribute('aria-hidden', 'true');
+      }
+      if (reel) {
+        reel.classList.remove('is-animating');
+        reel.innerHTML = '';
+        reel.style.transition = 'none';
+        reel.style.transform = 'translateY(0)';
+      }
     }
 
     function spinRival(chip, animate){
       var reel = document.getElementById('rivalReel');
-      if (!reel) return;
-      var h = reelHeight();
-      document.documentElement.style.setProperty('--reel-h', h + 'px');
+      var win = document.getElementById('reelWindow');
+      var finalImg = document.getElementById('rivalFinal');
+      if (!reel || !win) return;
+
+      if (reelTimer) { window.clearTimeout(reelTimer); reelTimer = null; }
+
       var finalSrc = CHIP_IMG[chip] || null;
+      if (!animate) {
+        reelBusy = false;
+        showRivalFinal(chip);
+        return;
+      }
+
+      var h = Math.max(120, win.clientHeight || (win.parentElement && win.parentElement.clientHeight) || 168);
+      win.style.setProperty('--reel-h', h + 'px');
+
       var strip = [];
-      var n = animate ? 16 : 1;
+      var n = 14;
       for (var i = 0; i < n - 1; i++) {
-        var src = IMG_POOL[Math.floor(Math.random() * IMG_POOL.length)];
-        strip.push({ src: src, label: 'GPU' });
+        strip.push({ src: IMG_POOL[Math.floor(Math.random() * IMG_POOL.length)], label: 'GPU' });
       }
       strip.push({ src: finalSrc, label: chip });
 
-      reel.classList.remove('spinning');
+      reelBusy = true;
+      if (finalImg) finalImg.classList.add('is-hidden');
+      win.classList.add('is-spinning');
+      win.setAttribute('aria-hidden', 'false');
+
+      reel.classList.remove('is-animating');
       reel.style.transition = 'none';
       reel.style.transform = 'translateY(0)';
       reel.innerHTML = strip.map(function(it){ return reelItemHtml(it.src, it.label); }).join('');
 
-      if (!animate || strip.length < 2) {
-        reel.style.transform = 'translateY(-' + ((strip.length - 1) * h) + 'px)';
-        return;
+      /* Preload final so it paints instantly after settle */
+      if (finalSrc) {
+        var pre = new Image();
+        pre.src = finalSrc;
       }
 
-      reelBusy = true;
-      reel.classList.add('spinning');
-      /* force reflow then spin */
       void reel.offsetHeight;
       requestAnimationFrame(function(){
-        reel.style.transition = 'transform 1.75s cubic-bezier(.12,.82,.08,1)';
-        reel.style.transform = 'translateY(-' + ((strip.length - 1) * h) + 'px)';
+        var itemH = (reel.firstElementChild && reel.firstElementChild.offsetHeight) || h;
+        win.style.setProperty('--reel-h', itemH + 'px');
+        reel.classList.add('is-animating');
+        reel.style.transform = 'translateY(-' + ((strip.length - 1) * itemH) + 'px)';
       });
-      window.setTimeout(function(){
-        reel.classList.remove('spinning');
+
+      reelTimer = window.setTimeout(function(){
         reelBusy = false;
-      }, 1800);
+        showRivalFinal(chip);
+        reelTimer = null;
+      }, 1750);
     }
 
     function buildSelect(){
@@ -588,13 +659,8 @@
       document.getElementById('metaYou').textContent = you.vramGb + ' GB · ' + you.arch;
       document.getElementById('metaOther').textContent = other.vramGb + ' GB · ' + other.arch;
 
-      var shouldSpin = !!doSpin && !reelBusy;
-      if (reelFirst) {
-        spinRival(selected, false);
-        reelFirst = false;
-      } else if (shouldSpin) {
-        spinRival(selected, true);
-      }
+      if (doSpin) spinRival(selected, true);
+      else spinRival(selected, false);
 
       var maxRel = 100;
       var youPct = Math.round((you.rel / maxRel) * 100);
@@ -658,7 +724,7 @@
         });
         if (id === 'psu') startPsuCounter();
         if (id === 'compare') {
-          window.setTimeout(function(){ spinRival(selected, true); }, 40);
+          window.setTimeout(function(){ renderCompare(true); }, 60);
         }
       });
     });
