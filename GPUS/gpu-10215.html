@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu9" defer></script>
+  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260820gpu10" defer></script>
   <style>
     :root{
       --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -371,7 +371,7 @@
         <div class="vs-stage" aria-hidden="false">
           <div class="gpu-frame you">
             <div class="frame-l">Esta</div>
-            <img id="imgYou" alt="Esta placa" src="https://acdn-us.mitiendanube.com/stores/004/499/130/products/10336-2447c7a223015ede2717827622330378-640-0.webp" width="640" height="480" loading="eager">
+            <img id="imgYou" alt="Esta placa" src="https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3070-ti.png" width="640" height="480" loading="eager">
           </div>
           <div class="vs">VS</div>
           <div class="gpu-frame rival">
@@ -497,23 +497,39 @@
     var CURRENT = "RTX 3070 Ti";
     var you = CATALOG[CURRENT];
     var selected = "RX 9070 XT";
-    var CURRENT_IMG = "https://acdn-us.mitiendanube.com/stores/004/499/130/products/10336-2447c7a223015ede2717827622330378-640-0.webp";
-    /* Fotos reales del catálogo Quantum (una por chip cuando hay stock). */
+    var CURRENT_IMG = "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3070-ti.png";
+    /* Una imagen por modelo, hospedada en Pages (desde fotos Quantum/Odoo). */
     var CHIP_IMG = {
-      "RTX 3050": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/10816-5c9fd99c9d8bf2a10717866308214177-480-0.webp",
-      "RTX 3070": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/589932_evga08gp53755kr1-cf5f4c11c1ff41bc1617855293771684-480-0.webp",
-      "RTX 3070 Ti": CURRENT_IMG,
-      "RTX 3080": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/9839-81ed6669c6151831eb17827659407747-480-0.webp",
-      "RTX 5050": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/7116-e5997851ac9798003e17778381834762-480-0.webp",
-      "RTX 5060": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/12646-a9b4c0cf1ee30fa67817863719395950-480-0.webp",
-      "RTX 5060 Ti": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/5404-48e697bf8592c34e6a17786217226422-480-0.webp",
-      "RTX 5070": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/4125-0115a9317cc096cb9e17784191403672-480-0.webp",
-      "RTX 5080": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/10160-1e8c7a9c3388ae9b4917867432904196-480-0.webp",
-      "RX 6700 XT": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/12950-06ce5d3669f6559ff417871522766516-480-0.webp",
-      "RX 6800 XT": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/12902-777504f07700a8165c17870667687950-480-0.webp",
-      "RX 6900 XT": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/8371-3220ca4e7ef0472fce17784787277021-480-0.webp",
-      "RX 9060 XT": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/12153-1b870abaf2bca637a217861447883412-480-0.webp",
-      "RX 9070 XT": "https://acdn-us.mitiendanube.com/stores/004/499/130/products/10145-a7fe1922ca6bd6750e17867432209421-480-0.webp"
+      "RX 9070 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-9070-xt.png",
+      "RX 9070": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-9070.png",
+      "RTX 3070": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3070.png",
+      "RX 6700 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6700-xt.png",
+      "RTX 3080": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3080.png",
+      "RX 6800 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6800-xt.png",
+      "RX 6800": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6800.png",
+      "RTX 5070 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5070-ti.png",
+      "RTX 3080 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3080-ti.png",
+      "RTX 3070 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3070-ti.png",
+      "RTX 2060": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-2060.png",
+      "RX 6600 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6600-xt.png",
+      "RTX 2060 Super": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-2060-super.png",
+      "RX 7600": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-7600.png",
+      "RTX 3060": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3060.png",
+      "RTX 3050": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3050.png",
+      "RTX 5060 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5060-ti.png",
+      "RX 5700 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-5700-xt.png",
+      "RTX 5090": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5090.png",
+      "RX 6900 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6900-xt.png",
+      "GTX 1660 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/gtx-1660-ti.png",
+      "RTX 5070": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5070.png",
+      "RTX 3060 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3060-ti.png",
+      "RTX 5080": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5080.png",
+      "RX 9060 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-9060-xt.png",
+      "RTX 3090": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3090.png",
+      "RTX 5050": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5050.png",
+      "RTX 5060": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5060.png",
+      "RX 6600": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6600.png"
+
     };
     var IMG_POOL = Object.keys(CHIP_IMG).map(function(k){ return CHIP_IMG[k]; });
     var reelBusy = false;
