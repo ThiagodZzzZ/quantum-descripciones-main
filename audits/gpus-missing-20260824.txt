@@ -1,0 +1,59 @@
+﻿12180	Componentes / Placas de video / NVIDIA	PLACA DE VIDEO ASUS RTX 3070 DUAL
+12179	Componentes / Placas de video / NVIDIA	IGAME RTX 3070 ADVANCED(OUTLET)
+12178	Componentes / Placas de video / NVIDIA	GAINWARD | RTX 3080 PHANTOM (OUTLET)
+12158	Componentes / Placas de video / NVIDIA	EVGA | Geforce RTX 3070 FTW3 (OUTLET)
+12072	Componentes / Placas de video / NVIDIA	MSI | RTX 3080 VENTUS 3X 10G (OUTLET) (Caja Original)
+12065	Componentes / Placas de video / NVIDIA	GAINWARD | RTX 3080 PHANTOM (OUTLET)
+12018	Componentes / Placas de video / AMD	ASRock | RX 6800 XT Phantom Gaming 16GB (OUTLET)
+12017	Componentes / Placas de video / NVIDIA	XFX | 6600
+12008	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 5060 GAMING OC V2 8G (7344)
+12007	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 5060 EAGLE OC MAX OC 8G (6729)
+12006	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 5060 EAGLE OC ICE 8G (6446)
+12003	Componentes / Placas de video / AMD	VGA Gigabyte Radeon RX 9050 GAMING OC 8G (7368)
+12002	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 5080 WINDFORCE SFF 16G (5487)
+12001	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 3060 WINDFORCE OC 12G (2862)
+12000	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 3050 WINDFORCE OC V2 6G (5081)
+11996	Componentes / Placas de video / NVIDIA	PLACA DE VIDEO ASUS DUAL RTX 5060TI 8GB OC
+11986	Componentes / Placas de video / NVIDIA	MSI GEFORCE RTX 3050 VENTUS 2X 6G OC
+11985	Componentes / Placas de video / NVIDIA	MSI GEFORCE RTX 5050 VENTUS 2X 8G OC
+11984	Componentes / Placas de video / NVIDIA	MSI GEFORCE RTX 5050 GAMING 8G OC
+11983	Componentes / Placas de video / NVIDIA	MSI GEFORCE RTX 5060 Ti SHADOW 2X PLUS 8G
+11982	Componentes / Placas de video / NVIDIA	ASUS GEFORCE RTX 5080 TUF GAMING OC EDITION 16G
+11968	Componentes / Placas de video / NVIDIA	ASUS GEFORCE RTX 5080 ROG ASTRAL OC EDITION 16G
+11967	Componentes / Placas de video / AMD	ASUS RADEON RX 9070 XT PRIME OC EDITION 16GB
+11963	Componentes / Placas de video / NVIDIA	MSI GEFORCE RTX 5060 Ti SHADOW 2X PLUS 8G OC
+11962	Componentes / Placas de video / NVIDIA	ASUS GEFORCE RTX 5070 PRIME OC EDITION 12G
+11952	Componentes / Placas de video / NVIDIA	iGAME | RTX 3090 ADVANCE (OUTLET)
+11945	Componentes / Placas de video / NVIDIA	PLACA DE VIDEO GIGABYTE RTX 5090 GAMING OC 32GB
+11928	Componentes / Placas de video / NVIDIA	ASUS | GTX 1660 Ti TUF GAMING (OUTLET)
+11927	Componentes / Placas de video / AMD	6800 Phantom Gaming
+11922	Componentes / Placas de video	Pasta Térmica Corsair XTM60 de alto rendimiento para CPU / GPU (7832)
+11850	Componentes / Placas de video / AMD	Fan Cooler Corsair iCUE LINK RX120 RGB 120mm White Pack x3 (0963)
+11831	Componentes / Placas de video / NVIDIA	VGA MSI GeForce RTX 5070 Ti 16G MLG EDITION OC (0088)
+11830	Componentes / Placas de video / NVIDIA	VGA MSI GeForce RTX 5060 Ti 16G VENTUS 2X OC PLUS (4471)
+11829	Componentes / Placas de video / NVIDIA	VGA MSI GeForce GT 210 1GB LP DDR3 (5222)
+11828	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 5070 EAGLE OC ICE SFF 12G White (5777)
+11827	Componentes / Placas de video / NVIDIA	VGA Gigabyte GeForce RTX 5060 Ti WINDFORCE MAX OC 8G (6682)
+11766	Componentes / Placas de video / NVIDIA	Workstation HP G1i Z1 Intel Core Ultra 7 265 32 GB RAM 1 TB SSD NVIDIA GEFORCE RTX 3050 TI Windows 11 Pro D5BK2LT#ABM
+11763	Componentes / Placas de video / NVIDIA	Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 16gb GDDR7 912-V535-201
+11760	Componentes / Placas de video / NVIDIA	Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 8gb GDDR7 912-V536-033
+11700	Componentes / Placas de video / NVIDIA	Placa de Video ASUS NVIDIA GeForce T1 RTX5060TI 08
+11621	Componentes / Placas de video / AMD	GPU ASROCK RADEON RX9070 CHALLENGER 16GB (VG-9070 CL16G)
+11619	Componentes / Placas de video / NVIDIA	Placa de Video MSI GeForce RTX 5060 Ti 8G GAMING TRIO OC WHITE GDDR7 128-bit 912-V536-028
+11604	Componentes / Placas de video / NVIDIA	Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 16gb GDDR7 912-V535-096
+11557	Componentes / Placas de video / NVIDIA	GIGABYTE | 6900XT
+11457	Componentes / Placas de video / NVIDIA	Placa de Video INNO3D NVIDIA Geforce RTX 5050 8GB GDDR6 TWIN X2
+11439	Componentes / Placas de video / AMD	Placa de Video ASUS AMD Radeon PRIME RX9070 GRE O12G EVO
+11410	Componentes / Placas de video	Pasta Térmica Corsair XTM60 de alto rendimiento para CPU / GPU (7832)
+11409	Componentes / Placas de video	Pasta Térmica Corsair TM30 de alto rendimiento para CPU / GPU (4506)
+11367	Componentes / Placas de video / AMD	Fan Cooler Corsair iCUE LINK RX120 RGB 120mm Black Pack x3 (0925)
+11294	Componentes / Placas de video / NVIDIA	VGA MSI GeForce RTX 5060 Ti 16G SHADOW 2X OC PLUS (4433)
+11289	Componentes / Placas de video / NVIDIA	Placa MSI  NVIDIA GeForce RTX 5060 8G SHADOW 2X OC
+11271	Componentes / Placas de video / NVIDIA	Placa De Video MSI Nvidia Geforce RTX 5060 Shadow 2x OC 8gb GDDR7 912-V537-038
+11270	Componentes / Placas de video / NVIDIA	Placa De Video MSI Nvidia Geforce RTX 5060 Ti Shadow 2x OC Plus 8gb GDDR7 912-V536-023
+11269	Componentes / Placas de video / NVIDIA	Placa De Video MSI Nvidia Geforce RTX 5070 Ti Ventus 3x OC 16gb 912-V531-461
+11265	Componentes / Placas de video / NVIDIA	Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 16gb GDDR7 912-V535-096
+11205	Componentes / Placas de video / NVIDIA	E2E T66 Prod GPU B
+11204	Componentes / Placas de video / NVIDIA	E2E T66 Prod GPU B
+11203	Componentes / Placas de video / NVIDIA	E2E T66 Prod GPU
+11202	Componentes / Placas de video / NVIDIA	E2E T66 Prod GPU

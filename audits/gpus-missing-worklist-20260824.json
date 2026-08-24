@@ -1,0 +1,478 @@
+﻿{
+    "generatedAt":  "2026-08-24T18:14:14.1467300Z",
+    "count":  59,
+    "products":  [
+                     {
+                         "id":  12180,
+                         "title":  "PLACA DE VIDEO ASUS RTX 3070 DUAL",
+                         "sku":  "ASUS-RTX-3070-DUAL-OUTLET-QUS",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-22 17:18:15",
+                         "internalReference":  "ASUS-RTX-3070-DUAL-OUTLET-QUS"
+                     },
+                     {
+                         "id":  12179,
+                         "title":  "IGAME RTX 3070 ADVANCED(OUTLET)",
+                         "sku":  "IGAME-RTX-3070-ADVANCED-OUTLET-QUS",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-22 17:07:35",
+                         "internalReference":  "IGAME-RTX-3070-ADVANCED-OUTLET-QUS"
+                     },
+                     {
+                         "id":  12178,
+                         "title":  "GAINWARD | RTX 3080 PHANTOM (OUTLET)",
+                         "sku":  "GAINWARD-RTX-3080-GAINWARD-RTX-3080-GAINWARD-308-CO-QU-QUS",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-22 15:01:53",
+                         "internalReference":  "GAINWARD-RTX-3080-GAINWARD-RTX-3080-GAINWARD-308-CO-QU-QUS"
+                     },
+                     {
+                         "id":  12158,
+                         "title":  "EVGA | Geforce RTX 3070 FTW3 (OUTLET)",
+                         "sku":  "08G-P5-3767-KR-QUS",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-20 16:52:47",
+                         "internalReference":  "08G-P5-3767-KR-QUS"
+                     },
+                     {
+                         "id":  12072,
+                         "title":  "MSI | RTX 3080 VENTUS 3X 10G (OUTLET) (Caja Original)",
+                         "sku":  "MSI-GEFORCE-RTX-3080-VENTUS-3X-10G-MSI-CO-QU-UPB02600054-004",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-18 16:10:05",
+                         "internalReference":  "MSI-GEFORCE-RTX-3080-VENTUS-3X-10G-MSI-CO-QU-UPB02600054-004"
+                     },
+                     {
+                         "id":  12065,
+                         "title":  "GAINWARD | RTX 3080 PHANTOM (OUTLET)",
+                         "sku":  "GAINWARD-RTX-3080-GAINWARD-RTX-3080-GAINWARD-308-CO-QU",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-18 14:01:27",
+                         "internalReference":  "GAINWARD-RTX-3080-GAINWARD-RTX-3080-GAINWARD-308-CO-QU"
+                     },
+                     {
+                         "id":  12018,
+                         "title":  "ASRock | RX 6800 XT Phantom Gaming 16GB (OUTLET)",
+                         "sku":  "",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-13 16:53:37",
+                         "internalReference":  ""
+                     },
+                     {
+                         "id":  12017,
+                         "title":  "XFX | 6600",
+                         "sku":  "XFX-6600-QUS",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 16:40:49",
+                         "internalReference":  "XFX-6600-QUS"
+                     },
+                     {
+                         "id":  12008,
+                         "title":  "VGA Gigabyte GeForce RTX 5060 GAMING OC V2 8G (7344)",
+                         "sku":  "0418659",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 10:12:24",
+                         "internalReference":  "0418659"
+                     },
+                     {
+                         "id":  12007,
+                         "title":  "VGA Gigabyte GeForce RTX 5060 EAGLE OC MAX OC 8G (6729)",
+                         "sku":  "0418660",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 10:12:24",
+                         "internalReference":  "0418660"
+                     },
+                     {
+                         "id":  12006,
+                         "title":  "VGA Gigabyte GeForce RTX 5060 EAGLE OC ICE 8G (6446)",
+                         "sku":  "0417360",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 10:12:24",
+                         "internalReference":  "0417360"
+                     },
+                     {
+                         "id":  12003,
+                         "title":  "VGA Gigabyte Radeon RX 9050 GAMING OC 8G (7368)",
+                         "sku":  "0418658",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-13 10:09:29",
+                         "internalReference":  "0418658"
+                     },
+                     {
+                         "id":  12002,
+                         "title":  "VGA Gigabyte GeForce RTX 5080 WINDFORCE SFF 16G (5487)",
+                         "sku":  "0418661",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 10:09:29",
+                         "internalReference":  "0418661"
+                     },
+                     {
+                         "id":  12001,
+                         "title":  "VGA Gigabyte GeForce RTX 3060 WINDFORCE OC 12G (2862)",
+                         "sku":  "0415908",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 10:09:29",
+                         "internalReference":  "0415908"
+                     },
+                     {
+                         "id":  12000,
+                         "title":  "VGA Gigabyte GeForce RTX 3050 WINDFORCE OC V2 6G (5081)",
+                         "sku":  "0417020",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 10:09:29",
+                         "internalReference":  "0417020"
+                     },
+                     {
+                         "id":  11996,
+                         "title":  "PLACA DE VIDEO ASUS DUAL RTX 5060TI 8GB OC",
+                         "sku":  "DUALRTX5060TIO8G",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-13 09:41:50",
+                         "internalReference":  "DUALRTX5060TIO8G"
+                     },
+                     {
+                         "id":  11986,
+                         "title":  "MSI GEFORCE RTX 3050 VENTUS 2X 6G OC",
+                         "sku":  "912V812201",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "912V812201"
+                     },
+                     {
+                         "id":  11985,
+                         "title":  "MSI GEFORCE RTX 5050 VENTUS 2X 8G OC",
+                         "sku":  "912V538020",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "912V538020"
+                     },
+                     {
+                         "id":  11984,
+                         "title":  "MSI GEFORCE RTX 5050 GAMING 8G OC",
+                         "sku":  "912V538019",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "912V538019"
+                     },
+                     {
+                         "id":  11983,
+                         "title":  "MSI GEFORCE RTX 5060 Ti SHADOW 2X PLUS 8G",
+                         "sku":  "912V536069",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "912V536069"
+                     },
+                     {
+                         "id":  11982,
+                         "title":  "ASUS GEFORCE RTX 5080 TUF GAMING OC EDITION 16G",
+                         "sku":  "90YV0M30M0AA00",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "90YV0M30M0AA00"
+                     },
+                     {
+                         "id":  11968,
+                         "title":  "ASUS GEFORCE RTX 5080 ROG ASTRAL OC EDITION 16G",
+                         "sku":  "90YV0LV0M0AA00",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "90YV0LV0M0AA00"
+                     },
+                     {
+                         "id":  11967,
+                         "title":  "ASUS RADEON RX 9070 XT PRIME OC EDITION 16GB",
+                         "sku":  "90YV0L71M0AA00",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "90YV0L71M0AA00"
+                     },
+                     {
+                         "id":  11963,
+                         "title":  "MSI GEFORCE RTX 5060 Ti SHADOW 2X PLUS 8G OC",
+                         "sku":  "912V536035",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "912V536035"
+                     },
+                     {
+                         "id":  11962,
+                         "title":  "ASUS GEFORCE RTX 5070 PRIME OC EDITION 12G",
+                         "sku":  "90YV0M10M0AA00",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 22:10:38",
+                         "internalReference":  "90YV0M10M0AA00"
+                     },
+                     {
+                         "id":  11952,
+                         "title":  "iGAME | RTX 3090 ADVANCE (OUTLET)",
+                         "sku":  "",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 18:47:05",
+                         "internalReference":  ""
+                     },
+                     {
+                         "id":  11945,
+                         "title":  "PLACA DE VIDEO GIGABYTE RTX 5090 GAMING OC 32GB",
+                         "sku":  "GVN5090GAMINGOC32GD",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-11 09:43:27",
+                         "internalReference":  "GVN5090GAMINGOC32GD"
+                     },
+                     {
+                         "id":  11928,
+                         "title":  "ASUS | GTX 1660 Ti TUF GAMING (OUTLET)",
+                         "sku":  "ASUS-GTX-1660-TI-TUF-GAMING-ASUS-GTX-CO-QU",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-10 18:17:12",
+                         "internalReference":  "ASUS-GTX-1660-TI-TUF-GAMING-ASUS-GTX-CO-QU"
+                     },
+                     {
+                         "id":  11927,
+                         "title":  "6800 Phantom Gaming",
+                         "sku":  "RX6800PGD16GO-QUS",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-10 15:35:12",
+                         "internalReference":  "RX6800PGD16GO-QUS"
+                     },
+                     {
+                         "id":  11922,
+                         "title":  "Pasta Térmica Corsair XTM60 de alto rendimiento para CPU / GPU (7832)",
+                         "sku":  "0416795",
+                         "categ":  "Componentes / Placas de video",
+                         "create_date":  "2026-08-09 10:04:48",
+                         "internalReference":  "0416795"
+                     },
+                     {
+                         "id":  11850,
+                         "title":  "Fan Cooler Corsair iCUE LINK RX120 RGB 120mm White Pack x3 (0963)",
+                         "sku":  "0417458",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-09 10:04:48",
+                         "internalReference":  "0417458"
+                     },
+                     {
+                         "id":  11831,
+                         "title":  "VGA MSI GeForce RTX 5070 Ti 16G MLG EDITION OC (0088)",
+                         "sku":  "0418696",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-09 10:04:48",
+                         "internalReference":  "0418696"
+                     },
+                     {
+                         "id":  11830,
+                         "title":  "VGA MSI GeForce RTX 5060 Ti 16G VENTUS 2X OC PLUS (4471)",
+                         "sku":  "0417235",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-09 10:04:48",
+                         "internalReference":  "0417235"
+                     },
+                     {
+                         "id":  11829,
+                         "title":  "VGA MSI GeForce GT 210 1GB LP DDR3 (5222)",
+                         "sku":  "0410504",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-09 10:04:48",
+                         "internalReference":  "0410504"
+                     },
+                     {
+                         "id":  11828,
+                         "title":  "VGA Gigabyte GeForce RTX 5070 EAGLE OC ICE SFF 12G White (5777)",
+                         "sku":  "0418605",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-09 10:04:48",
+                         "internalReference":  "0418605"
+                     },
+                     {
+                         "id":  11827,
+                         "title":  "VGA Gigabyte GeForce RTX 5060 Ti WINDFORCE MAX OC 8G (6682)",
+                         "sku":  "0418604",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-09 10:04:48",
+                         "internalReference":  "0418604"
+                     },
+                     {
+                         "id":  11766,
+                         "title":  "Workstation HP G1i Z1 Intel Core Ultra 7 265 32 GB RAM 1 TB SSD NVIDIA GEFORCE RTX 3050 TI Windows 11 Pro D5BK2LT#ABM",
+                         "sku":  "D5BK2LT#ABML",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-08 21:47:26",
+                         "internalReference":  "D5BK2LT#ABML"
+                     },
+                     {
+                         "id":  11763,
+                         "title":  "Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 16gb GDDR7 912-V535-201",
+                         "sku":  "912V535201",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-08 21:47:26",
+                         "internalReference":  "912V535201"
+                     },
+                     {
+                         "id":  11760,
+                         "title":  "Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 8gb GDDR7 912-V536-033",
+                         "sku":  "912V536033",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-08 21:47:26",
+                         "internalReference":  "912V536033"
+                     },
+                     {
+                         "id":  11700,
+                         "title":  "Placa de Video ASUS NVIDIA GeForce T1 RTX5060TI 08",
+                         "sku":  "T1RTX5060TIO8GGAMING",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-07 17:59:23",
+                         "internalReference":  "T1RTX5060TIO8GGAMING"
+                     },
+                     {
+                         "id":  11621,
+                         "title":  "GPU ASROCK RADEON RX9070 CHALLENGER 16GB (VG-9070 CL16G)",
+                         "sku":  "80403",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-07 17:54:14",
+                         "internalReference":  "80403"
+                     },
+                     {
+                         "id":  11619,
+                         "title":  "Placa de Video MSI GeForce RTX 5060 Ti 8G GAMING TRIO OC WHITE GDDR7 128-bit 912-V536-028",
+                         "sku":  "912V536028",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-07 17:52:50",
+                         "internalReference":  "912V536028"
+                     },
+                     {
+                         "id":  11604,
+                         "title":  "Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 16gb GDDR7 912-V535-096",
+                         "sku":  "912V535096",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-07 17:49:30",
+                         "internalReference":  "912V535096"
+                     },
+                     {
+                         "id":  11557,
+                         "title":  "GIGABYTE | 6900XT",
+                         "sku":  "GIG-6900XT-QUS",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-06 14:32:43",
+                         "internalReference":  "GIG-6900XT-QUS"
+                     },
+                     {
+                         "id":  11457,
+                         "title":  "Placa de Video INNO3D NVIDIA Geforce RTX 5050 8GB GDDR6 TWIN X2",
+                         "sku":  "N5050208D6174071N",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 21:49:14",
+                         "internalReference":  "N5050208D6174071N"
+                     },
+                     {
+                         "id":  11439,
+                         "title":  "Placa de Video ASUS AMD Radeon PRIME RX9070 GRE O12G EVO",
+                         "sku":  "PRIMERX9070GREO12G",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-03 21:49:14",
+                         "internalReference":  "PRIMERX9070GREO12G"
+                     },
+                     {
+                         "id":  11410,
+                         "title":  "Pasta Térmica Corsair XTM60 de alto rendimiento para CPU / GPU (7832)",
+                         "sku":  "CT9010015WW",
+                         "categ":  "Componentes / Placas de video",
+                         "create_date":  "2026-08-03 21:46:58",
+                         "internalReference":  "CT9010015WW"
+                     },
+                     {
+                         "id":  11409,
+                         "title":  "Pasta Térmica Corsair TM30 de alto rendimiento para CPU / GPU (4506)",
+                         "sku":  "0415976",
+                         "categ":  "Componentes / Placas de video",
+                         "create_date":  "2026-08-03 21:44:21",
+                         "internalReference":  "0415976"
+                     },
+                     {
+                         "id":  11367,
+                         "title":  "Fan Cooler Corsair iCUE LINK RX120 RGB 120mm Black Pack x3 (0925)",
+                         "sku":  "0417459",
+                         "categ":  "Componentes / Placas de video / AMD",
+                         "create_date":  "2026-08-03 21:44:21",
+                         "internalReference":  "0417459"
+                     },
+                     {
+                         "id":  11294,
+                         "title":  "VGA MSI GeForce RTX 5060 Ti 16G SHADOW 2X OC PLUS (4433)",
+                         "sku":  "0417875",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 21:44:21",
+                         "internalReference":  "0417875"
+                     },
+                     {
+                         "id":  11289,
+                         "title":  "Placa MSI  NVIDIA GeForce RTX 5060 8G SHADOW 2X OC",
+                         "sku":  "RTX50608GSHADOW2XOC",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 21:44:21",
+                         "internalReference":  "RTX50608GSHADOW2XOC"
+                     },
+                     {
+                         "id":  11271,
+                         "title":  "Placa De Video MSI Nvidia Geforce RTX 5060 Shadow 2x OC 8gb GDDR7 912-V537-038",
+                         "sku":  "912V537038",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 21:37:45",
+                         "internalReference":  "912V537038"
+                     },
+                     {
+                         "id":  11270,
+                         "title":  "Placa De Video MSI Nvidia Geforce RTX 5060 Ti Shadow 2x OC Plus 8gb GDDR7 912-V536-023",
+                         "sku":  "912V536023",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 21:37:45",
+                         "internalReference":  "912V536023"
+                     },
+                     {
+                         "id":  11269,
+                         "title":  "Placa De Video MSI Nvidia Geforce RTX 5070 Ti Ventus 3x OC 16gb 912-V531-461",
+                         "sku":  "912V531461",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 21:37:45",
+                         "internalReference":  "912V531461"
+                     },
+                     {
+                         "id":  11265,
+                         "title":  "Placa De Video MSI Nvidia Geforce RTX 5060 Ti Ventus 2x OC Plus 16gb GDDR7 912-V535-096",
+                         "sku":  "RTX5060TI8GVENTUS2XOCWHITEPLUS",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 21:37:45",
+                         "internalReference":  "RTX5060TI8GVENTUS2XOCWHITEPLUS"
+                     },
+                     {
+                         "id":  11205,
+                         "title":  "E2E T66 Prod GPU B",
+                         "sku":  "E2E-T66-PROD-B-QU",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 15:36:56",
+                         "internalReference":  "E2E-T66-PROD-B-QU"
+                     },
+                     {
+                         "id":  11204,
+                         "title":  "E2E T66 Prod GPU B",
+                         "sku":  "E2E-T66-PROD-B",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 15:36:56",
+                         "internalReference":  "E2E-T66-PROD-B"
+                     },
+                     {
+                         "id":  11203,
+                         "title":  "E2E T66 Prod GPU",
+                         "sku":  "E2E-T66-PROD-QU",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 15:36:30",
+                         "internalReference":  "E2E-T66-PROD-QU"
+                     },
+                     {
+                         "id":  11202,
+                         "title":  "E2E T66 Prod GPU",
+                         "sku":  "E2E-T66-PROD",
+                         "categ":  "Componentes / Placas de video / NVIDIA",
+                         "create_date":  "2026-08-03 15:36:30",
+                         "internalReference":  "E2E-T66-PROD"
+                     }
+                 ]
+}
