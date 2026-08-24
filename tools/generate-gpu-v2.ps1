@@ -1,11 +1,11 @@
 #Requires -Version 5.1
 param(
-  [string]$Worklist = '.\audits\gpus-missing-worklist-20260824.json',
+  [string]$Worklist = '.\audits\gpus-all-worklist-20260824.json',
   [string]$SpecsDb  = '.\tools\gpu-specs-db.json',
   [string]$Template = '.\GPUS\_template-gpu-v2.html',
   [string]$OutDir   = '.\GPUS',
-  [string]$ManifestPath = '.\audits\gpu_v2_nuevas_20260824_manifest.json',
-  [string]$ThemeVersion = '20260824gpuv2',
+  [string]$ManifestPath = '.\audits\gpu_v2_all_20260824_manifest.json',
+  [string]$ThemeVersion = '20260824gpuvall',
   [string]$ThemeBase = 'https://thiagodzzzz.github.io/quantum-descripciones-main',
   [switch]$SkipImages,
   [switch]$FetchOdooImages
@@ -24,12 +24,21 @@ function Get-Brand([string]$Title) {
   return 'AIB'
 }
 function Test-Outlet([string]$Title) { $Title -match '(?i)OUTLET|OPENBOX|USADO' }
-function Test-Junk([string]$Title) { $Title -match '(?i)Pasta\s*T[eé]rmica|Fan\s*Cooler|E2E\s*T66|Workstation|Notebook|iCUE\s*LINK' }
+function Test-Junk([string]$Title) { $Title -match '(?i)Pasta\s*T|Fan\s*Cooler|E2E\s*T66|Workstation|Notebook|iCUE\s*LINK|^\s*Fuente\b|\bFUENTE\b|WATER\s*COOLER|KIT WATER' }
 
 function Resolve-Chip([string]$Title, $Chips) {
   $names = @($Chips.PSObject.Properties.Name)
-  $t = ' ' + (($Title.ToUpper() -replace '[^A-Z0-9]', ' ') -replace '\s+', ' ') + ' '
+  $raw = $Title.ToUpper()
+  $raw = $raw -replace '\(TM\)|\(R\)|\(C\)',' '
+  $raw = $raw -replace 'GEFORCERTX','GEFORCE RTX'
+  $raw = $raw -replace 'GEFORCEGTX','GEFORCE GTX'
+  $t = ' ' + (($raw -replace '[^A-Z0-9]', ' ') -replace '\s+', ' ') + ' '
   $preferAmd = (($Title -match '(?i)\b(XFX|Sapphire|PowerColor)\b') -or ($Title -match '(?i)Radeon|\bRX\b')) -and ($Title -notmatch '(?i)\bRTX\b|\bGTX\b|\bGeForce\b')
+
+  $m = [regex]::Match($t, '\bRTX\s*PRO\s*(\d{4})\b')
+  if ($m.Success) { $key = "RTX PRO $($m.Groups[1].Value)"; if ($names -contains $key) { return $key } }
+  $m = [regex]::Match($t, '\b(?:QUADRO\s+)?RTX\s*A(\d{3,4})\b')
+  if ($m.Success) { $key = "RTX A$($m.Groups[1].Value)"; if ($names -contains $key) { return $key } }
 
   $m = [regex]::Match($t, '\b(RTX|GTX|GT)\s*(\d{3,4})\s*(TI)?\s*(SUPER)?\b')
   if ($m.Success -and -not $preferAmd) {
@@ -61,9 +70,32 @@ function Resolve-Chip([string]$Title, $Chips) {
   if ($Title -match '(?i)\b6800\s*XT\b') { if ($names -contains 'RX 6800 XT') { return 'RX 6800 XT' } }
   if ($Title -match '(?i)\b6800\b' -and $Title -notmatch '(?i)XT|RTX|GTX') { if ($names -contains 'RX 6800') { return 'RX 6800' } }
   if ($Title -match '(?i)\bXFX\b.*\b6600\b' -or $Title -match '(?i)^\s*XFX\s*\|\s*6600') { if ($names -contains 'RX 6600') { return 'RX 6600' } }
+
+  # Bare model numbers: "3090 ASUS", "1660 SUPER", "4070 GIGABYTE", Sapphire 570/6700
+  $m = [regex]::Match($t, '\b(\d{3,4})\s*(TI\s*SUPER|TI|SUPER|XTX|XT)?\b')
+  while ($m.Success) {
+    $num = $m.Groups[1].Value
+    $suf = ($m.Groups[2].Value -replace '\s+', ' ').Trim()
+    $cands = @()
+    if ($suf -match 'XT') {
+      if ($suf -eq 'XTX') { $cands += "RX $num XTX" }
+      $cands += "RX $num XT"; $cands += "RX $num"
+    } elseif ($suf -match 'TI|SUPER') {
+      foreach ($fam in 'RTX','GTX','GT') {
+        if ($suf -match 'TI SUPER') { $cands += "$fam $num Ti Super" }
+        elseif ($suf -eq 'TI') { $cands += "$fam $num Ti" }
+        elseif ($suf -eq 'SUPER') { $cands += "$fam $num Super" }
+      }
+    } else {
+      if ($preferAmd -or $Title -match '(?i)Sapphire|XFX|PowerColor|Radeon') { $cands += "RX $num"; $cands += "RX $num XT" }
+      foreach ($fam in 'RTX','GTX','GT') { $cands += "$fam $num" }
+      $cands += "RX $num"
+    }
+    foreach ($cand in $cands) { if ($names -contains $cand) { return $cand } }
+    $m = $m.NextMatch()
+  }
   return $null
 }
-
 function Get-VramGb([string]$Title, $S) {
   $m = [regex]::Match($Title.ToUpper(), '(\d{1,2})\s*GB\b'); if ($m.Success) { return [int]$m.Groups[1].Value }
   $m = [regex]::Match($Title.ToUpper(), '\b(\d{1,2})G\b'); if ($m.Success) { return [int]$m.Groups[1].Value }
@@ -196,14 +228,20 @@ foreach ($p in @($wl.products)) {
   $psuHint = "Segun recomendacion de sistema del fabricante del chip para esta $chipKey. Suma margen con CPU potente u overclock."
   $note = "* Specs del chip segun sitio oficial del fabricante. Clocks/medidas del modelo $brand pueden variar. El stock (nuevo/outlet) puede variar."
 
+
   $imgUrl = $null
-  if (-not $SkipImages -and $odooReady) {
+  $localJpg = Join-Path $OutDir "img\product\$id-main.jpg"
+  $localWebp = Join-Path $OutDir "img\product\$id-main.webp"
+  if (Test-Path $localJpg) {
+    $imgUrl = "$ThemeBase/GPUS/img/product/$id-main.jpg"
+  } elseif (Test-Path $localWebp) {
+    $imgUrl = "$ThemeBase/GPUS/img/product/$id-main.webp"
+  } elseif (-not $SkipImages -and $odooReady) {
     try {
       $b64 = Get-OdooImg $id
       if ($b64) {
         $bytes = [Convert]::FromBase64String($b64)
-        $local = Join-Path $OutDir "img\product\$id-main.jpg"
-        [System.IO.File]::WriteAllBytes($local, $bytes)
+        [System.IO.File]::WriteAllBytes($localJpg, $bytes)
         $imgUrl = "$ThemeBase/GPUS/img/product/$id-main.jpg"
         Write-Host "IMG $id $($bytes.Length)"
       }

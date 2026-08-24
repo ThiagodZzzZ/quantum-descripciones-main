@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAPPHIRE 570 Nitro + 4GB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260824gpuvall" defer></script>
+  <style>
+    :root{
+      --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
+      --ink:#1A0612;--muted:#6B4458;--line:#FFD4EA;
+      --bg0:#fff;--bg1:#FFF6FB;--ok:#0F8A5F;--bad:#C62828;--warn:#B45309;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{
+      background:linear-gradient(180deg,var(--bg0),var(--bg1) 42%,var(--bg0));
+      color:var(--ink);font-family:'Outfit','Manrope',system-ui,sans-serif;overflow-x:hidden;
+    }
+    .wrap{max-width:820px;margin:0 auto;padding:18px 14px 52px}
+
+    .hero{
+      position:relative;overflow:hidden;text-align:center;
+      padding:28px 16px 22px;border:1px solid var(--line);border-radius:18px;
+      background:radial-gradient(ellipse 80% 55% at 50% -8%,rgba(230,0,126,.2),transparent 62%),linear-gradient(180deg,#fff,#fff6fb 56%,#fff);
+      box-shadow:0 14px 36px rgba(230,0,126,.11);
+    }
+    .hero::before{
+      content:"";position:absolute;width:200px;height:200px;right:-55px;top:-65px;border-radius:50%;
+      background:conic-gradient(from 80deg,rgba(230,0,126,.4),rgba(255,79,179,.06),rgba(230,0,126,.4));
+      animation:spin 16s linear infinite;filter:blur(1px);
+    }
+    .hero::after{
+      content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
+      background:linear-gradient(90deg,transparent,var(--pink),var(--pink-soft),var(--pink),transparent);
+      background-size:200% 100%;animation:shimmer 3s ease-in-out infinite;
+    }
+    @keyframes spin{to{transform:rotate(1turn)}}
+    @keyframes shimmer{50%{background-position:100% 50%}}
+
+    .title{position:relative;z-index:1;font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(24px,5vw,34px);letter-spacing:-.015em;line-height:1.12}
+    .sub{position:relative;z-index:1;margin:10px auto 0;max-width:520px;font-size:14px;line-height:1.5;color:var(--muted)}
+    .tags{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:14px}
+    .tag{padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--pink-deep)}
+
+    .tabs{display:grid;grid-template-columns:1fr 1.35fr 1fr;gap:8px;margin:16px 0 12px;align-items:stretch}
+    .tab{
+      appearance:none;cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:12px;
+      padding:12px 8px;font:inherit;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+      transition:transform .15s ease,border-color .15s,color .15s,box-shadow .15s,background .15s;
+    }
+    .tab:hover{transform:translateY(-1px);border-color:var(--pink-soft)}
+    .tab.active{color:var(--pink-deep);border-color:var(--pink);box-shadow:0 8px 20px rgba(230,0,126,.12);background:linear-gradient(180deg,#fff,#fff4fa)}
+    .tab-compare{
+      position:relative;overflow:hidden;z-index:2;
+      color:#fff!important;border:0!important;
+      background:linear-gradient(135deg,#E6007E 0%,#FF2E9F 45%,#FF6BCB 100%)!important;
+      box-shadow:0 12px 28px rgba(230,0,126,.42);
+      transform:scale(1.08);font-size:13px;letter-spacing:.12em;
+    }
+    .tab-compare::before{
+      content:"";position:absolute;inset:-40% auto -40% -40%;width:45%;
+      background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);
+      transform:skewX(-18deg);animation:cmpShine 2.6s linear infinite;
+    }
+    .tab-compare::after{
+      content:"VS";position:absolute;top:4px;right:8px;font-size:9px;font-weight:900;
+      opacity:.9;background:rgba(255,255,255,.22);padding:2px 6px;border-radius:999px;letter-spacing:.08em;
+    }
+    .tab-compare:hover{transform:scale(1.14) translateY(-2px)!important;filter:brightness(1.05)}
+    .tab-compare.active{
+      transform:scale(1.1);
+      box-shadow:0 14px 30px rgba(230,0,126,.5),0 0 0 3px rgba(230,0,126,.22);
+    }
+    @keyframes cmpShine{0%{left:-45%}100%{left:125%}}
+    .panel{display:none}
+    .panel.active{display:block;animation:fade .35s ease}
+    @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+    .section{margin-top:8px}
+    .section h2{font-family:'Manrope',sans-serif;font-size:17px;font-weight:800;margin-bottom:6px}
+    .lead{font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.45}
+
+    .spec-list{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+    .spec-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:12px 15px;border-bottom:1px solid #ffe6f2}
+    .spec-row:last-child{border-bottom:0}
+    .spec-row .n{font-size:13px;color:var(--muted);font-weight:600}
+    .spec-row .x{font-size:14px;font-weight:700;text-align:right}
+    .src{margin-top:10px;font-size:11px;color:var(--muted);line-height:1.45}
+    .src a{color:var(--pink-deep)}
+
+    /* —— Comparar (destacado) —— */
+    .arena{
+      position:relative;overflow:hidden;border-radius:22px;padding:18px 14px 16px;margin-bottom:14px;
+      border:1px solid rgba(230,0,126,.35);
+      background:
+        radial-gradient(ellipse 70% 80% at 0% 50%,rgba(230,0,126,.14),transparent 55%),
+        radial-gradient(ellipse 70% 80% at 100% 50%,rgba(15,138,95,.1),transparent 55%),
+        linear-gradient(180deg,#fff,#fff5fa);
+      box-shadow:0 18px 40px rgba(230,0,126,.16);
+    }
+    .arena::before{
+      content:"";position:absolute;top:0;bottom:0;left:-45%;width:40%;pointer-events:none;z-index:0;
+      background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);
+      transform:skewX(-18deg);animation:sheen 3.2s linear infinite;
+    }
+    @keyframes sheen{0%{left:-45%}100%{left:125%}}
+    .arena-title{position:relative;z-index:1;text-align:center;margin-bottom:14px}
+    .arena-title h2{font-family:'Manrope',sans-serif;font-size:clamp(20px,4.5vw,26px);font-weight:800;letter-spacing:-.02em;margin:0}
+    .arena-title p{margin-top:6px;font-size:13px;color:var(--muted);line-height:1.4}
+
+    .cmp-head{position:relative;z-index:1;display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:stretch;margin-bottom:14px}
+    @media(max-width:640px){
+      .cmp-head{gap:6px}
+      .card-slot{padding:12px 8px;min-height:96px}
+      .card-slot .slot-t{font-size:13px}
+      .vs{width:44px;height:44px;font-size:11px}
+    }
+    .card-slot{
+      position:relative;border:1px solid var(--line);border-radius:16px;background:#fff;
+      padding:16px 12px;text-align:center;min-height:108px;
+      display:flex;flex-direction:column;justify-content:center;
+      transition:transform .2s,box-shadow .2s,border-color .2s;
+    }
+    .card-slot:hover{transform:scale(1.04);z-index:2}
+    .card-slot.you{border-color:var(--pink);box-shadow:0 0 0 2px rgba(230,0,126,.18),0 12px 28px rgba(230,0,126,.12)}
+    .card-slot.win{
+      border-color:var(--ok);box-shadow:0 0 0 2px rgba(15,138,95,.2),0 14px 30px rgba(15,138,95,.14);
+    }
+    .card-slot.lose{opacity:.78;filter:saturate(.85)}
+    .card-slot .slot-l{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+    .card-slot .slot-t{margin-top:6px;font-family:'Manrope',sans-serif;font-size:clamp(15px,3.6vw,20px);font-weight:800;line-height:1.15}
+    .card-slot .slot-meta{margin-top:6px;font-size:11px;font-weight:700;color:var(--muted)}
+    .card-slot .crown{
+      display:none;position:absolute;top:-10px;left:50%;transform:translateX(-50%);
+      padding:3px 10px;border-radius:999px;background:var(--ok);color:#fff;
+      font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+      box-shadow:0 6px 14px rgba(15,138,95,.35);
+    }
+    .card-slot.win .crown{display:inline-block}
+    .vs{
+      align-self:center;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;
+      font-family:'Manrope',sans-serif;font-weight:800;font-size:14px;background:var(--pink);color:#fff;
+      box-shadow:0 10px 24px rgba(230,0,126,.45);position:relative;z-index:2;
+    }
+
+    .vs-stage{
+      position:relative;z-index:1;display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;
+      margin-bottom:14px;
+    }
+    .gpu-frame{
+      position:relative;border-radius:18px;border:1px solid var(--line);background:#fff;
+      overflow:hidden;aspect-ratio:4/3;box-shadow:0 12px 28px rgba(26,6,18,.08);
+      transition:transform .2s ease,box-shadow .2s ease;
+    }
+    .gpu-frame:hover{transform:scale(1.03);box-shadow:0 16px 34px rgba(26,6,18,.14)}
+    .gpu-frame.you{border-color:var(--pink);box-shadow:0 0 0 2px rgba(230,0,126,.18),0 14px 30px rgba(230,0,126,.14)}
+    .gpu-frame .frame-l{
+      position:absolute;z-index:3;top:8px;left:8px;right:8px;padding:5px 9px;border-radius:999px;
+      background:rgba(255,255,255,.94);font-size:11px;font-weight:800;letter-spacing:.02em;color:var(--ink);
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;width:auto;max-width:calc(100% - 16px);
+    }
+    .gpu-frame.you .frame-l{color:var(--pink-deep);border:1px solid rgba(230,0,126,.25)}
+    .gpu-frame.rival .frame-l{color:#0b6b4a;border:1px solid rgba(15,138,95,.22)}
+    .gpu-frame img,.gpu-frame .ph-card{
+      width:100%;height:100%;object-fit:contain;background:#fff;display:block;
+    }
+    .gpu-frame .ph-card{
+      display:grid;place-items:center;padding:12px;text-align:center;
+      background:linear-gradient(160deg,#fff,#fff0f7 60%,#ffe6f2);
+      font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(14px,3.2vw,18px);color:var(--pink-deep);
+    }
+    .gpu-frame.rival{background:#fff}
+    .rival-final{
+      position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;
+      z-index:1;opacity:1;transition:opacity .2s ease;
+    }
+    .rival-final.is-hidden{opacity:0;pointer-events:none}
+    .reel-window{
+      position:absolute;inset:0;z-index:2;overflow:hidden;
+      opacity:0;pointer-events:none;
+    }
+    .reel-window.is-spinning{opacity:1;pointer-events:auto}
+    .reel-window::before,.reel-window::after{
+      content:"";position:absolute;left:0;right:0;height:16px;z-index:2;pointer-events:none;
+    }
+    .reel-window::before{top:0;background:linear-gradient(180deg,#fff,transparent)}
+    .reel-window::after{bottom:0;background:linear-gradient(0deg,#fff,transparent)}
+    .reel{
+      display:flex;flex-direction:column;will-change:transform;
+      transition:none;
+    }
+    .reel.is-animating{
+      filter:blur(1px);
+      transition:transform 1.65s cubic-bezier(.12,.82,.08,1);
+    }
+    .reel-item{
+      flex:0 0 auto;width:100%;box-sizing:border-box;
+      height:var(--reel-h,100%);
+      display:grid;place-items:center;padding:10px;
+    }
+    .reel-item img,.reel-item .ph-card{
+      width:100%;height:100%;object-fit:contain;border-radius:12px;background:#fff;
+    }
+    .reel-item .ph-card{
+      display:grid;place-items:center;padding:12px;text-align:center;
+      border:1px dashed var(--line);
+      background:linear-gradient(160deg,#fff,#fff0f7 60%,#ffe6f2);
+      font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(14px,3.2vw,18px);color:var(--pink-deep);
+    }
+    @media(max-width:640px){
+      .vs-stage{gap:6px}
+      .gpu-frame{border-radius:14px}
+    }
+
+    .catalog{
+      position:relative;z-index:1;border:1px solid rgba(230,0,126,.25);border-radius:16px;
+      background:#fff;padding:14px;margin-bottom:14px;
+      box-shadow:0 8px 22px rgba(230,0,126,.08);
+    }
+    .catalog label{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:8px}
+    .catalog select{
+      width:100%;appearance:none;border:2px solid var(--pink);border-radius:12px;
+      padding:15px 44px 15px 14px;font:inherit;font-size:16px;font-weight:800;color:var(--ink);background:#fff4fa;
+      background-image:linear-gradient(45deg,transparent 50%,var(--pink) 50%),linear-gradient(135deg,var(--pink) 50%,transparent 50%);
+      background-position:calc(100% - 20px) calc(50% - 3px),calc(100% - 14px) calc(50% - 3px);
+      background-size:6px 6px,6px 6px;background-repeat:no-repeat;
+    }
+    .catalog select:focus{outline:3px solid rgba(230,0,126,.28);outline-offset:2px}
+
+    .power{
+      position:relative;z-index:1;margin-bottom:14px;padding:14px;border-radius:16px;
+      border:1px solid var(--line);background:#fff;
+    }
+    .power .ph{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:10px}
+    .power .ph strong{font-family:'Manrope',sans-serif;font-size:14px;font-weight:800}
+    .power .ph span{font-size:12px;font-weight:700;color:var(--muted)}
+    .bars{display:grid;gap:10px}
+    .bar-row{display:grid;grid-template-columns:minmax(88px,1.1fr) 1fr 44px;gap:8px;align-items:center}
+    .bar-row .who{font-size:11px;font-weight:800;letter-spacing:.02em;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .track{height:14px;border-radius:999px;background:#ffe6f2;overflow:hidden}
+    .track>i{display:block;height:100%;width:0;border-radius:inherit;transition:width .7s cubic-bezier(.22,1,.36,1)}
+    .track.you>i{background:linear-gradient(90deg,var(--pink-deep),var(--pink-soft))}
+    .track.other>i{background:linear-gradient(90deg,#0b6b4a,#1dbf7a)}
+    .bar-row .pct{font-family:'Manrope',sans-serif;font-size:13px;font-weight:800;text-align:right}
+
+    .delta-head{
+      display:grid;grid-template-columns:1.05fr 1fr 1fr auto;gap:8px;align-items:center;
+      padding:0 14px 8px;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+    }
+    .delta-head .h-you{color:var(--pink-deep);text-align:center}
+    .delta-head .h-other{color:#0b6b4a;text-align:center}
+    .delta-head .h-diff{text-align:center;min-width:84px}
+    .deltas{display:grid;gap:8px}
+    .delta{
+      display:grid;grid-template-columns:1.05fr 1fr 1fr auto;gap:8px;align-items:center;
+      padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:#fff;
+      transition:transform .18s ease,box-shadow .18s ease;
+      transform-origin:center;
+    }
+    .delta:hover{transform:scale(1.035);box-shadow:0 12px 28px rgba(230,0,126,.14);z-index:1}
+    .delta.hero-metric{
+      border-color:rgba(230,0,126,.4);
+      background:linear-gradient(135deg,#ffe6f4,#fff4fa 55%,#fff);
+      box-shadow:0 10px 24px rgba(230,0,126,.12);
+    }
+    .delta.hero-metric:hover{transform:scale(1.04);box-shadow:0 14px 30px rgba(230,0,126,.18)}
+    .delta .stat-name{font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+    .delta .col{
+      text-align:center;font-size:13px;font-weight:800;line-height:1.25;
+      padding:6px 8px;border-radius:10px;background:#faf7f9;
+    }
+    .delta .col.you{background:rgba(230,0,126,.08);color:var(--pink-deep)}
+    .delta .col.other{background:rgba(15,138,95,.08);color:#0b6b4a}
+    .delta .col .mini{display:block;font-size:9px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;opacity:.7;margin-bottom:2px}
+    .badge-delta{min-width:84px;text-align:center;padding:7px 9px;border-radius:999px;font-size:12px;font-weight:800}
+    .badge-delta.up{background:#E8FFF4;color:var(--ok)}
+    .badge-delta.down{background:#FFECEC;color:var(--bad)}
+    .badge-delta.same{background:#F4F1F3;color:var(--muted)}
+    @media(max-width:640px){
+      .delta-head,.delta{grid-template-columns:1fr 1fr;gap:6px}
+      .delta-head .h-spec,.delta .stat-name{grid-column:1 / -1}
+      .delta-head .h-diff,.delta .badge-delta{grid-column:1 / -1;justify-self:center}
+    }
+
+    .score-bar{
+      margin-top:14px;padding:18px 16px;border-radius:18px;border:2px solid transparent;
+      display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;
+      animation:fade .35s ease;
+    }
+    .score-bar.win{
+      border-color:#9FE0C5;
+      background:linear-gradient(135deg,#e8fff4,#fff);
+      box-shadow:0 14px 32px rgba(15,138,95,.16);
+    }
+    .score-bar.lose{
+      border-color:#f3b4b4;
+      background:linear-gradient(135deg,#fff1f1,#fff);
+      box-shadow:0 14px 32px rgba(198,40,40,.12);
+    }
+    .score-bar.draw{
+      border-color:var(--line);
+      background:linear-gradient(135deg,#fff6fb,#fff);
+    }
+    .score-bar .msg{font-size:15px;font-weight:700;line-height:1.4;flex:1;min-width:200px}
+    .score-pill{padding:10px 14px;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+    .score-pill.win{background:#0F8A5F;color:#fff}
+    .score-pill.lose{background:#C62828;color:#fff}
+    .score-pill.draw{background:#6B4458;color:#fff}
+    .cmp-note{margin-top:10px;font-size:11px;color:var(--muted);line-height:1.45}
+
+    .psu-card{
+      position:relative;overflow:hidden;border-radius:18px;border:1px solid var(--line);
+      background:linear-gradient(145deg,rgba(230,0,126,.08),transparent 48%),#fff;
+      padding:20px 16px;box-shadow:0 12px 32px rgba(230,0,126,.1);
+    }
+    .psu-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+    .psu-watts{font-family:'Manrope',sans-serif;font-size:clamp(40px,9vw,60px);font-weight:800;color:var(--pink);line-height:1;letter-spacing:-.03em}
+    .psu-watts span{font-size:.42em;color:var(--pink-deep);margin-left:3px}
+    .psu-hint{margin-top:8px;font-size:13px;color:var(--muted);line-height:1.45;max-width:440px}
+    .meter{margin-top:14px;height:10px;border-radius:999px;background:#ffe6f2;overflow:hidden}
+    .meter>i{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,var(--pink-deep),var(--pink-soft));animation:fill 1.35s cubic-bezier(.22,1,.36,1) .2s forwards}
+    @keyframes fill{to{width:var(--fill,70%)}}
+    .cert-grid{margin-top:14px;display:grid;grid-template-columns:1.15fr 1fr;gap:10px}
+    @media(max-width:640px){.cert-grid{grid-template-columns:1fr}}
+    .cert{border-radius:12px;padding:13px;border:1px solid var(--line);background:#fff}
+    .cert.good{border-color:#9FE0C5;background:linear-gradient(180deg,#f3fff9,#fff)}
+    .cert.warn{border-color:#F5C99A;background:linear-gradient(180deg,#fff8f0,#fff)}
+    .cert .h{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;margin-bottom:6px}
+    .cert.good .h{color:var(--ok)}.cert.warn .h{color:var(--warn)}
+    .cert p{font-size:13px;line-height:1.45}
+
+    .note{margin-top:16px;font-size:12px;line-height:1.5;color:var(--muted);border-left:3px solid var(--line);padding-left:11px}
+
+    @media(prefers-reduced-motion:reduce){
+      *,*::before,*::after{animation:none!important;transition:none!important}
+      .meter>i{width:var(--fill,70%)}
+      .track>i{transition:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <h1 class="title">SAPPHIRE 570 Nitro + 4GB</h1>
+      <p class="sub">SAPPHIRE - 4 GB GDDR5. Specs desde ficha oficial del chip AMD.</p>
+      <div class="tags">
+        <span class="tag">FSR</span>
+        <span class="tag">PCIe 4.0</span>
+      </div>
+    </header>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" type="button" data-tab="specs" role="tab" aria-selected="true">Specs</button>
+      <button class="tab tab-compare" type="button" data-tab="compare" role="tab" aria-selected="false">Comparar</button>
+      <button class="tab" type="button" data-tab="psu" role="tab" aria-selected="false">Fuente</button>
+    </div>
+
+    <section class="panel active" id="panel-specs" role="tabpanel">
+      <div class="section">
+        <h2>Lo esencial</h2>
+        <p class="lead">Datos del fabricante. Sin inventar valores.</p>
+        <div class="spec-list">
+          <div class="spec-row"><span class="n">GPU</span><span class="x">Radeon RX 570</span></div>
+          <div class="spec-row"><span class="n">Arquitectura</span><span class="x">AMD Polaris (GCN 4)</span></div>
+          <div class="spec-row"><span class="n">Memoria</span><span class="x">4 GB GDDR5</span></div>
+          <div class="spec-row"><span class="n">Bus de memoria</span><span class="x">256-bit</span></div>
+          <div class="spec-row"><span class="n">Boost referencia AMD</span><span class="x">1244 MHz</span></div>
+          <div class="spec-row"><span class="n">Consumo (TGP/TDP)</span><span class="x">150 W</span></div>
+          <div class="spec-row"><span class="n">Alimentacion</span><span class="x">1 x 8-pin</span></div>
+          <div class="spec-row"><span class="n">Salidas</span><span class="x">DP 1.4 &#194;&#183; HDMI 2.0 &#194;&#183; DVI</span></div>
+          <div class="spec-row"><span class="n">Fuente sugerida</span><span class="x">450 W (sistema)</span></div>
+        </div>
+        <p class="src">Fuentes: chip <a href="https://www.amd.com/en/products/graphics/desktops/radeon.html" target="_blank" rel="noopener">AMD RX 570</a> - modelo AIB <b>SAPPHIRE</b> (clocks de fabrica y medidas pueden variar segun revision).</p>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-compare" role="tabpanel">
+      <div class="arena">
+        <div class="arena-title">
+          <h2>Cara a cara</h2>
+          <p>Elegí otra GPU del catálogo. Veredicto: <b>Upgrade</b>, <b>Parejo</b> o <b>Retrocedes</b> — según potencia relativa (sin mezclar núcleos CUDA con AMD).</p>
+        </div>
+
+        <div class="vs-stage" aria-hidden="false">
+          <div class="gpu-frame you">
+            <div class="frame-l" id="frameYou">RX 570</div>
+            <img id="imgYou" alt="RX 570" src="https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-570.png" width="640" height="480" loading="eager">
+          </div>
+          <div class="vs">VS</div>
+          <div class="gpu-frame rival">
+            <div class="frame-l" id="frameOther">—</div>
+            <img id="rivalFinal" class="rival-final" alt="GPU rival" width="640" height="480" decoding="async">
+            <div class="reel-window" id="reelWindow" aria-hidden="true">
+              <div class="reel" id="rivalReel"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cmp-head">
+          <div class="card-slot you" id="cardYou">
+            <span class="crown">Gana</span>
+            <div class="slot-l">Tu placa</div>
+            <div class="slot-t" id="cmpYou">RX 570</div>
+            <div class="slot-meta" id="metaYou"></div>
+          </div>
+          <div class="vs" style="opacity:.35;transform:scale(.75)">VS</div>
+          <div class="card-slot" id="cardOther">
+            <span class="crown">Gana</span>
+            <div class="slot-l">Comparás con</div>
+            <div class="slot-t" id="cmpOther">—</div>
+            <div class="slot-meta" id="metaOther"></div>
+          </div>
+        </div>
+
+        <div class="catalog">
+          <label for="gpuSelect">Elegí con qué comparar</label>
+          <select id="gpuSelect" aria-label="Elegir GPU del catálogo"></select>
+        </div>
+
+        <div class="power">
+          <div class="ph">
+            <strong>Potencia relativa</strong>
+            <span>índice 0–100 en esta escalera</span>
+          </div>
+          <div class="bars">
+            <div class="bar-row">
+              <div class="who" id="whoYou">RX 570</div>
+              <div class="track you"><i id="barYou"></i></div>
+              <div class="pct" id="pctYou">0</div>
+            </div>
+            <div class="bar-row">
+              <div class="who" id="whoOther">—</div>
+              <div class="track other"><i id="barOther"></i></div>
+              <div class="pct" id="pctOther">0</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="delta-head" id="deltaHead" aria-hidden="true">
+          <div class="h-spec">Spec</div>
+          <div class="h-you" id="headYou">RX 570</div>
+          <div class="h-other" id="headOther">—</div>
+          <div class="h-diff">Diff</div>
+        </div>
+        <div class="deltas" id="deltaList"></div>
+        <div class="score-bar" id="scoreBar" hidden>
+          <div class="msg" id="scoreMsg"></div>
+          <div class="score-pill" id="scorePill"></div>
+        </div>
+        <p class="cmp-note">* El índice relativo ordena la escalera del catálogo (sin serie 4000). No es un FPS medido en un juego puntual.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-psu" role="tabpanel">
+      <h2 style="font-family:'Manrope',sans-serif;font-size:17px;font-weight:800;margin-bottom:6px">Fuente recomendada</h2>
+      <p class="lead">Potencia sugerida para el sistema con esta GPU. No te quedes solo con el sticker de la caja.</p>
+      <div class="psu-card" style="--fill:45%">
+        <div class="psu-label">Mínimo sugerido</div>
+        <div class="psu-watts"><span id="psuCount" data-target="450">0</span><span>W</span></div>
+        <p class="psu-hint">Segun recomendacion de sistema del fabricante del chip para esta RX 570. Suma margen con CPU potente u overclock.</p>
+        <div class="meter" aria-hidden="true"><i></i></div>
+        <div class="cert-grid">
+          <article class="cert good">
+            <div class="h">Priorizar Cybenetics</div>
+            <p>Buscá certificación <b>Cybenetics</b> (Gold / Platinum / Titanium): mide eficiencia real, ripple y ruido.</p>
+          </article>
+          <article class="cert warn">
+            <div class="h">80 PLUS Gold ya no alcanza</div>
+            <p><b>80 PLUS Gold</b> está diluido: muchas lo imprimen y fallan en rieles o regulación. No lo tomes como garantía.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <p class="note">* Specs del chip segun sitio oficial del fabricante. Clocks/medidas del modelo SAPPHIRE pueden variar. El stock (nuevo/outlet) puede variar.</p>
+  </div>
+
+  <script>
+  (function () {
+    /* rel = índice relativo de potencia en esta escalera (cross-vendor). No comparar CUDA vs CU. */
+    var CATALOG = {
+      "RX 570": { brand:"AMD", arch:"Polaris (GCN 4)", vramGb:4, mem:"GDDR5", bus:256, boost:1244, tdp:150, psu:450, rel:50 },
+
+      "GTX 1660 Ti":   { brand:"NVIDIA", arch:"Turing",    vramGb:6,  mem:"GDDR6",  bus:192, boost:1770, tdp:120, psu:450, rel:28 },
+      "RTX 2060":      { brand:"NVIDIA", arch:"Turing",    vramGb:6,  mem:"GDDR6",  bus:192, boost:1680, tdp:160, psu:500, rel:34 },
+      "RTX 2060 Super":{ brand:"NVIDIA", arch:"Turing",   vramGb:8,  mem:"GDDR6",  bus:256, boost:1650, tdp:175, psu:550, rel:40 },
+      "RTX 3050":      { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6",  bus:128, boost:1777, tdp:130, psu:550, rel:32 },
+      "RTX 3060":      { brand:"NVIDIA", arch:"Ampere",    vramGb:12, mem:"GDDR6",  bus:192, boost:1777, tdp:170, psu:550, rel:42 },
+      "RTX 3060 Ti":   { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6",  bus:256, boost:1665, tdp:200, psu:600, rel:52 },
+      "RTX 3070":      { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6",  bus:256, boost:1725, tdp:220, psu:650, rel:58 },
+      "RTX 3070 Ti":   { brand:"NVIDIA", arch:"Ampere",    vramGb:8,  mem:"GDDR6X", bus:256, boost:1770, tdp:290, psu:750, rel:62 },
+      "RTX 3080":      { brand:"NVIDIA", arch:"Ampere",    vramGb:10, mem:"GDDR6X", bus:320, boost:1710, tdp:320, psu:750, rel:72 },
+      "RTX 3080 Ti":   { brand:"NVIDIA", arch:"Ampere",    vramGb:12, mem:"GDDR6X", bus:384, boost:1665, tdp:350, psu:850, rel:80 },
+      "RTX 3090":      { brand:"NVIDIA", arch:"Ampere",    vramGb:24, mem:"GDDR6X", bus:384, boost:1695, tdp:350, psu:850, rel:84 },
+      "RTX 5050":      { brand:"NVIDIA", arch:"Blackwell", vramGb:8,  mem:"GDDR6",  bus:128, boost:2572, tdp:130, psu:550, rel:48 },
+      "RTX 5060":      { brand:"NVIDIA", arch:"Blackwell", vramGb:8,  mem:"GDDR7",  bus:128, boost:2497, tdp:145, psu:550, rel:56 },
+      "RTX 5060 Ti":   { brand:"NVIDIA", arch:"Blackwell", vramGb:8,  mem:"GDDR7",  bus:128, boost:2572, tdp:180, psu:600, rel:66 },
+      "RTX 5070":      { brand:"NVIDIA", arch:"Blackwell", vramGb:12, mem:"GDDR7",  bus:192, boost:2512, tdp:250, psu:650, rel:78 },
+      "RTX 5070 Ti":   { brand:"NVIDIA", arch:"Blackwell", vramGb:16, mem:"GDDR7",  bus:256, boost:2452, tdp:300, psu:750, rel:90 },
+      "RTX 5080":      { brand:"NVIDIA", arch:"Blackwell", vramGb:16, mem:"GDDR7",  bus:256, boost:2617, tdp:360, psu:850, rel:96 },
+      "RTX 5090":      { brand:"NVIDIA", arch:"Blackwell", vramGb:32, mem:"GDDR7",  bus:512, boost:2407, tdp:575, psu:1000,rel:100 },
+      "RX 5700 XT":    { brand:"AMD", arch:"RDNA",   vramGb:8,  mem:"GDDR6", bus:256, boost:1905, tdp:225, psu:600, rel:38 },
+      "RX 6600":       { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, boost:2491, tdp:132, psu:500, rel:36 },
+      "RX 6600 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:8,  mem:"GDDR6", bus:128, boost:2589, tdp:160, psu:500, rel:44 },
+      "RX 6700 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:12, mem:"GDDR6", bus:192, boost:2581, tdp:230, psu:650, rel:54 },
+      "RX 6800":       { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, boost:2105, tdp:250, psu:650, rel:64 },
+      "RX 6800 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, boost:2250, tdp:300, psu:750, rel:70 },
+      "RX 6900 XT":    { brand:"AMD", arch:"RDNA 2", vramGb:16, mem:"GDDR6", bus:256, boost:2250, tdp:300, psu:850, rel:76 },
+      "RX 7600":       { brand:"AMD", arch:"RDNA 3", vramGb:8,  mem:"GDDR6", bus:128, boost:2655, tdp:165, psu:550, rel:50 },
+      "RX 9060 XT":    { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:128, boost:3130, tdp:160, psu:550, rel:68 },
+      "RX 9070":       { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, boost:2520, tdp:220, psu:650, rel:82 },
+      "RX 9070 XT":    { brand:"AMD", arch:"RDNA 4", vramGb:16, mem:"GDDR6", bus:256, boost:2970, tdp:304, psu:750, rel:92 }
+    };
+
+    var ORDER_NV = ["GTX 1660 Ti","RTX 2060","RTX 2060 Super","RTX 3050","RTX 3060","RTX 3060 Ti","RTX 3070","RTX 3070 Ti","RTX 3080","RTX 3080 Ti","RTX 3090","RTX 5050","RTX 5060","RTX 5060 Ti","RTX 5070","RTX 5070 Ti","RTX 5080","RTX 5090"];
+    var ORDER_AMD = ["RX 5700 XT","RX 6600","RX 6600 XT","RX 6700 XT","RX 6800","RX 6800 XT","RX 6900 XT","RX 7600","RX 9060 XT","RX 9070","RX 9070 XT"];
+
+    var CURRENT = "RX 570";
+    var you = CATALOG[CURRENT];
+    var selected = "RTX 5070";
+    var CURRENT_IMG = "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-570.png";
+    /* Una imagen por modelo, hospedada en Pages (desde fotos Quantum/Odoo). */
+    var CHIP_IMG = {
+      "RX 570": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-570.png",
+      "RX 9070 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-9070-xt.png",
+      "RX 9070": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-9070.png",
+      "RTX 3070": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3070.png",
+      "RX 6700 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6700-xt.png",
+      "RTX 3080": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3080.png",
+      "RX 6800 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6800-xt.png",
+      "RX 6800": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6800.png",
+      "RTX 5070 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5070-ti.png",
+      "RTX 3080 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3080-ti.png",
+      "RTX 3070 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-570.png",
+      "RTX 2060": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-2060.png",
+      "RX 6600 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6600-xt.png",
+      "RTX 2060 Super": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-2060-super.png",
+      "RX 7600": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-7600.png",
+      "RTX 3060": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3060.png",
+      "RTX 3050": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3050.png",
+      "RTX 5060 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5060-ti.png",
+      "RX 5700 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-5700-xt.png",
+      "RTX 5090": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5090.png",
+      "RX 6900 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6900-xt.png",
+      "GTX 1660 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/gtx-1660-ti.png",
+      "RTX 5070": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5070.png",
+      "RTX 3060 Ti": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3060-ti.png",
+      "RTX 5080": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5080.png",
+      "RX 9060 XT": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-9060-xt.png",
+      "RTX 3090": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-3090.png",
+      "RTX 5050": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5050.png",
+      "RTX 5060": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rtx-5060.png",
+      "RX 6600": "https://thiagodzzzz.github.io/quantum-descripciones-main/GPUS/img/compare/rx-6600.png"
+
+    };
+    var IMG_POOL = Object.keys(CHIP_IMG).map(function(k){ return CHIP_IMG[k]; });
+    var reelBusy = false;
+    var reelTimer = null;
+
+    function fmt(n){ return (n||0).toLocaleString('es-AR'); }
+
+    function reelItemHtml(src, label){
+      if (src) {
+        return '<div class="reel-item"><img src="'+src+'" alt="'+label+'" decoding="async"></div>';
+      }
+      return '<div class="reel-item"><div class="ph-card">'+label+'</div></div>';
+    }
+
+    function showRivalFinal(chip){
+      var finalImg = document.getElementById('rivalFinal');
+      var win = document.getElementById('reelWindow');
+      var reel = document.getElementById('rivalReel');
+      var src = CHIP_IMG[chip] || null;
+      if (finalImg) {
+        if (src) {
+          finalImg.src = src;
+          finalImg.alt = chip;
+          finalImg.classList.remove('is-hidden');
+        } else {
+          finalImg.removeAttribute('src');
+          finalImg.classList.add('is-hidden');
+          /* fallback textual inside frame via reel static */
+          if (reel) {
+            reel.innerHTML = reelItemHtml(null, chip);
+            reel.style.transition = 'none';
+            reel.style.transform = 'translateY(0)';
+          }
+          if (win) {
+            win.classList.add('is-spinning');
+            win.style.opacity = '1';
+          }
+          return;
+        }
+      }
+      if (win) {
+        win.classList.remove('is-spinning');
+        win.setAttribute('aria-hidden', 'true');
+      }
+      if (reel) {
+        reel.classList.remove('is-animating');
+        reel.innerHTML = '';
+        reel.style.transition = 'none';
+        reel.style.transform = 'translateY(0)';
+      }
+    }
+
+    function spinRival(chip, animate){
+      var reel = document.getElementById('rivalReel');
+      var win = document.getElementById('reelWindow');
+      var finalImg = document.getElementById('rivalFinal');
+      if (!reel || !win) return;
+
+      if (reelTimer) { window.clearTimeout(reelTimer); reelTimer = null; }
+
+      var finalSrc = CHIP_IMG[chip] || null;
+      if (!animate) {
+        reelBusy = false;
+        showRivalFinal(chip);
+        return;
+      }
+
+      var h = Math.max(120, win.clientHeight || (win.parentElement && win.parentElement.clientHeight) || 168);
+      win.style.setProperty('--reel-h', h + 'px');
+
+      var strip = [];
+      var n = 14;
+      for (var i = 0; i < n - 1; i++) {
+        strip.push({ src: IMG_POOL[Math.floor(Math.random() * IMG_POOL.length)], label: 'GPU' });
+      }
+      strip.push({ src: finalSrc, label: chip });
+
+      reelBusy = true;
+      if (finalImg) finalImg.classList.add('is-hidden');
+      win.classList.add('is-spinning');
+      win.setAttribute('aria-hidden', 'false');
+
+      reel.classList.remove('is-animating');
+      reel.style.transition = 'none';
+      reel.style.transform = 'translateY(0)';
+      reel.innerHTML = strip.map(function(it){ return reelItemHtml(it.src, it.label); }).join('');
+
+      /* Preload final so it paints instantly after settle */
+      if (finalSrc) {
+        var pre = new Image();
+        pre.src = finalSrc;
+      }
+
+      void reel.offsetHeight;
+      requestAnimationFrame(function(){
+        var itemH = (reel.firstElementChild && reel.firstElementChild.offsetHeight) || h;
+        win.style.setProperty('--reel-h', itemH + 'px');
+        reel.classList.add('is-animating');
+        reel.style.transform = 'translateY(-' + ((strip.length - 1) * itemH) + 'px)';
+      });
+
+      reelTimer = window.setTimeout(function(){
+        reelBusy = false;
+        showRivalFinal(chip);
+        reelTimer = null;
+      }, 1750);
+    }
+
+    function buildSelect(){
+      var sel = document.getElementById('gpuSelect');
+      var html = '';
+      html += '<optgroup label="NVIDIA (escalera)">';
+      ORDER_NV.forEach(function(k){
+        if (!CATALOG[k] || k === CURRENT) return;
+        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB · idx '+CATALOG[k].rel+'</option>';
+      });
+      html += '</optgroup><optgroup label="AMD (desde RX 5700 XT)">';
+      ORDER_AMD.forEach(function(k){
+        if (!CATALOG[k] || k === CURRENT) return;
+        html += '<option value="'+k+'"'+(k===selected?' selected':'')+'>'+k+' · '+CATALOG[k].vramGb+' GB · idx '+CATALOG[k].rel+'</option>';
+      });
+      html += '</optgroup>';
+      sel.innerHTML = html;
+      sel.addEventListener('change', function(){
+        selected = sel.value;
+        renderCompare(true);
+      });
+    }
+
+    function deltaBadge(diff, unit, higherIsBetter){
+      if (diff === 0) return { cls:'same', text:'=' };
+      var better = higherIsBetter ? diff > 0 : diff < 0;
+      var sign = diff > 0 ? '+' : '−';
+      return { cls: better ? 'up' : 'down', text: (better ? '▲ ' : '▼ ') + sign + Math.abs(diff) + (unit||'') };
+    }
+
+    function renderCompare(doSpin){
+      var other = CATALOG[selected];
+      var cardYou = document.getElementById('cardYou');
+      var cardOther = document.getElementById('cardOther');
+      document.getElementById('cmpYou').textContent = CURRENT;
+      document.getElementById('cmpOther').textContent = selected;
+      document.getElementById('metaYou').textContent = you.vramGb + ' GB · ' + you.arch;
+      document.getElementById('metaOther').textContent = other.vramGb + ' GB · ' + other.arch;
+      document.getElementById('frameYou').textContent = CURRENT;
+      document.getElementById('frameOther').textContent = selected;
+      document.getElementById('whoYou').textContent = CURRENT;
+      document.getElementById('whoOther').textContent = selected;
+      document.getElementById('headYou').textContent = CURRENT;
+      document.getElementById('headOther').textContent = selected;
+      document.getElementById('deltaHead').removeAttribute('aria-hidden');
+
+      if (doSpin) spinRival(selected, true);
+      else spinRival(selected, false);
+
+      var maxRel = 100;
+      var youPct = Math.round((you.rel / maxRel) * 100);
+      var otherPct = Math.round((other.rel / maxRel) * 100);
+      document.getElementById('barYou').style.width = youPct + '%';
+      document.getElementById('barOther').style.width = otherPct + '%';
+      document.getElementById('pctYou').textContent = you.rel;
+      document.getElementById('pctOther').textContent = other.rel;
+
+      var relDiff = you.rel - other.rel;
+      var margin = 3; /* empaté cercano */
+      var outcome = Math.abs(relDiff) <= margin ? 'draw' : (relDiff > 0 ? 'win' : 'lose');
+
+      cardYou.className = 'card-slot you' + (outcome === 'win' ? ' win' : outcome === 'lose' ? ' lose' : '');
+      cardOther.className = 'card-slot' + (outcome === 'lose' ? ' win' : outcome === 'win' ? ' lose' : '');
+
+      var metrics = [
+        { name:'Potencia relativa', a:you.rel, b:other.rel, unit:'', hib:true, fa:String(you.rel), fb:String(other.rel), hero:true },
+        { name:'Memoria', a:you.vramGb, b:other.vramGb, unit:' GB', hib:true, fa:you.vramGb+' GB '+you.mem, fb:other.vramGb+' GB '+other.mem },
+        { name:'Bus', a:you.bus, b:other.bus, unit:'-bit', hib:true, fa:you.bus+'-bit', fb:other.bus+'-bit' },
+        { name:'Boost', a:you.boost, b:other.boost, unit:' MHz', hib:true, fa:fmt(you.boost)+' MHz', fb:fmt(other.boost)+' MHz' },
+        { name:'TGP', a:you.tdp, b:other.tdp, unit:' W', hib:false, fa:you.tdp+' W', fb:other.tdp+' W' },
+        { name:'Fuente sugerida', a:you.psu, b:other.psu, unit:' W', hib:false, fa:you.psu+' W', fb:other.psu+' W' }
+      ];
+
+      document.getElementById('deltaList').innerHTML = metrics.map(function(m){
+        var d = m.a - m.b;
+        var badge = deltaBadge(d, m.unit, m.hib);
+        return '<div class="delta'+(m.hero?' hero-metric':'')+'">'
+          + '<div class="stat-name">'+m.name+'</div>'
+          + '<div class="col you"><span class="mini">'+CURRENT+'</span>'+m.fa+'</div>'
+          + '<div class="col other"><span class="mini">'+selected+'</span>'+m.fb+'</div>'
+          + '<div class="badge-delta '+badge.cls+'">'+badge.text+'</div>'
+          + '</div>';
+      }).join('');
+
+      var bar = document.getElementById('scoreBar');
+      var msg = document.getElementById('scoreMsg');
+      var pill = document.getElementById('scorePill');
+      bar.hidden = false;
+      bar.className = 'score-bar ' + outcome;
+
+      if (outcome === 'win') {
+        msg.textContent = 'Frente a ' + selected + ', esta ' + CURRENT + ' gana en potencia relativa (+' + Math.abs(relDiff) + ' pts).';
+        pill.textContent = 'Upgrade'; pill.className = 'score-pill win';
+      } else if (outcome === 'lose') {
+        msg.textContent = 'Frente a ' + selected + ', con esta ' + CURRENT + ' retrocedés en potencia relativa (−' + Math.abs(relDiff) + ' pts).';
+        pill.textContent = 'Retrocedes'; pill.className = 'score-pill lose';
+      } else {
+        msg.textContent = 'Frente a ' + selected + ', esta ' + CURRENT + ' queda parejo en potencia relativa.';
+        pill.textContent = 'Parejo'; pill.className = 'score-pill draw';
+      }
+    }
+
+    var tabs = document.querySelectorAll('.tab');
+    tabs.forEach(function(tab){
+      tab.addEventListener('click', function(){
+        var id = tab.getAttribute('data-tab');
+        tabs.forEach(function(t){
+          var on = t === tab;
+          t.classList.toggle('active', on);
+          t.setAttribute('aria-selected', on ? 'true' : 'false');
+        });
+        document.querySelectorAll('.panel').forEach(function(p){
+          p.classList.toggle('active', p.id === 'panel-' + id);
+        });
+        if (id === 'psu') startPsuCounter();
+        if (id === 'compare') {
+          window.setTimeout(function(){ renderCompare(true); }, 60);
+        }
+      });
+    });
+
+    var psuStarted = false;
+    function startPsuCounter(){
+      var el = document.getElementById('psuCount');
+      if (!el || psuStarted) return;
+      var target = parseInt(el.getAttribute('data-target'), 10) || 750;
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        el.textContent = String(target); psuStarted = true; return;
+      }
+      psuStarted = true;
+      var start = null, dur = 1100;
+      function tick(ts){
+        if (!start) start = ts;
+        var p = Math.min(1, (ts - start) / dur);
+        el.textContent = String(Math.round(target * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    buildSelect();
+    renderCompare();
+  })();
+  </script>
+</body>
+</html>

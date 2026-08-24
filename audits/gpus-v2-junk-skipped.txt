@@ -1,7 +1,17 @@
-﻿11850 | Fan Cooler Corsair iCUE LINK RX120 RGB 120mm White Pack x3 (0963)
-11766 | Workstation HP G1i Z1 Intel Core Ultra 7 265 32 GB RAM 1 TB SSD NVIDIA GEFORCE RTX 3050 TI Windows 11 Pro D5BK2LT#ABM
-11367 | Fan Cooler Corsair iCUE LINK RX120 RGB 120mm Black Pack x3 (0925)
-11205 | E2E T66 Prod GPU B
-11204 | E2E T66 Prod GPU B
-11203 | E2E T66 Prod GPU
+﻿11203 | E2E T66 Prod GPU
 11202 | E2E T66 Prod GPU
+11204 | E2E T66 Prod GPU B
+11205 | E2E T66 Prod GPU B
+5730 | FUENTE GAMER THERMALTAKE TP GT 750W ANALOG 80 PLUS GOLD WHITE
+3868 | Fan Cooler Corsair iCUE LINK RX120 MAX RGB 120mm Black Pack x3 (2974)
+11367 | Fan Cooler Corsair iCUE LINK RX120 RGB 120mm Black Pack x3 (0925)
+11850 | Fan Cooler Corsair iCUE LINK RX120 RGB 120mm White Pack x3 (0963)
+3973 | Fuente Thermaltake Toughpower GT 1000W 80 Plus Gold Modular ATX 3.1/PCIe 5.1 (3998)
+3974 | Fuente Thermaltake Toughpower GT 1200W 80 Plus Gold Modular ATX 3.1/PCIe 5.1 (4094)
+7865 | KIT WATER COOLER THERMALTAKE LA240 ARGB SYNC ALL IN ONE BLACK + TP GT 850
+11409 | Pasta Térmica Corsair TM30 de alto rendimiento para CPU / GPU (4506)
+11922 | Pasta Térmica Corsair XTM60 de alto rendimiento para CPU / GPU (7832)
+11410 | Pasta Térmica Corsair XTM60 de alto rendimiento para CPU / GPU (7832)
+9149 | Workstation HP G1i Z1 Intel Core Ultra 7 265 32 GB RAM 1 TB SSD NVIDIA GEFORCE RTX 3050 TI Windows 11 Pro D5BK2LT#ABM
+11766 | Workstation HP G1i Z1 Intel Core Ultra 7 265 32 GB RAM 1 TB SSD NVIDIA GEFORCE RTX 3050 TI Windows 11 Pro D5BK2LT#ABM
+9150 | Workstation HP G1i Z1 Intel Core Ultra 7 265 32 GB RAM 1 TB SSD NVIDIA GEFORCE RTX 5060 TI Windows 11 Pro D5BL5LT#ABM
