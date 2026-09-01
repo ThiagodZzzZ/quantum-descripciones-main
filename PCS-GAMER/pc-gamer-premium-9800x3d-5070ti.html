@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260901quantumultra2" defer></script>
+<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260901quantumultra3" defer></script>
 <style>
 :root{
   --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -265,20 +265,82 @@ html,body{
 .info-l{font-size:10px;color:var(--muted);margin-top:4px;line-height:1.25}
 .note{font-size:10px;color:var(--muted);line-height:1.7;text-align:center;border-top:1px solid var(--line);margin-top:14px;padding-top:12px}
 
+@media(max-width:720px){
+  .hero{padding:26px 12px 22px;border-radius:16px}
+  .title{font-size:clamp(22px,6.5vw,32px)}
+  .sub{font-size:12px;padding:0 4px}
+  .card{padding:14px 12px;border-radius:14px}
+  .fps-title{font-size:23px}
+  .ai-big{font-size:42px}
+}
 @media(max-width:560px){
-  .wrap{padding:14px 10px 44px}
-  .tabs{grid-template-columns:1fr}
-  .tab-hero{transform:none}
-  .specs,.ai-grid{grid-template-columns:1fr}
-  .games{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .fps-val{font-size:46px}
-  .orbit-wrap{height:170px}
-  .orbit-item{width:56px;height:56px;font-size:7px}
-  @keyframes orbit1{from{transform:rotate(0deg) translateX(96px) rotate(0deg)}to{transform:rotate(360deg) translateX(96px) rotate(-360deg)}}
-  @keyframes orbit2{from{transform:rotate(72deg) translateX(96px) rotate(-72deg)}to{transform:rotate(432deg) translateX(96px) rotate(-432deg)}}
-  @keyframes orbit3{from{transform:rotate(144deg) translateX(96px) rotate(-144deg)}to{transform:rotate(504deg) translateX(96px) rotate(-504deg)}}
-  @keyframes orbit4{from{transform:rotate(216deg) translateX(96px) rotate(-216deg)}to{transform:rotate(576deg) translateX(96px) rotate(-576deg)}}
-  @keyframes orbit5{from{transform:rotate(288deg) translateX(96px) rotate(-288deg)}to{transform:rotate(648deg) translateX(96px) rotate(-648deg)}}
+  .wrap{padding:12px 10px 40px}
+  .hero{padding:22px 10px 18px;margin-bottom:12px}
+  .brand{font-size:9px;letter-spacing:.24em}
+  .title{font-size:clamp(20px,7vw,28px)}
+  .title span{font-size:.58em;margin-top:5px}
+  .sub{font-size:11.5px;line-height:1.6;margin-top:10px}
+  .tags{gap:6px;margin-top:12px}
+  .tag{font-size:9px;padding:5px 10px}
+  .power-wrap{flex-direction:column;gap:14px;margin-top:16px}
+  .power-ring{width:96px;height:96px}
+  .power-num{font-size:24px}
+  .power-chips{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  .power-chips .chip-stat:nth-child(3){grid-column:1/-1;justify-content:center}
+  .chip-stat{font-size:11px;padding:8px 10px;min-height:40px}
+  .chip-stat b{font-size:14px}
+  .tabs{grid-template-columns:1fr;gap:6px;margin:12px 0 10px}
+  .tab{min-height:46px;padding:12px 10px;font-size:10px;border-radius:10px}
+  .tab-hero{transform:none!important;font-size:11px}
+  .card{padding:13px 11px;margin-bottom:12px}
+  .section-title{font-size:10px;letter-spacing:.16em}
+  .warn{font-size:11px;line-height:1.55;padding:10px 11px}
+  .orbit-wrap{
+    height:auto;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:8px;margin:4px 0 12px;padding:0;
+  }
+  .orbit-core{display:none}
+  .orbit-item{
+    position:static;width:auto;height:auto;min-height:58px;
+    animation:none!important;transform:none!important;
+    border-radius:12px;padding:10px 8px;font-size:9px;
+  }
+  .orbit-item b{font-size:11px;display:block;margin-bottom:2px}
+  .specs,.ai-grid{grid-template-columns:1fr;gap:7px}
+  .spec{min-height:0;padding:12px 11px}
+  .spec-v{font-size:20px}
+  .spec-d{font-size:10.5px}
+  .games{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+  .game{min-height:62px;padding:10px 8px}
+  .game b{font-size:11px}
+  .game span{font-size:9px}
+  .fps-head{align-items:flex-start!important}
+  .fps-head>span{font-size:10px;line-height:1.4}
+  .res{width:100%;flex-wrap:wrap}
+  .res button{flex:1 1 calc(33.33% - 4px);min-height:40px;padding:8px 6px;font-size:11px}
+  .fps-panel{padding:14px 11px;min-height:0}
+  .fps-title{font-size:22px}
+  .fps-preset{font-size:10.5px;margin-bottom:10px}
+  .fps-row{flex-direction:column;align-items:stretch;gap:10px}
+  .fps-num{min-width:0;width:100%}
+  .fps-val{font-size:44px}
+  .fps-side{width:100%}
+  .ai-card{min-height:64px;padding:11px 10px}
+  .ai-card b{font-size:15px}
+  .ai-panel{padding:14px 11px;min-height:0}
+  .ai-metric{flex-direction:column;align-items:flex-start;gap:8px}
+  .ai-big{font-size:38px}
+  .info{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+  .info-card{padding:11px 5px}
+  .info-val{font-size:17px}
+  .info-l{font-size:9px}
+  .note{font-size:9.5px;padding-top:10px}
+}
+@media(max-width:380px){
+  .power-chips{grid-template-columns:1fr}
+  .power-chips .chip-stat:nth-child(3){grid-column:auto}
+  .games{grid-template-columns:1fr}
+  .res button{flex:1 1 100%}
 }
 </style>
 </head>
