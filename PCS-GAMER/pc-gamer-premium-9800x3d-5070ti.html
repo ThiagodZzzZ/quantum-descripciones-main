@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260901quantumultra" defer></script>
+<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260901quantumultra2" defer></script>
 <style>
 :root{
   --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -141,16 +141,7 @@ html,body{
   border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:14px;
   box-shadow:0 10px 28px rgba(230,0,126,.06);
 }
-.card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
 .section-title{font-size:11px;letter-spacing:.2em;color:var(--pink);text-transform:uppercase;font-weight:800}
-.eyes-btn{
-  appearance:none;cursor:pointer;border:1px solid var(--gold);background:#FFFBEB;
-  color:#92400E;border-radius:999px;padding:7px 14px;font:inherit;font-size:10px;font-weight:800;
-  letter-spacing:.06em;text-transform:uppercase;transition:transform .2s,box-shadow .2s,background .2s;
-}
-.eyes-btn:hover{transform:scale(1.03);box-shadow:0 6px 16px rgba(245,158,11,.25)}
-.eyes-btn.on{background:linear-gradient(135deg,#F59E0B,#FBBF24);color:#fff;border-color:transparent;animation:pulse 1.5s ease infinite}
-@keyframes pulse{50%{box-shadow:0 0 0 6px rgba(245,158,11,.2)}}
 
 /* SPECS GRID */
 .specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:14px}
@@ -359,10 +350,7 @@ html,body{
 <!-- GAMING -->
 <div class="panel" id="panel-gaming">
   <div class="card">
-    <div class="card-head">
-      <div class="section-title">Simulador de FPS</div>
-      <button type="button" class="eyes-btn" id="eyesBtn">&#128065; Modo ojos cerrados</button>
-    </div>
+    <div class="section-title">Simulador de FPS</div>
     <div class="warn"><b>Importante:</b> los FPS son <b>estimaciones especulativas</b> para comparar presets. No garantizan rendimiento real. Varían según drivers, mapa, temperatura, DLSS/FSR y versión del juego.</div>
     <div class="fps-head" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px">
       <span style="font-size:11px;color:var(--muted);font-weight:600">Elegí juego y resolución</span>
@@ -412,7 +400,7 @@ var AI_WORK=[
   ["DaVinci Resolve","Edición 4K",90,"Timeline fluida","4K, efectos y color con aceleración por GPU dedicada."],
   ["Ollama + LM Studio","Laburo diario IA",93,"Multitarea","Corré modelos, navegador y herramientas en paralelo sin ahogarte."]
 ];
-var state={tab:'specs',res:'1080',game:0,ai:0,eyes:false};
+var state={tab:'specs',res:'1080',game:0,ai:0};
 
 function label(p){return p>=94?'Excelente':p>=86?'Muy alto':p>=74?'Alto':'Sólido'}
 function animateNum(el,target,dur){
@@ -431,11 +419,10 @@ function setPowerRing(score){
   animateNum(document.getElementById('powerNum'),score,1200);
 }
 function updateBars(){
-  var boost=state.eyes?4:0;
-  var vGame=Math.min(99,POWER_BASE+boost);
-  var vAi=Math.min(99,POWER_BASE-1+boost);
-  var vMulti=Math.min(99,POWER_BASE-2+boost);
-  var vFut=Math.min(99,POWER_BASE-3+boost);
+  var vGame=Math.min(99,POWER_BASE);
+  var vAi=Math.min(99,POWER_BASE-1);
+  var vMulti=Math.min(99,POWER_BASE-2);
+  var vFut=Math.min(99,POWER_BASE-3);
   ['bGame','bAi','bMulti','bFuture'].forEach(function(id,i){
     var vals=[vGame,vAi,vMulti,vFut];
     document.getElementById(id).style.width=vals[i]+'%';
@@ -444,7 +431,7 @@ function updateBars(){
   document.getElementById('sAi').textContent=label(vAi);
   document.getElementById('sMulti').textContent=label(vMulti);
   document.getElementById('sFuture').textContent=label(vFut);
-  setPowerRing(POWER_BASE+boost);
+  setPowerRing(POWER_BASE);
 }
 function renderGames(){
   var html='';
@@ -460,11 +447,9 @@ function renderFps(){
   var g=GAMES[state.game];
   var idx=state.res==='1080'?2:state.res==='1440'?3:4;
   var fps=Math.max(24,g[idx]);
-  if(state.eyes)fps=Math.round(fps*1.18);
   var bar=Math.min(99,Math.round(fps/4));
   var cls=fps>=200?'green':fps>=120?'gold':'';
   var hz=fps>=240?'Listo para 240Hz+':fps>=144?'Excelente 144Hz':fps>=90?'Muy fluido':'Jugable con ajustes';
-  if(state.eyes)hz='Modo ojos cerrados: '+hz+' (DLSS Quality)';
   document.getElementById('fpsPanel').innerHTML=
     '<div class="fps-title">'+g[0]+'</div>'+
     '<div class="fps-preset">'+g[1]+' · '+state.res.toUpperCase()+'</div>'+
@@ -510,13 +495,6 @@ document.querySelectorAll('.res button').forEach(function(b){
     this.classList.add('on');renderFps();sendHeight();
   };
 });
-document.getElementById('eyesBtn').onclick=function(){
-  state.eyes=!state.eyes;
-  this.classList.toggle('on',state.eyes);
-  this.textContent=state.eyes?'Ojos cerrados ON':'\u{1F441} Modo ojos cerrados';
-  updateBars();renderFps();sendHeight();
-};
-
 if('IntersectionObserver' in window){
   var io=new IntersectionObserver(function(es){
     es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}});
