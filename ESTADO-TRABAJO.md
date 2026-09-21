@@ -214,6 +214,6 @@ Categoria Odoo/web: Placas de video (~470 productos).
 - GitHub Pages: commits `794d698` + `8bbb4ef`.
 - Apply Odoo: **5.625/5.625** UPDATED (`qh_tn_description_raw`).
 - Tiendanube: **5.625/5.625** PUSH (`publish-tn-descriptions.ps1`).
-- Reauditoría Odoo post-lote: **7.468** `sale_ok`; **7.455** con desc; **13** altas nuevas sin iframe (creadas después del snapshot).
-- Cola residual: `missing_tail_20260921_manifest.json` (7 GPU v2 + 5 periféricos + 1 catálogo).
-- Sitemap público: **3.944** productos. La auditoría pública de 3.470 missing quedó stale (terminó antes del push TN).
+- Cola residual post-lote: 13 altas nuevas (7 GPU v2 + 5 periféricos + 1 catálogo). Manifest `missing_tail_20260921_manifest.json`. Commit Pages `086ea15`. Odoo 13/13 + TN 13/13.
+- Cierre Odoo: **7.468 / 7.468** `sale_ok` con `qh_tn_description_raw` (`audits/odoo-coverage-20260921-final.json`).
+- Storefront: 12/12 placas vivas de [Placas de video](https://quantumhardstore.com/componentes/placas-de-video/) con iframe (RX 9050 en ficha mínima). Muestras no-GPU (ZOWIE S2, XPG D35G, RAM) también con iframe. URLs del sitemap sin iframe eran 404 stale, no faltantes reales.
