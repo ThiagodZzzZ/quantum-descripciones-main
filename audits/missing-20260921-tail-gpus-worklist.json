@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-21T22:40:07.9898187Z",
+  "products": [
+    {"id":13405,"title":"Gigabyte | RTX 3070 Ti GAMING OC 8G (OUTLET)","internalReference":"GV-N307TGAMING OC-8GD-CO-QU","sku":"GV-N307TGAMING OC-8GD-CO-QU","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13406,"title":"XFX | RX 6700XT QICK 319 (OUTLET) (Caja Original)","internalReference":"PLACA-VIDEO-XFX-RADEON-6700XT-SPEEDMAS-QICK-319-CO-QU-UPB02600076-016","sku":"PLACA-VIDEO-XFX-RADEON-6700XT-SPEEDMAS-QICK-319-CO-QU-UPB02600076-016","categ":"Componentes / Placas de video / AMD"},
+    {"id":13407,"title":"XFX | RX 6700XT QICK 319 (OUTLET) (Sin Caja)","internalReference":"PLACA-VIDEO-XFX-RADEON-6700XT-SPEEDMAS-QICK-319-SC-QU-UPB02600076-016","sku":"PLACA-VIDEO-XFX-RADEON-6700XT-SPEEDMAS-QICK-319-SC-QU-UPB02600076-016","categ":"Componentes / Placas de video / AMD"},
+    {"id":13408,"title":"GIGABYTE | RTX 3080 GAMING OC (OUTLET) SIN CAJA","internalReference":"","sku":"","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13424,"title":"Placa De Video MSI GeForce RTX 5070 Ti Ventus 3X OC 16GB GDDR7 912-V531-454","internalReference":"912V531454","sku":"912V531454","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13425,"title":"Placa De Video MSI GeForce RTX 5070 Shadow 3X OC 12GB GDDR7 912-V532-242","internalReference":"912V532242","sku":"912V532242","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13426,"title":"Placa De Video MSI GeForce RTX 5060 8GB GDDR7 SHADOW 2X OC 912-V537-037","internalReference":"912V537037","sku":"912V537037","categ":"Componentes / Placas de video / NVIDIA"}
+  ]
+}

@@ -213,5 +213,7 @@ Categoria Odoo/web: Placas de video (~470 productos).
 - Manifest cobertura Odoo: `missing_all_20260921_manifest.json` (**5.625**).
 - GitHub Pages: commits `794d698` + `8bbb4ef`.
 - Apply Odoo: **5.625/5.625** UPDATED (`qh_tn_description_raw`).
-- Tiendanube: push masivo en curso (`publish-tn-descriptions.ps1`).
-- Sitemap público: **3.944** productos. Auditoría pública completa en curso.
+- Tiendanube: **5.625/5.625** PUSH (`publish-tn-descriptions.ps1`).
+- Reauditoría Odoo post-lote: **7.468** `sale_ok`; **7.455** con desc; **13** altas nuevas sin iframe (creadas después del snapshot).
+- Cola residual: `missing_tail_20260921_manifest.json` (7 GPU v2 + 5 periféricos + 1 catálogo).
+- Sitemap público: **3.944** productos. La auditoría pública de 3.470 missing quedó stale (terminó antes del push TN).
