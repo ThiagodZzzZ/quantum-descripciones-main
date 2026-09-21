@@ -1,0 +1,42 @@
+{
+    "generatedAt":  "2026-09-21T15:05:00Z",
+    "source":  "Public category audit; excludes non-GPU adapter and RX 9050 fallback",
+    "products":  [
+                     {
+                         "id":  13093,
+                         "title":  "IGAME | 3080 ULTRA WHITE (OUTLET)",
+                         "sku":  "IGAME-3080-ULTRA-WHITE-IGAME-3080-ULTRA-WHITE-CO-QU",
+                         "categ":  "Componentes / Placas de video / NVIDIA"
+                     },
+                     {
+                         "id":  13286,
+                         "title":  "Placa de Video ASUS Dual RadeonT RX 9060 XT 16GB GDDR6",
+                         "sku":  "NT-21056",
+                         "categ":  "Componentes / Placas de video / AMD"
+                     },
+                     {
+                         "id":  13034,
+                         "title":  "PLACA DE VIDEO ASUS DUAL RTX 5060TI O16GB EVO",
+                         "sku":  "DUALRTX5060TIO16GEVO",
+                         "categ":  "Componentes / Placas de video / NVIDIA"
+                     },
+                     {
+                         "id":  13279,
+                         "title":  "Placa de Video ASUS T1 GeForce RTXT 5060 Ti 8GB GDDR7 OC Edition",
+                         "sku":  "NT-21006",
+                         "categ":  "Componentes / Placas de video / NVIDIA"
+                     },
+                     {
+                         "id":  13040,
+                         "title":  "PLACA DE VIDEO GIGABYTE RTX 3050 GDDR6 6GB",
+                         "sku":  "GVN3050WF2OCV26GD",
+                         "categ":  "Componentes / Placas de video / NVIDIA"
+                     },
+                     {
+                         "id":  12934,
+                         "title":  "SAPPHIRE | RX 5700XT PULSE (OUTLET)",
+                         "sku":  "",
+                         "categ":  "Componentes / Placas de video / AMD"
+                     }
+                 ]
+}
