@@ -1,0 +1,67 @@
+﻿[
+    {
+        "OdooId":  12930,
+        "Title":  "MSI (SOCKET AM5) PRO B850-S WIFI 6E",
+        "Sku":  "9117E80002",
+        "File":  "mb-12930.html",
+        "Chipset":  "B850",
+        "Socket":  "AM5",
+        "Ddr":  "DDR5",
+        "Form":  "ATX",
+        "Outlet":  false,
+        "Matched":  true,
+        "iframe":  "\u003ciframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/MOTHERBOARDS/mb-12930.html?v=20260921all\" style=\"width:100%;height:2400px;border:0;\" loading=\"lazy\"\u003e\u003c/iframe\u003e"
+    },
+    {
+        "OdooId":  12931,
+        "Title":  "MSI (SOCKET AM5) B850M GAMING WIFI 6E",
+        "Sku":  "9117E87005",
+        "File":  "mb-12931.html",
+        "Chipset":  "B850",
+        "Socket":  "AM5",
+        "Ddr":  "DDR5",
+        "Form":  "Micro-ATX",
+        "Outlet":  false,
+        "Matched":  true,
+        "iframe":  "\u003ciframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/MOTHERBOARDS/mb-12931.html?v=20260921all\" style=\"width:100%;height:2400px;border:0;\" loading=\"lazy\"\u003e\u003c/iframe\u003e"
+    },
+    {
+        "OdooId":  13241,
+        "Title":  "Motherborad ASRock Z890I NOVA Wi-Fi IntelÂ® Socket 1851 12/13/14va. Gen. DDR",
+        "Sku":  "NT-19922",
+        "File":  "mb-13241.html",
+        "Chipset":  "Z890",
+        "Socket":  "LGA1851",
+        "Ddr":  "DDR5",
+        "Form":  "Mini-ITX",
+        "Outlet":  false,
+        "Matched":  true,
+        "iframe":  "\u003ciframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/MOTHERBOARDS/mb-13241.html?v=20260921all\" style=\"width:100%;height:2400px;border:0;\" loading=\"lazy\"\u003e\u003c/iframe\u003e"
+    },
+    {
+        "OdooId":  13305,
+        "Title":  "Cable XPG Prime Gaming ExtensiÃ³n Motherboard ARGB",
+        "Sku":  "NT-15575",
+        "File":  "mb-13305.html",
+        "Chipset":  "",
+        "Socket":  "",
+        "Ddr":  "Segun modelo",
+        "Form":  "ATX",
+        "Outlet":  false,
+        "Matched":  true,
+        "iframe":  "\u003ciframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/MOTHERBOARDS/mb-13305.html?v=20260921all\" style=\"width:100%;height:2400px;border:0;\" loading=\"lazy\"\u003e\u003c/iframe\u003e"
+    },
+    {
+        "OdooId":  13314,
+        "Title":  "Motherboard ASUS ROG STRIX B850-A GAMING WIFI AMD Socket AM5 DDR5",
+        "Sku":  "NT-19991",
+        "File":  "mb-13314.html",
+        "Chipset":  "B850",
+        "Socket":  "AM5",
+        "Ddr":  "DDR5",
+        "Form":  "ATX",
+        "Outlet":  false,
+        "Matched":  true,
+        "iframe":  "\u003ciframe src=\"https://thiagodzzzz.github.io/quantum-descripciones-main/MOTHERBOARDS/mb-13314.html?v=20260921all\" style=\"width:100%;height:2400px;border:0;\" loading=\"lazy\"\u003e\u003c/iframe\u003e"
+    }
+]

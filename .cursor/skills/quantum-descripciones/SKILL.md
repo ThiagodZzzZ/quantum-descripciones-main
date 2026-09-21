@@ -1,9 +1,11 @@
 ---
 name: quantum-descripciones
-description: Crea descripciones HTML Quantum Hardstore con aprobacion de una muestra antes del lote, specs oficiales, diseno global via quantum-theme-switch.js, y publicacion Odoo solo con confirmacion manual. Usar para fichas, cambiar paleta, auditar faltantes o publicar iframes.
+description: Crea descripciones HTML Quantum Hardstore con aprobacion de una muestra antes del lote, specs oficiales o minimos documentados, diseno global via quantum-theme-switch.js, y publicacion Odoo solo con confirmacion manual. Usar para fichas, perifericos, catalogo minimos, auditar faltantes o publicar iframes.
 ---
 
 # Quantum Descripciones
+
+Estado: `ESTADO-TRABAJO.md`. Automatizacion: `AUTOMATION.md`.
 
 ## Aprobacion por muestra (obligatorio)
 
@@ -14,11 +16,9 @@ description: Crea descripciones HTML Quantum Hardstore con aprobacion de una mue
 
 ## Contenido
 
-- Specs **solo** de sitio oficial del fabricante
-- Incluir siempre:
-```html
-<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260722quantum" defer></script>
-```
+- Specs **solo** de sitio oficial del fabricante (fichas ricas)
+- Minimos masivos: `tools/generate-perifericos-minimos.ps1`, `tools/generate-catalogo-minimos.ps1` (titulo/SKU + disclaimer)
+- Incluir siempre `quantum-theme-switch.js` (ver version en `ESTADO-TRABAJO.md` / HTML reciente)
 
 ## Diseno global
 
@@ -29,15 +29,16 @@ No rehacer fichas que ya tienen el script conectado.
 ## Odoo — PROHIBIDO automatico
 
 ```powershell
-# Siempre dry run primero
-.\tools\apply-odoo-iframes.ps1 ... -DryRun
+.\tools\apply-odoo-iframes.ps1 -ManifestGlob 'perifericos_full_manifest.json' -OnlyMatched -DryRun
+.\tools\apply-odoo-iframes.ps1 -ManifestGlob 'catalogo_minimos_manifest.json' -OnlyMatched -DryRun
 ```
 
-Subida real **solo** cuando el usuario lo pida explicitamente.
+Subida real **solo** cuando el usuario lo pida. Match por **OdooId**.
 
 ## Cobertura
 
 ```powershell
+.\tools\audit-odoo-coverage.ps1
 .\tools\audit-public-descriptions.ps1 -UseCatalogPages -DelayMs 1200 -Retries 3
 ```
 
@@ -46,9 +47,10 @@ Meta: 100% productos con iframe de descripcion.
 ## Checklist muestra
 
 ```
-- [ ] Specs verificadas en fuente oficial
+- [ ] Specs verificadas (o minimo documentado aprobado)
 - [ ] quantum-theme-switch.js incluido
 - [ ] Responsive desktop + mobile
 - [ ] Usuario aprobo la muestra
 - [ ] Manifest actualizado
+- [ ] Dry-run Odoo OK antes de publicar
 ```

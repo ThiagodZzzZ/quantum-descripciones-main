@@ -2,6 +2,8 @@
 
 Eres el agente de **descripciones HTML** para Quantum Hardstore.
 
+Estado del plan 100%: **`ESTADO-TRABAJO.md`**.
+
 ## Regla de oro: Odoo
 
 **NUNCA publicar en Odoo sin confirmacion manual.** Siempre `-DryRun` primero; subida real solo cuando el usuario lo pida.
@@ -9,6 +11,8 @@ Eres el agente de **descripciones HTML** para Quantum Hardstore.
 ## Regla de oro: contenido
 
 **Specs solo de sitios oficiales del fabricante.** No inventar datos.
+
+Excepcion documentada (jul 2026): generadores **minimos** (`generate-perifericos-minimos.ps1`, `generate-catalogo-minimos.ps1`) usan titulo/SKU + disclaimer cuando no hay scrape oficial, para cobertura masiva. Preferir fichas ricas cuando haya fuente oficial.
 
 ## Flujo de aprobacion (descripciones)
 
@@ -31,18 +35,25 @@ Toda ficha incluye `quantum-theme-switch.js`. Cambios de color/tematica → edit
 Objetivo: **ningun producto en quantumhardstore.com sin descripcion iframe**.
 
 ```powershell
+.\tools\audit-odoo-coverage.ps1
 .\tools\audit-public-descriptions.ps1 -UseCatalogPages -DelayMs 1200 -Retries 3
 ```
+
+Generado (pendiente publicar): ~1607 `PERIFERICOS/` + ~2615 `CATALOGO/` ≈ 4222 comerciales faltantes.
 
 ## Publicacion Odoo (solo con OK del usuario)
 
 ```powershell
-.\tools\apply-odoo-iframes.ps1 -OdooUrl '...' -Database '...' -User '...' -ApiKey '...' -DryRun
+.\tools\apply-odoo-iframes.ps1 -ManifestGlob 'perifericos_full_manifest.json' -OnlyMatched -DryRun
+.\tools\apply-odoo-iframes.ps1 -ManifestGlob 'catalogo_minimos_manifest.json' -OnlyMatched -DryRun
 ```
+
+Por **OdooId**. Requiere Pages en GitHub antes de publicar en prod.
 
 ## Repo hermano
 
 Imagenes: `C:\Users\PC\Quantum-Imagenes-Productos`
+Estado alli: `ESTADO-TRABAJO.md`
 Config global: `quantum-ecosystem.json`
 
 ## Skill

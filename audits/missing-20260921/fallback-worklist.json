@@ -1,0 +1,53 @@
+{
+    "generatedAt":  "2026-09-21T18:13:18.1250059Z",
+    "byCategory":  [
+                       {
+                           "category":  "Componentes",
+                           "count":  3,
+                           "items":  [
+                                         {
+                                             "id":  13387,
+                                             "title":  "MICRO AMD (AM4) RYZEN 5 3400G RADEON VEGA11 37GHZ 4 NUCLEOS 8 HILOS (YD3400C5FHSBX)",
+                                             "sku":  "78109",
+                                             "categ":  "Componentes / Placas de video / AMD"
+                                         },
+                                         {
+                                             "id":  13391,
+                                             "title":  "Placa de Video MSI NVIDIA GeForce GeForce N210-MD1G/D4",
+                                             "sku":  "N210MD1GD3",
+                                             "categ":  "Componentes / Placas de video / NVIDIA"
+                                         },
+                                         {
+                                             "id":  13305,
+                                             "title":  "Cable XPG Prime Gaming ExtensiÃ³n Motherboard ARGB",
+                                             "sku":  "NT-15575",
+                                             "categ":  "Componentes / Motherboards"
+                                         }
+                                     ]
+                       },
+                       {
+                           "category":  "Sin categoria",
+                           "count":  3,
+                           "items":  [
+                                         {
+                                             "id":  13110,
+                                             "title":  "Control MSI FORCE GC30 V2 Wireless p/Windows/Android Black (2674)",
+                                             "sku":  "0418743",
+                                             "categ":  "Goods / Pendiente Mapping Supplier Sync"
+                                         },
+                                         {
+                                             "id":  13256,
+                                             "title":  "TEC + MOU INAL LOGITECH MK250 Graphite BLUETOOTH",
+                                             "sku":  "NT-20460",
+                                             "categ":  "Goods / Pendiente Mapping Supplier Sync"
+                                         },
+                                         {
+                                             "id":  13277,
+                                             "title":  "KIT GAMER XPG Mouse INFAREX  M20 + Teclado INFAREX K10 + HeadSet EMIX H20",
+                                             "sku":  "NT-20963",
+                                             "categ":  "Goods / Pendiente Mapping Supplier Sync"
+                                         }
+                                     ]
+                       }
+                   ]
+}

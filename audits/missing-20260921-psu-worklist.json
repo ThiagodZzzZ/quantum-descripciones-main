@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-21T18:02:38.0392666Z",
+  "products": [
+    {"id":13204,"title":"Fuente XPG Pylon 750W","internalReference":"NT-15274","sku":"NT-15274","categ":"Componentes / Fuentes"},
+    {"id":13252,"title":"Fuente XPG Probe 700W","internalReference":"NT-20227","sku":"NT-20227","categ":"Componentes / Fuentes"},
+    {"id":13270,"title":"Fuente ASUS Prime 750W Bronze White","internalReference":"NT-20793","sku":"NT-20793","categ":"Componentes / Fuentes"},
+    {"id":13280,"title":"Fuente ASUS TUF Gaming 1000W Gold EVO","internalReference":"NT-21013","sku":"NT-21013","categ":"Componentes / Fuentes"},
+    {"id":13281,"title":"Fuente ASUS TUF Gaming 1200W Gold EVO","internalReference":"NT-21014","sku":"NT-21014","categ":"Componentes / Fuentes"},
+    {"id":13288,"title":"Fuente ASUS Prime 750W Gold","internalReference":"NT-21062","sku":"NT-21062","categ":"Componentes / Fuentes"},
+    {"id":13289,"title":"FUENTE ASUS PRIME-850G 80 Plus Gold","internalReference":"NT-21063","sku":"NT-21063","categ":"Componentes / Fuentes"},
+    {"id":13295,"title":"Fuente XPG Pylon 650W","internalReference":"NT-15273","sku":"NT-15273","categ":"Componentes / Fuentes"},
+    {"id":13325,"title":"Fuente de Alimentación XPG Cybercore II 1300W","internalReference":"NT-20229","sku":"NT-20229","categ":"Componentes / Fuentes"},
+    {"id":13340,"title":"Fuente ASUS ROG Thor 1200W Platinum III White Edition (ROG Equalizer)","internalReference":"NT-21016","sku":"NT-21016","categ":"Componentes / Fuentes"},
+    {"id":13342,"title":"Fuente ASUS ROG Thor 1200W Platinum III (ROG Equalizer)","internalReference":"NT-21088","sku":"NT-21088","categ":"Componentes / Fuentes"},
+    {"id":13345,"title":"Fuente ASUS ROG Strix 1000W Platinum ROG Equalizer","internalReference":"NT-21064","sku":"NT-21064","categ":"Componentes / Fuentes"},
+    {"id":13353,"title":"Fuente XPG Core Reactor 750W","internalReference":"NT-16611","sku":"NT-16611","categ":"Componentes / Fuentes"},
+    {"id":13355,"title":"Fuente Atx 500 Watt Pcbox Sata","internalReference":"16422","sku":"16422","categ":"Componentes / Fuentes"}
+  ]
+}

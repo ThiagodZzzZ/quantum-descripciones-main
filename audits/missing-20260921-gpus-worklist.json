@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-09-21T18:02:37.9941781Z",
+  "products": [
+    {"id":12938,"title":"EVGA | RTX 3060 Ti FTW3 Ultra 8GB (OUTLET)","internalReference":"","sku":"","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13035,"title":"PLACA DE VIDEO ASUS T1 RTX 5070 12GB GAMING","internalReference":"T1RTX5070O12GGAMING","sku":"T1RTX5070O12GGAMING","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13036,"title":"PLACA DE VIDEO ASUS TUF RTX 5090 O32G GAMING","internalReference":"TUFRTX5090O32GGAMING","sku":"TUFRTX5090O32GGAMING","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13114,"title":"VGA MSI Geforce RTX 3060 VENTUS 2X 12G OC V1 (7506)","internalReference":"0418764","sku":"0418764","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13115,"title":"VGA MSI GeForce RTX 5060 Ti VENTUS 2X OC BLACK PLUS 16G (4710)","internalReference":"0418097","sku":"0418097","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13116,"title":"VGA MSI GeForce RTX 5070 12G VENTUS 2X OC BLACK (4741)","internalReference":"0418765","sku":"0418765","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13151,"title":"VGA MSI GeForce RTX 5070 Ti 16G FRIEREN EDITION OC (2925)","internalReference":"0418496","sku":"0418496","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13385,"title":"Placa De Video MSI GeForce RTX 5060 Ti Shadow 2X OC Plus 16GB GDDR7 912-V535-218","internalReference":"912V535218","sku":"912V535218","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13387,"title":"MICRO AMD (AM4) RYZEN 5 3400G RADEON VEGA11 37GHZ 4 NUCLEOS 8 HILOS (YD3400C5FHSBX)","internalReference":"78109","sku":"78109","categ":"Componentes / Placas de video / AMD"},
+    {"id":13390,"title":"Placa de Video MSI NVIDIA GeForce GeForce GT 710 2GD3 LP","internalReference":"GT7102GD3LP","sku":"GT7102GD3LP","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13391,"title":"Placa de Video MSI NVIDIA GeForce GeForce N210-MD1G/D4","internalReference":"N210MD1GD3","sku":"N210MD1GD3","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13392,"title":"Placa de Video MSI NVIDIA GeForce RTX 3060 VENTUS 2X 12G OC V1","internalReference":"RTX3060VENTUS2X12GOCV1","sku":"RTX3060VENTUS2X12GOCV1","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13395,"title":"MSI GeForce GTX 1660 SUPER Ventus xs OC (OUTLET) (Caja Original)","internalReference":"USADO-QH-GPT-PLACA-DE-VID-NVIDIA-MSI-1660-SUPER-CO-QU-UPB02600074-001","sku":"USADO-QH-GPT-PLACA-DE-VID-NVIDIA-MSI-1660-SUPER-CO-QU-UPB02600074-001","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13397,"title":"ASROCK | 6700XT PHANTOM GAMING (OUTLET) SIN CAJA","internalReference":"ASROCK-6700XT-PHANTOM-GAMING-ASROCK-6700XT-PHANT-CO-QU","sku":"ASROCK-6700XT-PHANTOM-GAMING-ASROCK-6700XT-PHANT-CO-QU","categ":"Componentes / Placas de video / AMD"},
+    {"id":13398,"title":"POWERCOLOR | 6700XT REDEVIL (OUTLET) SIN CAJA","internalReference":"POWERCOLOR-6700XT-REDEVIL-POWERCOL-6700XT-REDEVI-CO-QU","sku":"POWERCOLOR-6700XT-REDEVIL-POWERCOL-6700XT-REDEVI-CO-QU","categ":"Componentes / Placas de video / AMD"},
+    {"id":13399,"title":"LENOVO | RTX 3080 (OUTLET) SIN CAJA","internalReference":"LENOVO-RTX-3080-LENOVO-RTX-3080-LENOVO-RTX-CO-QU","sku":"LENOVO-RTX-3080-LENOVO-RTX-3080-LENOVO-RTX-CO-QU","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13400,"title":"NVIDIA | RX 6800 FOUNDER (OUTLET) SIN CAJA","internalReference":"NVIDIA-RX-6800-FOUNDER-NVIDIA-RX-6800-FOUNDER-CO-QU","sku":"NVIDIA-RX-6800-FOUNDER-NVIDIA-RX-6800-FOUNDER-CO-QU","categ":"Componentes / Placas de video / AMD"},
+    {"id":13401,"title":"ZOTAC | RTX 3070 TWIN EDGE (OUTLET) CON CAJA","internalReference":"ZOTAC-RTX-3070-TWIN-EDGE-ZOTAC-RTX-3070-CO-QU","sku":"ZOTAC-RTX-3070-TWIN-EDGE-ZOTAC-RTX-3070-CO-QU","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13402,"title":"ASUS | RTX 3070 TUF GAMING (OUTLET) SIN CAJA","internalReference":"ASUS-RTX-3070-TUF-GAMING-ASUS-RTX-3070-CO-QU","sku":"ASUS-RTX-3070-TUF-GAMING-ASUS-RTX-3070-CO-QU","categ":"Componentes / Placas de video / NVIDIA"},
+    {"id":13403,"title":"GIGABYTE | RX 6700XT WINDFORCE (OUTLET) CON CAJA","internalReference":"GIGABYTE-RX-6700XT-WINDFORC-GIGABYTE-RX-6700XT-W-CO-QU","sku":"GIGABYTE-RX-6700XT-WINDFORC-GIGABYTE-RX-6700XT-W-CO-QU","categ":"Componentes / Placas de video / AMD"}
+  ]
+}

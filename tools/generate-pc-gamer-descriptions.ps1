@@ -10,14 +10,17 @@ param(
   [string]$ProductsJson = '',
   [string]$OutDir = '',
   [string]$RepoRoot = '',
-  [string]$ThemeVersion = '20260724quantum',
-  [string]$ThemeBase = 'https://thiagodzzzz.github.io/quantum-descripciones-main'
+  [string]$ManifestPath = '',
+  [string]$ThemeVersion = '20260811quantum',
+  [string]$ThemeBase = 'https://thiagodzzzz.github.io/quantum-descripciones-main',
+  [switch]$FileByOdooId,
+  [int[]]$ExcludeOdooIds = @()
 )
 
 $ErrorActionPreference = 'Stop'
 if (-not $RepoRoot) { $RepoRoot = Split-Path $PSScriptRoot -Parent }
 if (-not $OutDir) { $OutDir = Join-Path $RepoRoot 'PCS-GAMER' }
-$ManifestPath = Join-Path $RepoRoot 'pc_gamer_full_manifest.json'
+if (-not $ManifestPath) { $ManifestPath = Join-Path $RepoRoot 'pc_gamer_full_manifest.json' }
 
 function Write-Utf8NoBom([string]$Path, [string]$Content) {
   $enc = New-Object System.Text.UTF8Encoding $false
@@ -28,7 +31,7 @@ function Write-Utf8NoBom([string]$Path, [string]$Content) {
 $GpuCatalog = [ordered]@{
   '5090'     = @{ key='5090'; n='RTX 5090'; d='GDDR7'; score=100; high=$true; family='rtx' }
   '5080'     = @{ key='5080'; n='RTX 5080'; d='GDDR7'; score=97;  high=$true; family='rtx' }
-  '5070'     = @{ key='5070'; n='RTX 5070'; d='GDDR7'; score=92;  high=$true; family='rtx' }
+  '5070'     = @{ key='5070'; n='RTX 5070'; d='12GB GDDR7'; score=92;  high=$true; family='rtx' }
   '5060'     = @{ key='5060'; n='RTX 5060'; d='GDDR7'; score=82;  high=$true; family='rtx' }
   '5050'     = @{ key='5050'; n='RTX 5050'; d='GDDR6'; score=72;  high=$false; family='rtx' }
   '4090'     = @{ key='4090'; n='RTX 4090'; d='24GB GDDR6X'; score=99; high=$true; family='rtx' }
@@ -41,18 +44,28 @@ $GpuCatalog = [ordered]@{
   '3080'     = @{ key='3080'; n='RTX 3080'; d='10GB GDDR6X'; score=94; high=$true; family='rtx' }
   '3070ti'   = @{ key='3070ti'; n='RTX 3070 Ti'; d='8GB GDDR6X'; score=88; high=$true; family='rtx' }
   '3070'     = @{ key='3070'; n='RTX 3070'; d='8GB GDDR6'; score=85; high=$true; family='rtx' }
+  '3060ti'   = @{ key='3060ti'; n='RTX 3060 Ti'; d='8GB GDDR6'; score=78; high=$true; family='rtx' }
   '3060'     = @{ key='3060'; n='RTX 3060'; d='12GB GDDR6'; score=70; high=$false; family='rtx' }
+  '3050'     = @{ key='3050'; n='RTX 3050'; d='6GB/8GB GDDR6'; score=58; high=$false; family='rtx' }
+  '2060super'= @{ key='2060super'; n='RTX 2060 SUPER'; d='8GB GDDR6'; score=60; high=$false; family='rtx' }
   '1660super'= @{ key='1660super'; n='GTX 1660 SUPER'; d='6GB GDDR6'; score=55; high=$false; family='gtx' }
   '1660ti'   = @{ key='1660ti'; n='GTX 1660 Ti'; d='6GB GDDR6'; score=53; high=$false; family='gtx' }
   '1660'     = @{ key='1660'; n='GTX 1660'; d='6GB GDDR5'; score=50; high=$false; family='gtx' }
+  '1650'     = @{ key='1650'; n='GTX 1650'; d='4GB GDDR5/6'; score=42; high=$false; family='gtx' }
+  '9070xt'   = @{ key='9070xt'; n='RX 9070 XT'; d='16GB GDDR6'; score=93; high=$true; family='rx' }
   '9070'     = @{ key='9070'; n='RX 9070'; d='RDNA 4'; score=90; high=$true; family='rx' }
+  '9060xt'   = @{ key='9060xt'; n='RX 9060 XT'; d='8/16GB GDDR6'; score=80; high=$true; family='rx' }
   '7900xtx'  = @{ key='7900xtx'; n='RX 7900 XTX'; d='24GB GDDR6'; score=96; high=$true; family='rx' }
   '7800xt'   = @{ key='7800xt'; n='RX 7800 XT'; d='16GB GDDR6'; score=88; high=$true; family='rx' }
   '7600'     = @{ key='7600'; n='RX 7600'; d='8GB GDDR6'; score=70; high=$false; family='rx' }
+  '6900xt'   = @{ key='6900xt'; n='RX 6900 XT'; d='16GB GDDR6'; score=90; high=$true; family='rx' }
+  '6800xt'   = @{ key='6800xt'; n='RX 6800 XT'; d='16GB GDDR6'; score=86; high=$true; family='rx' }
   '6800'     = @{ key='6800'; n='RX 6800'; d='16GB GDDR6'; score=82; high=$true; family='rx' }
   '6700xt'   = @{ key='6700xt'; n='RX 6700 XT'; d='12GB GDDR6'; score=75; high=$false; family='rx' }
+  '6600'     = @{ key='6600'; n='RX 6600'; d='8GB GDDR6'; score=65; high=$false; family='rx' }
   '6400'     = @{ key='6400'; n='RX 6400'; d='4GB GDDR6'; score=45; high=$false; family='rx' }
   '580'      = @{ key='580'; n='RX 580'; d='8GB GDDR5'; score=40; high=$false; family='rx' }
+  'b580'     = @{ key='b580'; n='Arc B580'; d='12GB GDDR6'; score=72; high=$false; family='arc' }
   '780m'     = @{ key='780m'; n='Radeon 780M'; d='iGPU RDNA3'; score=48; high=$false; family='igpu' }
   '760m'     = @{ key='760m'; n='Radeon 760M'; d='iGPU RDNA3'; score=42; high=$false; family='igpu' }
   '740m'     = @{ key='740m'; n='Radeon 740M'; d='iGPU RDNA3'; score=35; high=$false; family='igpu' }
@@ -65,41 +78,66 @@ $GpuCatalog = [ordered]@{
 
 # Cadena de upgrades por familia (keys en orden ascendente de potencia)
 $UpgradeLadders = @{
-  rtx  = @('5050','5060','4060','3060','3070','4070','5070','3080','3080ti','4080','3090','4090','5080','5090')
-  gtx  = @('1660','1660ti','1660super','3060','4060','5060')
-  rx   = @('580','6400','7600','6700xt','6800','7800xt','9070','7900xtx')
+  rtx  = @('3050','5050','5060','4060','3060','3060ti','3070','3070ti','4070','5070','3080','3080ti','4080','3090','4090','5080','5090')
+  gtx  = @('1650','1660','1660ti','1660super','3060','4060','5060')
+  rx   = @('6400','6600','7600','6700xt','6800','6800xt','6900xt','7800xt','9060xt','9070','9070xt','7900xtx')
+  arc  = @('b580','4060','5060','5070')
   igpu = @('integ','radeon','vega','vega7','vega8','740m','760m','780m','6400','1660super')
 }
 
 $CpuDb = @{
   'ATHLON 3000G' = @{ short='Athlon 3000G'; cores='2C/4T'; arch='Zen+'; sock='AM4'; boost='3.5 GHz'; score=35 }
   'RYZEN 5 5500' = @{ short='Ryzen 5 5500'; cores='6C/12T'; arch='Zen 3'; sock='AM4'; boost='4.2 GHz'; score=62 }
+  'RYZEN 5 5600' = @{ short='Ryzen 5 5600'; cores='6C/12T'; arch='Zen 3'; sock='AM4'; boost='4.4 GHz'; score=66 }
   'RYZEN 5 5600G' = @{ short='Ryzen 5 5600G'; cores='6C/12T'; arch='Zen 3'; sock='AM4'; boost='4.4 GHz'; score=64 }
   'RYZEN 5 5600GT' = @{ short='Ryzen 5 5600GT'; cores='6C/12T'; arch='Zen 3'; sock='AM4'; boost='4.6 GHz'; score=66 }
+  'RYZEN 5 7600' = @{ short='Ryzen 5 7600'; cores='6C/12T'; arch='Zen 4'; sock='AM5'; boost='5.1 GHz'; score=78 }
   'RYZEN 5 7600X' = @{ short='Ryzen 5 7600X'; cores='6C/12T'; arch='Zen 4'; sock='AM5'; boost='5.3 GHz'; score=80 }
+  'RYZEN 5 8400F' = @{ short='Ryzen 5 8400F'; cores='6C/12T'; arch='Zen 4'; sock='AM5'; boost='4.7 GHz'; score=74 }
   'RYZEN 5 8500G' = @{ short='Ryzen 5 8500G'; cores='6C/12T'; arch='Zen 4'; sock='AM5'; boost='5.0 GHz'; score=72 }
   'RYZEN 5 8600G' = @{ short='Ryzen 5 8600G'; cores='6C/12T'; arch='Zen 4'; sock='AM5'; boost='5.0 GHz'; score=74 }
+  'RYZEN 5 9600' = @{ short='Ryzen 5 9600'; cores='6C/12T'; arch='Zen 5'; sock='AM5'; boost='5.2 GHz'; score=82 }
+  'RYZEN 5 9600X' = @{ short='Ryzen 5 9600X'; cores='6C/12T'; arch='Zen 5'; sock='AM5'; boost='5.4 GHz'; score=84 }
+  'RYZEN 7 5700' = @{ short='Ryzen 7 5700'; cores='8C/16T'; arch='Zen 3'; sock='AM4'; boost='4.6 GHz'; score=74 }
   'RYZEN 7 5700G' = @{ short='Ryzen 7 5700G'; cores='8C/16T'; arch='Zen 3'; sock='AM4'; boost='4.6 GHz'; score=72 }
   'RYZEN 7 5700X' = @{ short='Ryzen 7 5700X'; cores='8C/16T'; arch='Zen 3'; sock='AM4'; boost='4.6 GHz'; score=76 }
   'RYZEN 7 5800XT' = @{ short='Ryzen 7 5800XT'; cores='8C/16T'; arch='Zen 3'; sock='AM4'; boost='4.8 GHz'; score=78 }
   'RYZEN 7 7700' = @{ short='Ryzen 7 7700'; cores='8C/16T'; arch='Zen 4'; sock='AM5'; boost='5.3 GHz'; score=84 }
   'RYZEN 7 7700X' = @{ short='Ryzen 7 7700X'; cores='8C/16T'; arch='Zen 4'; sock='AM5'; boost='5.4 GHz'; score=86 }
   'RYZEN 7 7800X3D' = @{ short='Ryzen 7 7800X3D'; cores='8C/16T'; arch='Zen 4 3D'; sock='AM5'; boost='5.0 GHz'; score=94 }
+  'RYZEN 7 8700' = @{ short='Ryzen 7 8700'; cores='8C/16T'; arch='Zen 4'; sock='AM5'; boost='5.0 GHz'; score=82 }
+  'RYZEN 7 8700F' = @{ short='Ryzen 7 8700F'; cores='8C/16T'; arch='Zen 4'; sock='AM5'; boost='5.0 GHz'; score=82 }
   'RYZEN 7 8700G' = @{ short='Ryzen 7 8700G'; cores='8C/16T'; arch='Zen 4'; sock='AM5'; boost='5.1 GHz'; score=80 }
+  'RYZEN 7 9700' = @{ short='Ryzen 7 9700'; cores='8C/16T'; arch='Zen 5'; sock='AM5'; boost='5.4 GHz'; score=88 }
   'RYZEN 7 9700X' = @{ short='Ryzen 7 9700X'; cores='8C/16T'; arch='Zen 5'; sock='AM5'; boost='5.5 GHz'; score=90 }
+  'RYZEN 7 9800' = @{ short='Ryzen 7 9800'; cores='8C/16T'; arch='Zen 5'; sock='AM5'; boost='5.2 GHz'; score=92 }
   'RYZEN 7 9800X3D' = @{ short='Ryzen 7 9800X3D'; cores='8C/16T'; arch='Zen 5 3D'; sock='AM5'; boost='5.2 GHz'; score=98 }
+  'RYZEN 9 5900X' = @{ short='Ryzen 9 5900X'; cores='12C/24T'; arch='Zen 3'; sock='AM4'; boost='4.8 GHz'; score=86 }
   'RYZEN 9 5900XT' = @{ short='Ryzen 9 5900XT'; cores='16C/32T'; arch='Zen 3'; sock='AM4'; boost='4.8 GHz'; score=88 }
   'RYZEN 9 7900' = @{ short='Ryzen 9 7900'; cores='12C/24T'; arch='Zen 4'; sock='AM5'; boost='5.4 GHz'; score=90 }
   'RYZEN 9 7900X' = @{ short='Ryzen 9 7900X'; cores='12C/24T'; arch='Zen 4'; sock='AM5'; boost='5.6 GHz'; score=92 }
+  'RYZEN 9 7900X3D' = @{ short='Ryzen 9 7900X3D'; cores='12C/24T'; arch='Zen 4 3D'; sock='AM5'; boost='5.6 GHz'; score=94 }
   'RYZEN 9 7950X' = @{ short='Ryzen 9 7950X'; cores='16C/32T'; arch='Zen 4'; sock='AM5'; boost='5.7 GHz'; score=95 }
+  'RYZEN 9 9900X' = @{ short='Ryzen 9 9900X'; cores='12C/24T'; arch='Zen 5'; sock='AM5'; boost='5.6 GHz'; score=96 }
   'RYZEN 9 9950X' = @{ short='Ryzen 9 9950X'; cores='16C/32T'; arch='Zen 5'; sock='AM5'; boost='5.7 GHz'; score=98 }
+  'RYZEN 9 9950X3D' = @{ short='Ryzen 9 9950X3D'; cores='16C/32T'; arch='Zen 5 3D'; sock='AM5'; boost='5.7 GHz'; score=99 }
   'INTEL CORE I3-12100' = @{ short='Core i3-12100'; cores='4C/8T'; arch='Alder Lake'; sock='LGA1700'; boost='4.3 GHz'; score=55 }
   'CORE I3 12100' = @{ short='Core i3-12100'; cores='4C/8T'; arch='Alder Lake'; sock='LGA1700'; boost='4.3 GHz'; score=55 }
   'CORE I3 12100F' = @{ short='Core i3-12100F'; cores='4C/8T'; arch='Alder Lake'; sock='LGA1700'; boost='4.3 GHz'; score=54 }
+  'CORE I3-12100F' = @{ short='Core i3-12100F'; cores='4C/8T'; arch='Alder Lake'; sock='LGA1700'; boost='4.3 GHz'; score=54 }
   'INTEL CORE I3-13100F' = @{ short='Core i3-13100F'; cores='4C/8T'; arch='Raptor Lake'; sock='LGA1700'; boost='4.5 GHz'; score=58 }
+  'CORE I3-13100F' = @{ short='Core i3-13100F'; cores='4C/8T'; arch='Raptor Lake'; sock='LGA1700'; boost='4.5 GHz'; score=58 }
+  'CORE I3-14100F' = @{ short='Core i3-14100F'; cores='4C/8T'; arch='Raptor Lake'; sock='LGA1700'; boost='4.7 GHz'; score=60 }
   'INTEL CORE I5-12400' = @{ short='Core i5-12400'; cores='6C/12T'; arch='Alder Lake'; sock='LGA1700'; boost='4.4 GHz'; score=68 }
+  'CORE I5-12400' = @{ short='Core i5-12400'; cores='6C/12T'; arch='Alder Lake'; sock='LGA1700'; boost='4.4 GHz'; score=68 }
+  'CORE I5-12400F' = @{ short='Core i5-12400F'; cores='6C/12T'; arch='Alder Lake'; sock='LGA1700'; boost='4.4 GHz'; score=67 }
   'INTEL CORE I5-13400' = @{ short='Core i5-13400'; cores='10C/16T'; arch='Raptor Lake'; sock='LGA1700'; boost='4.6 GHz'; score=76 }
+  'CORE I5-14400F' = @{ short='Core i5-14400F'; cores='10C/16T'; arch='Raptor Lake'; sock='LGA1700'; boost='4.7 GHz'; score=78 }
+  'CORE I7-12700F' = @{ short='Core i7-12700F'; cores='12C/20T'; arch='Alder Lake'; sock='LGA1700'; boost='4.9 GHz'; score=86 }
+  'CORE I7-14700' = @{ short='Core i7-14700'; cores='20C/28T'; arch='Raptor Lake'; sock='LGA1700'; boost='5.4 GHz'; score=92 }
+  'CORE I7-14700F' = @{ short='Core i7-14700F'; cores='20C/28T'; arch='Raptor Lake'; sock='LGA1700'; boost='5.4 GHz'; score=92 }
   'INTEL CORE I9-13900F' = @{ short='Core i9-13900F'; cores='24C/32T'; arch='Raptor Lake'; sock='LGA1700'; boost='5.6 GHz'; score=96 }
+  'CORE I9-14900F' = @{ short='Core i9-14900F'; cores='24C/32T'; arch='Raptor Lake'; sock='LGA1700'; boost='5.8 GHz'; score=97 }
 }
 
 $DefaultTitles = @(
@@ -153,7 +191,9 @@ function Get-GpuKey([string]$Title) {
   $u = $Title.ToUpperInvariant()
   if ($u -match 'RTX\s*50\s*90|RTX\s*5090') { return '5090' }
   if ($u -match 'RTX\s*50\s*80|RTX\s*5080') { return '5080' }
+  if ($u -match 'RTX\s*50\s*70\s*TI|RTX\s*5070\s*TI') { return '5070' } # approximate ladder; keep 5070 family
   if ($u -match 'RTX\s*50\s*70|RTX\s*5070') { return '5070' }
+  if ($u -match 'RTX\s*50\s*60\s*TI|RTX\s*5060\s*TI') { return '5060' }
   if ($u -match 'RTX\s*50\s*60|RTX\s*5060') { return '5060' }
   if ($u -match 'RTX\s*50\s*50|RTX\s*5050') { return '5050' }
   if ($u -match 'RTX\s*4090') { return '4090' }
@@ -166,31 +206,50 @@ function Get-GpuKey([string]$Title) {
   if ($u -match 'RTX\s*3080') { return '3080' }
   if ($u -match 'RTX\s*3070\s*TI') { return '3070ti' }
   if ($u -match 'RTX\s*3070') { return '3070' }
+  if ($u -match 'RTX\s*3060\s*TI') { return '3060ti' }
   if ($u -match 'RTX\s*3060') { return '3060' }
+  if ($u -match 'RTX\s*3050') { return '3050' }
+  if ($u -match '2060\s*SUPER|GTX\s*2060\s*SUPER') { return '2060super' }
   if ($u -match '1660\s*SUPER') { return '1660super' }
   if ($u -match '1660\s*TI') { return '1660ti' }
   if ($u -match 'GTX\s*1660') { return '1660' }
+  if ($u -match 'GTX\s*1650') { return '1650' }
+  if ($u -match 'RX\s*9070\s*XT') { return '9070xt' }
   if ($u -match 'RX\s*9070') { return '9070' }
+  if ($u -match 'RX\s*9060\s*XT') { return '9060xt' }
   if ($u -match 'RX\s*7900\s*XTX') { return '7900xtx' }
   if ($u -match 'RX\s*7800\s*XT') { return '7800xt' }
   if ($u -match 'RX\s*7600') { return '7600' }
-  if ($u -match 'RX\s*6800') { return '6800' }
+  if ($u -match 'RX\s*6900') { return '6900xt' }
+  if ($u -match 'RX\s*6800\s*XT|6800XT') { return '6800xt' }
+  if ($u -match 'RX\s*6800|\b6800XT\b') { return '6800' }
   if ($u -match 'RX\s*6700') { return '6700xt' }
+  if ($u -match 'RX\s*6600') { return '6600' }
+  if ($u -match 'RX\s*5700|5700\s*XT') { return '6700xt' } # closest ladder peer if 5700xt missing
   if ($u -match 'RX\s*6400') { return '6400' }
-  if ($u -match 'RX\s*580') { return '580' }
+  if ($u -match '\b6900\s*XT\b|\b6900XT\b') { return '6900xt' }
+  if ($u -match '\b6800\s*XT\b|\b6800XT\b') { return '6800xt' }
+  if ($u -match 'RX\s*580|\b580\b') { return '580' }
+  if ($u -match '\bB580\b|ARC\s*B580') { return 'b580' }
   if ($u -match '780M') { return '780m' }
   if ($u -match '760M') { return '760m' }
   if ($u -match '740M') { return '740m' }
   if ($u -match 'VEGA\s*8') { return 'vega8' }
   if ($u -match 'VEGA\s*7') { return 'vega7' }
   if ($u -match 'RADEON\s*VEGA') { return 'vega' }
-  if ($u -match 'RADEON\s*GRAPHICS') { return 'radeon' }
-  if ($u -match 'INTEGRAD') { return 'integ' }
+  if ($u -match 'RADEON\s*GRAPHICS|VIDEO\s*INTEGRAD|GRAFICOS\s*INTEGRAD|SIN\s*PLACA|INTEGRAD') { return 'integ' }
+  # APU sin GPU discreta en el titulo
+  if ($u -match '8700G') { return '780m' }
+  if ($u -match '8600G') { return '760m' }
+  if ($u -match '8500G') { return '740m' }
+  if ($u -match '5700G') { return 'vega8' }
+  if ($u -match '5600G|5600GT') { return 'vega7' }
+  if ($u -match '3000G|3200G|3400G') { return 'vega' }
   return 'integ'
 }
 
 function Get-Chipset([string]$Title) {
-  if ($Title -match '(?i)\b(B840|B850|B650|B550M|B550|A520|H610M|H610|B760|X670|X570)\b') { return $Matches[1].ToUpper() }
+  if ($Title -match '(?i)\b(B850M|B850|B840M|B840|B650M|B650|B550M|B550|A620M|A620|A520M|A520|H610M|H610|B760M|B760|X670|X570)\b') { return $Matches[1].ToUpper() }
   $cpu = Get-CpuInfo $Title
   if ($cpu.sock -eq 'AM5') { return 'AM5' }
   if ($cpu.sock -eq 'AM4') { return 'AM4' }
@@ -222,6 +281,7 @@ function Get-StorageInfo([string]$Title) {
   if ($Title -match '(?i)(1\s*TB|1TB|M\.2\s*1TB|SSD\s*M\.2\s*1TB|1TB\s*NVMe)') {
     return @{ k='1'; n='1TB NVMe'; d='M.2 PCIe'; label='1TB NVMe M.2' }
   }
+  if ($Title -match '(?i)512\s*GB') { return @{ k='512'; n='512GB SSD'; d='SSD / M.2 segun modelo'; label='512GB SSD' } }
   if ($Title -match '(?i)480\s*GB') { return @{ k='480'; n='480GB SSD'; d='SSD'; label='480GB SSD' } }
   if ($Title -match '(?i)240\s*GB') { return @{ k='240'; n='240GB SSD'; d='SSD'; label='240GB SSD' } }
   return @{ k='1'; n='1TB NVMe'; d='M.2 PCIe'; label='1TB NVMe M.2' }
@@ -402,25 +462,41 @@ var GPU_OPTIONS=$gpuJson;var RAM_OPTIONS=$ramJson;var STORAGE_OPTIONS=$storJson;
 }
 
 # ---- Load titles ----
-$titles = @()
+$items = @()
 if ($ProductsJson -and (Test-Path -LiteralPath $ProductsJson)) {
   $raw = Get-Content -Raw -LiteralPath $ProductsJson | ConvertFrom-Json
-  $items = if ($raw -is [System.Array]) { @($raw) } elseif ($raw.items) { @($raw.items) } else { @($raw) }
-  foreach ($it in $items) {
-    if ($it.Title) { $titles += [string]$it.Title }
-    elseif ($it.name) { $titles += [string]$it.name }
-    elseif ($it -is [string]) { $titles += $it }
+  $arr = if ($raw -is [System.Array]) { @($raw) } elseif ($raw.products) { @($raw.products) } elseif ($raw.items) { @($raw.items) } else { @($raw) }
+  foreach ($it in $arr) {
+    if ($it -is [string]) {
+      $items += [pscustomobject]@{ Title = $it; OdooId = 0; Sku = '' }
+    } else {
+      $title = if ($it.Title) { [string]$it.Title } elseif ($it.name) { [string]$it.name } elseif ($it.title) { [string]$it.title } else { '' }
+      if (-not $title) { continue }
+      $oid = 0
+      if ($it.OdooId) { $oid = [int]$it.OdooId } elseif ($it.id) { $oid = [int]$it.id }
+      $sku = if ($it.Sku) { [string]$it.Sku } elseif ($it.sku) { [string]$it.sku } elseif ($it.default_code) { [string]$it.default_code } else { '' }
+      $items += [pscustomobject]@{ Title = $title; OdooId = $oid; Sku = $sku }
+    }
   }
 }
-if (-not $titles.Count) { $titles = $DefaultTitles }
+if (-not $items.Count) {
+  foreach ($t in $DefaultTitles) { $items += [pscustomobject]@{ Title = $t; OdooId = 0; Sku = '' } }
+}
 
 if (-not (Test-Path -LiteralPath $OutDir)) { New-Item -ItemType Directory -Path $OutDir | Out-Null }
 
 $manifest = New-Object System.Collections.Generic.List[object]
 $n = 0
-foreach ($title in $titles) {
+foreach ($item in $items) {
+  $title = [string]$item.Title
+  $oid = [int]$item.OdooId
+  if ($ExcludeOdooIds -contains $oid) { continue }
   $n++
-  $file = 'pc-gamer-{0:D2}.html' -f $n
+  if ($FileByOdooId -and $oid -gt 0) {
+    $file = "pc-gamer-$oid.html"
+  } else {
+    $file = 'pc-gamer-{0:D2}.html' -f $n
+  }
   $cpu = Get-CpuInfo $title
   $gpuKey = Get-GpuKey $title
   $gpuOpts = @(Get-GpuOptions $gpuKey)
@@ -450,11 +526,11 @@ foreach ($title in $titles) {
     Title = $title
     File = $file
     iframe = $iframe
-    OdooId = 0
-    Matched = $false
-    Sku = ''
+    OdooId = $oid
+    Matched = ($oid -gt 0)
+    Sku = [string]$item.Sku
   }) | Out-Null
-  Write-Host ("OK {0}  GPU={1} RAM={2} STOR={3}" -f $file, $gpuOpts[0].n, $ramOpts[0].n, $stor.n)
+  Write-Host ("OK {0}  id={1} GPU={2} RAM={3} STOR={4}" -f $file, $oid, $gpuOpts[0].n, $ramOpts[0].n, $stor.n)
 }
 
 $json = $manifest | ConvertTo-Json -Depth 6

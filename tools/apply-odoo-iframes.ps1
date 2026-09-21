@@ -103,7 +103,9 @@ function ConvertFrom-XmlRpcValue($valueNode) {
 $baseUrl = $OdooUrl.TrimEnd('/') -replace '/odoo$', ''
 $common = "$baseUrl/xmlrpc/2/common"
 $object = "$baseUrl/xmlrpc/2/object"
-$uid = Invoke-XmlRpc $common 'authenticate' @($Database, $User, $ApiKey, @{})
+$authParams = New-Object System.Collections.Generic.List[object]
+foreach ($x in @($Database, $User, $ApiKey, @{})) { $authParams.Add($x) }
+$uid = Invoke-XmlRpc $common 'authenticate' $authParams
 if (-not $uid) { throw 'No se pudo autenticar contra Odoo.' }
 
 $items = @()
@@ -127,9 +129,16 @@ foreach ($item in $items) {
   if ($item.OdooId) {
     $id = [int]$item.OdooId
   } elseif ($item.title) {
-    $domain = @(@('name', '=', [string]$item.title))
-    $ids = Invoke-XmlRpc $object 'execute_kw' @($Database, $uid, $ApiKey, 'product.template', 'search', @($domain), @{ limit = 1 })
-    if ($ids -and $ids.Count -gt 0) { $id = [int]$ids[0] }
+    $domainInner = New-Object System.Collections.Generic.List[object]
+    $domainInner.Add(@('name', '=', [string]$item.title))
+    $searchArgs = New-Object System.Collections.Generic.List[object]
+    $searchArgs.Add($domainInner)
+    $rpcParams = New-Object System.Collections.Generic.List[object]
+    foreach ($x in @($Database, $uid, $ApiKey, 'product.template', 'search')) { $rpcParams.Add($x) }
+    $rpcParams.Add($searchArgs)
+    $rpcParams.Add(@{ limit = 1 })
+    $ids = Invoke-XmlRpc $object 'execute_kw' $rpcParams
+    if ($ids -and @($ids).Count -gt 0) { $id = [int]@($ids)[0] }
   }
   if (-not $id) {
     Write-Warning "Sin OdooId ni match por titulo: $($item.title)"
@@ -140,10 +149,17 @@ foreach ($item in $items) {
   if ($Limit -gt 0 -and $updated -ge $Limit) { $skipped++; continue }
 
   if ($DryRun) {
-    # Verificar que el ID exista realmente en Odoo
-    $domainId = @(@('id', '=', $id))
-    $found = Invoke-XmlRpc $object 'execute_kw' @($Database, $uid, $ApiKey, 'product.template', 'search', @($domainId), @{ limit = 1 })
-    if ($found -and $found.Count -gt 0) {
+    # Verificar que el ID exista realmente en Odoo (sin splat: PS aplana @() y rompe kwargs)
+    $domainInner = New-Object System.Collections.Generic.List[object]
+    $domainInner.Add(@('id', '=', [int]$id))
+    $searchArgs = New-Object System.Collections.Generic.List[object]
+    $searchArgs.Add($domainInner)
+    $rpcParams = New-Object System.Collections.Generic.List[object]
+    foreach ($x in @($Database, $uid, $ApiKey, 'product.template', 'search')) { $rpcParams.Add($x) }
+    $rpcParams.Add($searchArgs)
+    $rpcParams.Add(@{ limit = 1 })
+    $found = Invoke-XmlRpc $object 'execute_kw' $rpcParams
+    if ($found -and @($found).Count -gt 0) {
       Write-Output "DRYRUN OK product.template:$id <= $($item.file)  ($($item.title))"
       $updated++
     } else {

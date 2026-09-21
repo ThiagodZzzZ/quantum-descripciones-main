@@ -5,7 +5,7 @@ param(
   [string]$OdooJson = 'C:\Users\PC\Quantum-Imagenes-Productos\inventario\odoo-mb.json',
   [string]$OutDir   = 'C:\Users\PC\Quantum-Descripciones-Nuevas-MAIN\MOTHERBOARDS',
   [string]$ManifestPath = 'C:\Users\PC\Quantum-Descripciones-Nuevas-MAIN\mb_full_manifest.json',
-  [string]$ThemeVersion = '20260723quantum',
+  [string]$ThemeVersion = '20260818quantum',
   [string]$ThemeBase = 'https://thiagodzzzz.github.io/quantum-descripciones-main'
 )
 $ErrorActionPreference = 'Stop'
@@ -18,7 +18,7 @@ foreach($c in 'A320','B350','X370','A520','B450','X470','B550','X570'){ $CHIPSET
 foreach($c in 'A620','B650','X670','B840','B850','X870'){ $CHIPSETS[$c]=@{v='AMD';s='AM5';ddr='DDR5'} }
 foreach($c in 'H310','B360','H370','Z370','B365','Z390','H110','B150','B250','Z170','Z270'){ $CHIPSETS[$c]=@{v='Intel';s='LGA1151';ddr='DDR4'} }
 foreach($c in 'H410','B460','H470','Z490','H510','B560','H570','Z590'){ $CHIPSETS[$c]=@{v='Intel';s='LGA1200';ddr='DDR4'} }
-foreach($c in 'H610','B660','H670','Z690','H770','B760','Z790'){ $CHIPSETS[$c]=@{v='Intel';s='LGA1700';ddr=''} }  # DDR4/DDR5 segun modelo
+foreach($c in 'H610','B660','H670','Z690','W680','H770','B760','Z790'){ $CHIPSETS[$c]=@{v='Intel';s='LGA1700';ddr=''} }  # DDR4/DDR5 segun modelo
 foreach($c in 'H810','B860','Z890','W880'){ $CHIPSETS[$c]=@{v='Intel';s='LGA1851';ddr='DDR5'} }
 
 $BRANDS='ASUS','MSI','GIGABYTE','AORUS','ASROCK','BIOSTAR','COLORFUL','NZXT'

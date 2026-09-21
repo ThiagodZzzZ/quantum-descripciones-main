@@ -22,34 +22,51 @@ Usar pausas conservadoras: la tienda devuelve `429 Too Many Requests` si se audi
 
 ## Paleta Quantum clasica
 
-Todos los HTML cargan:
+Todos los HTML cargan (usar la version del HTML mas reciente; ejemplo jul 2026):
 
 ```html
-<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260722quantum" defer></script>
+<script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260728quantum" defer></script>
 ```
 
-El Mundial ya termino. El switch global fuerza la paleta Quantum clasica rosa/blanco e inyecta overrides para templates antiguos que todavia tienen estilos inline celestes o amarillos.
+El switch global fuerza la paleta Quantum clasica rosa/blanco e inyecta overrides para templates antiguos.
+
+## Generadores minimos (cobertura 100%)
+
+Ver detalle en `ESTADO-TRABAJO.md`.
+
+```powershell
+.\tools\audit-odoo-coverage.ps1
+.\tools\generate-perifericos-minimos.ps1   # → PERIFERICOS/ + perifericos_full_manifest.json
+.\tools\generate-catalogo-minimos.ps1      # → CATALOGO/ + catalogo_minimos_manifest.json
+.\tools\serve-descriptions-preview.ps1
+```
+
+Match Odoo por **OdooId**. JSON grande: escribir item-a-item (PS 5.1).
 
 ## Publicacion en Odoo
 
-El script sube los iframes desde `*_manifest.json` a `product.template`.
+El script sube iframes desde `*_manifest.json` a `product.template`.
 
-Primero probar sin escribir:
+Campo usado en QuantumHard: **`qh_tn_description_raw`** (pasar `-DescriptionField` si hace falta).
+
+Primero dry-run:
 
 ```powershell
 .\tools\apply-odoo-iframes.ps1 `
-  -OdooUrl 'https://odoo.quantumhardstore.com/odoo' `
-  -Database 'NOMBRE_DB' `
-  -User 'USUARIO' `
-  -ApiKey 'API_KEY' `
-  -DryRun
+  -ManifestGlob 'perifericos_full_manifest.json' `
+  -OnlyMatched -DryRun
+
+.\tools\apply-odoo-iframes.ps1 `
+  -ManifestGlob 'catalogo_minimos_manifest.json' `
+  -OnlyMatched -DryRun
 ```
 
-Luego ejecutar sin `-DryRun`. Por defecto escribe en `website_description`; si la base usa otro campo, pasar `-DescriptionField`.
+Luego ejecutar **sin** `-DryRun` solo con OK del usuario. Requiere push a GitHub Pages antes.
 
 ## Regla de contenido
 
-Las fichas nuevas deben generarse solo con datos de sitios oficiales del fabricante o marca. Si no hay fuente oficial verificable, no publicar specs inventadas.
+Fichas ricas: solo datos de sitios oficiales.  
+Minimos de cobertura: titulo/SKU + disclaimer (documentado); no inventar specs de marketing.
 
 ## Aprobacion por muestra
 

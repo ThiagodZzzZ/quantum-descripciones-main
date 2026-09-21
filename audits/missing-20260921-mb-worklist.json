@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-09-21T18:02:38.0357650Z",
+  "products": [
+    {"id":12930,"title":"MSI (SOCKET AM5) PRO B850-S WIFI 6E","internalReference":"9117E80002","sku":"9117E80002","categ":"Componentes / Motherboards / AMD"},
+    {"id":12931,"title":"MSI (SOCKET AM5) B850M GAMING WIFI 6E","internalReference":"9117E87005","sku":"9117E87005","categ":"Componentes / Motherboards / AMD"},
+    {"id":13241,"title":"Motherborad ASRock Z890I NOVA Wi-Fi Intel® Socket 1851 12/13/14va. Gen. DDR","internalReference":"NT-19922","sku":"NT-19922","categ":"Componentes / Motherboards / Intel"},
+    {"id":13305,"title":"Cable XPG Prime Gaming Extensión Motherboard ARGB","internalReference":"NT-15575","sku":"NT-15575","categ":"Componentes / Motherboards"},
+    {"id":13314,"title":"Motherboard ASUS ROG STRIX B850-A GAMING WIFI AMD Socket AM5 DDR5","internalReference":"NT-19991","sku":"NT-19991","categ":"Componentes / Motherboards / AMD"}
+  ]
+}

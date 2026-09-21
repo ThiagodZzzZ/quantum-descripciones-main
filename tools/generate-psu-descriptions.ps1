@@ -6,7 +6,7 @@ param(
   [string]$OdooJson = 'C:\Users\PC\Quantum-Imagenes-Productos\inventario\odoo-psu.json',
   [string]$OutDir   = 'C:\Users\PC\Quantum-Descripciones-Nuevas-MAIN\FUENTES',
   [string]$ManifestPath = 'C:\Users\PC\Quantum-Descripciones-Nuevas-MAIN\psu_full_manifest.json',
-  [string]$ThemeVersion = '20260723quantum',
+  [string]$ThemeVersion = '20260818quantum',
   [string]$ThemeBase = 'https://thiagodzzzz.github.io/quantum-descripciones-main'
 )
 $ErrorActionPreference = 'Stop'

@@ -3,7 +3,8 @@ param(
   [string]$OdooJson = 'C:\Users\PC\Quantum-Imagenes-Productos\inventario\odoo-gpus-action-619.json',
   [string]$SpecsDb  = 'C:\Users\PC\Quantum-Descripciones-Nuevas-MAIN\tools\gpu-specs-db.json',
   [string]$OutDir   = 'C:\Users\PC\Quantum-Descripciones-Nuevas-MAIN\GPUS',
-  [string]$ThemeVersion = '20260723quantum',
+  [string]$ManifestPath = '',
+  [string]$ThemeVersion = '20260728quantum',
   [string]$ThemeBase = 'https://thiagodzzzz.github.io/quantum-descripciones-main'
 )
 
@@ -27,19 +28,60 @@ function Resolve-Chip([string]$Title, $Chips) {
   $names = $Chips.PSObject.Properties.Name
   $t = ' ' + (($Title.ToUpper() -replace '[^A-Z0-9]', ' ') -replace '\s+', ' ') + ' '
 
-  $m = [regex]::Match($t, '\b(RTX|GTX|GT)\s*(\d{3,4})\s*(TI\s*SUPER|TI|SUPER)?\b')
+  # Professional / Quadro / RTX PRO (antes del matcher consumer)
+  $m = [regex]::Match($t, '\bRTX\s*PRO\s*(\d{4})\b')
+  if ($m.Success) {
+    $key = "RTX PRO $($m.Groups[1].Value)"
+    if ($names -contains $key) { return $key }
+  }
+  $m = [regex]::Match($t, '\bRTX\s*A(\d{3,4})\b')
+  if ($m.Success) {
+    $key = "RTX A$($m.Groups[1].Value)"
+    if ($names -contains $key) { return $key }
+  }
+  $m = [regex]::Match($t, '\bQUADRO\s*RTX\s*A(\d{3,4})\b')
+  if ($m.Success) {
+    $key = "RTX A$($m.Groups[1].Value)"
+    if ($names -contains $key) { return $key }
+  }
+
+  # RTX 5070TI / 5060TI pegado sin espacio
+  $m = [regex]::Match($t, '\b(RTX|GTX|GT)\s*(\d{3,4})\s*(TI)?\s*(SUPER)?\b')
   if ($m.Success) {
     $fam = $m.Groups[1].Value; $num = $m.Groups[2].Value
-    $suf = ($m.Groups[3].Value -replace '\s+', ' ').Trim()
+    $hasTi = [bool]$m.Groups[3].Value
+    $hasSuper = [bool]$m.Groups[4].Value
     $key = "$fam $num"
-    if ($suf -match 'TI SUPER') { $key = "$fam $num Ti Super" }
-    elseif ($suf -eq 'TI') { $key = "$fam $num Ti" }
-    elseif ($suf -eq 'SUPER') { $key = "$fam $num Super" }
+    if ($hasTi -and $hasSuper) { $key = "$fam $num Ti Super" }
+    elseif ($hasTi) { $key = "$fam $num Ti" }
+    elseif ($hasSuper) { $key = "$fam $num Super" }
+    if ($names -contains $key) { return $key }
+    if ($names -contains "$fam $num") { return "$fam $num" }
+  }
+  $m = [regex]::Match($t, '\b(RTX|GTX|GT)(\d{3,4})(TI)?(SUPER)?\b')
+  if ($m.Success) {
+    $fam = $m.Groups[1].Value; $num = $m.Groups[2].Value
+    $hasTi = [bool]$m.Groups[3].Value
+    $hasSuper = [bool]$m.Groups[4].Value
+    $key = "$fam $num"
+    if ($hasTi -and $hasSuper) { $key = "$fam $num Ti Super" }
+    elseif ($hasTi) { $key = "$fam $num Ti" }
+    elseif ($hasSuper) { $key = "$fam $num Super" }
     if ($names -contains $key) { return $key }
     if ($names -contains "$fam $num") { return "$fam $num" }
   }
 
+  # RX 6700XT / RX6700XT pegado
   $m = [regex]::Match($t, '\bRX\s*(\d{3,4})\s*(XTX|XT)?\b')
+  if ($m.Success) {
+    $num = $m.Groups[1].Value; $suf = $m.Groups[2].Value.Trim()
+    $key = "RX $num"
+    if ($suf -eq 'XTX') { $key = "RX $num XTX" }
+    elseif ($suf -eq 'XT') { $key = "RX $num XT" }
+    if ($names -contains $key) { return $key }
+    if ($names -contains "RX $num") { return "RX $num" }
+  }
+  $m = [regex]::Match($t, '\bRX(\d{3,4})(XTX|XT)?\b')
   if ($m.Success) {
     $num = $m.Groups[1].Value; $suf = $m.Groups[2].Value.Trim()
     $key = "RX $num"
@@ -234,15 +276,22 @@ foreach ($p in @($odoo.products)) {
   $manifest += [pscustomobject]@{
     OdooId = $id; Title = $title; Sku = [string]$p.internalReference
     File = $file; Chip = $chipKey; Outlet = $outlet
-    Matched = [bool]$chipKey; Iframe = $iframe
+    Matched = [bool]$chipKey; iframe = $iframe
   }
   $generated++
 }
 
-$manifestPath = Join-Path (Split-Path $OutDir -Parent) 'gpu_manifest.json'
-$manifest | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
+if (-not $ManifestPath) { $ManifestPath = Join-Path (Split-Path $OutDir -Parent) 'gpu_manifest.json' }
+$sb = New-Object System.Text.StringBuilder
+[void]$sb.AppendLine('[')
+for ($i = 0; $i -lt $manifest.Count; $i++) {
+  $piece = ($manifest[$i] | ConvertTo-Json -Depth 6 -Compress)
+  if ($i -lt $manifest.Count - 1) { [void]$sb.AppendLine($piece + ',') } else { [void]$sb.AppendLine($piece) }
+}
+[void]$sb.AppendLine(']')
+[System.IO.File]::WriteAllText($ManifestPath, $sb.ToString(), (New-Object System.Text.UTF8Encoding $false))
 $unmatched | Set-Content -LiteralPath (Join-Path (Split-Path $OutDir -Parent) 'gpu_sin_specs.txt') -Encoding UTF8
 
 Write-Host "Generadas: $generated | Con specs de chip: $matched | Sin match: $($unmatched.Count)"
-Write-Host "Manifest: $manifestPath"
+Write-Host "Manifest: $ManifestPath"
 if ($unmatched.Count -gt 0) { Write-Host "Sin specs (revisar): gpu_sin_specs.txt" -ForegroundColor Yellow }
