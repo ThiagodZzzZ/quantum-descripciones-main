@@ -210,4 +210,8 @@ Categoria Odoo/web: Placas de video (~470 productos).
 - Plantilla GPU v2 (Specs / Comparar / Fuente) solo para placas reales. Resto: ficha Quantum mínima (título/SKU + disclaimer).
 - Muestra no-GPU aprobada: `CATALOGO/componentes/cat-12933.html` (XPG SPECTRIX D35G).
 - Manifest altas nuevas: `audits/missing-20260921/all-new-manifest.json`.
+- Manifest cobertura Odoo: `missing_all_20260921_manifest.json` (**5.625**).
+- GitHub Pages: commits `794d698` + `8bbb4ef`.
+- Apply Odoo: **5.625/5.625** UPDATED (`qh_tn_description_raw`).
+- Tiendanube: push masivo en curso (`publish-tn-descriptions.ps1`).
 - Sitemap público: **3.944** productos. Auditoría pública completa en curso.

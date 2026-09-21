@@ -8,6 +8,7 @@ param(
   [switch]$OnlyMatched,
   [int]$Limit = 0,
   [string]$OnlyIds = '',
+  [int]$DelayMs = 80,
   [switch]$DryRun
 )
 
@@ -74,12 +75,21 @@ function ConvertTo-XmlRpcValue($doc, $value) {
 
 function Invoke-XmlRpc($endpoint, $methodName, $params) {
   $body = New-XmlRpcCall $methodName $params
-  $response = Invoke-WebRequest -UseBasicParsing -Method Post -Uri $endpoint -ContentType 'text/xml' -Body $body -TimeoutSec 60
-  $xml = [xml]$response.Content
-  $fault = $xml.methodResponse.fault
-  if ($fault) { throw "Odoo XML-RPC fault: $($response.Content)" }
-  $value = $xml.methodResponse.params.param.value
-  ConvertFrom-XmlRpcValue $value
+  $attempt = 0
+  while ($true) {
+    $attempt++
+    try {
+      $response = Invoke-WebRequest -UseBasicParsing -Method Post -Uri $endpoint -ContentType 'text/xml' -Body $body -TimeoutSec 90
+      $xml = [xml]$response.Content
+      $fault = $xml.methodResponse.fault
+      if ($fault) { throw "Odoo XML-RPC fault: $($response.Content)" }
+      $value = $xml.methodResponse.params.param.value
+      return (ConvertFrom-XmlRpcValue $value)
+    } catch {
+      if ($attempt -ge 6) { throw }
+      Start-Sleep -Seconds ([Math]::Min(30, 3 * $attempt))
+    }
+  }
 }
 
 function ConvertFrom-XmlRpcValue($valueNode) {
@@ -191,6 +201,7 @@ foreach ($item in $items) {
     Write-Warning "FALLO product.template:$id ($($item.title)) -> $($_.Exception.Message.Split([Environment]::NewLine)[0])"
     $missing++
   }
+  if ($DelayMs -gt 0) { Start-Sleep -Milliseconds $DelayMs }
 }
 
 Write-Output ""
