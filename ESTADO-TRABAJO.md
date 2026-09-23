@@ -217,3 +217,9 @@ Categoria Odoo/web: Placas de video (~470 productos).
 - Cola residual post-lote: 13 altas nuevas (7 GPU v2 + 5 periféricos + 1 catálogo). Manifest `missing_tail_20260921_manifest.json`. Commit Pages `086ea15`. Odoo 13/13 + TN 13/13.
 - Cierre Odoo: **7.468 / 7.468** `sale_ok` con `qh_tn_description_raw` (`audits/odoo-coverage-20260921-final.json`).
 - Storefront: 12/12 placas vivas de [Placas de video](https://quantumhardstore.com/componentes/placas-de-video/) con iframe (RX 9050 en ficha mínima). Muestras no-GPU (ZOWIE S2, XPG D35G, RAM) también con iframe. URLs del sitemap sin iframe eran 404 stale, no faltantes reales.
+
+## Lote GPU nuevas (2026-09-23)
+
+- Auditoría Odoo: **7.474** `sale_ok`; **8** sin desc, de las cuales **1 GPU**: EVGA 1660 SUPER outlet (`13438`).
+- Categoría pública: 12 placas vivas con HTML Odoo pero sin iframe en Tiendanube (3080/6700 XT/Lenovo 3080/MSI 50-series/GT 710/3060/1030/Red Devil/Zotac 3070).
+- Nueva ficha v2: `GPUS/gpu-13438.html`. Manifest apply `missing_gpu_20260923_manifest.json`. Push TN `audits/gpu-public-missing-tn-20260923.json`.
