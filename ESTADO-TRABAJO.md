@@ -223,3 +223,10 @@ Categoria Odoo/web: Placas de video (~470 productos).
 - Auditoría Odoo: **7.474** `sale_ok`; **8** sin desc, de las cuales **1 GPU**: EVGA 1660 SUPER outlet (`13438`).
 - Categoría pública: 12 placas vivas con HTML Odoo pero sin iframe en Tiendanube (3080/6700 XT/Lenovo 3080/MSI 50-series/GT 710/3060/1030/Red Devil/Zotac 3070).
 - Nueva ficha v2: `GPUS/gpu-13438.html`. Manifest apply `missing_gpu_20260923_manifest.json`. Push TN `audits/gpu-public-missing-tn-20260923.json`.
+
+## Layout móvil (2026-10-02)
+
+- `quantum-mobile.css` + inyección desde `quantum-theme-switch.js?` (`v=20261002m`).
+- Catálogo/periféricos/MB/fuentes: grillas a 1 columna bajo 720px (`quantum-products-theme.css`).
+- GPU v2: tabs apiladas, specs en bloque, comparador vertical; CSS inline en las fichas ricas para que aplique dentro del iframe.
+- El iframe avisa altura al padre (`iframeHeight:N`) para reducir corte en celular.

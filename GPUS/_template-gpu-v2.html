@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v={{THEME_VERSION}}" defer></script>
+  <link rel="stylesheet" href="../quantum-mobile.css?v=20261002m">
   <style>
     :root{
       --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -45,7 +46,7 @@
     .tags{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:14px}
     .tag{padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--pink-deep)}
 
-    .tabs{display:grid;grid-template-columns:1fr 1.35fr 1fr;gap:8px;margin:16px 0 12px;align-items:stretch}
+    .tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:16px 0 12px;align-items:stretch}
     .tab{
       appearance:none;cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:12px;
       padding:12px 8px;font:inherit;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
@@ -333,6 +334,27 @@
     .cert p{font-size:13px;line-height:1.45}
 
     .note{margin-top:16px;font-size:12px;line-height:1.5;color:var(--muted);border-left:3px solid var(--line);padding-left:11px}
+
+    @media(max-width:720px){
+      .wrap{padding:12px 10px 28px}
+      .hero{padding:18px 12px 16px}
+      .tabs{grid-template-columns:1fr;gap:6px}
+      .tab,.tab-compare,.tab-compare.active,.tab-compare:hover{
+        transform:none!important;font-size:13px;letter-spacing:.04em;padding:11px 10px
+      }
+      .tab-compare::after,.tab-compare::before{display:none}
+      .spec-row{grid-template-columns:1fr;gap:4px;text-align:left}
+      .spec-row .x{text-align:left}
+      .cmp-head,.vs-stage{grid-template-columns:1fr;gap:8px}
+      .vs{margin:0 auto}
+      .delta-head{display:none}
+      .delta{grid-template-columns:1fr 1fr}
+      .delta .stat-name,.delta .badge-delta{grid-column:1 / -1}
+      .score-bar .msg{min-width:0}
+      .bar-row{grid-template-columns:1fr auto}
+      .bar-row .who{grid-column:1 / -1;white-space:normal}
+      .cert-grid{grid-template-columns:1fr}
+    }
 
     @media(prefers-reduced-motion:reduce){
       *,*::before,*::after{animation:none!important;transition:none!important}

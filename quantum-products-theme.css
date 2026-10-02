@@ -142,32 +142,24 @@ h1{font-size:31px;line-height:1.12;letter-spacing:1px;color:var(--qp-dark);text-
 .status-text{font-size:12px;line-height:1.7;color:var(--qp-muted)}
 .note{margin-top:14px;padding:12px 14px;border-left:3px solid #FFD4EA;font-size:10px;line-height:1.75;color:var(--qp-muted);background:rgba(255,255,255,.72)}
 
-@media(max-width:700px){
-  .container{padding:16px 10px}
-  .qh-header{padding:24px 10px 18px}
-  .brand{letter-spacing:3px}
-  .maker{letter-spacing:3px}
-  h1{font-size:24px}
-  .subtitle{font-size:10px;letter-spacing:1.2px}
-  .metric-value{font-size:36px}
-  .card-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
-  .info-card{padding:12px 8px;min-height:128px}
-  .label{font-size:9px;letter-spacing:1.7px}
-  .value{font-size:18px}
-  .desc{font-size:10px}
-  .section{padding:16px 10px}
-  .spec-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-  .spec-card{padding:12px 10px;min-height:96px}
-  .spec-name{font-size:9px;letter-spacing:1.3px}
-  .spec-value{font-size:12px}
-  .spec-note{font-size:9px}
-  .conn-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-  .conn-card{min-height:118px;padding:12px 8px}
+@media(max-width:720px){
+  html,body{overflow-x:hidden}
+  .container{padding:12px 10px 28px;max-width:100%}
+  .qh-header{padding:18px 12px 16px;overflow:visible}
+  .brand,.maker{letter-spacing:.12em}
+  h1{font-size:clamp(20px,6.2vw,26px);line-height:1.2;letter-spacing:0;overflow-wrap:break-word}
+  .subtitle{font-size:13px;letter-spacing:0;text-transform:none;line-height:1.45}
+  .metric-value{font-size:clamp(28px,8vw,40px)}
+  .card-grid,.spec-grid,.conn-grid{grid-template-columns:1fr;gap:8px}
+  .info-card,.spec-card,.conn-card,.metric-box{padding:14px 12px;min-height:0;width:100%}
+  .label,.spec-name{font-size:10px;letter-spacing:.08em}
+  .value{font-size:20px}
+  .desc,.spec-note{font-size:12px;line-height:1.5}
+  .section{padding:14px 12px}
+  .section-title{font-size:13px;letter-spacing:.08em}
 }
 
 @media(max-width:360px){
-  h1{font-size:22px}
+  h1{font-size:20px}
   .badge{font-size:9px;letter-spacing:1px;padding:5px 9px}
-  .card-grid{grid-template-columns:1fr}
-  .info-card{min-height:auto}
 }

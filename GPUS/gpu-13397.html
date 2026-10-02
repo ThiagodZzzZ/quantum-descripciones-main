@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://thiagodzzzz.github.io/quantum-descripciones-main/quantum-theme-switch.js?v=20260921all" defer></script>
+  <link rel="stylesheet" href="../quantum-mobile.css?v=20261002m">
   <style>
     :root{
       --pink:#E6007E;--pink-deep:#B80063;--pink-soft:#FF4FB3;
@@ -338,6 +339,27 @@
       *,*::before,*::after{animation:none!important;transition:none!important}
       .meter>i{width:var(--fill,70%)}
       .track>i{transition:none}
+    }
+      /* quantum-inline-mobile-20261002 */
+    @media(max-width:720px){
+      .wrap{padding:12px 8px 28px}
+      .hero{padding:18px 12px 16px}
+      .tabs{grid-template-columns:1fr!important;gap:6px}
+      .tab,.tab-compare,.tab-compare.active,.tab-compare:hover{
+        transform:none!important;font-size:13px;letter-spacing:.04em;padding:11px 10px;scale:1!important;min-width:0;width:100%
+      }
+      .tab-compare::after,.tab-compare::before{display:none!important}
+      .spec-row{grid-template-columns:1fr!important;gap:4px;text-align:left}
+      .spec-row .n,.spec-row .x{text-align:left;overflow-wrap:break-word}
+      .cmp-head,.vs-stage{grid-template-columns:1fr!important;gap:8px}
+      .vs{margin:0 auto}
+      .delta-head{display:none}
+      .delta{grid-template-columns:1fr 1fr}
+      .delta .stat-name,.delta .badge-delta{grid-column:1 / -1}
+      .score-bar .msg{min-width:0}
+      .bar-row{grid-template-columns:1fr auto}
+      .bar-row .who{grid-column:1 / -1;white-space:normal}
+      .cert-grid{grid-template-columns:1fr}
     }
   </style>
 </head>

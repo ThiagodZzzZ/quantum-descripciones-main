@@ -104,9 +104,46 @@
     }
   }
 
+  function loadMobileCss() {
+    if (document.getElementById('quantum-mobile-css')) return;
+    var base = 'https://thiagodzzzz.github.io/quantum-descripciones-main/';
+    var el = document.querySelector('script[src*="quantum-theme-switch.js"]');
+    if (el && el.src) {
+      base = el.src.replace(/quantum-theme-switch\.js(\?.*)?$/, '');
+    }
+    var link = document.createElement('link');
+    link.id = 'quantum-mobile-css';
+    link.rel = 'stylesheet';
+    link.href = base + 'quantum-mobile.css?v=20261002m';
+    document.head.appendChild(link);
+  }
+
+  function reportIframeHeight() {
+    var h = Math.max(
+      document.documentElement ? document.documentElement.scrollHeight : 0,
+      document.body ? document.body.scrollHeight : 0
+    );
+    if (!h || !window.parent || window.parent === window) return;
+    try { window.parent.postMessage('iframeHeight:' + h, '*'); } catch (e) {}
+  }
+
+  loadMobileCss();
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', injectDepositNotice);
+    document.addEventListener('DOMContentLoaded', function () {
+      injectDepositNotice();
+      reportIframeHeight();
+      setTimeout(reportIframeHeight, 300);
+      setTimeout(reportIframeHeight, 1200);
+    });
   } else {
     injectDepositNotice();
+    reportIframeHeight();
+    setTimeout(reportIframeHeight, 300);
   }
+  window.addEventListener('load', function () {
+    reportIframeHeight();
+    setTimeout(reportIframeHeight, 400);
+  });
+  window.addEventListener('resize', reportIframeHeight);
 })();
