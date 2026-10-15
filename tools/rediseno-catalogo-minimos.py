@@ -44,7 +44,7 @@ def leer(path):
     t = open(path, encoding="utf-8", errors="replace").read()
     if 'name="qh-odoo-id"' in t:  # ya convertida
         m = lambda n: _g(r'<meta name="qh-%s" content="(.*?)">' % n, t)  # noqa: E731
-        return dict(title=m("title"), sku=m("sku"), categ=m("categ"), estado=m("estado"))
+        return dict(title=m("title"), sku=m("sku"), categ=m("categ"), estado=m("estado"), marca=m("marca"))
     if "Ficha tecnica minima" not in t:
         return None
     return dict(
@@ -52,6 +52,7 @@ def leer(path):
         sku=arreglar_mojibake(_g(r'SKU</div><div class="spec-value">(.*?)</div>', t)),
         categ=arreglar_mojibake(_g(r'Categoria Odoo</div><div class="spec-value">(.*?)</div>', t)),
         estado=_g(r'Estado</div><div class="spec-value">(.*?)</div>', t) or "Nuevo",
+        marca="",
     )
 
 # ───────────────────────── datos clave desde el título ─────────────────────────
@@ -361,6 +362,7 @@ PLANTILLA = """<!DOCTYPE html>
 <meta name="qh-sku" content="{sku}">
 <meta name="qh-categ" content="{categ}">
 <meta name="qh-estado" content="{estado}">
+<meta name="qh-marca" content="{marca}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../quantum-ficha.css?v={v}">
@@ -373,9 +375,16 @@ PLANTILLA = """<!DOCTYPE html>
 {aviso}{tabla}
   <p class="qd-note">* Datos del título y número de parte. Especificaciones completas: hoja oficial del fabricante.</p>
 </div>
+{alto}
 </body>
 </html>
 """
+
+# Alto real del iframe (PR #1): la página le avisa su altura al theme (qpdp-specs.tpl la escucha).
+ALTO_REAL = ('<script data-qh="alto-real">(function(){function qhH(){try{var b=document.body,m=0,els=b.querySelectorAll("*");'
+             'for(var i=0;i<els.length;i++){var r=els[i].getBoundingClientRect();if(r.bottom>m)m=r.bottom}'
+             'var h=Math.max(b.scrollHeight||0,Math.ceil(m+window.scrollY));parent.postMessage({qhDescHeight:h},"*")}catch(e){}}'
+             'window.addEventListener("load",qhH);window.addEventListener("resize",qhH);setTimeout(qhH,600);setTimeout(qhH,2500);})();</script>')
 
 AVISO_DEPOSITO = """  <div class="qd-pie"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-5 9 5v8l-9 5-9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg><p><b>En depósito.</b> Llega al local 48 a 72 horas hábiles después del pago; ahí coordinamos envío o retiro.</p></div>
   <div class="qd-pasos"><div><b>Pagás</b><span>Lo pedimos al depósito</span></div><div><b>Llega al local</b><span>48 a 72 horas hábiles</span></div><div><b>Envío o retiro</b><span>Lo coordinamos con vos</span></div></div>
@@ -388,7 +397,9 @@ def render(odoo_id, d):
     outlet = d["estado"].lower() == "outlet"
     clave = datos_clave(d["title"], d["categ"])
     cat = categoria_visible(d["categ"])
-    base = ([("Categoría", cat)] if cat else []) + ([("Número de parte", d["sku"])] if d["sku"] else [])
+    marca = d.get("marca") or ""
+    base = (([("Categoría", cat)] if cat else []) + ([("Marca", marca)] if marca else [])
+            + ([("Número de parte", d["sku"])] if d["sku"] else []))
     cond = [("Condición", "Outlet" if outlet else "Nuevo")]
     if len(clave) >= 2:
         key, tabla_filas = clave[:4], base + clave + cond
@@ -401,7 +412,7 @@ def render(odoo_id, d):
     if tabla_filas:
         tabla = '\n  <h2 class="qd-h">Ficha técnica</h2>\n  <table class="qd-t">\n%s\n  </table>\n' % "\n".join(
             "    <tr><th>%s</th><td>%s</td></tr>" % (E(k), E(v)) for k, v in tabla_filas)
-    return PLANTILLA.format(id=odoo_id, title=E(d["title"]), sku=E(d["sku"]), categ=E(d["categ"]), estado=E(d["estado"]),
+    return PLANTILLA.format(id=odoo_id, title=E(d["title"]), sku=E(d["sku"]), categ=E(d["categ"]), estado=E(d["estado"]), marca=E(marca), alto=ALTO_REAL,
                             v=CSS_VERSION, cls=" qd-key--outlet" if outlet else "", key=key_html,
                             aviso=AVISO_OUTLET if outlet else AVISO_DEPOSITO, tabla=tabla), clave
 
