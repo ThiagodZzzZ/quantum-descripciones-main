@@ -79,7 +79,8 @@ function Invoke-XmlRpc($endpoint, $methodName, $params) {
   while ($true) {
     $attempt++
     try {
-      $response = Invoke-WebRequest -UseBasicParsing -Method Post -Uri $endpoint -ContentType 'text/xml' -Body $body -TimeoutSec 90
+      # UTF-8 explicito: el bloque nuevo trae tildes y PowerShell 5.1 no manda el string como UTF-8
+      $response = Invoke-WebRequest -UseBasicParsing -Method Post -Uri $endpoint -ContentType 'text/xml; charset=utf-8' -Body ([System.Text.Encoding]::UTF8.GetBytes($body)) -TimeoutSec 90
       $xml = [xml]$response.Content
       $fault = $xml.methodResponse.fault
       if ($fault) { throw "Odoo XML-RPC fault: $($response.Content)" }
@@ -120,7 +121,7 @@ if (-not $uid) { throw 'No se pudo autenticar contra Odoo.' }
 
 $items = @()
 Get-ChildItem -LiteralPath . -Filter $ManifestGlob | ForEach-Object {
-  $manifest = Get-Content -Raw -LiteralPath $_.FullName | ConvertFrom-Json
+  $manifest = Get-Content -Raw -Encoding UTF8 -LiteralPath $_.FullName | ConvertFrom-Json
   if ($manifest -is [System.Array]) { $items += $manifest }      # array plano [ ... ]
   elseif ($manifest.items) { $items += $manifest.items }         # objeto { items: [...] }
   else { $items += @($manifest) }
@@ -132,7 +133,11 @@ if ($OnlyIds) { $idFilter = @($OnlyIds -split '[,\s]+' | Where-Object { $_ } | F
 $updated = 0; $skipped = 0; $missing = 0
 foreach ($item in $items) {
   if ($OnlyMatched -and -not $item.Matched) { $skipped++; continue }
-  if (-not $item.iframe) { $skipped++; continue }
+  # Bloque nuevo (16/10): si el item trae "html" (manifest generado por el generador de Quantum, _descripcion_pdp.py) se escribe
+  # ese HTML; si no, el iframe de siempre.
+  $nuevo = if ($item.html) { [string]$item.html } elseif ($item.iframe) { [string]$item.iframe } else { $null }
+  if (-not $nuevo) { $skipped++; continue }
+  $tipo = if ($item.html) { 'bloque nuevo' } else { 'iframe' }
 
   # Preferir OdooId (unico y sin ambiguedad). Fallback a busqueda por titulo.
   $id = $null
@@ -158,33 +163,44 @@ foreach ($item in $items) {
   if ($idFilter -and ($id -notin $idFilter)) { $skipped++; continue }
   if ($Limit -gt 0 -and $updated -ge $Limit) { $skipped++; continue }
 
+  # Leer lo que hay hoy en Odoo (tambien verifica que el ID exista). Sin splat: PS aplana @() y rompe kwargs.
+  $idList = New-Object System.Collections.Generic.List[object]
+  $idList.Add([int]$id)
+  $readArgs = New-Object System.Collections.Generic.List[object]
+  $readArgs.Add($idList)
+  $rpcParams = New-Object System.Collections.Generic.List[object]
+  foreach ($x in @($Database, $uid, $ApiKey, 'product.template', 'read')) { $rpcParams.Add($x) }
+  $rpcParams.Add($readArgs)
+  $rpcParams.Add(@{ fields = @($DescriptionField[0]) })
+  $leido = @(Invoke-XmlRpc $object 'execute_kw' $rpcParams)
+  if (-not $leido -or $leido.Count -eq 0 -or -not ($leido[0] -is [hashtable])) {
+    Write-Warning "NO EXISTE product.template:$id ($($item.title))"
+    $missing++; continue
+  }
+  $actual = $leido[0][$DescriptionField[0]]
+  if ($actual -isnot [string]) { $actual = '' }   # Odoo devuelve False si esta vacio
+
+  # GUARDA (16/10): la descripcion nueva de Quantum (bloque con data-qd-version) nunca se pisa con el iframe.
+  if ($actual -match 'data-qd-version' -and -not $item.html) {
+    Write-Output "OMITIDO product.template:$id ya tiene la descripcion nueva; no se vuelve al iframe  ($($item.title))"
+    $skipped++; continue
+  }
+  if ($actual -eq $nuevo) {
+    Write-Output "OMITIDO product.template:$id ya tiene exactamente esto  ($($item.title))"
+    $skipped++; continue
+  }
+
   if ($DryRun) {
-    # Verificar que el ID exista realmente en Odoo (sin splat: PS aplana @() y rompe kwargs)
-    $domainInner = New-Object System.Collections.Generic.List[object]
-    $domainInner.Add(@('id', '=', [int]$id))
-    $searchArgs = New-Object System.Collections.Generic.List[object]
-    $searchArgs.Add($domainInner)
-    $rpcParams = New-Object System.Collections.Generic.List[object]
-    foreach ($x in @($Database, $uid, $ApiKey, 'product.template', 'search')) { $rpcParams.Add($x) }
-    $rpcParams.Add($searchArgs)
-    $rpcParams.Add(@{ limit = 1 })
-    $found = Invoke-XmlRpc $object 'execute_kw' $rpcParams
-    if ($found -and @($found).Count -gt 0) {
-      Write-Output "DRYRUN OK product.template:$id <= $($item.file)  ($($item.title))"
-      $updated++
-    } else {
-      Write-Warning "DRYRUN NO EXISTE product.template:$id ($($item.title))"
-      $missing++
-    }
+    $hoy = if ($actual -match 'data-qd-version') { 'bloque nuevo' } elseif ($actual -match '<iframe') { 'iframe' } elseif ($actual) { 'otro HTML' } else { 'vacio' }
+    Write-Output "DRYRUN escribiria product.template:$id  hoy: $hoy -> $tipo  <= $($item.file)  ($($item.title))"
+    $updated++
     continue
   }
 
   $values = @{}
-  foreach ($fld in $DescriptionField) { $values[$fld] = [string]$item.iframe }
+  foreach ($fld in $DescriptionField) { $values[$fld] = $nuevo }
 
   # Construir args = [[id], values] con listas para evitar el aplanamiento de @()
-  $idList = New-Object System.Collections.Generic.List[object]
-  $idList.Add([int]$id)
   $writeArgs = New-Object System.Collections.Generic.List[object]
   $writeArgs.Add($idList)   # elemento 0 = [id]
   $writeArgs.Add($values)   # elemento 1 = { campo: iframe }
@@ -195,7 +211,7 @@ foreach ($item in $items) {
 
   try {
     Invoke-XmlRpc $object 'execute_kw' $params | Out-Null
-    Write-Output "UPDATED product.template:$id <= $($item.file)  ($($item.title))"
+    Write-Output "UPDATED product.template:$id ($tipo) <= $($item.file)  ($($item.title))"
     $updated++
   } catch {
     Write-Warning "FALLO product.template:$id ($($item.title)) -> $($_.Exception.Message.Split([Environment]::NewLine)[0])"
