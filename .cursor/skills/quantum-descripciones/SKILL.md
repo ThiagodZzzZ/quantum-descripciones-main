@@ -35,6 +35,10 @@ No rehacer fichas que ya tienen el script conectado.
 
 Subida real **solo** cuando el usuario lo pida. Match por **OdooId**.
 
+**Descripción nueva (16/10/2026):** las fichas cuyo `qh_tn_description_raw` tiene `data-qd-version` ya usan el bloque nuevo sin
+iframe. `apply-odoo-iframes.ps1` las omite siempre (no vuelven al iframe). Un item de manifest con `html` escribe ese HTML en vez
+del iframe. Antes de cualquier subida, mirar en el `-DryRun` la columna «hoy → escribiría».
+
 ## Cobertura
 
 ```powershell

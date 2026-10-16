@@ -30,6 +30,11 @@ Automatizacion operativa: **`AUTOMATION.md`**.
 2. Dry-run `apply-odoo-iframes.ps1`
 3. OK del usuario → escritura real a `qh_tn_description_raw`
 
+> **Desde el 16/10/2026 hay una descripción nueva, sin iframe** (bloque HTML con `data-qd-version`, la arma el generador de
+> Quantum con los datos reales de cada ficha). `apply-odoo-iframes.ps1` **nunca la pisa con el iframe**: esas fichas salen como
+> `OMITIDO … ya tiene la descripcion nueva`. Si un manifest trae el campo `html` en un item, se escribe ese HTML en lugar del
+> iframe. El `-DryRun` muestra, ficha por ficha, qué hay hoy (vacío / iframe / bloque nuevo / otro HTML) y qué escribiría.
+
 ## Repo hermano
 
 Imagenes: `C:\Users\PC\Quantum-Imagenes-Productos`
